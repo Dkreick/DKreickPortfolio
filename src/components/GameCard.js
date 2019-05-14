@@ -12,6 +12,7 @@ import Typography from '@material-ui/core/Typography';
 import red from '@material-ui/core/colors/red';
 import ShareIcon from '@material-ui/icons/Share';
 import SourceCodeIcon from '@material-ui/icons/Code';
+import PlayIcon from '@material-ui/icons/PlayCircleFilledWhite';
 import { Link } from "react-router-dom";
 
 const styles = theme => ({
@@ -76,6 +77,11 @@ class GameCard extends React.Component {
           <a href={this.props.data.linkToSourceCode}>
             <SourceCodeIcon />
           </a>
+          </IconButton>
+          <IconButton aria-label="Share">
+          <Link to={this.props.data.linkToGame}>
+            <PlayIcon />
+          </Link>
           </IconButton>
         </CardActions>
       </Card>

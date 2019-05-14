@@ -57,7 +57,7 @@ export function Weapons(props) {
   return (
     <div className={classes.container}>
     {state.api.map((api, index) => {
-    return <GameCard data={state.api[index]} />;
+    return <GameCard data={state.api[index]} key={index}/>;
   })}
     </div>
   );
