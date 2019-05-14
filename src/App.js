@@ -2,7 +2,7 @@ import React from 'react';
 import './App.scss';
 import ButtonAppBar from './layout/Navbar';
 import Sidebar from './layout/Sidebar';
-import GameCard from './components/GameCard';
+import GameList from './pages/GameList';
 
 function App() {
   return (
@@ -10,9 +10,7 @@ function App() {
       <ButtonAppBar />
       <Sidebar />
       <div className="game-container">
-        <GameCard />
-        <GameCard />
-        <GameCard />
+        <GameList />
       </div>
     </div>
   );
