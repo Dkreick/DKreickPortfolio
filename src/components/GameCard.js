@@ -1,18 +1,18 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/core/styles';
-import classnames from 'classnames';
 import Card from '@material-ui/core/Card';
 import CardHeader from '@material-ui/core/CardHeader';
 import CardMedia from '@material-ui/core/CardMedia';
 import CardContent from '@material-ui/core/CardContent';
 import CardActions from '@material-ui/core/CardActions';
-import Collapse from '@material-ui/core/Collapse';
 import Avatar from '@material-ui/core/Avatar';
 import IconButton from '@material-ui/core/IconButton';
 import Typography from '@material-ui/core/Typography';
 import red from '@material-ui/core/colors/red';
 import ShareIcon from '@material-ui/icons/Share';
+import SourceCodeIcon from '@material-ui/icons/Code';
+import { Link } from "react-router-dom";
 
 const styles = theme => ({
   card: {
@@ -24,7 +24,7 @@ const styles = theme => ({
     paddingTop: '56.25%', // 16:9
   },
   actions: {
-    display: 'flex',
+    display: 'inline-flex',
   },
   expand: {
     transform: 'rotate(0deg)',
@@ -69,8 +69,13 @@ class GameCard extends React.Component {
           </Typography>
         </CardContent>
         <CardActions className={classes.actions} disableActionSpacing>
-          <IconButton aria-label="Share">
+        <IconButton aria-label="Share">
             <ShareIcon />
+          </IconButton>
+          <IconButton aria-label="Share">
+          <a href={this.props.data.linkToSourceCode}>
+            <SourceCodeIcon />
+          </a>
           </IconButton>
         </CardActions>
       </Card>

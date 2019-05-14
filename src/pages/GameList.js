@@ -16,7 +16,7 @@ export function Weapons(props) {
     api: [
       {
         name: 'Another Day To Be',
-        subtitle: 'RPG Game made in Unity3D',
+        subtitle: 'RPG Game made in Unity3D.',
         icon: 'Sharp',
         snapshot: 'https://raw.githubusercontent.com/Dkreick/AnotherDayToBe/master/Documents/Developer%20notes/GDD%20Images/CombatPreview.jpg',
         description: 'AD2B is a turn based tactics and exploration game in a devastated world. Your character will face different choices while tries to survive in a map full of dangers.',
@@ -25,7 +25,7 @@ export function Weapons(props) {
       },
       {
         name: 'AD2B Wiki',
-        subtitle: 'Wiki for Another Day To Be',
+        subtitle: 'Wiki for Another Day To Be.',
         icon: 'Sharp',
         snapshot: 'Sharp',
         description: '',
@@ -34,10 +34,10 @@ export function Weapons(props) {
       },
       {
         name: 'Scan My Profile',
-        subtitle: 'Info app made with Vuforia',
+        subtitle: 'Info app made with Vuforia.',
         icon: 'Sharp',
         snapshot: 'https://raw.githubusercontent.com/Dkreick/Scan-My-Profile/master/ReadmePhoto.png',
-        description: 'Small app for scan my profile image and know more about me',
+        description: 'Small app for scan my profile image and know more about me.',
         linkToSourceCode: 'https://github.com/Dkreick/Scan-My-Profile',
         linkToGame: 'ScanMyProfile',
       },
@@ -46,7 +46,7 @@ export function Weapons(props) {
         subtitle: 'Simple game memory game made in Unity3D',
         icon: 'Sharp',
         snapshot: 'https://raw.githubusercontent.com/Dkreick/SimpleSimon/master/preview.png',
-        description: 'Another Day To Be is a turn based tactics and exploration game in a devastated world. Your character will face different choices while tries to survive in a map full of dangers.',
+        description: 'Simple game memory game made in Unity3D.',
         linkToSourceCode: 'https://github.com/Dkreick/SimpleSimon',
         linkToGame: 'SimpleSimon',
       },
