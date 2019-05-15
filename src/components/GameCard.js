@@ -53,7 +53,7 @@ class GameCard extends React.Component {
         <CardHeader
           avatar={
             <Avatar aria-label="Recipe" className={classes.avatar}>
-              <img src={this.props.data.icon}/>
+              <img src={this.props.data.icon} alt={this.props.data.name}/>
             </Avatar>
           }
           title={this.props.data.name}

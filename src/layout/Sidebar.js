@@ -8,6 +8,8 @@ import ListItem from '@material-ui/core/ListItem';
 import ListItemIcon from '@material-ui/core/ListItemIcon';
 import AvatarIcon from '@material-ui/icons/AccountCircle';
 import GameIcon from '@material-ui/icons/VideogameAsset';
+import EmailIcon from '@material-ui/icons/Email';
+import IconButton from '@material-ui/core/IconButton';
 
 const drawerWidth = 64;
 
@@ -25,6 +27,10 @@ const styles = theme => ({
   },
   drawerPaper: {
     width: drawerWidth,
+    backgroundColor: '#27ade3',
+  },
+  icon: {
+    paddingLeft: 10,
     backgroundColor: '#27ade3',
   },
   toolbar: theme.mixins.toolbar,
@@ -46,11 +52,14 @@ function Sidebar(props) {
         <div className={classes.toolbar} />
         <Divider />
         <List>
-          <ListItem>
-            <ListItemIcon><AvatarIcon /></ListItemIcon>
+          <ListItem className={classes.icon}>
+            <IconButton><AvatarIcon /></IconButton>
           </ListItem>
-          <ListItem>
-            <ListItemIcon><GameIcon /></ListItemIcon>
+          <ListItem className={classes.icon}>
+            <IconButton><GameIcon /></IconButton>
+          </ListItem>
+          <ListItem className={classes.icon}>
+            <IconButton><EmailIcon /></IconButton>
           </ListItem>
         </List>
       </Drawer>

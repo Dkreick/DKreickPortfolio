@@ -3,7 +3,7 @@ import './App.scss';
 import ButtonAppBar from './layout/Navbar';
 import Sidebar from './layout/Sidebar';
 import GameList from './pages/GameList';
-import { BrowserRouter, Route } from "react-router-dom";
+import { BrowserRouter } from "react-router-dom";
 
 function App() {
   return (
