@@ -5,11 +5,11 @@ import Drawer from '@material-ui/core/Drawer';
 import List from '@material-ui/core/List';
 import Divider from '@material-ui/core/Divider';
 import ListItem from '@material-ui/core/ListItem';
-import ListItemIcon from '@material-ui/core/ListItemIcon';
 import AvatarIcon from '@material-ui/icons/AccountCircle';
 import GameIcon from '@material-ui/icons/VideogameAsset';
 import EmailIcon from '@material-ui/icons/Email';
 import IconButton from '@material-ui/core/IconButton';
+import Tooltip from '@material-ui/core/Tooltip';
 
 const drawerWidth = 64;
 
@@ -53,13 +53,19 @@ function Sidebar(props) {
         <Divider />
         <List>
           <ListItem className={classes.icon}>
-            <IconButton><AvatarIcon /></IconButton>
+            <Tooltip title="My CV" placement="right">
+              <IconButton><AvatarIcon /></IconButton>
+            </Tooltip>
           </ListItem>
           <ListItem className={classes.icon}>
-            <IconButton><GameIcon /></IconButton>
+            <Tooltip title="My Games" placement="right">
+              <IconButton><GameIcon /></IconButton>
+            </Tooltip>
           </ListItem>
           <ListItem className={classes.icon}>
-            <IconButton><EmailIcon /></IconButton>
+            <Tooltip title="Contact Me!" placement="right">
+              <IconButton><EmailIcon /></IconButton>
+            </Tooltip>
           </ListItem>
         </List>
       </Drawer>
