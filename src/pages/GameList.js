@@ -5,12 +5,13 @@ import GameCard from '../components/GameCard';
 
 const styles = theme => ({
   container: {
-    display: '-webkit-inline-box',
+    display: 'flex',
     flexWrap: 'wrap',
+    width: 500,
   }
 });
 
-export function Weapons(props) {
+export function GameList(props) {
 
   const state = {
     api: [
@@ -27,7 +28,7 @@ export function Weapons(props) {
         name: 'AD2B Wiki',
         subtitle: 'Wiki for Another Day To Be.',
         icon: 'Sharp',
-        snapshot: 'Sharp',
+        snapshot: '',
         description: '',
         linkToSourceCode: 'https://github.com/Dkreick/AnotherDayToBe-Web',
         linkToGame: 'AnotherDayToBeWikia',
@@ -50,6 +51,15 @@ export function Weapons(props) {
         linkToSourceCode: 'https://github.com/Dkreick/SimpleSimon',
         linkToGame: 'SimpleSimon',
       },
+      {
+        name: 'Dont Travel Alone',
+        subtitle: 'Booking website for motorcycle riders who want to make friends easier',
+        icon: 'Sharp',
+        snapshot: '',
+        description: 'A little page to book any motorcycle friend to travel along the globe made in Angular 2.',
+        linkToSourceCode: 'https://github.com/Dkreick/DontTravelAlone',
+        linkToGame: 'https://dont-travel-alone.herokuapp.com/',
+      }
     ]
   };
   const { classes } = props;
@@ -63,8 +73,8 @@ export function Weapons(props) {
   );
 }
 
-Weapons.propTypes = {
+GameList.propTypes = {
   classes: PropTypes.object.isRequired
 };
 
-export default withStyles(styles)(Weapons);
+export default withStyles(styles)(GameList);
