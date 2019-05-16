@@ -7,7 +7,7 @@ const styles = theme => ({
   container: {
     display: 'flex',
     flexWrap: 'wrap',
-    width: 500,
+    marginLeft: '84px',
   }
 });
 

@@ -7,9 +7,9 @@ import Divider from '@material-ui/core/Divider';
 import ListItem from '@material-ui/core/ListItem';
 import AvatarIcon from '@material-ui/icons/AccountCircle';
 import GameIcon from '@material-ui/icons/VideogameAsset';
-import EmailIcon from '@material-ui/icons/Email';
 import IconButton from '@material-ui/core/IconButton';
 import Tooltip from '@material-ui/core/Tooltip';
+import EmailDialog from './../components/EmailDialog';
 
 const drawerWidth = 64;
 
@@ -64,7 +64,7 @@ function Sidebar(props) {
           </ListItem>
           <ListItem className={classes.icon}>
             <Tooltip title="Contact Me!" placement="right">
-              <IconButton><EmailIcon /></IconButton>
+              <EmailDialog/>
             </Tooltip>
           </ListItem>
         </List>
