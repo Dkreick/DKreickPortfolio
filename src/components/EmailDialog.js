@@ -9,7 +9,8 @@ import DialogContent from '@material-ui/core/DialogContent';
 import DialogContentText from '@material-ui/core/DialogContentText';
 import DialogTitle from '@material-ui/core/DialogTitle';
 
-export default class FormDialog extends React.Component {
+
+export default class EmailDialog extends React.Component {
   state = {
     open: false,
   };
@@ -25,24 +26,30 @@ export default class FormDialog extends React.Component {
   render() {
     return (
       <div>
-        <IconButton onClick={this.handleClickOpen}><EmailIcon/></IconButton>
+        <IconButton onClick={this.handleClickOpen}><EmailIcon /></IconButton>
         <Dialog
           open={this.state.open}
           onClose={this.handleClose}
           aria-labelledby="form-dialog-title"
         >
-          <DialogTitle id="form-dialog-title">Subscribe</DialogTitle>
+          <DialogTitle id="form-dialog-title">Send an email to Damian Kreick</DialogTitle>
           <DialogContent>
             <DialogContentText>
-              To subscribe to this website, please enter your email address here. We will send
-              updates occasionally.
+              Please, provide your email and message below
             </DialogContentText>
             <TextField
               autoFocus
               margin="dense"
-              id="name"
+              id="email"
               label="Email Address"
               type="email"
+              fullWidth
+            />
+            <TextField
+              id="standard-helperText"
+              label="Your message"
+              multiline
+              rows="4"
               fullWidth
             />
           </DialogContent>
