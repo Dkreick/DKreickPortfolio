@@ -1,10 +1,10 @@
-import React from 'react';
-import './App.scss';
-import ButtonAppBar from './layout/Navbar';
-import Sidebar from './layout/Sidebar';
-import GameList from './pages/GameList';
-import ArtList from './pages/ArtList';
-import { BrowserRouter } from "react-router-dom";
+import React from "react";
+import "./App.scss";
+import ButtonAppBar from "./layout/Navbar";
+import Sidebar from "./layout/Sidebar";
+import ContentList from "./pages/ContentList";
+import AboutMe from "./pages/AboutMe";
+import { BrowserRouter, Route } from "react-router-dom";
 
 function App() {
   return (
@@ -12,9 +12,10 @@ function App() {
       <div className="app">
         <ButtonAppBar />
         <Sidebar />
-        <div className="game-container">
-          {/* <GameList /> */}
-          <ArtList/>
+        <div className="container">
+          <Route exact path="/" component={AboutMe} />
+          <Route exact path="/AboutMe" component={AboutMe} />
+          <Route exact path="/ContentList" component={ContentList} />
         </div>
       </div>
     </BrowserRouter>

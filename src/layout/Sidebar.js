@@ -6,11 +6,11 @@ import List from '@material-ui/core/List';
 import Divider from '@material-ui/core/Divider';
 import ListItem from '@material-ui/core/ListItem';
 import AvatarIcon from '@material-ui/icons/AccountCircle';
-import GameIcon from '@material-ui/icons/VideogameAsset';
-import GalleryIcon from '@material-ui/icons/PhotoLibrary';
+import PortfolioIcon from '@material-ui/icons/Work';
 import IconButton from '@material-ui/core/IconButton';
 import Tooltip from '@material-ui/core/Tooltip';
 import EmailDialog from './../components/EmailDialog';
+import { Link } from "react-router-dom";
 
 const drawerWidth = 64;
 
@@ -53,25 +53,22 @@ function Sidebar(props) {
         <div className={classes.toolbar} />
         <Divider />
         <List>
+        <Link to="/AboutMe">
           <ListItem className={classes.icon}>
-            <Tooltip title="My CV" placement="right">
+            <Tooltip title="About Me" placement="right">
               <IconButton><AvatarIcon /></IconButton>
             </Tooltip>
           </ListItem>
+          </Link>
+          <Link to="/ContentList">
           <ListItem className={classes.icon}>
-            <Tooltip title="My Games" placement="right">
-              <IconButton><GameIcon /></IconButton>
+            <Tooltip title="My Portfolio" placement="right">
+              <IconButton><PortfolioIcon /></IconButton>
             </Tooltip>
           </ListItem>
+          </Link>
           <ListItem className={classes.icon}>
-            <Tooltip title="My Art pieces" placement="right">
-              <IconButton><GalleryIcon /></IconButton>
-            </Tooltip>
-          </ListItem>
-          <ListItem className={classes.icon}>
-            <Tooltip title="Contact Me!" placement="right">
               <EmailDialog/>
-            </Tooltip>
           </ListItem>
         </List>
       </Drawer>

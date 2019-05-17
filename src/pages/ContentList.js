@@ -11,7 +11,7 @@ const styles = theme => ({
   }
 });
 
-export function GameList(props) {
+export function ContentList(props) {
 
   const state = {
     api: [
@@ -73,8 +73,8 @@ export function GameList(props) {
   );
 }
 
-GameList.propTypes = {
+ContentList.propTypes = {
   classes: PropTypes.object.isRequired
 };
 
-export default withStyles(styles)(GameList);
+export default withStyles(styles)(ContentList);
