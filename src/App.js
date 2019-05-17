@@ -3,6 +3,7 @@ import './App.scss';
 import ButtonAppBar from './layout/Navbar';
 import Sidebar from './layout/Sidebar';
 import GameList from './pages/GameList';
+import ArtList from './pages/ArtList';
 import { BrowserRouter } from "react-router-dom";
 
 function App() {
@@ -12,7 +13,8 @@ function App() {
         <ButtonAppBar />
         <Sidebar />
         <div className="game-container">
-          <GameList />
+          {/* <GameList /> */}
+          <ArtList/>
         </div>
       </div>
     </BrowserRouter>

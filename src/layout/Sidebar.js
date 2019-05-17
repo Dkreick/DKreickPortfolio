@@ -7,6 +7,7 @@ import Divider from '@material-ui/core/Divider';
 import ListItem from '@material-ui/core/ListItem';
 import AvatarIcon from '@material-ui/icons/AccountCircle';
 import GameIcon from '@material-ui/icons/VideogameAsset';
+import GalleryIcon from '@material-ui/icons/PhotoLibrary';
 import IconButton from '@material-ui/core/IconButton';
 import Tooltip from '@material-ui/core/Tooltip';
 import EmailDialog from './../components/EmailDialog';
@@ -60,6 +61,11 @@ function Sidebar(props) {
           <ListItem className={classes.icon}>
             <Tooltip title="My Games" placement="right">
               <IconButton><GameIcon /></IconButton>
+            </Tooltip>
+          </ListItem>
+          <ListItem className={classes.icon}>
+            <Tooltip title="My Art pieces" placement="right">
+              <IconButton><GalleryIcon /></IconButton>
             </Tooltip>
           </ListItem>
           <ListItem className={classes.icon}>
