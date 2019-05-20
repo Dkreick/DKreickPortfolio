@@ -2,8 +2,8 @@ import React from "react";
 import "./App.scss";
 import ButtonAppBar from "./layout/Navbar";
 import Sidebar from "./layout/Sidebar";
+import Footer from "./layout/Footer";
 import ContentList from "./pages/ContentList";
-import AboutMe from "./pages/AboutMe";
 import { BrowserRouter, Route } from "react-router-dom";
 
 function App() {
@@ -13,10 +13,10 @@ function App() {
         <ButtonAppBar />
         <Sidebar />
         <div className="container">
-          <Route exact path="/" component={AboutMe} />
-          <Route exact path="/AboutMe" component={AboutMe} />
+          <Route exact path="/" component={ContentList} />
           <Route exact path="/ContentList" component={ContentList} />
         </div>
+        <Footer/>
       </div>
     </BrowserRouter>
   );

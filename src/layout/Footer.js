@@ -10,12 +10,12 @@ import Cv from './../assets/CV.pdf';
 
 const styles = {
   root: {
-    width: 500,
-    bottom: 0
+    marginLeft: '64px',
+    marginTop: '50px',
   }
 };
 
-class AboutMe extends React.Component {
+class Footer extends React.Component {
   state = {
     value: 0
   };
@@ -42,8 +42,8 @@ class AboutMe extends React.Component {
     );
   }
 }
-AboutMe.propTypes = {
+Footer.propTypes = {
   classes: PropTypes.object.isRequired
 };
 
-export default withStyles(styles)(AboutMe);
+export default withStyles(styles)(Footer);
