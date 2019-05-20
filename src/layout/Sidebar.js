@@ -10,7 +10,7 @@ import PortfolioIcon from '@material-ui/icons/Work';
 import IconButton from '@material-ui/core/IconButton';
 import Tooltip from '@material-ui/core/Tooltip';
 import EmailDialog from './../components/EmailDialog';
-import { Link } from "react-router-dom";
+import { Link } from 'react-router-dom';
 
 const drawerWidth = 64;
 
@@ -44,25 +44,25 @@ function Sidebar(props) {
     <div className={classes.root}>
       <Drawer
         className={classes.drawer}
-        variant="permanent"
+        variant='permanent'
         classes={{
           paper: classes.drawerPaper,
         }}
-        anchor="left"
+        anchor='left'
       >
         <div className={classes.toolbar} />
         <Divider />
         <List>
-        <Link to="/AboutMe">
+        <Link to='/AboutMe'>
           <ListItem className={classes.icon}>
-            <Tooltip title="About Me" placement="right">
+            <Tooltip title='About Me' placement='right'>
               <IconButton><AvatarIcon /></IconButton>
             </Tooltip>
           </ListItem>
           </Link>
-          <Link to="/ContentList">
+          <Link to='/ContentList'>
           <ListItem className={classes.icon}>
-            <Tooltip title="My Portfolio" placement="right">
+            <Tooltip title='My Portfolio' placement='right'>
               <IconButton><PortfolioIcon /></IconButton>
             </Tooltip>
           </ListItem>

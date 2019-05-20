@@ -27,9 +27,9 @@ function ButtonAppBar(props) {
   const { classes } = props;
   return (
     <div className={classes.root}>
-      <AppBar position="static" className={classes.bar}>
+      <AppBar position='static' className={classes.bar}>
         <Toolbar>
-          <Typography variant="h6" color="inherit" className={classes.grow}>
+          <Typography variant='h6' color='inherit' className={classes.grow}>
           </Typography>
         </Toolbar>
       </AppBar>

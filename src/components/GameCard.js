@@ -12,33 +12,39 @@ import Typography from '@material-ui/core/Typography';
 import ShareIcon from '@material-ui/icons/Share';
 import SourceCodeIcon from '@material-ui/icons/Code';
 import PlayIcon from '@material-ui/icons/PlayCircleFilledWhite';
-import { Link } from "react-router-dom";
+import { Link } from 'react-router-dom';
 
 const styles = theme => ({
   card: {
     maxWidth: 400,
-    margin: 20,
+    margin: 20
   },
   media: {
     height: 0,
     paddingTop: '56.25%', // 16:9
+    objectFit: 'contain',
+    maxWidth:'100%',
+    maxHeight:'100%',
   },
   actions: {
-    display: 'inline-flex',
+    display: 'inline-flex'
   },
   expand: {
     transform: 'rotate(0deg)',
     marginLeft: 'auto',
     transition: theme.transitions.create('transform', {
-      duration: theme.transitions.duration.shortest,
-    }),
+      duration: theme.transitions.duration.shortest
+    })
   },
   expandOpen: {
-    transform: 'rotate(180deg)',
+    transform: 'rotate(180deg)'
   },
   avatar: {
-    backgroundColor: '#27ade3',
+    backgroundColor: '#27ade3'
   },
+  button: {
+    color: '#27ade3'
+  }
 });
 
 class GameCard extends React.Component {
@@ -48,48 +54,46 @@ class GameCard extends React.Component {
     const { classes } = this.props;
 
     return (
-      <Card className={classes.card}>
-        <CardHeader
-          avatar={
-            <Avatar aria-label="Recipe" className={classes.avatar}>
-              <img src={this.props.data.icon} alt={this.props.data.name}/>
-            </Avatar>
-          }
-          title={this.props.data.name}
-          subheader={this.props.data.subtitle}
-        />
-        <CardMedia
-          className={classes.media}
-          image={this.props.data.snapshot}
-          title={this.props.data.name}
-        />
-        <CardContent>
-          <Typography component="p">
-          {this.props.data.description}
-          </Typography>
-        </CardContent>
-        <CardActions className={classes.actions} disableActionSpacing>
-        <IconButton aria-label="Share">
-            <ShareIcon />
-          </IconButton>
-          <IconButton aria-label="Share">
-          <a href={this.props.data.linkToSourceCode}>
-            <SourceCodeIcon />
-          </a>
-          </IconButton>
-          <IconButton aria-label="Share">
-          <Link to={this.props.data.linkToGame}>
-            <PlayIcon />
-          </Link>
-          </IconButton>
-        </CardActions>
-      </Card>
+        <Card className={classes.card}>
+          <CardHeader
+            avatar={
+              <Avatar aria-label='Recipe' className={classes.avatar}>
+                <img src={this.props.data.icon} alt={this.props.data.name} />
+              </Avatar>
+            }
+            title={this.props.data.name}
+            subheader={this.props.data.subtitle}
+          />
+          <CardMedia
+            className={classes.media}
+            image={this.props.data.snapshot}
+            title={this.props.data.name}
+          />
+          <CardContent>
+            <Typography component='p'>{this.props.data.description}</Typography>
+          </CardContent>
+          <CardActions className={classes.actions} disableActionSpacing>
+            <IconButton>
+              <ShareIcon className={classes.button}/>
+            </IconButton>
+            <IconButton>
+              <a href={this.props.data.linkToSourceCode}>
+                <SourceCodeIcon className={classes.button}/>
+              </a>
+            </IconButton>
+            <IconButton>
+              <Link to={this.props.data.linkToGame}>
+                <PlayIcon className={classes.button}/>
+              </Link>
+            </IconButton>
+          </CardActions>
+        </Card>
     );
   }
 }
 
 GameCard.propTypes = {
-  classes: PropTypes.object.isRequired,
+  classes: PropTypes.object.isRequired
 };
 
 export default withStyles(styles)(GameCard);

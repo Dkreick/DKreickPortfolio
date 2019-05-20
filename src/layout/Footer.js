@@ -1,17 +1,20 @@
-import React from "react";
-import PropTypes from "prop-types";
-import { withStyles } from "@material-ui/core/styles";
-import BottomNavigation from "@material-ui/core/BottomNavigation";
-import BottomNavigationAction from "@material-ui/core/BottomNavigationAction";
-import EmailIcon from "@material-ui/icons/Email";
-import CvIcon from "@material-ui/icons/SaveAlt";
-import PhoneIcon from "@material-ui/icons/Phone";
+import React from 'react';
+import PropTypes from 'prop-types';
+import { withStyles } from '@material-ui/core/styles';
+import BottomNavigation from '@material-ui/core/BottomNavigation';
+import BottomNavigationAction from '@material-ui/core/BottomNavigationAction';
+import EmailIcon from '@material-ui/icons/Email';
+import CvIcon from '@material-ui/icons/SaveAlt';
+import PhoneIcon from '@material-ui/icons/Phone';
 import Cv from './../assets/CV.pdf';
 
 const styles = {
   root: {
     marginLeft: '64px',
     marginTop: '50px',
+  },
+  button: {
+    color: '#27ade3'
   }
 };
 
@@ -35,9 +38,9 @@ class Footer extends React.Component {
         showLabels
         className={classes.root}
       >
-        <BottomNavigationAction label="Contact me!" icon={<EmailIcon />} />
-        <BottomNavigationAction label="Download my CV!" icon={<CvIcon />} href={Cv} download="Damian Kreick - CV"/>
-        <BottomNavigationAction label="Call me!" icon={<PhoneIcon />} href='https://wa.me/541133302076'/>
+        <BottomNavigationAction label='Contact me!' icon={<EmailIcon />} target='_blank' className={classes.button}/>
+        <BottomNavigationAction label='Download my CV!' icon={<CvIcon />} href={Cv} download='Damian Kreick - CV' className={classes.button}/>
+        <BottomNavigationAction label='Call me!' icon={<PhoneIcon />} href='https://wa.me/541133302076' target='_blank' className={classes.button}/>
       </BottomNavigation>
     );
   }
