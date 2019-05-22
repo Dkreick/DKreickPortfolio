@@ -7,12 +7,13 @@ import CardMedia from '@material-ui/core/CardMedia';
 import CardContent from '@material-ui/core/CardContent';
 import CardActions from '@material-ui/core/CardActions';
 import Avatar from '@material-ui/core/Avatar';
-import IconButton from '@material-ui/core/IconButton';
+import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
+import { Link } from 'react-router-dom';
+import IconButton from '@material-ui/core/IconButton';
 import ShareIcon from '@material-ui/icons/Share';
 import SourceCodeIcon from '@material-ui/icons/Code';
 import PlayIcon from '@material-ui/icons/PlayCircleFilledWhite';
-import { Link } from 'react-router-dom';
 
 const styles = theme => ({
   card: {
@@ -23,11 +24,12 @@ const styles = theme => ({
     height: 0,
     paddingTop: '56.25%', // 16:9
     objectFit: 'contain',
-    maxWidth:'100%',
-    maxHeight:'100%',
+    maxWidth: '100%',
+    maxHeight: '100%',
   },
   actions: {
-    display: 'inline-flex'
+    display: 'inline-flex',
+    itemSpacing: '20px'
   },
   expand: {
     transform: 'rotate(0deg)',
@@ -43,7 +45,7 @@ const styles = theme => ({
     backgroundColor: '#27ade3'
   },
   button: {
-    color: '#27ade3'
+    color: '#27ade3',
   }
 });
 
@@ -54,26 +56,26 @@ class GameCard extends React.Component {
     const { classes } = this.props;
 
     return (
-        <Card className={classes.card}>
-          <CardHeader
-            avatar={
-              <Avatar aria-label='Recipe' className={classes.avatar}>
-                <img src={this.props.data.icon} alt={this.props.data.name} />
-              </Avatar>
-            }
-            title={this.props.data.name}
-            subheader={this.props.data.subtitle}
-          />
-          <CardMedia
-            className={classes.media}
-            image={this.props.data.snapshot}
-            title={this.props.data.name}
-          />
-          <CardContent>
-            <Typography component='p'>{this.props.data.description}</Typography>
-          </CardContent>
-          <CardActions className={classes.actions} disableActionSpacing>
-            <IconButton>
+      <Card className={classes.card}>
+        <CardHeader
+          avatar={
+            <Avatar aria-label='Recipe' className={classes.avatar}>
+              <img src={this.props.data.icon} alt={this.props.data.name} />
+            </Avatar>
+          }
+          title={this.props.data.name}
+          subheader={this.props.data.subtitle}
+        />
+        <CardMedia
+          className={classes.media}
+          image={this.props.data.snapshot}
+          title={this.props.data.name}
+        />
+        <CardContent>
+          <Typography component='p'>{this.props.data.description}</Typography>
+        </CardContent>
+        <CardActions className={classes.actions} disableActionSpacing>
+          {/* <IconButton>
               <ShareIcon className={classes.button}/>
             </IconButton>
             <IconButton>
@@ -85,9 +87,15 @@ class GameCard extends React.Component {
               <Link to={this.props.data.linkToGame}>
                 <PlayIcon className={classes.button}/>
               </Link>
-            </IconButton>
-          </CardActions>
-        </Card>
+            </IconButton> */}
+          <Button className={classes.button}>
+            Source Code
+      </Button>
+          <Button variant="contained" color="secondary" disabled className={classes.button}>
+            PlAY NOW!
+      </Button>
+        </CardActions>
+      </Card>
     );
   }
 }
