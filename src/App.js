@@ -6,6 +6,7 @@ import Footer from './layout/Footer';
 import ContentList from './pages/ContentList';
 import { BrowserRouter, Route } from 'react-router-dom';
 import SimpleSimon from './pages/Games/SimpleSimon';
+import AboutMe from './pages/AboutMe';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <div className='container'>
           <Route exact path='/' component={ContentList} />
           <Route exact path='/ContentList' component={ContentList} />
+          <Route exact path='/AboutMe' component={AboutMe} />
           <Route exact path='/SimpleSimon' component={SimpleSimon} />
         </div>
         <Footer/>
