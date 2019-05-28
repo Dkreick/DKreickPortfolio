@@ -11,9 +11,8 @@ import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 import { Link } from 'react-router-dom';
 import IconButton from '@material-ui/core/IconButton';
-import ShareIcon from '@material-ui/icons/Share';
 import SourceCodeIcon from '@material-ui/icons/Code';
-import PlayIcon from '@material-ui/icons/PlayCircleFilledWhite';
+import Chip from '@material-ui/core/Chip';
 
 const styles = theme => ({
   card: {
@@ -75,25 +74,15 @@ class GameCard extends React.Component {
           <Typography component='p'>{this.props.data.description}</Typography>
         </CardContent>
         <CardActions className={classes.actions} disableActionSpacing>
-          {/* <IconButton>
-              <ShareIcon className={classes.button}/>
-            </IconButton>
-            <IconButton>
-              <a href={this.props.data.linkToSourceCode}>
-                <SourceCodeIcon className={classes.button}/>
-              </a>
-            </IconButton>
-            <IconButton>
-              <Link to={this.props.data.linkToGame}>
-                <PlayIcon className={classes.button}/>
-              </Link>
-            </IconButton> */}
-          <Button className={classes.button}>
-            Source Code
-      </Button>
+          <Chip label={this.props.data.mainLanguague} className={classes.chip} />
+          <IconButton>
+            <a href={this.props.data.linkToSourceCode} target="blank">
+              <SourceCodeIcon className={classes.button} />
+            </a>
+          </IconButton>
           <Button variant="contained" color="secondary" disabled className={classes.button}>
-            PlAY NOW!
-      </Button>
+            PLAY NOW!
+          </Button>
         </CardActions>
       </Card>
     );

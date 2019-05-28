@@ -23,6 +23,7 @@ export function ContentList(props) {
         description: 'AD2B is a turn based tactics and exploration game in a devastated world. Your character will face different choices while tries to survive in a map full of dangers.',
         linkToSourceCode: 'https://github.com/Dkreick/AnotherDayToBe',
         linkToGame: 'AnotherDayToBe',
+        mainLanguague: 'Unity3D'
       },
       {
         name: 'AD2B Wiki',
@@ -32,6 +33,7 @@ export function ContentList(props) {
         description: '',
         linkToSourceCode: 'https://github.com/Dkreick/AnotherDayToBe-Web',
         linkToGame: 'AnotherDayToBeWikia',
+        mainLanguague: 'React'
       },
       {
         name: 'Scan My Profile',
@@ -41,6 +43,7 @@ export function ContentList(props) {
         description: 'Small app for scan my profile image and know more about me.',
         linkToSourceCode: 'https://github.com/Dkreick/Scan-My-Profile',
         linkToGame: 'ScanMyProfile',
+        mainLanguague: 'Vuforia'
       },
       {
         name: 'Simple Simon',
@@ -50,6 +53,7 @@ export function ContentList(props) {
         description: 'Simple game memory game made in Unity3D.',
         linkToSourceCode: 'https://github.com/Dkreick/SimpleSimon',
         linkToGame: 'SimpleSimon',
+        mainLanguague: 'Unity3D'
       },
       {
         name: 'Dont Travel Alone',
@@ -59,6 +63,7 @@ export function ContentList(props) {
         description: 'A little page to book any motorcycle friend to travel along the globe made in Angular 2.',
         linkToSourceCode: 'https://github.com/Dkreick/DontTravelAlone',
         linkToGame: 'https://dont-travel-alone.herokuapp.com/',
+        mainLanguague: 'Angular 7'
       }
     ]
   };
