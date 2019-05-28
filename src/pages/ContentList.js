@@ -64,6 +64,16 @@ export function ContentList(props) {
         linkToSourceCode: 'https://github.com/Dkreick/DontTravelAlone',
         linkToGame: 'https://dont-travel-alone.herokuapp.com/',
         mainLanguague: 'Angular 7'
+      },
+      {
+        name: 'Phaser: Practice Horse and diamonds',
+        subtitle: 'Short demo game made in an Udemy course.',
+        icon: 'Sharp',
+        snapshot: 'https://raw.githubusercontent.com/Dkreick/Phaser---Practice-Horse-and-diamonds/master/preview.png',
+        description: 'Catch all the bubbles before the time runs out!.',
+        linkToSourceCode: 'https://github.com/Dkreick/Phaser---Practice-Horse-and-diamonds',
+        linkToGame: 'HorseAndDiamonds',
+        mainLanguague: 'Unity3D'
       }
     ]
   };
