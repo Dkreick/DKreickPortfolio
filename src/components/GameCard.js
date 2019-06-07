@@ -1,19 +1,21 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import { withStyles } from '@material-ui/core/styles';
-import Card from '@material-ui/core/Card';
-import CardHeader from '@material-ui/core/CardHeader';
-import CardMedia from '@material-ui/core/CardMedia';
-import CardContent from '@material-ui/core/CardContent';
-import CardActions from '@material-ui/core/CardActions';
-import Avatar from '@material-ui/core/Avatar';
-import Button from '@material-ui/core/Button';
-import Typography from '@material-ui/core/Typography';
-import { Link } from 'react-router-dom';
-import IconButton from '@material-ui/core/IconButton';
-import ShareIcon from '@material-ui/icons/Share';
-import SourceCodeIcon from '@material-ui/icons/Code';
-import PlayIcon from '@material-ui/icons/PlayCircleFilledWhite';
+import React from "react";
+import PropTypes from "prop-types";
+import { withStyles } from "@material-ui/core/styles";
+import Card from "@material-ui/core/Card";
+import CardHeader from "@material-ui/core/CardHeader";
+import CardMedia from "@material-ui/core/CardMedia";
+import CardContent from "@material-ui/core/CardContent";
+import CardActions from "@material-ui/core/CardActions";
+import Avatar from "@material-ui/core/Avatar";
+import Button from "@material-ui/core/Button";
+import Typography from "@material-ui/core/Typography";
+import { Link } from "react-router-dom";
+import IconButton from "@material-ui/core/IconButton";
+import ShareIcon from "@material-ui/icons/Share";
+
+import SourceCodeIcon from "@material-ui/icons/Code";
+import InfoIcon from "@material-ui/icons/Info";
+import DownLoadIcon from "@material-ui/icons/CloudDownload";
 
 const styles = theme => ({
   card: {
@@ -22,30 +24,30 @@ const styles = theme => ({
   },
   media: {
     height: 0,
-    paddingTop: '56.25%', // 16:9
-    objectFit: 'contain',
-    maxWidth: '100%',
-    maxHeight: '100%',
+    paddingTop: "56.25%", // 16:9
+    objectFit: "contain",
+    maxWidth: "100%",
+    maxHeight: "100%"
   },
   actions: {
-    display: 'inline-flex',
-    itemSpacing: '20px'
+    display: "inline-flex",
+    itemSpacing: "20px"
   },
   expand: {
-    transform: 'rotate(0deg)',
-    marginLeft: 'auto',
-    transition: theme.transitions.create('transform', {
+    transform: "rotate(0deg)",
+    marginLeft: "auto",
+    transition: theme.transitions.create("transform", {
       duration: theme.transitions.duration.shortest
     })
   },
   expandOpen: {
-    transform: 'rotate(180deg)'
+    transform: "rotate(180deg)"
   },
   avatar: {
-    backgroundColor: '#27ade3'
+    backgroundColor: "#27ade3"
   },
   button: {
-    color: '#27ade3',
+    color: "#27ade3"
   }
 });
 
@@ -59,7 +61,7 @@ class GameCard extends React.Component {
       <Card className={classes.card}>
         <CardHeader
           avatar={
-            <Avatar aria-label='Recipe' className={classes.avatar}>
+            <Avatar aria-label="Recipe" className={classes.avatar}>
               <img src={this.props.data.icon} alt={this.props.data.name} />
             </Avatar>
           }
@@ -72,28 +74,25 @@ class GameCard extends React.Component {
           title={this.props.data.name}
         />
         <CardContent>
-          <Typography component='p'>{this.props.data.description}</Typography>
+          <Typography component="p">{this.props.data.description}</Typography>
         </CardContent>
         <CardActions className={classes.actions} disableActionSpacing>
-          {/* <IconButton>
-              <ShareIcon className={classes.button}/>
-            </IconButton>
-            <IconButton>
-              <a href={this.props.data.linkToSourceCode}>
-                <SourceCodeIcon className={classes.button}/>
-              </a>
-            </IconButton>
-            <IconButton>
-              <Link to={this.props.data.linkToGame}>
-                <PlayIcon className={classes.button}/>
-              </Link>
-            </IconButton> */}
-          <Button className={classes.button}>
-            Source Code
-      </Button>
-          <Button variant="contained" color="secondary" disabled className={classes.button}>
-            PlAY NOW!
-      </Button>
+          <Typography component="p">{this.props.data.mainLanguage}</Typography>
+          <IconButton>
+            <a href={this.props.data.linkToSourceCode}>
+              <SourceCodeIcon className={classes.button} />
+            </a>
+          </IconButton>
+          <IconButton>
+            <a href={this.props.data.linkToSourceCode}>
+              <InfoIcon className={classes.button} />
+            </a>
+          </IconButton>
+          <IconButton>
+            <a href={this.props.data.linkDownload}>
+              <DownLoadIcon className={classes.button} />
+            </a>
+          </IconButton>
         </CardActions>
       </Card>
     );

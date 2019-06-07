@@ -22,7 +22,8 @@ export function ContentList(props) {
         snapshot: 'https://raw.githubusercontent.com/Dkreick/AnotherDayToBe/master/Documents/Developer%20notes/GDD%20Images/CombatPreview.jpg',
         description: 'AD2B is a turn based tactics and exploration game in a devastated world. Your character will face different choices while tries to survive in a map full of dangers.',
         linkToSourceCode: 'https://github.com/Dkreick/AnotherDayToBe',
-        linkToGame: 'AnotherDayToBe',
+        linkDownload: 'AnotherDayToBe',
+        mainLanguage: 'Unity3D'
       },
       {
         name: 'AD2B Wiki',
@@ -31,7 +32,8 @@ export function ContentList(props) {
         snapshot: '',
         description: '',
         linkToSourceCode: 'https://github.com/Dkreick/AnotherDayToBe-Web',
-        linkToGame: 'AnotherDayToBeWikia',
+        linkDownload: 'AnotherDayToBeWikia',
+        mainLanguage: 'Unity3D'
       },
       {
         name: 'Scan My Profile',
@@ -40,7 +42,8 @@ export function ContentList(props) {
         snapshot: 'https://raw.githubusercontent.com/Dkreick/Scan-My-Profile/master/ReadmePhoto.png',
         description: 'Small app for scan my profile image and know more about me.',
         linkToSourceCode: 'https://github.com/Dkreick/Scan-My-Profile',
-        linkToGame: 'ScanMyProfile',
+        linkDownload: 'ScanMyProfile',
+        mainLanguage: 'Unity3D'
       },
       {
         name: 'Simple Simon',
@@ -49,16 +52,18 @@ export function ContentList(props) {
         snapshot: 'https://raw.githubusercontent.com/Dkreick/SimpleSimon/master/preview.png',
         description: 'Simple game memory game made in Unity3D.',
         linkToSourceCode: 'https://github.com/Dkreick/SimpleSimon',
-        linkToGame: 'SimpleSimon',
+        linkDownload: 'https://github.com/Dkreick/SimpleSimon/archive/master.zip',
+        mainLanguage: 'Unity3D'
       },
       {
         name: 'Dont Travel Alone',
-        subtitle: 'Booking website for motorcycle riders who want to make friends easier',
+        subtitle: 'Booking website for motorcycle rental',
         icon: 'Sharp',
         snapshot: '',
-        description: 'A little page to book any motorcycle friend to travel along the globe made in Angular 2.',
+        description: 'A little page to book any motorcycle rental made in Angular 2.',
         linkToSourceCode: 'https://github.com/Dkreick/DontTravelAlone',
-        linkToGame: 'https://dont-travel-alone.herokuapp.com/',
+        linkDownload: 'https://dont-travel-alone.herokuapp.com/',
+        mainLanguage: 'Javascript'
       }
     ]
   };
