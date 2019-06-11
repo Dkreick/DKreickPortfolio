@@ -57,10 +57,10 @@ export function ContentList(props) {
       },
       {
         name: 'Dont Travel Alone',
-        subtitle: 'Booking website for motorcycle riders who want to make friends easier',
+        subtitle: 'Booking website for motorcycle rental',
         icon: 'Sharp',
         snapshot: '',
-        description: 'A little page to book any motorcycle friend to travel along the globe made in Angular 2.',
+        description: 'A little page to book any motorcycle rental made in Angular 2.',
         linkToSourceCode: 'https://github.com/Dkreick/DontTravelAlone',
         linkToGame: 'https://dont-travel-alone.herokuapp.com/',
         mainLanguague: 'Angular 7'
@@ -73,7 +73,7 @@ export function ContentList(props) {
         description: 'Catch all the bubbles before the time runs out!.',
         linkToSourceCode: 'https://github.com/Dkreick/Phaser---Practice-Horse-and-diamonds',
         linkToGame: 'HorseAndDiamonds',
-        mainLanguague: 'Unity3D'
+        mainLanguage: 'Javascript'
       }
     ]
   };
