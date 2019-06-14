@@ -5,7 +5,6 @@ import Sidebar from './layout/Sidebar';
 import Footer from './layout/Footer';
 import ContentList from './pages/ContentList';
 import { BrowserRouter, Route } from 'react-router-dom';
-import SimpleSimon from './pages/Games/SimpleSimon';
 import AboutMe from './pages/AboutMe';
 
 function App() {
@@ -19,7 +18,6 @@ function App() {
           <Route exact path='/' component={ContentList} />
           <Route exact path='/ContentList' component={ContentList} />
           <Route exact path='/AboutMe' component={AboutMe} />
-          <Route exact path='/SimpleSimon' component={SimpleSimon} />
         </div>
         <Footer/>
       </div>
