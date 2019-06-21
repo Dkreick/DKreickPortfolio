@@ -23,7 +23,7 @@ export function ContentList(props) {
         description: 'AD2B is a turn based tactics and exploration game in a devastated world. Your character will face different choices while tries to survive in a map full of dangers.',
         linkToSourceCode: 'https://github.com/Dkreick/AnotherDayToBe',
         linkToGame: 'AnotherDayToBe',
-        mainLanguague: 'Unity3D'
+        mainLanguague: 'Unity3D/C#'
       },
       {
         name: 'AD2B Wiki',
@@ -53,7 +53,7 @@ export function ContentList(props) {
         description: 'Simple game memory game made in Unity3D.',
         linkToSourceCode: 'https://github.com/Dkreick/SimpleSimon',
         linkToGame: 'SimpleSimon',
-        mainLanguague: 'Unity3D'
+        mainLanguague: 'Unity3D/C#'
       },
       {
         name: 'Dont Travel Alone',
@@ -73,7 +73,17 @@ export function ContentList(props) {
         description: 'Catch all the bubbles before the time runs out!.',
         linkToSourceCode: 'https://github.com/Dkreick/Phaser---Practice-Horse-and-diamonds',
         linkToGame: 'HorseAndDiamonds',
-        mainLanguage: 'Javascript'
+        mainLanguage: 'JS/Phaser'
+      },
+      {
+        name: 'Galactic Menace',
+        subtitle: 'Small Match3 alike game made in Unity3D',
+        icon: 'Sharp',
+        snapshot: 'https://raw.githubusercontent.com/Dkreick/Galactic-Menace/master/Snapshot.jpg',
+        description: 'Small Match3 alike game made in Unity3D.',
+        linkToSourceCode: 'https://github.com/Dkreick/Galactic-Menace',
+        linkToGame: 'GalacticMenace',
+        mainLanguage: 'Unity3D'
       }
     ]
   };
