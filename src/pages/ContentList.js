@@ -22,8 +22,8 @@ export function ContentList(props) {
         snapshot: 'https://raw.githubusercontent.com/Dkreick/AnotherDayToBe/master/Documents/Developer%20notes/GDD%20Images/CombatPreview.jpg',
         description: 'AD2B is a turn based tactics and exploration game in a devastated world. Your character will face different choices while tries to survive in a map full of dangers.',
         linkToSourceCode: 'https://github.com/Dkreick/AnotherDayToBe',
-        linkDownload: 'AnotherDayToBe',
-        mainLanguage: 'Unity3D'
+        linkToGame: 'AnotherDayToBe',
+        mainLanguague: 'Unity3D'
       },
       {
         name: 'AD2B Wiki',
@@ -32,8 +32,8 @@ export function ContentList(props) {
         snapshot: '',
         description: '',
         linkToSourceCode: 'https://github.com/Dkreick/AnotherDayToBe-Web',
-        linkDownload: 'AnotherDayToBeWikia',
-        mainLanguage: 'Unity3D'
+        linkToGame: 'AnotherDayToBeWikia',
+        mainLanguague: 'React'
       },
       {
         name: 'Scan My Profile',
@@ -42,8 +42,8 @@ export function ContentList(props) {
         snapshot: 'https://raw.githubusercontent.com/Dkreick/Scan-My-Profile/master/ReadmePhoto.png',
         description: 'Small app for scan my profile image and know more about me.',
         linkToSourceCode: 'https://github.com/Dkreick/Scan-My-Profile',
-        linkDownload: 'ScanMyProfile',
-        mainLanguage: 'Unity3D'
+        linkToGame: 'ScanMyProfile',
+        mainLanguague: 'Vuforia'
       },
       {
         name: 'Simple Simon',
@@ -52,8 +52,8 @@ export function ContentList(props) {
         snapshot: 'https://raw.githubusercontent.com/Dkreick/SimpleSimon/master/preview.png',
         description: 'Simple game memory game made in Unity3D.',
         linkToSourceCode: 'https://github.com/Dkreick/SimpleSimon',
-        linkDownload: 'https://github.com/Dkreick/SimpleSimon/archive/master.zip',
-        mainLanguage: 'Unity3D'
+        linkToGame: 'SimpleSimon',
+        mainLanguague: 'Unity3D'
       },
       {
         name: 'Dont Travel Alone',
@@ -62,7 +62,17 @@ export function ContentList(props) {
         snapshot: '',
         description: 'A little page to book any motorcycle rental made in Angular 2.',
         linkToSourceCode: 'https://github.com/Dkreick/DontTravelAlone',
-        linkDownload: 'https://dont-travel-alone.herokuapp.com/',
+        linkToGame: 'https://dont-travel-alone.herokuapp.com/',
+        mainLanguague: 'Angular 7'
+      },
+      {
+        name: 'Phaser: Practice Horse and diamonds',
+        subtitle: 'Short demo game made in an Udemy course.',
+        icon: 'Sharp',
+        snapshot: 'https://raw.githubusercontent.com/Dkreick/Phaser---Practice-Horse-and-diamonds/master/preview.png',
+        description: 'Catch all the bubbles before the time runs out!.',
+        linkToSourceCode: 'https://github.com/Dkreick/Phaser---Practice-Horse-and-diamonds',
+        linkToGame: 'HorseAndDiamonds',
         mainLanguage: 'Javascript'
       }
     ]
