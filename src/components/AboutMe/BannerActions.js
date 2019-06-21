@@ -6,7 +6,7 @@ import BottomNavigationAction from '@material-ui/core/BottomNavigationAction';
 import EmailIcon from '@material-ui/icons/Email';
 import CvIcon from '@material-ui/icons/SaveAlt';
 import PhoneIcon from '@material-ui/icons/Phone';
-import Cv from './../assets/CV.pdf';
+import Cv from './../../assets/CV.pdf';
 
 const styles = {
   root: {
@@ -18,7 +18,7 @@ const styles = {
   }
 };
 
-class Footer extends React.Component {
+class BannerActions extends React.Component {
   state = {
     value: 0
   };
@@ -45,8 +45,8 @@ class Footer extends React.Component {
     );
   }
 }
-Footer.propTypes = {
+BannerActions.propTypes = {
   classes: PropTypes.object.isRequired
 };
 
-export default withStyles(styles)(Footer);
+export default withStyles(styles)(BannerActions);

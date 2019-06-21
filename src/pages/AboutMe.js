@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/core/styles';
+import BannerImage from '../components/AboutMe/Banner';
 
 const styles = theme => ({
   container: {
@@ -16,7 +17,7 @@ export function AboutMe(props) {
 
   return (
     <div className={classes.container}>
-    sarasa
+      <BannerImage/>
     </div>
   );
 }
