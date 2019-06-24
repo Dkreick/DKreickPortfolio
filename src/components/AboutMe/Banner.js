@@ -2,22 +2,20 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/core/styles';
 import Card from '@material-ui/core/Card';
-import CardActionArea from '@material-ui/core/CardActionArea';
-import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
-import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 import BannerActions from './BannerActions';
+import Banner from './../../assets/BannerImage.jpeg';
 
 const styles = theme => ({
-  container: {
-    display: 'flex',
+  card: {
     flexWrap: 'wrap',
-    marginLeft: '84px',
+    marginLeft: '114px',
+    marginRight: '114px',
+    justifyContent: 'center'
   }
 });
-
 
 export function BannerImage(props) {
 
@@ -25,11 +23,9 @@ export function BannerImage(props) {
 
   return (
     <Card className={classes.card}>
-      <CardActionArea>
         <CardMedia
           component="img"
-          height="140"
-          image="./../../assets/BannerImage.jpeg"
+          image={Banner}
         />
         <CardContent>
           <Typography gutterBottom variant="h3" component="h2">
@@ -39,10 +35,7 @@ export function BannerImage(props) {
             I'm a sefl-confident programmer, enthusiast of good coding practises, who listens attentively and takes charge of high responsability tasks
           </Typography>
         </CardContent>
-      </CardActionArea>
-      <CardActions>
         <BannerActions />
-      </CardActions>
     </Card>
   );
 }

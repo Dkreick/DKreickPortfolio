@@ -1,20 +1,27 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/core/styles';
-import BottomNavigation from '@material-ui/core/BottomNavigation';
-import BottomNavigationAction from '@material-ui/core/BottomNavigationAction';
 import EmailIcon from '@material-ui/icons/Email';
-import CvIcon from '@material-ui/icons/SaveAlt';
 import PhoneIcon from '@material-ui/icons/Phone';
+import CalendarIcon from '@material-ui/icons/CalendarToday';
+import LinkedinIcon from './../../assets/LinkedinIcon.png';
+import CvIcon from '@material-ui/icons/SaveAlt';
 import Cv from './../../assets/CV.pdf';
+import Chip from '@material-ui/core/Chip';
 
 const styles = {
   root: {
-    marginLeft: '64px',
-    marginTop: '50px',
+    marginTop: '20px'
+  },
+  chip: {
+    margin: '10px',
+    height: '40px',
+    padding: '5px',
+    backgroundColor: '#eeeeee'
   },
   button: {
-    color: '#27ade3'
+    color: '#27ade3',
+    padding: '10px'
   }
 };
 
@@ -31,17 +38,43 @@ class BannerActions extends React.Component {
     const { classes } = this.props;
     const { value } = this.state;
 
+
+    function handleMailClick(url) {
+      window.open('mailto:damian.kreick@gmail.com', '_blank'); 
+    }
+    function handlePhoneClick(url) {
+      window.open('https://wa.me/541133302076', '_blank'); 
+    }
+    function handleLinkedinClick(url) {
+      window.open('https://www.linkedin.com/in/damiankreick', '_blank'); 
+    }
+
     return (
-      <BottomNavigation
-        value={value}
-        onChange={this.handleChange}
-        showLabels
-        className={classes.root}
-      >
-        <BottomNavigationAction label='Contact me!' icon={<EmailIcon />} target='_blank' className={classes.button}/>
-        <BottomNavigationAction label='Download my CV!' icon={<CvIcon />} href={Cv} download='Damian Kreick - CV' className={classes.button}/>
-        <BottomNavigationAction label='Call me!' icon={<PhoneIcon />} href='https://wa.me/541133302076' target='_blank' className={classes.button}/>
-      </BottomNavigation>
+      <div className={classes.root}>
+        <Chip
+          avatar={<CalendarIcon className={classes.button}/>}
+          label='29/06/1994'
+          className={classes.chip}
+        />
+        <Chip
+          avatar={<EmailIcon className={classes.button}/>}
+          label='damian.kreick@gmail.com'
+          className={classes.chip}
+          onClick={handleMailClick}
+        />
+        <Chip
+          avatar={<PhoneIcon className={classes.button}/>}
+          label='(+54) 11-3330-2076'
+          className={classes.chip}
+          onClick={handlePhoneClick}
+        />
+        <Chip
+          avatar={<img src={LinkedinIcon}/>}
+          label='Linkedin'
+          className={classes.chip}
+          onClick={handleLinkedinClick}
+        />
+      </div>
     );
   }
 }
