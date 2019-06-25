@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/core/styles';
-import BannerImage from '../components/AboutMe/Banner';
+import Resume from '../components/Resume/Resume';
 
 const styles = theme => ({
   container: {
@@ -17,7 +17,7 @@ export function AboutMe(props) {
 
   return (
     <div className={classes.container}>
-      <BannerImage/>
+      <Resume/>
     </div>
   );
 }

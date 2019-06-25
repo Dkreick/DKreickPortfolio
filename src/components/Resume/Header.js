@@ -5,7 +5,6 @@ import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Typography from '@material-ui/core/Typography';
-import BannerActions from './BannerActions';
 import Banner from './../../assets/BannerImage.jpeg';
 
 const styles = theme => ({
@@ -17,31 +16,30 @@ const styles = theme => ({
   }
 });
 
-export function BannerImage(props) {
+export function Header(props) {
 
   const { classes } = props;
 
   return (
-    <Card className={classes.card}>
-        <CardMedia
-          component="img"
-          image={Banner}
-        />
-        <CardContent>
-          <Typography gutterBottom variant="h3" component="h2">
-            Damian Kreick
+    <Card>
+      <CardMedia
+        component="img"
+        image={Banner}
+      />
+      <CardContent>
+        <Typography gutterBottom variant="h3" component="h2">
+          Damian Kreick
           </Typography>
-          <Typography variant="body2" color="textSecondary" component="p">
-            I'm a sefl-confident programmer, enthusiast of good coding practises, who listens attentively and takes charge of high responsability tasks
+        <Typography variant="body2" color="textSecondary" component="p">
+          I'm a sefl-confident programmer, enthusiast of good coding practises, who listens attentively and takes charge of high responsability tasks
           </Typography>
-        </CardContent>
-        <BannerActions />
+      </CardContent>
     </Card>
   );
 }
 
-BannerImage.propTypes = {
+Header.propTypes = {
   classes: PropTypes.object.isRequired
 };
 
-export default withStyles(styles)(BannerImage);
+export default withStyles(styles)(Header);
