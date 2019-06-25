@@ -10,7 +10,7 @@ import Chip from '@material-ui/core/Chip';
 
 const styles = {
   root: {
-    marginTop: '20px'
+    marginTop: '20px',
   },
   chip: {
     margin: '10px',

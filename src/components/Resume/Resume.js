@@ -24,8 +24,13 @@ class Resume extends React.Component {
       <Card className={classes.card}>
         <Header />
         <HeaderActions />
-        <Grid item xs={6}>
-          <WorkExperience />
+        <Grid container spacing={3}>
+          <Grid item xs={6}>
+            <WorkExperience />
+          </Grid>
+          <Grid item xs={6}>
+            <WorkExperience />
+          </Grid>
         </Grid>
       </Card>
     );
