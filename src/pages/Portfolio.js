@@ -11,7 +11,7 @@ const styles = theme => ({
   }
 });
 
-export function ContentList(props) {
+export function Portfolio(props) {
 
   const state = {
     api: [
@@ -98,8 +98,8 @@ export function ContentList(props) {
   );
 }
 
-ContentList.propTypes = {
+Portfolio.propTypes = {
   classes: PropTypes.object.isRequired
 };
 
-export default withStyles(styles)(ContentList);
+export default withStyles(styles)(Portfolio);

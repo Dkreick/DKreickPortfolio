@@ -3,10 +3,13 @@ import PropTypes from "prop-types";
 import { withStyles } from "@material-ui/core/styles";
 import AppBar from "@material-ui/core/AppBar";
 import Toolbar from "@material-ui/core/Toolbar";
-import Typography from "@material-ui/core/Typography";
-import Button from "@material-ui/core/Button";
 import { Link } from 'react-router-dom';
 import EmailDialog from './../components/EmailDialog';
+import ListItem from '@material-ui/core/ListItem';
+import AvatarIcon from '@material-ui/icons/AccountCircle';
+import PortfolioIcon from '@material-ui/icons/Work';
+import IconButton from '@material-ui/core/IconButton';
+import Tooltip from '@material-ui/core/Tooltip';
 
 const styles = {
   root: {
@@ -28,7 +31,11 @@ const styles = {
   menuButton: {
     marginLeft: -12,
     marginRight: 20
-  }
+  },
+  icon: {
+    paddingLeft: 10,
+    backgroundColor: '#27ade3',
+  },
 };
 
 function ButtonAppBar(props) {
@@ -37,20 +44,25 @@ function ButtonAppBar(props) {
     <div className={classes.root}>
       <AppBar position="static" className={classes.bar}>
         <Toolbar>
-          <Typography variant="h5" className={classes.grow}>
-            DKREICK PORTFOLIO
-          </Typography>
-          <Link to='/ContentList'>
-          <Button href="#text-buttons" className={classes.button}>
-            My Portfolio
-          </Button>
+          <Link to='/AboutMe'>
+            <ListItem className={classes.icon}>
+              <Tooltip title='About Me!' placement='down'>
+                <IconButton><AvatarIcon /></IconButton>
+              </Tooltip>
+            </ListItem>
           </Link>
-          <Link to='/Resume'>
-          <Button href="#text-buttons" className={classes.button}>
-            My Resume
-          </Button>
+          <Link to='/Portfolio'>
+            <ListItem className={classes.icon}>
+              <Tooltip title='My Portfolio!' placement='down'>
+                <IconButton><PortfolioIcon /></IconButton>
+              </Tooltip>
+            </ListItem>
           </Link>
-          <EmailDialog/>
+          <ListItem className={classes.icon}>
+            <Tooltip title='Contact Me!' placement='down'>
+              <EmailDialog />
+            </Tooltip>
+          </ListItem>
         </Toolbar>
       </AppBar>
     </div>
