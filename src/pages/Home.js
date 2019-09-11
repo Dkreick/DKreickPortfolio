@@ -1,12 +1,18 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/core/styles';
+import avatar from './../assets/avatar.jpg';
 
 const styles = theme => ({
   container: {
     display: 'flex',
     flexWrap: 'wrap',
-    marginLeft: '84px',
+    marginTop: '150px'
+  },
+  avatar: {
+    color: 'white',
+    width: '300px',
+    clipPath: 'circle(50% at 50% 50%)'
   }
 });
 
@@ -16,7 +22,7 @@ export function Home(props) {
 
   return (
     <div className={classes.container}>
-      
+      <img src={avatar} alt="Avatar" className={classes.avatar}/>
     </div>
   );
 }
