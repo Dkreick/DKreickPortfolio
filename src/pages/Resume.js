@@ -1,29 +1,30 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/core/styles';
-import Resume from '../components/Resume/Resume';
+import CvComponent from '../components/Cv/CvComponent';
 
 const styles = theme => ({
   container: {
     display: 'flex',
     flexWrap: 'wrap',
-    marginLeft: '84px',
+    marginTop: '80px',
+    justifyContent: 'center',
   }
 });
 
-export function AboutMe(props) {
+export function Resume(props) {
 
   const { classes } = props;
 
   return (
     <div className={classes.container}>
-      <Resume/>
+      <CvComponent/>
     </div>
   );
 }
 
-AboutMe.propTypes = {
+Resume.propTypes = {
   classes: PropTypes.object.isRequired
 };
 
-export default withStyles(styles)(AboutMe);
+export default withStyles(styles)(Resume);

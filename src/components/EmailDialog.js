@@ -14,6 +14,12 @@ export default class EmailDialog extends React.Component {
     open: false
   };
 
+  styles = {
+    icon: {
+      color: "white"
+    },
+  };
+
   handleClickOpen = () => {
     this.setState({ open: true });
   };
@@ -25,7 +31,7 @@ export default class EmailDialog extends React.Component {
   render() {
     return (
       <div>
-        <IconButton><EmailIcon /></IconButton>
+        <IconButton className={this.styles.icon}><EmailIcon /></IconButton>
 
         <Dialog
           open={this.state.open}

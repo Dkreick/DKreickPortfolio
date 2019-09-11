@@ -4,37 +4,39 @@ import { withStyles } from "@material-ui/core/styles";
 import AppBar from "@material-ui/core/AppBar";
 import Toolbar from "@material-ui/core/Toolbar";
 import { Link } from 'react-router-dom';
-import EmailDialog from './../components/EmailDialog';
+import List from '@material-ui/core/List';
 import ListItem from '@material-ui/core/ListItem';
+import EmailDialog from './../components/EmailDialog';
 import AvatarIcon from '@material-ui/icons/AccountCircle';
 import PortfolioIcon from '@material-ui/icons/Work';
+import CvIcon from '@material-ui/icons/InsertDriveFile';
 import IconButton from '@material-ui/core/IconButton';
 import Tooltip from '@material-ui/core/Tooltip';
+import Button from '@material-ui/core/Button';
 
 const styles = {
   root: {
     flexGrow: 1
   },
-  button: {
-    margin: "10px",
-    color: "white",
-    fontWeight: "bold"
-  },
   bar: {
-    backgroundColor: "#27ade3"
+    backgroundColor: "#27ade3",
+    position: "fixed",
+    top: "0px",
+    alignItems: "flex-end"
   },
-  grow: {
+  button: {
     color: "white",
-    flexGrow: 1,
-    fontWeight: "bold"
+    width: "max-content"
   },
-  menuButton: {
-    marginLeft: -12,
-    marginRight: 20
+  icons: {
+    display: "flex"
+  },
+  link: {
+    textDecoration: "none"
   },
   icon: {
     paddingLeft: 10,
-    backgroundColor: '#27ade3',
+    backgroundColor: '#27ade3'
   },
 };
 
@@ -44,25 +46,28 @@ function ButtonAppBar(props) {
     <div className={classes.root}>
       <AppBar position="static" className={classes.bar}>
         <Toolbar>
-          <Link to='/AboutMe'>
+          <List className={classes.icons}>
+          <Link to='/' className={classes.link}>
             <ListItem className={classes.icon}>
-              <Tooltip title='About Me!' placement='down'>
-                <IconButton><AvatarIcon /></IconButton>
-              </Tooltip>
+              <Button className={classes.button}>Home</Button>
             </ListItem>
           </Link>
-          <Link to='/Portfolio'>
+          <Link to='/Portfolio' className={classes.link}>
             <ListItem className={classes.icon}>
-              <Tooltip title='My Portfolio!' placement='down'>
-                <IconButton><PortfolioIcon /></IconButton>
-              </Tooltip>
+              <Button className={classes.button}>My Jobs</Button>
+            </ListItem>
+          </Link>
+          <Link to='/Resume' className={classes.link}>
+            <ListItem className={classes.icon}>
+              <Button className={classes.button}>My CV</Button>
             </ListItem>
           </Link>
           <ListItem className={classes.icon}>
-            <Tooltip title='Contact Me!' placement='down'>
+            <Tooltip title='Contact Me!' placement='bottom'>
               <EmailDialog />
             </Tooltip>
           </ListItem>
+          </List>
         </Toolbar>
       </AppBar>
     </div>

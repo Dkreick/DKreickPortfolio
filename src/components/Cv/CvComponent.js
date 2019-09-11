@@ -15,7 +15,7 @@ const styles = {
   }
 };
 
-class Resume extends React.Component {
+class CvComponent extends React.Component {
 
   render() {
     const { classes } = this.props;
@@ -37,4 +37,4 @@ class Resume extends React.Component {
   }
 }
 
-export default withStyles(styles)(Resume);
+export default withStyles(styles)(CvComponent);
