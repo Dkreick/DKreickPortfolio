@@ -1,7 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/core/styles';
-import Resume from '../components/Cv/CvComponent';
 
 const styles = theme => ({
   container: {
@@ -17,7 +16,6 @@ export function Home(props) {
 
   return (
     <div className={classes.container}>
-      akgejbaeoigbue
       
     </div>
   );

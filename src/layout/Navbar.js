@@ -7,10 +7,6 @@ import { Link } from 'react-router-dom';
 import List from '@material-ui/core/List';
 import ListItem from '@material-ui/core/ListItem';
 import EmailDialog from './../components/EmailDialog';
-import AvatarIcon from '@material-ui/icons/AccountCircle';
-import PortfolioIcon from '@material-ui/icons/Work';
-import CvIcon from '@material-ui/icons/InsertDriveFile';
-import IconButton from '@material-ui/core/IconButton';
 import Tooltip from '@material-ui/core/Tooltip';
 import Button from '@material-ui/core/Button';
 

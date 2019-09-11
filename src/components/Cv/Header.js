@@ -16,9 +16,7 @@ const styles = theme => ({
   }
 });
 
-export function Header(props) {
-
-  const { classes } = props;
+export function Header() {
 
   return (
     <Card>
@@ -31,7 +29,7 @@ export function Header(props) {
           Damian Kreick
           </Typography>
         <Typography variant="body2" color="textSecondary" component="p">
-          I'm a sefl-confident programmer, enthusiast of good coding practises, who listens attentively and takes charge of high responsability tasks
+          I'm a self-confident programmer, enthusiast of good coding practises, who listens attentively and takes charge of high responsability tasks
           </Typography>
       </CardContent>
     </Card>

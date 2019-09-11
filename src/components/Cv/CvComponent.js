@@ -24,7 +24,7 @@ class CvComponent extends React.Component {
       <Card className={classes.card}>
         <Header />
         <HeaderActions />
-        <Grid container spacing={3}>
+        <Grid container spacing={8}>
           <Grid item xs={6}>
             <WorkExperience />
           </Grid>
