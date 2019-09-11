@@ -15,10 +15,11 @@ const styles = {
     flexGrow: 1
   },
   bar: {
+    alignItems: "flex-end",
     backgroundColor: "#27ade3",
+    height: "60px",
     position: "fixed",
     top: "0px",
-    alignItems: "flex-end"
   },
   button: {
     color: "white",
