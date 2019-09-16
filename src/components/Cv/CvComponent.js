@@ -9,6 +9,7 @@ import Education from './Education';
 import Courses from './Courses';
 import ValuableSkills from './ValuableSkills';
 import Languages from './Languages';
+import Hobbies from './Hobbies';
 
 const styles = {
   card: {
@@ -37,6 +38,7 @@ class CvComponent extends React.Component {
             <Education />
             <Courses />
             <Languages />
+            <Hobbies />
           </Grid>
         </Grid>
       </Card>

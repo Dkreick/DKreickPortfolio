@@ -8,10 +8,16 @@ class WorkExperience extends React.Component {
     return (
       <div className='container'>
         <p className='title'>Work Experience</p>
+        <p className='charge'>Web & Game Developer</p>
+        <div className='subTitle' >
+          <p className='place'>Vi-Da Tec</p>
+          <p className='time'>Aug 2019 - Present</p>
+        </div>
+        <p className='description'>TODO</p>
         <p className='charge'>Fullstack Developer</p>
         <div className='subTitle' >
           <p className='place'>Droptek</p>
-          <p className='time'>Sep 2018 - Present</p>
+          <p className='time'>Sep 2018 - Aug 2019</p>
         </div>
         <p className='description'>Worked as a client partner of Banco Comafi, I've been involved in many internal projects including technologies like Angular 7, Sass, Node and AWS</p>
         <p className='charge'>Frontend Developer</p>

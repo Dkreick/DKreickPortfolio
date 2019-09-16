@@ -13,7 +13,7 @@ class Education extends React.Component {
           <p className='place'>Escuela DaVinci</p>
           <p className='time'>Jan 2014 - Dic 2015</p>
         </div>
-        <p className='description'>• Involves the creation of a video game in all aspects, from the sketch to the programming and marketing.
+        <p className='description'>Involves the creation of a video game in all aspects, from the sketch to the programming and marketing.
         </p>
       </div>
     );
