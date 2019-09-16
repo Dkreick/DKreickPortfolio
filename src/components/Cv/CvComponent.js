@@ -5,6 +5,7 @@ import Grid from '@material-ui/core/Grid';
 import Header from './Header';
 import HeaderActions from './HeaderActions';
 import WorkExperience from './WorkExperience';
+import Education from './Education';
 
 const styles = {
   card: {
@@ -29,7 +30,7 @@ class CvComponent extends React.Component {
             <WorkExperience />
           </Grid>
           <Grid item xs={6}>
-            <WorkExperience />
+            <Education />
           </Grid>
         </Grid>
       </Card>

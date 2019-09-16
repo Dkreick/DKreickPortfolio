@@ -1,0 +1,42 @@
+  .container {
+    display: block;
+    margin: 20px 40px;
+  }
+  
+  .title {
+    background-color: #27ade3;
+    color: white;
+    font-size: 26px;
+    padding: 7px;
+    padding-left: 20px;
+    text-align: left;
+  }
+  
+  .charge {
+    display: flex;
+    font-size: 24px;
+    margin-Top: -5px;
+  }
+  
+  .subTitle {
+    display: flex;
+    color: gray;
+    margin-Top: -15px;
+  }
+  
+  .place {
+    width: 50%;
+    text-align: left;
+  }
+  
+  .time {
+    width: 50%;
+    text-align: right;
+  }
+  
+  .description {
+    margin-top: 0px;
+    margin-bottom: 30px;
+    text-align: left;
+  }  
+    
