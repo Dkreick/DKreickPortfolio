@@ -8,10 +8,7 @@ class Courses extends React.Component {
     return (
       <div className='container'>
         <p className='title'>Courses</p>
-        <div className='subTitle' >
-          <p className='place'>All dictated by Udemy </p>
-          <p className='time'>Click to see awards.</p>
-        </div>
+        <p className='subTitle'>All dictated by Udemy. Click to see awards. </p>
         <a className="link" href="https://www.udemy.com/certificate/UC-HP487DY0/">
           <p className='description'>• Angular 6 (Angular 2+) & React 16 - The Complete App Guide.</p>
         </a>

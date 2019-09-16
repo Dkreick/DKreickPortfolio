@@ -12,11 +12,6 @@
     text-align: left;
   }
   
-  .charge {
-    display: flex;
-    font-size: 24px;
-  }
-  
   .subTitle {
     display: flex;
     color: gray;
@@ -26,6 +21,11 @@
   .place {
     width: 50%;
     text-align: left;
+  }
+
+  .charge {
+    display: flex;
+    font-size: 24px;
   }
   
   .time {
@@ -42,5 +42,5 @@
     margin-top: 0px;
     margin-bottom: 5px;
     text-align: left;
-  }  
+  }
     

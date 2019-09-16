@@ -7,6 +7,7 @@ import HeaderActions from './HeaderActions';
 import WorkExperience from './WorkExperience';
 import Education from './Education';
 import Courses from './Courses';
+import ValuableSkills from './ValuableSkills';
 
 const styles = {
   card: {
@@ -29,6 +30,7 @@ class CvComponent extends React.Component {
         <Grid container spacing={8}>
           <Grid item xs={6}>
             <WorkExperience />
+            <ValuableSkills />
           </Grid>
           <Grid item xs={6}>
             <Education />
