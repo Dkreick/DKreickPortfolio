@@ -13,6 +13,7 @@ import Hobbies from './Hobbies';
 
 const styles = {
   card: {
+    boxShadow: '-10px 10px 5px 0px rgba(0,0,0,0.75)',
     flexWrap: 'wrap',
     marginLeft: '114px',
     marginRight: '114px',
