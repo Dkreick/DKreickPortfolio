@@ -10,6 +10,7 @@ import Tooltip from '@material-ui/core/Tooltip';
 import Button from '@material-ui/core/Button';
 import EmailIcon from '@material-ui/icons/Email';
 import LinkedinIcon from './../assets/LinkedinIcon.png';
+import PhoneIcon from '@material-ui/icons/Phone';
 
 const styles = {
   root: {
@@ -69,6 +70,13 @@ function ButtonAppBar(props) {
               <ListItem className={classes.item}>
                 <Tooltip title="Contact Me!" placement="bottom">
                   <EmailIcon />
+                </Tooltip>
+              </ListItem>
+            </a>
+            <a href="https://wa.me/541133302076" className={classes.link}>
+              <ListItem className={classes.item}>
+                <Tooltip title="Whatsapp Me!" placement="bottom">
+                  <PhoneIcon />
                 </Tooltip>
               </ListItem>
             </a>
