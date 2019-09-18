@@ -1,49 +1,51 @@
-import React from "react";
-import PropTypes from "prop-types";
-import { withStyles } from "@material-ui/core/styles";
-import Card from "@material-ui/core/Card";
-import CardHeader from "@material-ui/core/CardHeader";
-import CardMedia from "@material-ui/core/CardMedia";
-import CardContent from "@material-ui/core/CardContent";
-import CardActions from "@material-ui/core/CardActions";
-import Avatar from "@material-ui/core/Avatar";
-import Typography from "@material-ui/core/Typography";
-import IconButton from "@material-ui/core/IconButton";
-import SourceCodeIcon from "@material-ui/icons/Code";
-import InfoIcon from "@material-ui/icons/Info";
-import DownLoadIcon from "@material-ui/icons/CloudDownload";
+import React from 'react';
+import PropTypes from 'prop-types';
+import { withStyles } from '@material-ui/core/styles';
+import Card from '@material-ui/core/Card';
+import CardHeader from '@material-ui/core/CardHeader';
+import CardMedia from '@material-ui/core/CardMedia';
+import CardContent from '@material-ui/core/CardContent';
+import CardActions from '@material-ui/core/CardActions';
+import Avatar from '@material-ui/core/Avatar';
+import Typography from '@material-ui/core/Typography';
+import IconButton from '@material-ui/core/IconButton';
+import SourceCodeIcon from '@material-ui/icons/Code';
+import InfoIcon from '@material-ui/icons/Info';
+import DownLoadIcon from '@material-ui/icons/CloudDownload';
 
 const styles = theme => ({
   card: {
+    margin: 20,
     maxWidth: 400,
-    margin: 20
+    minHeight: 470
   },
   media: {
     height: 0,
-    paddingTop: "56.25%", // 16:9
-    objectFit: "contain",
-    maxWidth: "100%",
-    maxHeight: "100%"
+    paddingTop: '56.25%', // 16:9
+    backgroundSize: 'contain',
+    backgroundColor: '#D9DFE1',
+    maxWidth: '100%',
+    maxHeight: '100%'
   },
   actions: {
-    display: "inline-flex",
-    itemSpacing: "20px"
+    display: 'inline-flex',
+    itemSpacing: '20px'
   },
   expand: {
-    transform: "rotate(0deg)",
-    marginLeft: "auto",
-    transition: theme.transitions.create("transform", {
+    transform: 'rotate(0deg)',
+    marginLeft: 'auto',
+    transition: theme.transitions.create('transform', {
       duration: theme.transitions.duration.shortest
     })
   },
   expandOpen: {
-    transform: "rotate(180deg)"
+    transform: 'rotate(180deg)'
   },
   avatar: {
-    backgroundColor: "#27ade3"
+    backgroundColor: '#27ade3'
   },
   button: {
-    color: "#27ade3"
+    color: '#27ade3'
   }
 });
 
@@ -67,8 +69,7 @@ class GameCard extends React.Component {
         <CardMedia
           className={classes.media}
           image={this.props.data.snapshot}
-          title={this.props.data.name}
-        />
+          title={this.props.data.name} />
         <CardContent>
           <Typography component="p">{this.props.data.description}</Typography>
         </CardContent>

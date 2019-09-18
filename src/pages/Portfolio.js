@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/core/styles';
 import GameCard from '../components/GameCard';
+import Grid from '@material-ui/core/Grid';
 
 const styles = theme => ({
   container: {
@@ -30,8 +31,8 @@ export function Portfolio(props) {
         name: 'AD2B Wiki',
         subtitle: 'Wiki for Another Day To Be.',
         icon: 'Sharp',
-        snapshot: '',
-        description: '',
+        snapshot: 'https://raw.githubusercontent.com/Dkreick/AnotherDayToBe/master/Documents/Developer%20notes/GDD%20Images/CombatPreview.jpg',
+        description: 'Official Wikia for Another Day To be',
         linkToSourceCode: 'https://github.com/Dkreick/AnotherDayToBe-Web',
         linkToGame: 'AnotherDayToBeWikia',
         mainLanguague: 'React'
@@ -60,7 +61,7 @@ export function Portfolio(props) {
         name: 'Dont Travel Alone',
         subtitle: 'Booking website for motorcycle rental',
         icon: 'Sharp',
-        snapshot: '',
+        snapshot: 'https://raw.githubusercontent.com/Dkreick/Phaser---Practice-Horse-and-diamonds/master/preview.png',
         description: 'A little page to book any motorcycle rental made in Angular 2.',
         linkToSourceCode: 'https://github.com/Dkreick/DontTravelAlone',
         linkToGame: 'https://dont-travel-alone.herokuapp.com/',
@@ -92,9 +93,9 @@ export function Portfolio(props) {
 
   return (
     <div className={classes.container}>
-    {state.api.map((api, index) => {
-    return <GameCard data={state.api[index]} key={index}/>;
-  })}
+      <Grid container spacing={3}>{state.api.map((api, index) => {
+        return <Grid item xs={3}><GameCard data={state.api[index]} key={index} /></Grid>;
+      })}</Grid>
     </div>
   );
 }
