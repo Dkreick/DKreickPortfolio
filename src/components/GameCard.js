@@ -46,6 +46,9 @@ const styles = theme => ({
   },
   button: {
     color: '#27ade3'
+  },
+  icon :{
+    width: 'inherit'
   }
 });
 
@@ -60,7 +63,7 @@ class GameCard extends React.Component {
         <CardHeader
           avatar={
             <Avatar aria-label="Recipe" className={classes.avatar}>
-              <img src={this.props.data.icon} alt={this.props.data.name} />
+              <img src={this.props.data.icon} alt={this.props.data.name} className={classes.icon}/>
             </Avatar>
           }
           title={this.props.data.name}

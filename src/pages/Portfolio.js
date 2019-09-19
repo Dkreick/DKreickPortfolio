@@ -3,6 +3,11 @@ import PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/core/styles';
 import GameCard from '../components/GameCard';
 import Grid from '@material-ui/core/Grid';
+import IconAd2b from './../assets/icons/icon-ad2b.jpg';
+import IconGalactic from './../assets/icons/icon-galactic.jpg';
+import IconHorse from './../assets/icons/icon-horse.jpg';
+import IconScan from './../assets/icons/icon-scan.jpg';
+import IconSimon from './../assets/icons/icon-simon.jpg';
 
 const styles = theme => ({
   container: {
@@ -20,7 +25,7 @@ export function Portfolio(props) {
       {
         name: 'Another Day To Be',
         subtitle: 'RPG Game made in Unity3D.',
-        icon: 'Sharp',
+        icon: IconAd2b,
         snapshot: 'https://raw.githubusercontent.com/Dkreick/AnotherDayToBe/master/Documents/Developer%20notes/GDD%20Images/CombatPreview.jpg',
         description: 'AD2B is a turn based tactics and exploration game in a devastated world. Your character will face different choices while tries to survive in a map full of dangers.',
         linkToSourceCode: 'https://github.com/Dkreick/AnotherDayToBe',
@@ -30,7 +35,7 @@ export function Portfolio(props) {
       {
         name: 'AD2B Wiki',
         subtitle: 'Wiki for Another Day To Be.',
-        icon: 'Sharp',
+        icon: IconAd2b,
         snapshot: 'https://raw.githubusercontent.com/Dkreick/AnotherDayToBe/master/Documents/Developer%20notes/GDD%20Images/CombatPreview.jpg',
         description: 'Official Wikia for Another Day To be',
         linkToSourceCode: 'https://github.com/Dkreick/AnotherDayToBe-Web',
@@ -40,7 +45,7 @@ export function Portfolio(props) {
       {
         name: 'Scan My Profile',
         subtitle: 'Info app made with Vuforia.',
-        icon: 'Sharp',
+        icon: IconScan,
         snapshot: 'https://raw.githubusercontent.com/Dkreick/Scan-My-Profile/master/ReadmePhoto.png',
         description: 'Small app for scan my profile image and know more about me.',
         linkToSourceCode: 'https://github.com/Dkreick/Scan-My-Profile',
@@ -50,7 +55,7 @@ export function Portfolio(props) {
       {
         name: 'Simple Simon',
         subtitle: 'Simple game memory game made in Unity3D',
-        icon: 'Sharp',
+        icon: IconSimon,
         snapshot: 'https://raw.githubusercontent.com/Dkreick/SimpleSimon/master/preview.png',
         description: 'Simple game memory game made in Unity3D.',
         linkToSourceCode: 'https://github.com/Dkreick/SimpleSimon',
@@ -60,7 +65,7 @@ export function Portfolio(props) {
       {
         name: 'Dont Travel Alone',
         subtitle: 'Booking website for motorcycle rental',
-        icon: 'Sharp',
+        icon: IconAd2b,
         snapshot: 'https://raw.githubusercontent.com/Dkreick/Phaser---Practice-Horse-and-diamonds/master/preview.png',
         description: 'A little page to book any motorcycle rental made in Angular 2.',
         linkToSourceCode: 'https://github.com/Dkreick/DontTravelAlone',
@@ -70,7 +75,7 @@ export function Portfolio(props) {
       {
         name: 'Phaser: Practice Horse and diamonds',
         subtitle: 'Short demo game made in an Udemy course.',
-        icon: 'Sharp',
+        icon: IconHorse,
         snapshot: 'https://raw.githubusercontent.com/Dkreick/Phaser---Practice-Horse-and-diamonds/master/preview.png',
         description: 'Catch all the bubbles before the time runs out!.',
         linkToSourceCode: 'https://github.com/Dkreick/Phaser---Practice-Horse-and-diamonds',
@@ -80,7 +85,7 @@ export function Portfolio(props) {
       {
         name: 'Galactic Menace',
         subtitle: 'Small Match3 alike game made in Unity3D',
-        icon: 'Sharp',
+        icon: IconGalactic,
         snapshot: 'https://raw.githubusercontent.com/Dkreick/Galactic-Menace/master/Snapshot.jpg',
         description: 'Small Match3 alike game made in Unity3D.',
         linkToSourceCode: 'https://github.com/Dkreick/Galactic-Menace',
