@@ -57,13 +57,12 @@ class GameCard extends React.Component {
 
   render(props) {
     const { classes } = this.props;
-
     return (
       <Card className={classes.card}>
         <CardHeader
           avatar={
             <Avatar aria-label="Recipe" className={classes.avatar}>
-              <img src={this.props.data.icon} alt={this.props.data.name} className={classes.icon}/>
+              <img src="" alt={this.props.data.name} className={classes.icon}/>
             </Avatar>
           }
           title={this.props.data.name}
