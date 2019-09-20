@@ -1,12 +1,12 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/core/styles';
-import CvComponent from '../components/Cv/CvComponent';
+import CvComponent from './CvComponent';
 import Snackbar from '@material-ui/core/Snackbar';
 import { SnackbarContent } from '@material-ui/core';
-import FlagEs from './../assets/flag-es.jpg';
-import FlagUs from './../assets/flag-us.jpg';
-import CV from './../assets/CV.pdf';
+import FlagEs from './../../assets/icons/flag-es.jpg';
+import FlagUs from './../../assets/icons/flag-us.jpg';
+import CV from './../../assets/CV.pdf';
 
 const styles = theme => ({
   container: {
@@ -49,11 +49,11 @@ export function Resume(props) {
         <SnackbarContent
           className={classes.download}
           message={
-          <div>
-            <p className={classes.link}>Download my CV here: </p> 
-            <a href={CV} download="Damian Kreick CV" className={classes.link}><img src={FlagUs} alt="us" className={classes.flag}/>EN</a>
-            <a href={CV} download="Damian Kreick CV" className={classes.link}><img src={FlagEs} alt="es" className={classes.flag}/>ES</a>
-          </div>}
+            <div>
+              <p className={classes.link}>Download my CV here: </p>
+              <a href={CV} download="Damian Kreick CV" className={classes.link}><img src={FlagUs} alt="us" className={classes.flag} />EN</a>
+              <a href={CV} download="Damian Kreick CV" className={classes.link}><img src={FlagEs} alt="es" className={classes.flag} />ES</a>
+            </div>}
         /></Snackbar>
     </div>
   );

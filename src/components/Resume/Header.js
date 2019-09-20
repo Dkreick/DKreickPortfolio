@@ -5,7 +5,7 @@ import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Typography from '@material-ui/core/Typography';
-import Banner from './../../assets/BannerImage.jpeg';
+import Banner from './../../assets/images/BannerImage.jpeg';
 
 const styles = theme => ({
   card: {

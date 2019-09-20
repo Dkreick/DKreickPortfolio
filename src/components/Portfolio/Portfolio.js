@@ -1,12 +1,12 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/core/styles';
-import GameCard from '../components/GameCard';
-import ArtCard from '../components/ArtCard';
+import GameCard from './GameCard';
+import ArtCard from './ArtCard';
 import Grid from '@material-ui/core/Grid';
 import GridList from '@material-ui/core/GridList';
-import apps from './../assets/data/apps.json';
-import art from './../assets/data/art.json';
+import apps from './../../assets/data/apps.json';
+import art from './../../assets/data/art.json';
 
 const styles = theme => ({
   container: {

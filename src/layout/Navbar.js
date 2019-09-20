@@ -9,8 +9,8 @@ import ListItem from '@material-ui/core/ListItem';
 import Tooltip from '@material-ui/core/Tooltip';
 import Button from '@material-ui/core/Button';
 import EmailIcon from '@material-ui/icons/Email';
-import LinkedinIcon from './../assets/LinkedinIcon.png';
 import PhoneIcon from '@material-ui/icons/Phone';
+import LinkedinIcon from './../assets/icons/icon-linkedin.png';
 
 const styles = {
   root: {
@@ -28,7 +28,9 @@ const styles = {
     width: 'max-content'
   },
   icons: {
-    display: 'flex'
+    display: 'flex',
+    position: 'absolute',
+    right: '20px'
   },
   link: {
     color: 'white',
@@ -41,6 +43,13 @@ const styles = {
   },
   linkedin: {
     width: '24px'
+  },
+  nav: {
+    display: 'flex',
+    margin: 'auto'
+  },
+  toolbar: {
+    width: '-webkit-fill-available'
   }
 };
 
@@ -49,8 +58,8 @@ function ButtonAppBar(props) {
   return (
     <div className={classes.root}>
       <AppBar position="static" className={classes.bar}>
-        <Toolbar>
-          <List className={classes.icons}>
+        <Toolbar className={classes.toolbar}>
+          <List className={classes.nav}>
             <Link to="/" className={classes.link}>
               <ListItem className={classes.item}>
                 <Button className={classes.button}>Home</Button>
@@ -58,14 +67,16 @@ function ButtonAppBar(props) {
             </Link>
             <Link to="/Portfolio" className={classes.link}>
               <ListItem className={classes.item}>
-                <Button className={classes.button}>My Jobs</Button>
+                <Button className={classes.button}>Projects</Button>
               </ListItem>
             </Link>
             <Link to="/Resume" className={classes.link}>
               <ListItem className={classes.item}>
-                <Button className={classes.button}>My CV</Button>
+                <Button className={classes.button}>Resume</Button>
               </ListItem>
             </Link>
+            </List>
+            <List className={classes.icons}>
             <a href="mailto:damian.kreick@gmail.com" className={classes.link}>
               <ListItem className={classes.item}>
                 <Tooltip title="Contact Me!" placement="bottom">
