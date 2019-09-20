@@ -26,7 +26,7 @@ const styles = {
 function Footer(props) {
   const { classes } = props;
   return (
-    <div className={classes.root}>
+    <div className={classes.root} id="footer">
       <Typography variant="h4" className={classes.name}>Damian Kreick</Typography>
       <Typography variant="h5" className={classes.title}>Did you enjoy my website?</Typography>
       <Typography variant="h6" className={classes.subtitle}>

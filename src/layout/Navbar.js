@@ -3,7 +3,6 @@ import PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/core/styles';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
-import { Link } from 'react-router-dom';
 import List from '@material-ui/core/List';
 import ListItem from '@material-ui/core/ListItem';
 import Tooltip from '@material-ui/core/Tooltip';
@@ -11,6 +10,7 @@ import Button from '@material-ui/core/Button';
 import EmailIcon from '@material-ui/icons/Email';
 import PhoneIcon from '@material-ui/icons/Phone';
 import LinkedinIcon from './../assets/icons/icon-linkedin.png';
+import { Link } from 'react-scroll';
 
 const styles = {
   root: {
@@ -60,17 +60,17 @@ function ButtonAppBar(props) {
       <AppBar position="static" className={classes.bar}>
         <Toolbar className={classes.toolbar}>
           <List className={classes.nav}>
-            <Link to="/" className={classes.link}>
+            <Link to="header" spy={true} smooth={true} duration={500} className={classes.link}>
               <ListItem className={classes.item}>
                 <Button className={classes.button}>Home</Button>
               </ListItem>
             </Link>
-            <Link to="/Portfolio" className={classes.link}>
+            <Link to="portfolio" spy={true} smooth={true} duration={500} className={classes.link}>
               <ListItem className={classes.item}>
                 <Button className={classes.button}>Projects</Button>
               </ListItem>
             </Link>
-            <Link to="/Resume" className={classes.link}>
+            <Link to="resume" spy={true} smooth={true} duration={500} className={classes.link}>
               <ListItem className={classes.item}>
                 <Button className={classes.button}>Resume</Button>
               </ListItem>

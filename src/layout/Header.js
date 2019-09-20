@@ -36,7 +36,7 @@ const styles = {
 function Header(props) {
   const { classes } = props;
   return (
-    <div className={classes.root}>
+    <div className={classes.root} id="header">
       <img src={avatar} alt="Avatar" className={classes.avatar} />
       <Typography variant="h3" className={classes.name}>DAMIAN KREICK</Typography>
       <Divider variant="middle" className={classes.divider} />

@@ -25,7 +25,7 @@ const styles = theme => ({
 export function Portfolio(props) {
   const { classes } = props;
   return (
-    <div className={classes.container}>
+    <div className={classes.container}  id="portfolio">
       <Grid container spacing={8}>{apps.map((api, index) => {
         return <Grid item xs={3}><GameCard data={apps[index]} key={index} /></Grid>;
       })}</Grid>

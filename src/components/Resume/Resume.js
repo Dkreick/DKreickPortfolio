@@ -37,7 +37,7 @@ export function Resume(props) {
   const { classes } = props;
 
   return (
-    <div className={classes.container}>
+    <div className={classes.container} id="resume">
       <CvComponent />
       <Snackbar
         anchorOrigin={{
