@@ -12,6 +12,7 @@ import IconButton from '@material-ui/core/IconButton';
 import SourceCodeIcon from '@material-ui/icons/Code';
 import InfoIcon from '@material-ui/icons/Info';
 import DownLoadIcon from '@material-ui/icons/CloudDownload';
+import { Link } from 'react-router-dom';
 
 const styles = theme => ({
   card: {
@@ -47,7 +48,7 @@ const styles = theme => ({
   button: {
     color: '#27ade3'
   },
-  icon :{
+  icon: {
     width: 'inherit'
   }
 });
@@ -62,7 +63,7 @@ class GameCard extends React.Component {
         <CardHeader
           avatar={
             <Avatar aria-label="Recipe" className={classes.avatar}>
-              <img src="" alt={this.props.data.name} className={classes.icon}/>
+              <img src="" alt={this.props.data.name} className={classes.icon} />
             </Avatar>
           }
           title={this.props.data.name}
@@ -77,23 +78,23 @@ class GameCard extends React.Component {
         </CardContent>
         <CardActions className={classes.actions} disableActionSpacing>
           <Typography component="p">{this.props.data.mainLanguage}</Typography>
+          <Link to="/Game" className={classes.link}>
           <IconButton>
-            <a href={this.props.data.linkToSourceCode}>
-              <SourceCodeIcon className={classes.button} />
-            </a>
+            <SourceCodeIcon className={classes.button} />
           </IconButton>
-          <IconButton>
-            <a href={this.props.data.linkToSourceCode}>
-              <InfoIcon className={classes.button} />
-            </a>
-          </IconButton>
-          <IconButton>
-            <a href={this.props.data.linkDownload}>
-              <DownLoadIcon className={classes.button} />
-            </a>
-          </IconButton>
+          </Link>
+        <IconButton>
+          <a href={this.props.data.linkToSourceCode}>
+            <InfoIcon className={classes.button} />
+          </a>
+        </IconButton>
+        <IconButton>
+          <a href={this.props.data.linkDownload}>
+            <DownLoadIcon className={classes.button} />
+          </a>
+        </IconButton>
         </CardActions>
-      </Card>
+      </Card >
     );
   }
 }

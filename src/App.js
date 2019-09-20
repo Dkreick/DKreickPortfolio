@@ -4,6 +4,7 @@ import ButtonAppBar from './layout/Navbar';
 import Home from './pages/Home';
 import Portfolio from './pages/Portfolio';
 import Resume from './pages/Resume';
+import Game from './pages/Game';
 import { BrowserRouter, Route } from 'react-router-dom';
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
           <Route exact path='/' component={Home} />
           <Route exact path='/Portfolio' component={Portfolio} />
           <Route exact path='/Resume' component={Resume} />
+          <Route exact path='/Game' component={Game} />
         </div>
       </div>
     </BrowserRouter>
