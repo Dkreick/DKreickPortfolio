@@ -22,7 +22,8 @@ const styles = {
     margin: '15px'
   },
   charge: {
-    color: 'gray'
+    color: 'gray',
+    marginTop: '35px'
   },
   info: {
     color: 'gray',
@@ -49,6 +50,7 @@ function Header(props) {
         fructiferous. In this portfolio you will find all of my projects, no mattter if they are finished or not,
         even this web is a project itself made with React. So please be my guest and keep scrolling!.
       </p>
+      <Divider variant="middle" className={classes.divider} />
     </div>
   );
 }

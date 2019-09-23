@@ -2,6 +2,8 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/core/styles';
 import CvComponent from './CvComponent';
+import Typography from '@material-ui/core/Typography';
+import Divider from '@material-ui/core/Divider';
 
 const styles = theme => ({
   container: {
@@ -24,7 +26,14 @@ const styles = theme => ({
     margin: '0px 10px',
     verticalAlign: 'middle',
     width: '32px'
-  }
+  },
+  title: {
+    marginBottom: '35px'
+  },
+  divider: {
+    marginBottom: '35px',
+    width: '100%',
+  },
 });
 
 export function Resume(props) {
@@ -33,6 +42,8 @@ export function Resume(props) {
 
   return (
     <div className={classes.container} id="resume">
+      <Divider variant="middle" className={classes.divider} />
+      <Typography variant="h3" className={classes.title}>Resume</Typography>
       <CvComponent />
     </div>
   );

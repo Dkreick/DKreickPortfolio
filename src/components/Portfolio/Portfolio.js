@@ -7,6 +7,7 @@ import Grid from '@material-ui/core/Grid';
 import GridList from '@material-ui/core/GridList';
 import apps from './../../assets/data/apps.json';
 import art from './../../assets/data/art.json';
+import Typography from '@material-ui/core/Typography';
 
 const styles = theme => ({
   container: {
@@ -19,13 +20,17 @@ const styles = theme => ({
     flexWrap: 'nowrap',
     height: '200px',
     transform: 'translateZ(0)'
-  }
+  },
+  title: {
+    marginBottom: '30px'
+  },
 });
 
 export function Portfolio(props) {
   const { classes } = props;
   return (
     <div className={classes.container}  id="portfolio">
+      <Typography variant="h3" className={classes.title}>Projects</Typography>
       <Grid container spacing={8}>{apps.map((api, index) => {
         return <Grid item xs={3}><GameCard data={apps[index]} key={index} /></Grid>;
       })}</Grid>
@@ -34,6 +39,7 @@ export function Portfolio(props) {
           return <ArtCard data={art[index]} key={index} />;
         })}
       </GridList>
+      
     </div>
   );
 }
