@@ -4,7 +4,7 @@ import EmailIcon from '@material-ui/icons/Email';
 import PhoneIcon from '@material-ui/icons/Phone';
 import CalendarIcon from '@material-ui/icons/CalendarToday';
 import Chip from '@material-ui/core/Chip';
-import LinkedinIcon from './../../assets/icons/icon-linkedin.png';
+import LinkedinIcon from './../../assets/icons/icon-linkedinCv.png';
 
 const styles = {
   root: {
@@ -40,18 +40,18 @@ class HeaderActions extends React.Component {
     return (
       <div className={classes.root}>
         <Chip
-          avatar={<CalendarIcon />}
+          avatar={<CalendarIcon className={classes.button}/>}
           label='29/06/1994'
           className={this.props.classes.chip}
         />
         <Chip
-          avatar={<EmailIcon />}
+          avatar={<EmailIcon className={classes.button}/>}
           label='damian.kreick@gmail.com'
           className={this.props.classes.chip}
           onClick={handleMailClick}
         />
         <Chip
-          avatar={<PhoneIcon />}
+          avatar={<PhoneIcon className={classes.button}/>}
           label='(+54) 11-3330-2076'
           className={this.props.classes.chip}
           onClick={handlePhoneClick}

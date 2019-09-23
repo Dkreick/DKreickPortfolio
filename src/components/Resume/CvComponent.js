@@ -42,8 +42,7 @@ const styles = {
   snackbar: {
     margin: 'auto',
     left: '0px',
-    right: '0px',
-    bottom: '0px',
+    top: '30px',
     position: 'relative',
     width: 'fit-content',
     zIndex: 'auto'

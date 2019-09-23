@@ -21,6 +21,7 @@ const styles = {
   },
   button: {
     color: 'white',
+    fontWeight: 'bold',
     width: 'max-content'
   },
   icons: {

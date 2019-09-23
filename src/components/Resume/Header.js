@@ -26,10 +26,10 @@ export function Header() {
       />
       <CardContent>
         <Typography gutterBottom variant="h3" component="h2">
-          Damian Kreick
+          DAMIAN KREICK
           </Typography>
         <Typography variant="body2" color="textSecondary" component="p">
-          I'm a self-confident programmer, enthusiast of good coding practises, who listens attentively and takes charge of high responsability tasks
+          I'm a self-confident programmer, enthusiast of good coding practises, who listens attentively and takes charge of high responsability tasks.
           </Typography>
       </CardContent>
     </Card>

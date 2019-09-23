@@ -13,7 +13,7 @@ class WorkExperience extends React.Component {
           <p className='place'>Vi-Da Tec</p>
           <p className='time'>Aug 2019 - Present</p>
         </div>
-        <p className='description'>TODO</p>
+        <p className='description'>Web developer for TICMAS, an educational program designed for young people. Also i've spent some time making videogames related to treat teenagers problems like social anxiety, depression, sexual education.</p>
         <p className='charge'>Fullstack Developer</p>
         <div className='subTitle' >
           <p className='place'>Droptek</p>
