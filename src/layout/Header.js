@@ -44,13 +44,10 @@ function Header(props) {
         Web & Game Developer
       </Typography>
       <p className={classes.info}>
-        Lorem ipsum dolor sit amet consectetur adipiscing elit congue quam tempus 
-        senectus tincidunt et imperdiet, habitant id fames turpis sollicitudin nibh 
-        lectus duis magnis orci pellentesque libero curae. Curae neque nunc dignissim 
-        eros leo sem vulputate habitant platea cras vestibulum conubia tempor, varius 
-        torquent sollicitudin augue odio tellus lectus ornare primis inceptos magna. 
-        Pellentesque nostra etiam rhoncus laoreet habitasse viverra taciti sodales luctus, 
-        velit elementum quis magnis nisi facilisi natoque justo.
+        I have been in the world of coding since I was 14. Now more than 10 years later I am still trying
+        to improve myself. Resilience, comprehension and knowledge are the three words who make my work days
+        fructiferous. In this portfolio you will find all of my projects, no mattter if they are finished or not,
+        even this web is a project itself made with React. So please be my guest and keep scrolling!.
       </p>
     </div>
   );

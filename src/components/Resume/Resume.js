@@ -2,11 +2,6 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/core/styles';
 import CvComponent from './CvComponent';
-import Snackbar from '@material-ui/core/Snackbar';
-import { SnackbarContent } from '@material-ui/core';
-import FlagEs from './../../assets/icons/flag-es.jpg';
-import FlagUs from './../../assets/icons/flag-us.jpg';
-import CV from './../../assets/CV.pdf';
 
 const styles = theme => ({
   container: {

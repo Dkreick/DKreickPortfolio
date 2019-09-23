@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "09e49381b13a2dcb0b7f983f84773d68",
+    "revision": "9d403f0006de2e77bc1a6c8e177b1a87",
     "url": "/Portfolio/index.html"
   },
   {
-    "revision": "b86c4b6a196fdf3b91e0",
-    "url": "/Portfolio/static/css/main.283822f9.chunk.css"
+    "revision": "2b6f9c875fa16da7c92e",
+    "url": "/Portfolio/static/css/main.8da9958b.chunk.css"
   },
   {
-    "revision": "6891443a47f8b4093cf6",
-    "url": "/Portfolio/static/js/2.317cafdf.chunk.js"
+    "revision": "f636e241df36beeb63ef",
+    "url": "/Portfolio/static/js/2.82218bf8.chunk.js"
   },
   {
-    "revision": "b86c4b6a196fdf3b91e0",
-    "url": "/Portfolio/static/js/main.1ad437bb.chunk.js"
+    "revision": "2b6f9c875fa16da7c92e",
+    "url": "/Portfolio/static/js/main.191fef28.chunk.js"
   },
   {
     "revision": "6b64d540f1308ee928ad",
@@ -38,5 +38,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "4ea472e6827323e859a3cb14273b5b7d",
     "url": "/Portfolio/static/media/flag-us.4ea472e6.jpg"
+  },
+  {
+    "revision": "6774d436f1c040b10ed93b232978eeb9",
+    "url": "/Portfolio/static/media/icon-whatsapp.6774d436.png"
   }
 ]);

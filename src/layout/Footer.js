@@ -65,15 +65,15 @@ function Footer(props) {
           <PhoneIcon className={classes.button} />
           <Typography variant="h6" className={classes.infoTitle}>+54 911-3330-2076</Typography>
         </div>
-        <a href="https://wa.me/541133302076" target="_blank" className={classes.infoContainer}>
+        <a href="https://wa.me/541133302076"  rel="noopener noreferrer" target="_blank" className={classes.infoContainer}>
           <EmailIcon className={classes.button} />
           <Typography variant="h6" className={classes.infoTitle}>damian.kreick@gmail.com</Typography>
         </a>
-        <a href="https://www.linkedin.com/in/damiankreick" target="_blank" className={classes.infoContainer}>
+        <a href="https://www.linkedin.com/in/damiankreick"  rel="noopener noreferrer" target="_blank" className={classes.infoContainer}>
           <img src={LinkedinIcon} alt="Linkedin" className={classes.button} />
           <Typography variant="h6" className={classes.infoTitle}>in/damiankreick</Typography>
         </a>
-        <a href="https://wa.me/541133302076" target="_blank" className={classes.infoContainer}>
+        <a href="https://wa.me/541133302076"  rel="noopener noreferrer" target="_blank" className={classes.infoContainer}>
           <img src={WhatsappIcon} alt="Whatsapp" className={classes.button} />
           <Typography variant="h6" className={classes.infoTitle}>Whatsapp Me!</Typography>
         </a>
