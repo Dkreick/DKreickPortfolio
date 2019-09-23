@@ -39,22 +39,6 @@ export function Resume(props) {
   return (
     <div className={classes.container} id="resume">
       <CvComponent />
-      <Snackbar
-        anchorOrigin={{
-          vertical: 'bottom',
-          horizontal: 'right',
-        }}
-        open={true}
-      >
-        <SnackbarContent
-          className={classes.download}
-          message={
-            <div>
-              <p className={classes.link}>Download my CV here: </p>
-              <a href={CV} download="Damian Kreick CV" className={classes.link}><img src={FlagUs} alt="us" className={classes.flag} />EN</a>
-              <a href={CV} download="Damian Kreick CV" className={classes.link}><img src={FlagEs} alt="es" className={classes.flag} />ES</a>
-            </div>}
-        /></Snackbar>
     </div>
   );
 }

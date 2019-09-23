@@ -5,11 +5,7 @@ import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import List from '@material-ui/core/List';
 import ListItem from '@material-ui/core/ListItem';
-import Tooltip from '@material-ui/core/Tooltip';
 import Button from '@material-ui/core/Button';
-import EmailIcon from '@material-ui/icons/Email';
-import PhoneIcon from '@material-ui/icons/Phone';
-import LinkedinIcon from './../assets/icons/icon-linkedin.png';
 import { Link } from 'react-scroll';
 
 const styles = {
@@ -40,9 +36,6 @@ const styles = {
   },
   item: {
     padding: '5px'
-  },
-  linkedin: {
-    width: '24px'
   },
   nav: {
     display: 'flex',
@@ -75,29 +68,11 @@ function ButtonAppBar(props) {
                 <Button className={classes.button}>Resume</Button>
               </ListItem>
             </Link>
-            </List>
-            <List className={classes.icons}>
-            <a href="mailto:damian.kreick@gmail.com" className={classes.link}>
+            <Link to="footer" spy={true} smooth={true} duration={500} className={classes.link}>
               <ListItem className={classes.item}>
-                <Tooltip title="Contact Me!" placement="bottom">
-                  <EmailIcon />
-                </Tooltip>
+                <Button className={classes.button}>Contact</Button>
               </ListItem>
-            </a>
-            <a href="https://wa.me/541133302076" className={classes.link}>
-              <ListItem className={classes.item}>
-                <Tooltip title="Whatsapp Me!" placement="bottom">
-                  <PhoneIcon />
-                </Tooltip>
-              </ListItem>
-            </a>
-            <a href="https://www.linkedin.com/in/damiankreick/" className={classes.link}>
-              <ListItem className={classes.item}>
-                <Tooltip title="My Linkedin!" placement="bottom">
-                      <img src={LinkedinIcon} alt="Linkedin" className={classes.linkedin}/>
-                </Tooltip>
-              </ListItem>
-            </a>
+            </Link>
           </List>
         </Toolbar>
       </AppBar>
