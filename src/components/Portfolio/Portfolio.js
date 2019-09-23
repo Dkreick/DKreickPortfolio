@@ -8,6 +8,7 @@ import GridList from '@material-ui/core/GridList';
 import apps from './../../assets/data/apps.json';
 import art from './../../assets/data/art.json';
 import Typography from '@material-ui/core/Typography';
+import { Animated } from "react-animated-css";
 
 const styles = theme => ({
   container: {
@@ -29,8 +30,10 @@ const styles = theme => ({
 export function Portfolio(props) {
   const { classes } = props;
   return (
-    <div className={classes.container}  id="portfolio">
-      <Typography variant="h3" className={classes.title}>Projects</Typography>
+    <div className={classes.container} id="portfolio">
+      <Animated animationIn="bounceInLeft">
+        <Typography variant="h3" className={classes.title}>Projects</Typography>
+      </Animated>
       <Grid container spacing={8}>{apps.map((api, index) => {
         return <Grid item xs={3}><GameCard data={apps[index]} key={index} /></Grid>;
       })}</Grid>
@@ -39,7 +42,7 @@ export function Portfolio(props) {
           return <ArtCard data={art[index]} key={index} />;
         })}
       </GridList>
-      
+
     </div>
   );
 }

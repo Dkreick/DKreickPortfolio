@@ -4,6 +4,7 @@ import { withStyles } from '@material-ui/core/styles';
 import Typography from '@material-ui/core/Typography';
 import avatar from './../assets/images/avatar.jpg';
 import Divider from '@material-ui/core/Divider';
+import {Animated} from "react-animated-css";
 
 const styles = {
   root: {
@@ -38,8 +39,12 @@ function Header(props) {
   const { classes } = props;
   return (
     <div className={classes.root} id="header">
+      <Animated animationIn="zoomIn" animationInDuration={1000}>
       <img src={avatar} alt="Avatar" className={classes.avatar} />
+      </Animated>
+      <Animated animationIn="zoomIn" animationInDuration={1500}>
       <Typography variant="h3" className={classes.name}>DAMIAN KREICK</Typography>
+      </Animated>
       <Divider variant="middle" className={classes.divider} />
       <Typography variant="h5" className={classes.charge}>
         Web & Game Developer

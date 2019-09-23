@@ -7,11 +7,12 @@ import { BrowserRouter, Route } from 'react-router-dom';
 function App() {
   return (
     <div>
+
       <BrowserRouter>
         <div className='app'>
           <ButtonAppBar />
           <div className='container'>
-            <Route exact path='/Portfolio' component={Home} />
+            <Route exact path='/(|Portfolio)' component={Home} />
           </div>
         </div>
       </BrowserRouter>
