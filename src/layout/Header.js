@@ -4,7 +4,7 @@ import { withStyles } from '@material-ui/core/styles';
 import Typography from '@material-ui/core/Typography';
 import avatar from './../assets/images/avatar.jpg';
 import Divider from '@material-ui/core/Divider';
-import {Animated} from "react-animated-css";
+import ScrollAnimation from 'react-animate-on-scroll';
 
 const styles = {
   root: {
@@ -32,7 +32,7 @@ const styles = {
     fontSize: '18px',
     fontStyle: 'cursive',
     fontWeight: 'bold',
-    padding : '50px'
+    padding: '50px'
   }
 };
 
@@ -40,22 +40,26 @@ function Header(props) {
   const { classes } = props;
   return (
     <div className={classes.root} id="header">
-      <Animated animationIn="zoomIn" animationInDuration={1000}>
-      <img src={avatar} alt="Avatar" className={classes.avatar} />
-      </Animated>
-      <Animated animationIn="zoomIn" animationInDuration={1500}>
-      <Typography variant="h3" className={classes.name}>DAMIAN KREICK</Typography>
-      </Animated>
+      <ScrollAnimation animateIn="zoomIn" animateOnce={true} offset={0} duration={2}>
+        <img src={avatar} alt="Avatar" className={classes.avatar} />
+      </ScrollAnimation>
+      <ScrollAnimation animateIn="fadeInLeft" animateOnce={true} delay={500} duration={2}>
+        <Typography variant="h3" className={classes.name}>DAMIAN KREICK</Typography>
+      </ScrollAnimation>
       <Divider variant="middle" className={classes.divider} />
-      <Typography variant="h5" className={classes.charge}>
-        Web & Game Developer
+      <ScrollAnimation animateIn="fadeInRight" animateOnce={true} delay={1000} duration={2}>
+        <Typography variant="h5" className={classes.charge}>
+          Web & Game Developer
       </Typography>
-      <p className={classes.info}>
-        I have been in the world of coding since I was 14. Now more than 10 years later I am still trying
-        to improve myself. Resilience, comprehension and knowledge are the three words who make my work days
-        fructiferous. In this portfolio you will find all of my projects, no mattter if they are finished or not,
-        even this web is a project itself made with React. So please be my guest and keep scrolling!.
+      </ScrollAnimation>
+      <ScrollAnimation animateIn="flipInX" animateOnce={true} duration={3} offset={550}>
+        <p className={classes.info}>
+          I have been in the world of coding since I was 14. Now more than 10 years later I am still trying
+          to improve myself. Resilience, comprehension and knowledge are the three words who make my work days
+          fructiferous. In this portfolio you will find all of my projects, no mattter if they are finished or not,
+          even this web is a project itself made with React. So please be my guest and keep scrolling!.
       </p>
+      </ScrollAnimation>
       <Divider variant="middle" className={classes.divider} />
     </div>
   );

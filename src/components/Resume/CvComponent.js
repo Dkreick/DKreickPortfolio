@@ -68,28 +68,22 @@ class CvComponent extends React.Component {
             <Courses />
             <Languages />
             <Hobbies />
-
             <Snackbar className={classes.snackbar}
-        anchorOrigin={{
-          vertical: 'bottom',
-          horizontal: 'right',
-        }}
-        open={true}
-      >
-        <SnackbarContent
-          className={classes.download}
-          message={
-            <div>
-              <p className={classes.link}>Download my CV here: </p>
-              <a href={CV} download="Damian Kreick CV" className={classes.link}><img src={FlagUs} alt="us" className={classes.flag} />EN</a>
-              <a href={CV} download="Damian Kreick CV" className={classes.link}><img src={FlagEs} alt="es" className={classes.flag} />ES</a>
-            </div>}
-        /></Snackbar>
-
-
-
-
-
+              anchorOrigin={{
+                vertical: 'bottom',
+                horizontal: 'right',
+              }}
+              open={true}
+            >
+              <SnackbarContent
+                className={classes.download}
+                message={
+                  <div>
+                    <p className={classes.link}>Download my CV here: </p>
+                    <a href={CV} download="Damian Kreick CV" className={classes.link}><img src={FlagUs} alt="us" className={classes.flag} />EN</a>
+                    <a href={CV} download="Damian Kreick CV" className={classes.link}><img src={FlagEs} alt="es" className={classes.flag} />ES</a>
+                  </div>}
+              /></Snackbar>
           </Grid>
         </Grid>
       </Card>

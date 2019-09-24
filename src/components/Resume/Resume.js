@@ -4,7 +4,7 @@ import { withStyles } from '@material-ui/core/styles';
 import CvComponent from './CvComponent';
 import Typography from '@material-ui/core/Typography';
 import Divider from '@material-ui/core/Divider';
-import { Animated } from "react-animated-css";
+import ScrollAnimation from 'react-animate-on-scroll';
 
 const styles = theme => ({
   container: {
@@ -44,9 +44,9 @@ export function Resume(props) {
   return (
     <div className={classes.container} id="resume">
       <Divider variant="middle" className={classes.divider} />
-      <Animated animationIn="bounceInRight">
+      <ScrollAnimation animateIn="bounceInRight" animateOnce={true} duration={1.5}>
         <Typography variant="h3" className={classes.title}>Resume</Typography>
-      </Animated>
+      </ScrollAnimation>
       <CvComponent />
     </div>
   );

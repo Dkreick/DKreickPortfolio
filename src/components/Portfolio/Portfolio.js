@@ -8,7 +8,7 @@ import GridList from '@material-ui/core/GridList';
 import apps from './../../assets/data/apps.json';
 import art from './../../assets/data/art.json';
 import Typography from '@material-ui/core/Typography';
-import { Animated } from "react-animated-css";
+import ScrollAnimation from 'react-animate-on-scroll';
 
 const styles = theme => ({
   container: {
@@ -26,17 +26,22 @@ const styles = theme => ({
   title: {
     marginBottom: '30px'
   },
+  scroll: {
+    width: '25%'
+  }
 });
 
 export function Portfolio(props) {
   const { classes } = props;
+
   return (
     <div className={classes.container} id="portfolio">
-      <Animated animationIn="bounceInLeft">
+      <ScrollAnimation animateIn="bounceInLeft" animateOnce={true} duration={1.5}>
         <Typography variant="h3" className={classes.title}>Projects</Typography>
-      </Animated>
+      </ScrollAnimation>
       <Grid container spacing={8}>{apps.map((api, index) => {
-        return <Grid item xs={3}><GameCard data={apps[index]} key={index} /></Grid>;
+        return <ScrollAnimation animateIn="fadeIn" duration={index + 1} animateOnce={true} className={classes.scroll}>
+          <Grid item><GameCard data={apps[index]} key={index} /></Grid></ScrollAnimation>;
       })}</Grid>
       <GridList className={classes.gridList} cols={2.5}>
         {art.map((api, index) => {
