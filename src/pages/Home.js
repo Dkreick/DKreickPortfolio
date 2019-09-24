@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { withStyles } from '@material-ui/core/styles';
+import {withStyles} from '@material-ui/core/styles';
 import Portfolio from '../components/Portfolio/Portfolio';
 import Resume from '../components/Resume/Resume';
 import Header from '../layout/Header';
@@ -8,20 +8,19 @@ import Footer from '../layout/Footer';
 
 const styles = theme => ({
   container: {
-    flexWrap: 'wrap',
-  },
+    flexWrap: 'wrap'
+  }
 });
 
 export function Home(props) {
-
-  const { classes } = props;
+  const {classes} = props;
 
   return (
     <div className={classes.container}>
-      <Header/>
-      <Portfolio/>
-      <Resume/>
-      <Footer/>
+      <Header />
+      <Portfolio />
+      <Resume />
+      <Footer />
     </div>
   );
 }

@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { withStyles } from '@material-ui/core/styles';
+import {withStyles} from '@material-ui/core/styles';
 import Card from '@material-ui/core/Card';
 import CardHeader from '@material-ui/core/CardHeader';
 import CardMedia from '@material-ui/core/CardMedia';
@@ -54,13 +54,12 @@ const styles = theme => ({
 });
 
 class GameCard extends React.Component {
-
   openUrl(url) {
     window.open(url, '_blank');
   }
 
   render(props) {
-    const { classes } = this.props;
+    const {classes} = this.props;
     return (
       <Card className={classes.card}>
         <CardHeader
@@ -76,7 +75,8 @@ class GameCard extends React.Component {
         <CardMedia
           className={classes.media}
           image={this.props.data.snapshot}
-          title={this.props.data.name} />
+          title={this.props.data.name}
+        />
         <CardContent className={classes.content}>
           <Typography component="p">{this.props.data.description}</Typography>
         </CardContent>
@@ -86,13 +86,16 @@ class GameCard extends React.Component {
           </Typography> */}
           <Chip label={this.props.data.mainLanguage} className={classes.chip} />
           <IconButton>
-            <SourceCodeIcon className={classes.button} onClick={ () => this.openUrl(this.props.data.linkToSourceCode)} />
+            <SourceCodeIcon
+              className={classes.button}
+              onClick={() => this.openUrl(this.props.data.linkToSourceCode)}
+            />
           </IconButton>
           <IconButton>
             <InfoIcon className={classes.button} />
           </IconButton>
         </CardActions>
-      </Card >
+      </Card>
     );
   }
 }

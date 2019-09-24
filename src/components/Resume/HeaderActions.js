@@ -1,5 +1,5 @@
 import React from 'react';
-import { withStyles } from '@material-ui/core/styles';
+import {withStyles} from '@material-ui/core/styles';
 import EmailIcon from '@material-ui/icons/Email';
 import PhoneIcon from '@material-ui/icons/Phone';
 import CalendarIcon from '@material-ui/icons/CalendarToday';
@@ -8,7 +8,7 @@ import LinkedinIcon from './../../assets/icons/icon-linkedinCv.png';
 
 const styles = {
   root: {
-    marginTop: '20px',
+    marginTop: '20px'
   },
   chip: {
     backgroundColor: '#eeeeee',
@@ -23,9 +23,8 @@ const styles = {
 };
 
 class HeaderActions extends React.Component {
-
   render() {
-    const { classes } = this.props;
+    const {classes} = this.props;
 
     function handleMailClick() {
       window.open('mailto:damian.kreick@gmail.com', '_blank');
@@ -40,25 +39,25 @@ class HeaderActions extends React.Component {
     return (
       <div className={classes.root}>
         <Chip
-          avatar={<CalendarIcon className={classes.button}/>}
-          label='29/06/1994'
+          avatar={<CalendarIcon className={classes.button} />}
+          label="29/06/1994"
           className={this.props.classes.chip}
         />
         <Chip
-          avatar={<EmailIcon className={classes.button}/>}
-          label='damian.kreick@gmail.com'
+          avatar={<EmailIcon className={classes.button} />}
+          label="damian.kreick@gmail.com"
           className={this.props.classes.chip}
           onClick={handleMailClick}
         />
         <Chip
-          avatar={<PhoneIcon className={classes.button}/>}
-          label='(+54) 11-3330-2076'
+          avatar={<PhoneIcon className={classes.button} />}
+          label="(+54) 11-3330-2076"
           className={this.props.classes.chip}
           onClick={handlePhoneClick}
         />
         <Chip
           avatar={<img src={LinkedinIcon} alt="" />}
-          label='Linkedin'
+          label="Linkedin"
           className={this.props.classes.chip}
           onClick={handleLinkedinClick}
         />
