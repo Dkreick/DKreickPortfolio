@@ -9,7 +9,6 @@ import Footer from '../layout/Footer';
 const styles = theme => ({
   container: {
     flexWrap: 'wrap',
-    marginTop: '100px'
   },
 });
 

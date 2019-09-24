@@ -1,13 +1,12 @@
 [
   {
     "name": "Another Day To Be",
-    "subtitle": "RPG Game made in Unity3D.",
+    "subtitle": "RPG-TBT Exploration game.",
     "icon": "IconAd2b",
     "snapshot": "https://raw.githubusercontent.com/Dkreick/AnotherDayToBe/master/Documents/Developer%20notes/GDD%20Images/CombatPreview.jpg",
     "description": "AD2B is a turn based tactics and exploration game in a devastated world. Your character will face different choices while tries to survive in a map full of dangers.",
-    "linkToSourceCode": "https: //github.com/Dkreick/AnotherDayToBe",
-    "linkToGame": "AnotherDayToBe",
-    "mainLanguague": "Unity3D/C#"
+    "linkToSourceCode": "https://github.com/Dkreick/AnotherDayToBe",
+    "mainLanguage": "Unity3D/C#"
   },
   {
     "name": "AD2B Wiki",
@@ -15,9 +14,8 @@
     "icon": "IconAd2b",
     "snapshot": "https://raw.githubusercontent.com/Dkreick/AnotherDayToBe/master/Documents/Developer%20notes/GDD%20Images/CombatPreview.jpg",
     "description": "Official Wikia for Another Day To be",
-    "linkToSourceCode": "https: //github.com/Dkreick/AnotherDayToBe-Web",
-    "linkToGame": "AnotherDayToBeWikia",
-    "mainLanguague": "React"
+    "linkToSourceCode": "https://github.com/Dkreick/AnotherDayToBe-Web",
+    "mainLanguage": "React"
   },
   {
     "name": "Scan My Profile",
@@ -25,19 +23,17 @@
     "icon": "IconScan",
     "snapshot": "https://raw.githubusercontent.com/Dkreick/Scan-My-Profile/master/ReadmePhoto.png",
     "description": "Small app for scan my profile image and know more about me.",
-    "linkToSourceCode": "https: //github.com/Dkreick/Scan-My-Profile",
-    "linkToGame": "ScanMyProfile",
-    "mainLanguague": "Vuforia"
+    "linkToSourceCode": "https://github.com/Dkreick/Scan-My-Profile",
+    "mainLanguage": "Vuforia"
   },
   {
     "name": "Simple Simon",
-    "subtitle": "Simple game memory game made in Unity3D",
+    "subtitle": "Simple game memory game.",
     "icon": "IconSimon",
     "snapshot": "https://raw.githubusercontent.com/Dkreick/SimpleSimon/master/preview.png",
-    "description": "Simple game memory game made in Unity3D.",
-    "linkToSourceCode": "https: //github.com/Dkreick/SimpleSimon",
-    "linkToGame": "SimpleSimon",
-    "mainLanguague": "Unity3D/C#"
+    "description": "Simple game memory game.",
+    "linkToSourceCode": "https://github.com/Dkreick/SimpleSimon",
+    "mainLanguage": "Unity3D/C#"
   },
   {
     "name": "Dont Travel Alone",
@@ -45,28 +41,25 @@
     "icon": "IconAd2b",
     "snapshot": "https://raw.githubusercontent.com/Dkreick/Phaser---Practice-Horse-and-diamonds/master/preview.png",
     "description": "A little page to book any motorcycle rental made in Angular 2.",
-    "linkToSourceCode": "https: //github.com/Dkreick/DontTravelAlone",
-    "linkToGame": "https: //dont-travel-alone.herokuapp.com/",
-    "mainLanguague": "Angular 7"
+    "linkToSourceCode": "https://github.com/Dkreick/DontTravelAlone",
+    "mainLanguage": "Angular 7"
   },
   {
-    "name": "Phaser: Practice Horse and diamonds",
-    "subtitle": "Short demo game made in an Udemy course.",
+    "name": "Horse and diamonds",
+    "subtitle": "Short mouse game.",
     "icon": "IconHorse",
     "snapshot": "https://raw.githubusercontent.com/Dkreick/Phaser---Practice-Horse-and-diamonds/master/preview.png",
     "description": "Catch all the bubbles before the time runs out!.",
-    "linkToSourceCode": "https: //github.com/Dkreick/Phaser---Practice-Horse-and-diamonds",
-    "linkToGame": "HorseAndDiamonds",
+    "linkToSourceCode": "https://github.com/Dkreick/Phaser---Practice-Horse-and-diamonds",
     "mainLanguage": "JS/Phaser"
   },
   {
     "name": "Galactic Menace",
-    "subtitle": "Small Match3 alike game made in Unity3D",
+    "subtitle": "Short Match3 alike game.",
     "icon": "IconGalactic",
     "snapshot": "https://raw.githubusercontent.com/Dkreick/Galactic-Menace/master/Snapshot.jpg",
     "description": "Small Match3 alike game made in Unity3D.",
-    "linkToSourceCode": "https: //github.com/Dkreick/Galactic-Menace",
-    "linkToGame": "GalacticMenace",
+    "linkToSourceCode": "https://github.com/Dkreick/Galactic-Menace",
     "mainLanguage": "Unity3D"
   }
 ]

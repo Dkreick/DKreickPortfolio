@@ -11,14 +11,19 @@ import Typography from '@material-ui/core/Typography';
 import IconButton from '@material-ui/core/IconButton';
 import SourceCodeIcon from '@material-ui/icons/Code';
 import InfoIcon from '@material-ui/icons/Info';
-import DownLoadIcon from '@material-ui/icons/CloudDownload';
-import { Link } from 'react-router-dom';
+import Chip from '@material-ui/core/Chip';
 
 const styles = theme => ({
   card: {
     margin: 20,
     maxWidth: 400,
-    minHeight: 470
+    height: 420
+  },
+  header: {
+    height: '50px'
+  },
+  content: {
+    height: '80px'
   },
   media: {
     height: 0,
@@ -32,16 +37,6 @@ const styles = theme => ({
     display: 'inline-flex',
     itemSpacing: '20px'
   },
-  expand: {
-    transform: 'rotate(0deg)',
-    marginLeft: 'auto',
-    transition: theme.transitions.create('transform', {
-      duration: theme.transitions.duration.shortest
-    })
-  },
-  expandOpen: {
-    transform: 'rotate(180deg)'
-  },
   avatar: {
     backgroundColor: '#27ade3'
   },
@@ -50,11 +45,19 @@ const styles = theme => ({
   },
   icon: {
     width: 'inherit'
+  },
+  chip: {
+    backgroundColor: '#27ade3',
+    color: 'white',
+    fontWeight: 'bold'
   }
 });
 
 class GameCard extends React.Component {
-  state = { expanded: false };
+
+  openUrl(url) {
+    window.open(url, '_blank');
+  }
 
   render(props) {
     const { classes } = this.props;
@@ -68,31 +71,26 @@ class GameCard extends React.Component {
           }
           title={this.props.data.name}
           subheader={this.props.data.subtitle}
+          className={classes.header}
         />
         <CardMedia
           className={classes.media}
           image={this.props.data.snapshot}
           title={this.props.data.name} />
-        <CardContent>
+        <CardContent className={classes.content}>
           <Typography component="p">{this.props.data.description}</Typography>
         </CardContent>
         <CardActions className={classes.actions} disableActionSpacing>
-          <Typography component="p">{this.props.data.mainLanguage}</Typography>
-          <Link to="/Game" className={classes.link}>
+          {/* <Typography component="p">
+            {this.props.data.mainLanguage}
+          </Typography> */}
+          <Chip label={this.props.data.mainLanguage} className={classes.chip} />
           <IconButton>
-            <SourceCodeIcon className={classes.button} />
+            <SourceCodeIcon className={classes.button} onClick={ () => this.openUrl(this.props.data.linkToSourceCode)} />
           </IconButton>
-          </Link>
-        <IconButton>
-          <a href={this.props.data.linkToSourceCode}>
+          <IconButton>
             <InfoIcon className={classes.button} />
-          </a>
-        </IconButton>
-        <IconButton>
-          <a href={this.props.data.linkDownload}>
-            <DownLoadIcon className={classes.button} />
-          </a>
-        </IconButton>
+          </IconButton>
         </CardActions>
       </Card >
     );

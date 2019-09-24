@@ -19,8 +19,9 @@ const styles = theme => ({
   },
   gridList: {
     flexWrap: 'nowrap',
-    height: '200px',
-    transform: 'translateZ(0)'
+    height: '250px',
+    overflowY: 'hidden',
+    paddingTop: '60px'
   },
   title: {
     marginBottom: '30px'

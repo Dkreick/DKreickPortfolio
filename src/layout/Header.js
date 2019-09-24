@@ -8,7 +8,8 @@ import {Animated} from "react-animated-css";
 
 const styles = {
   root: {
-    flexGrow: 1
+    flexGrow: 1,
+    paddingTop: '100px'
   },
   avatar: {
     boxShadow: '0px 0px 20px 5px rgba(0,0,0,0.75)',
