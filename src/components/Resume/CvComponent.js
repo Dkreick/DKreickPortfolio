@@ -18,6 +18,7 @@ import CV from './../../assets/CV.pdf';
 
 const styles = {
   card: {
+    border: 'solid 1px black',
     boxShadow: '-10px 10px 5px 0px rgba(0,0,0,0.75)',
     flexWrap: 'wrap',
     marginLeft: '114px',

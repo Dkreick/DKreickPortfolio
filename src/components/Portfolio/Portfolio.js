@@ -61,6 +61,15 @@ export function Portfolio(props) {
           );
         })}
       </Grid>
+      <ScrollAnimation
+        animateIn="bounceInLeft"
+        animateOnce={true}
+        duration={1.5}
+      >
+        <Typography variant="h3" className={classes.title}>
+          Also I defend myself as an artist...
+        </Typography>
+      </ScrollAnimation>
       <GridList className={classes.gridList} cols={2.5}>
         {art.map((api, index) => {
           return <ArtCard data={art[index]} key={index} />;

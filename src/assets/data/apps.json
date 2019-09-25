@@ -2,7 +2,7 @@
   {
     "name": "Another Day To Be",
     "subtitle": "RPG-TBT Exploration game.",
-    "icon": "IconAd2b",
+    "icon": "https://raw.githubusercontent.com/Dkreick/Portfolio/master/src/assets/icons/icon-ad2b.jpg",
     "snapshot": "https://raw.githubusercontent.com/Dkreick/AnotherDayToBe/master/Documents/Developer%20notes/GDD%20Images/CombatPreview.jpg",
     "description": "AD2B is a turn based tactics and exploration game in a devastated world. Your character will face different choices while tries to survive in a map full of dangers.",
     "linkToSourceCode": "https://github.com/Dkreick/AnotherDayToBe",
@@ -11,7 +11,7 @@
   {
     "name": "AD2B Wiki",
     "subtitle": "Wiki for Another Day To Be.",
-    "icon": "IconAd2b",
+    "icon": "https://raw.githubusercontent.com/Dkreick/Portfolio/master/src/assets/icons/icon-ad2b.jpg",
     "snapshot": "https://raw.githubusercontent.com/Dkreick/AnotherDayToBe/master/Documents/Developer%20notes/GDD%20Images/CombatPreview.jpg",
     "description": "Official Wikia for Another Day To be",
     "linkToSourceCode": "https://github.com/Dkreick/AnotherDayToBe-Web",
@@ -20,7 +20,7 @@
   {
     "name": "Scan My Profile",
     "subtitle": "Info app made with Vuforia.",
-    "icon": "IconScan",
+    "icon": "https://raw.githubusercontent.com/Dkreick/Portfolio/master/src/assets/icons/icon-scan.jpg",
     "snapshot": "https://raw.githubusercontent.com/Dkreick/Scan-My-Profile/master/ReadmePhoto.png",
     "description": "Small app for scan my profile image and know more about me.",
     "linkToSourceCode": "https://github.com/Dkreick/Scan-My-Profile",
@@ -29,7 +29,7 @@
   {
     "name": "Simple Simon",
     "subtitle": "Simple game memory game.",
-    "icon": "IconSimon",
+    "icon": "https://raw.githubusercontent.com/Dkreick/Portfolio/master/src/assets/icons/icon-simon.jpg",
     "snapshot": "https://raw.githubusercontent.com/Dkreick/SimpleSimon/master/preview.png",
     "description": "Simple game memory game.",
     "linkToSourceCode": "https://github.com/Dkreick/SimpleSimon",
@@ -47,7 +47,7 @@
   {
     "name": "Horse and diamonds",
     "subtitle": "Short mouse game.",
-    "icon": "IconHorse",
+    "icon": "https://raw.githubusercontent.com/Dkreick/Portfolio/master/src/assets/icons/icon-horse.jpg",
     "snapshot": "https://raw.githubusercontent.com/Dkreick/Phaser---Practice-Horse-and-diamonds/master/preview.png",
     "description": "Catch all the bubbles before the time runs out!.",
     "linkToSourceCode": "https://github.com/Dkreick/Phaser---Practice-Horse-and-diamonds",
@@ -56,7 +56,7 @@
   {
     "name": "Galactic Menace",
     "subtitle": "Short Match3 alike game.",
-    "icon": "IconGalactic",
+    "icon": "https://raw.githubusercontent.com/Dkreick/Portfolio/master/src/assets/icons/icon-galactic.jpg",
     "snapshot": "https://raw.githubusercontent.com/Dkreick/Galactic-Menace/master/Snapshot.jpg",
     "description": "Small Match3 alike game made in Unity3D.",
     "linkToSourceCode": "https://github.com/Dkreick/Galactic-Menace",

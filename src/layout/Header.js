@@ -13,9 +13,10 @@ const styles = {
   },
   avatar: {
     boxShadow: '0px 0px 20px 5px rgba(0,0,0,0.75)',
-    clipPath: 'circle(50% at 50% 50%)',
+    borderRadius: '20px',
     color: 'white',
-    width: '300px'
+    marginBottom: '10px',
+    width: '400px'
   },
   name: {
     marginTop: '30px'

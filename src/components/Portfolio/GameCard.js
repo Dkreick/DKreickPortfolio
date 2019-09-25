@@ -15,9 +15,11 @@ import Chip from '@material-ui/core/Chip';
 
 const styles = theme => ({
   card: {
+    border: 'solid 1px black',
+    boxShadow: '-5px 5px 5px 0px rgba(0,0,0,0.75)',
     margin: 20,
     maxWidth: 400,
-    height: 420
+    height: 480
   },
   header: {
     height: '50px'
@@ -65,7 +67,11 @@ class GameCard extends React.Component {
         <CardHeader
           avatar={
             <Avatar aria-label="Recipe" className={classes.avatar}>
-              <img src="" alt={this.props.data.name} className={classes.icon} />
+              <img
+                src={this.props.data.icon}
+                alt={this.props.data.name}
+                className={classes.icon}
+              />
             </Avatar>
           }
           title={this.props.data.name}

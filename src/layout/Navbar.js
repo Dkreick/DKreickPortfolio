@@ -22,6 +22,7 @@ const styles = {
   button: {
     color: 'white',
     fontWeight: 'bold',
+    fontSize: '16px',
     width: 'max-content'
   },
   icons: {

@@ -11,15 +11,18 @@ const styles = theme => ({
     height: 'inherit',
     justifyContent: 'space-around',
     overflow: 'hidden',
+    width: '20%',
     backgroundColor: theme.palette.background.paper
   },
   image: {
-    height: 'inherit',
     marginLeft: '10px',
-    width: 'auto'
+    maxWidth: '90%',
+    maxHeight: '50%',
+    objectFit: 'contain'
   },
   title: {
-    color: theme.palette.primary.light
+    color: 'white',
+    fontWeight: 'bold'
   },
   titleBar: {
     background:
@@ -31,9 +34,9 @@ class ArtCard extends React.Component {
   render(props) {
     const {classes} = this.props;
     return (
-      <GridListTile className={classes.root} key={this.props.data.snapshot}>
+      <GridListTile className={classes.root} key={this.props.data.name}>
         <img
-          src={this.props.data.snapshot}
+          src={this.props.data.image}
           alt={this.props.data.name}
           className={classes.image}
         />

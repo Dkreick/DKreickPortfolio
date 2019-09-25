@@ -63,9 +63,9 @@ function Footer(props) {
         offset={0}
         duration={1.5}
       >
-      <Typography variant="h5" className={classes.title}>
-        Did you enjoy my website?
-      </Typography>
+        <Typography variant="h5" className={classes.title}>
+          Did you enjoy my website?
+        </Typography>
       </ScrollAnimation>
       <ScrollAnimation
         animateIn="bounceInUp"
@@ -74,10 +74,10 @@ function Footer(props) {
         offset={0}
         duration={1.5}
       >
-      <Typography variant="h6" className={classes.subtitle}>
-        Please consider contact me, I'm always open to hear what you are
-        thinking!
-      </Typography>
+        <Typography variant="h6" className={classes.subtitle}>
+          Please consider contact me, I'm always open to hear what you are
+          thinking!
+        </Typography>
       </ScrollAnimation>
       <ScrollAnimation
         animateIn="bounceInUp"
@@ -86,47 +86,47 @@ function Footer(props) {
         offset={0}
         duration={1.5}
       >
-      <div className={classes.contactInfo}>
-        <div className={classes.infoContainer}>
-          <PhoneIcon className={classes.button} />
-          <Typography variant="h6" className={classes.infoTitle}>
-            +54 911-3330-2076
-          </Typography>
+        <div className={classes.contactInfo}>
+          <div className={classes.infoContainer}>
+            <PhoneIcon className={classes.button} />
+            <Typography variant="h6" className={classes.infoTitle}>
+              +54 911-3330-2076
+            </Typography>
+          </div>
+          <a
+            href="https://wa.me/541133302076"
+            rel="noopener noreferrer"
+            target="_blank"
+            className={classes.infoContainer}
+          >
+            <EmailIcon className={classes.button} />
+            <Typography variant="h6" className={classes.infoTitle}>
+              damian.kreick@gmail.com
+            </Typography>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/damiankreick"
+            rel="noopener noreferrer"
+            target="_blank"
+            className={classes.infoContainer}
+          >
+            <img src={LinkedinIcon} alt="Linkedin" className={classes.button} />
+            <Typography variant="h6" className={classes.infoTitle}>
+              in/damiankreick
+            </Typography>
+          </a>
+          <a
+            href="https://wa.me/541133302076"
+            rel="noopener noreferrer"
+            target="_blank"
+            className={classes.infoContainer}
+          >
+            <img src={WhatsappIcon} alt="Whatsapp" className={classes.button} />
+            <Typography variant="h6" className={classes.infoTitle}>
+              Whatsapp Me!
+            </Typography>
+          </a>
         </div>
-        <a
-          href="https://wa.me/541133302076"
-          rel="noopener noreferrer"
-          target="_blank"
-          className={classes.infoContainer}
-        >
-          <EmailIcon className={classes.button} />
-          <Typography variant="h6" className={classes.infoTitle}>
-            damian.kreick@gmail.com
-          </Typography>
-        </a>
-        <a
-          href="https://www.linkedin.com/in/damiankreick"
-          rel="noopener noreferrer"
-          target="_blank"
-          className={classes.infoContainer}
-        >
-          <img src={LinkedinIcon} alt="Linkedin" className={classes.button} />
-          <Typography variant="h6" className={classes.infoTitle}>
-            in/damiankreick
-          </Typography>
-        </a>
-        <a
-          href="https://wa.me/541133302076"
-          rel="noopener noreferrer"
-          target="_blank"
-          className={classes.infoContainer}
-        >
-          <img src={WhatsappIcon} alt="Whatsapp" className={classes.button} />
-          <Typography variant="h6" className={classes.infoTitle}>
-            Whatsapp Me!
-          </Typography>
-        </a>
-      </div>
       </ScrollAnimation>
     </div>
   );
