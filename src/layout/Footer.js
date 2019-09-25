@@ -6,6 +6,7 @@ import EmailIcon from '@material-ui/icons/Email';
 import PhoneIcon from '@material-ui/icons/Phone';
 import LinkedinIcon from './../assets/icons/icon-linkedin.png';
 import WhatsappIcon from './../assets/icons/icon-whatsapp.png';
+import ScrollAnimation from 'react-animate-on-scroll';
 
 const styles = {
   root: {
@@ -56,13 +57,35 @@ function Footer(props) {
 
   return (
     <div className={classes.root} id="footer">
+      <ScrollAnimation
+        animateIn="bounceInUp"
+        animateOnce={true}
+        offset={0}
+        duration={1.5}
+      >
       <Typography variant="h5" className={classes.title}>
         Did you enjoy my website?
       </Typography>
+      </ScrollAnimation>
+      <ScrollAnimation
+        animateIn="bounceInUp"
+        animateOnce={true}
+        delay={1000}
+        offset={0}
+        duration={1.5}
+      >
       <Typography variant="h6" className={classes.subtitle}>
         Please consider contact me, I'm always open to hear what you are
         thinking!
       </Typography>
+      </ScrollAnimation>
+      <ScrollAnimation
+        animateIn="bounceInUp"
+        animateOnce={true}
+        delay={2000}
+        offset={0}
+        duration={1.5}
+      >
       <div className={classes.contactInfo}>
         <div className={classes.infoContainer}>
           <PhoneIcon className={classes.button} />
@@ -104,6 +127,7 @@ function Footer(props) {
           </Typography>
         </a>
       </div>
+      </ScrollAnimation>
     </div>
   );
 }
