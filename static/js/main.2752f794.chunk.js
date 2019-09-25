@@ -15,7 +15,7 @@
       e.exports = t.p + 'static/media/flag-us.4ea472e6.jpg';
     },
     135: function(e, a, t) {
-      e.exports = t.p + 'static/media/avatar.8b271cca.jpg';
+      e.exports = t.p + 'static/media/avatar.fc683e9b.jpg';
     },
     136: function(e, a) {
       e.exports =
@@ -33,22 +33,22 @@
       'use strict';
       t.r(a);
       var n = t(0),
-        c = t.n(n),
+        r = t.n(n),
         i = t(27),
-        r = t.n(i),
+        c = t.n(i),
         o = (t(224), t(225), t(5)),
-        l = t(59),
-        s = t.n(l),
+        s = t(59),
+        l = t.n(s),
         m = t(61),
         p = t.n(m),
         h = t(62),
-        d = t.n(h),
-        u = t(34),
-        b = t.n(u),
-        g = t(31),
-        E = t.n(g),
-        N = t(50);
-      var k = Object(o.withStyles)({
+        u = t.n(h),
+        d = t(34),
+        g = t.n(d),
+        b = t(31),
+        E = t.n(b),
+        k = t(50);
+      var A = Object(o.withStyles)({
           root: {flexGrow: 1},
           bar: {
             alignItems: 'flex-end',
@@ -57,7 +57,12 @@
             position: 'fixed',
             top: '0px'
           },
-          button: {color: 'white', fontWeight: 'bold', width: 'max-content'},
+          button: {
+            color: 'white',
+            fontWeight: 'bold',
+            fontSize: '16px',
+            width: 'max-content'
+          },
           icons: {display: 'flex', position: 'absolute', right: '20px'},
           link: {
             color: 'white',
@@ -70,20 +75,20 @@
           toolbar: {width: '-webkit-fill-available'}
         })(function(e) {
           var a = e.classes;
-          return c.a.createElement(
+          return r.a.createElement(
             'div',
             {className: a.root},
-            c.a.createElement(
-              s.a,
+            r.a.createElement(
+              l.a,
               {position: 'static', className: a.bar},
-              c.a.createElement(
+              r.a.createElement(
                 p.a,
                 {className: a.toolbar},
-                c.a.createElement(
-                  d.a,
+                r.a.createElement(
+                  u.a,
                   {className: a.nav},
-                  c.a.createElement(
-                    N.Link,
+                  r.a.createElement(
+                    k.Link,
                     {
                       to: 'header',
                       spy: !0,
@@ -91,14 +96,14 @@
                       duration: 500,
                       className: a.link
                     },
-                    c.a.createElement(
-                      b.a,
+                    r.a.createElement(
+                      g.a,
                       {className: a.item},
-                      c.a.createElement(E.a, {className: a.button}, 'Home')
+                      r.a.createElement(E.a, {className: a.button}, 'Home')
                     )
                   ),
-                  c.a.createElement(
-                    N.Link,
+                  r.a.createElement(
+                    k.Link,
                     {
                       to: 'portfolio',
                       spy: !0,
@@ -106,14 +111,14 @@
                       duration: 500,
                       className: a.link
                     },
-                    c.a.createElement(
-                      b.a,
+                    r.a.createElement(
+                      g.a,
                       {className: a.item},
-                      c.a.createElement(E.a, {className: a.button}, 'Projects')
+                      r.a.createElement(E.a, {className: a.button}, 'Projects')
                     )
                   ),
-                  c.a.createElement(
-                    N.Link,
+                  r.a.createElement(
+                    k.Link,
                     {
                       to: 'resume',
                       spy: !0,
@@ -121,14 +126,14 @@
                       duration: 500,
                       className: a.link
                     },
-                    c.a.createElement(
-                      b.a,
+                    r.a.createElement(
+                      g.a,
                       {className: a.item},
-                      c.a.createElement(E.a, {className: a.button}, 'Resume')
+                      r.a.createElement(E.a, {className: a.button}, 'Resume')
                     )
                   ),
-                  c.a.createElement(
-                    N.Link,
+                  r.a.createElement(
+                    k.Link,
                     {
                       to: 'footer',
                       spy: !0,
@@ -136,10 +141,10 @@
                       duration: 500,
                       className: a.link
                     },
-                    c.a.createElement(
-                      b.a,
+                    r.a.createElement(
+                      g.a,
                       {className: a.item},
-                      c.a.createElement(E.a, {className: a.button}, 'Contact')
+                      r.a.createElement(E.a, {className: a.button}, 'Contact')
                     )
                   )
                 )
@@ -147,42 +152,42 @@
             )
           );
         }),
-        A = t(11),
+        N = t(11),
         f = t(12),
-        I = t(14),
-        v = t(13),
-        w = t(15),
-        D = t(30),
-        y = t.n(D),
-        T = t(63),
-        M = t.n(T),
-        j = t(41),
-        G = t.n(j),
+        w = t(14),
+        D = t(13),
+        v = t(15),
+        I = t(30),
+        T = t.n(I),
+        M = t(63),
+        j = t.n(M),
+        G = t(41),
+        y = t.n(G),
         C = t(42),
         x = t.n(C),
         O = t(65),
         S = t.n(O),
-        R = t(64),
-        Y = t.n(R),
-        Q = t(10),
-        W = t.n(Q),
-        Z = t(49),
-        P = t.n(Z),
-        B = t(127),
-        U = t.n(B),
-        z = t(128),
-        L = t.n(z),
+        P = t(64),
+        Y = t.n(P),
+        W = t(10),
+        R = t.n(W),
+        B = t(49),
+        Q = t.n(B),
+        Z = t(127),
+        U = t.n(Z),
+        L = t(128),
+        z = t.n(L),
         F = t(28),
         H = t.n(F),
         V = (function(e) {
           function a() {
             return (
-              Object(A.a)(this, a),
-              Object(I.a)(this, Object(v.a)(a).apply(this, arguments))
+              Object(N.a)(this, a),
+              Object(w.a)(this, Object(D.a)(a).apply(this, arguments))
             );
           }
           return (
-            Object(w.a)(a, e),
+            Object(v.a)(a, e),
             Object(f.a)(a, [
               {
                 key: 'openUrl',
@@ -195,15 +200,15 @@
                 value: function(e) {
                   var a = this,
                     t = this.props.classes;
-                  return c.a.createElement(
-                    y.a,
+                  return r.a.createElement(
+                    T.a,
                     {className: t.card},
-                    c.a.createElement(M.a, {
-                      avatar: c.a.createElement(
+                    r.a.createElement(j.a, {
+                      avatar: r.a.createElement(
                         Y.a,
                         {'aria-label': 'Recipe', className: t.avatar},
-                        c.a.createElement('img', {
-                          src: '',
+                        r.a.createElement('img', {
+                          src: this.props.data.icon,
                           alt: this.props.data.name,
                           className: t.icon
                         })
@@ -212,41 +217,41 @@
                       subheader: this.props.data.subtitle,
                       className: t.header
                     }),
-                    c.a.createElement(G.a, {
+                    r.a.createElement(y.a, {
                       className: t.media,
                       image: this.props.data.snapshot,
                       title: this.props.data.name
                     }),
-                    c.a.createElement(
+                    r.a.createElement(
                       x.a,
                       {className: t.content},
-                      c.a.createElement(
-                        W.a,
+                      r.a.createElement(
+                        R.a,
                         {component: 'p'},
                         this.props.data.description
                       )
                     ),
-                    c.a.createElement(
+                    r.a.createElement(
                       S.a,
                       {className: t.actions, disableActionSpacing: !0},
-                      c.a.createElement(H.a, {
+                      r.a.createElement(H.a, {
                         label: this.props.data.mainLanguage,
                         className: t.chip
                       }),
-                      c.a.createElement(
-                        P.a,
+                      r.a.createElement(
+                        Q.a,
                         null,
-                        c.a.createElement(U.a, {
+                        r.a.createElement(U.a, {
                           className: t.button,
                           onClick: function() {
                             return a.openUrl(a.props.data.linkToSourceCode);
                           }
                         })
                       ),
-                      c.a.createElement(
-                        P.a,
+                      r.a.createElement(
+                        Q.a,
                         null,
-                        c.a.createElement(L.a, {className: t.button})
+                        r.a.createElement(z.a, {className: t.button})
                       )
                     )
                   );
@@ -255,10 +260,16 @@
             ]),
             a
           );
-        })(c.a.Component),
+        })(r.a.Component),
         K = Object(o.withStyles)(function(e) {
           return {
-            card: {margin: 20, maxWidth: 400, height: 420},
+            card: {
+              border: 'solid 1px black',
+              boxShadow: '-5px 5px 5px 0px rgba(0,0,0,0.75)',
+              margin: 20,
+              maxWidth: 400,
+              height: 480
+            },
             header: {height: '50px'},
             content: {height: '80px'},
             media: {
@@ -281,32 +292,32 @@
           };
         })(V),
         J = t(66),
-        q = t.n(J),
-        X = t(67),
-        _ = t.n(X),
+        X = t.n(J),
+        q = t(67),
+        _ = t.n(q),
         $ = (function(e) {
           function a() {
             return (
-              Object(A.a)(this, a),
-              Object(I.a)(this, Object(v.a)(a).apply(this, arguments))
+              Object(N.a)(this, a),
+              Object(w.a)(this, Object(D.a)(a).apply(this, arguments))
             );
           }
           return (
-            Object(w.a)(a, e),
+            Object(v.a)(a, e),
             Object(f.a)(a, [
               {
                 key: 'render',
                 value: function(e) {
                   var a = this.props.classes;
-                  return c.a.createElement(
-                    q.a,
-                    {className: a.root, key: this.props.data.snapshot},
-                    c.a.createElement('img', {
-                      src: this.props.data.snapshot,
+                  return r.a.createElement(
+                    X.a,
+                    {className: a.root, key: this.props.data.name},
+                    r.a.createElement('img', {
+                      src: this.props.data.image,
                       alt: this.props.data.name,
                       className: a.image
                     }),
-                    c.a.createElement(_.a, {
+                    r.a.createElement(_.a, {
                       title: this.props.data.name,
                       classes: {root: a.titleBar, title: a.title}
                     })
@@ -316,7 +327,7 @@
             ]),
             a
           );
-        })(c.a.Component),
+        })(r.a.Component),
         ee = Object(o.withStyles)(function(e) {
           return {
             root: {
@@ -325,10 +336,16 @@
               height: 'inherit',
               justifyContent: 'space-around',
               overflow: 'hidden',
+              width: '20%',
               backgroundColor: e.palette.background.paper
             },
-            image: {height: 'inherit', marginLeft: '10px', width: 'auto'},
-            title: {color: e.palette.primary.light},
+            image: {
+              marginLeft: '10px',
+              maxWidth: '90%',
+              maxHeight: '50%',
+              objectFit: 'contain'
+            },
+            title: {color: 'white', fontWeight: 'bold'},
             titleBar: {
               background:
                 'linear-gradient(to top, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.3) 70%, rgba(0,0,0,0) 100%)'
@@ -338,12 +355,12 @@
         ae = t(29),
         te = t.n(ae),
         ne = t(68),
-        ce = t.n(ne),
+        re = t.n(ne),
         ie = t(89),
-        re = t(90),
+        ce = t(90),
         oe = t(18),
-        le = t.n(oe);
-      var se = Object(o.withStyles)(function(e) {
+        se = t.n(oe);
+      var le = Object(o.withStyles)(function(e) {
           return {
             container: {
               display: 'flex',
@@ -362,43 +379,52 @@
           };
         })(function(e) {
           var a = e.classes;
-          return c.a.createElement(
+          return r.a.createElement(
             'div',
             {className: a.container, id: 'portfolio'},
-            c.a.createElement(
-              le.a,
+            r.a.createElement(
+              se.a,
               {animateIn: 'bounceInLeft', animateOnce: !0, duration: 1.5},
-              c.a.createElement(
-                W.a,
+              r.a.createElement(
+                R.a,
                 {variant: 'h3', className: a.title},
                 'Projects'
               )
             ),
-            c.a.createElement(
+            r.a.createElement(
               te.a,
               {container: !0, spacing: 8},
               ie.map(function(e, t) {
-                return c.a.createElement(
-                  le.a,
+                return r.a.createElement(
+                  se.a,
                   {
                     animateIn: 'fadeIn',
                     duration: t + 1,
                     animateOnce: !0,
                     className: a.scroll
                   },
-                  c.a.createElement(
+                  r.a.createElement(
                     te.a,
                     {item: !0},
-                    c.a.createElement(K, {data: ie[t], key: t})
+                    r.a.createElement(K, {data: ie[t], key: t})
                   )
                 );
               })
             ),
-            c.a.createElement(
-              ce.a,
+            r.a.createElement(
+              se.a,
+              {animateIn: 'bounceInLeft', animateOnce: !0, duration: 1.5},
+              r.a.createElement(
+                R.a,
+                {variant: 'h3', className: a.title},
+                'Also I defend myself as an artist...'
+              )
+            ),
+            r.a.createElement(
+              re.a,
               {className: a.gridList, cols: 2.5},
-              re.map(function(e, a) {
-                return c.a.createElement(ee, {data: re[a], key: a});
+              ce.map(function(e, a) {
+                return r.a.createElement(ee, {data: ce[a], key: a});
               })
             )
           );
@@ -415,74 +441,74 @@
             }
           };
         })(function() {
-          return c.a.createElement(
-            y.a,
+          return r.a.createElement(
+            T.a,
             null,
-            c.a.createElement(G.a, {component: 'img', image: pe.a}),
-            c.a.createElement(
+            r.a.createElement(y.a, {component: 'img', image: pe.a}),
+            r.a.createElement(
               x.a,
               null,
-              c.a.createElement(
-                W.a,
+              r.a.createElement(
+                R.a,
                 {gutterBottom: !0, variant: 'h3', component: 'h2'},
                 'DAMIAN KREICK'
               ),
-              c.a.createElement(
-                W.a,
+              r.a.createElement(
+                R.a,
                 {variant: 'body2', color: 'textSecondary', component: 'p'},
                 "I'm a self-confident programmer, enthusiast of good coding practises, who listens attentively and takes charge of high responsability tasks."
               )
             )
           );
         }),
-        de = t(70),
-        ue = t.n(de),
-        be = t(71),
-        ge = t.n(be),
+        ue = t(70),
+        de = t.n(ue),
+        ge = t(71),
+        be = t.n(ge),
         Ee = t(131),
-        Ne = t.n(Ee),
-        ke = t(130),
-        Ae = t.n(ke),
+        ke = t.n(Ee),
+        Ae = t(130),
+        Ne = t.n(Ae),
         fe = (function(e) {
           function a() {
             return (
-              Object(A.a)(this, a),
-              Object(I.a)(this, Object(v.a)(a).apply(this, arguments))
+              Object(N.a)(this, a),
+              Object(w.a)(this, Object(D.a)(a).apply(this, arguments))
             );
           }
           return (
-            Object(w.a)(a, e),
+            Object(v.a)(a, e),
             Object(f.a)(a, [
               {
                 key: 'render',
                 value: function() {
                   var e = this.props.classes;
-                  return c.a.createElement(
+                  return r.a.createElement(
                     'div',
                     {className: e.root},
-                    c.a.createElement(H.a, {
-                      avatar: c.a.createElement(Ne.a, {className: e.button}),
+                    r.a.createElement(H.a, {
+                      avatar: r.a.createElement(ke.a, {className: e.button}),
                       label: '29/06/1994',
                       className: this.props.classes.chip
                     }),
-                    c.a.createElement(H.a, {
-                      avatar: c.a.createElement(ue.a, {className: e.button}),
+                    r.a.createElement(H.a, {
+                      avatar: r.a.createElement(de.a, {className: e.button}),
                       label: 'damian.kreick@gmail.com',
                       className: this.props.classes.chip,
                       onClick: function() {
                         window.open('mailto:damian.kreick@gmail.com', '_blank');
                       }
                     }),
-                    c.a.createElement(H.a, {
-                      avatar: c.a.createElement(ge.a, {className: e.button}),
+                    r.a.createElement(H.a, {
+                      avatar: r.a.createElement(be.a, {className: e.button}),
                       label: '(+54) 11-3330-2076',
                       className: this.props.classes.chip,
                       onClick: function() {
                         window.open('https://wa.me/541133302076', '_blank');
                       }
                     }),
-                    c.a.createElement(H.a, {
-                      avatar: c.a.createElement('img', {src: Ae.a, alt: ''}),
+                    r.a.createElement(H.a, {
+                      avatar: r.a.createElement('img', {src: Ne.a, alt: ''}),
                       label: 'Linkedin',
                       className: this.props.classes.chip,
                       onClick: function() {
@@ -498,8 +524,8 @@
             ]),
             a
           );
-        })(c.a.Component),
-        Ie = Object(o.withStyles)({
+        })(r.a.Component),
+        we = Object(o.withStyles)({
           root: {marginTop: '20px'},
           chip: {
             backgroundColor: '#eeeeee',
@@ -509,105 +535,105 @@
           },
           button: {color: '#27ade3', padding: '10px'}
         })(fe),
-        ve =
+        De =
           (t(40),
           (function(e) {
             function a() {
               return (
-                Object(A.a)(this, a),
-                Object(I.a)(this, Object(v.a)(a).apply(this, arguments))
+                Object(N.a)(this, a),
+                Object(w.a)(this, Object(D.a)(a).apply(this, arguments))
               );
             }
             return (
-              Object(w.a)(a, e),
+              Object(v.a)(a, e),
               Object(f.a)(a, [
                 {
                   key: 'render',
                   value: function() {
-                    return c.a.createElement(
+                    return r.a.createElement(
                       'div',
                       {className: 'container'},
-                      c.a.createElement(
+                      r.a.createElement(
                         'p',
                         {className: 'title'},
                         'Work Experience'
                       ),
-                      c.a.createElement(
+                      r.a.createElement(
                         'p',
                         {className: 'charge'},
                         'Web & Game Developer'
                       ),
-                      c.a.createElement(
+                      r.a.createElement(
                         'div',
                         {className: 'subTitle'},
-                        c.a.createElement(
+                        r.a.createElement(
                           'p',
                           {className: 'place'},
                           'Vi-Da Tec'
                         ),
-                        c.a.createElement(
+                        r.a.createElement(
                           'p',
                           {className: 'time'},
                           'Aug 2019 - Present'
                         )
                       ),
-                      c.a.createElement(
+                      r.a.createElement(
                         'p',
                         {className: 'description'},
                         "Web developer for TICMAS, an educational program designed for young people. Also i've spent some time making videogames related to treat teenagers problems like social anxiety, depression, sexual education."
                       ),
-                      c.a.createElement(
+                      r.a.createElement(
                         'p',
                         {className: 'charge'},
                         'Fullstack Developer'
                       ),
-                      c.a.createElement(
+                      r.a.createElement(
                         'div',
                         {className: 'subTitle'},
-                        c.a.createElement('p', {className: 'place'}, 'Droptek'),
-                        c.a.createElement(
+                        r.a.createElement('p', {className: 'place'}, 'Droptek'),
+                        r.a.createElement(
                           'p',
                           {className: 'time'},
                           'Sep 2018 - Aug 2019'
                         )
                       ),
-                      c.a.createElement(
+                      r.a.createElement(
                         'p',
                         {className: 'description'},
                         "Worked as a client partner of Banco Comafi, I've been involved in many internal projects including technologies like Angular 7, Sass, Node and AWS"
                       ),
-                      c.a.createElement(
+                      r.a.createElement(
                         'p',
                         {className: 'charge'},
                         'Frontend Developer'
                       ),
-                      c.a.createElement(
+                      r.a.createElement(
                         'div',
                         {className: 'subTitle'},
-                        c.a.createElement('p', {className: 'place'}, 'Globant'),
-                        c.a.createElement(
+                        r.a.createElement('p', {className: 'place'}, 'Globant'),
+                        r.a.createElement(
                           'p',
                           {className: 'time'},
                           'Jan 2016 - Sep 2018'
                         )
                       ),
-                      c.a.createElement(
+                      r.a.createElement(
                         'p',
                         {className: 'description'},
                         '\u2022 Worked for J.P Morgan and DirectTV.',
-                        c.a.createElement('br', null),
+                        r.a.createElement('br', null),
                         '\u2022 Solves Visual and implementation problems.',
-                        c.a.createElement('br', null),
+                        r.a.createElement('br', null),
                         '\u2022 Analyzes issues and its priorities.',
-                        c.a.createElement('br', null),
+                        r.a.createElement('br', null),
                         '\u2022 Creates design and experience ideas.',
-                        c.a.createElement('br', null),
+                        r.a.createElement('br', null),
                         '\u2022 Gathers information and document it.',
-                        c.a.createElement('br', null),
+                        r.a.createElement('br', null),
                         '\u2022 Delivers code with high coverage rate.',
-                        c.a.createElement('br', null),
+                        r.a.createElement('br', null),
                         '\u2022 Teaches others the good practises of Agile Methodology.',
-                        c.a.createElement('br', null)
+                        r.a.createElement('br', null)
                       )
                     );
                   }
@@ -615,44 +641,44 @@
               ]),
               a
             );
-          })(c.a.Component)),
-        we = (function(e) {
+          })(r.a.Component)),
+        ve = (function(e) {
           function a() {
             return (
-              Object(A.a)(this, a),
-              Object(I.a)(this, Object(v.a)(a).apply(this, arguments))
+              Object(N.a)(this, a),
+              Object(w.a)(this, Object(D.a)(a).apply(this, arguments))
             );
           }
           return (
-            Object(w.a)(a, e),
+            Object(v.a)(a, e),
             Object(f.a)(a, [
               {
                 key: 'render',
                 value: function() {
-                  return c.a.createElement(
+                  return r.a.createElement(
                     'div',
                     {className: 'container'},
-                    c.a.createElement('p', {className: 'title'}, 'Education'),
-                    c.a.createElement(
+                    r.a.createElement('p', {className: 'title'}, 'Education'),
+                    r.a.createElement(
                       'p',
                       {className: 'charge'},
                       'Game Developer Technician'
                     ),
-                    c.a.createElement(
+                    r.a.createElement(
                       'div',
                       {className: 'subTitle'},
-                      c.a.createElement(
+                      r.a.createElement(
                         'p',
                         {className: 'place'},
                         'Escuela DaVinci'
                       ),
-                      c.a.createElement(
+                      r.a.createElement(
                         'p',
                         {className: 'time'},
                         'Jan 2014 - Dic 2015'
                       )
                     ),
-                    c.a.createElement(
+                    r.a.createElement(
                       'p',
                       {className: 'description'},
                       'Involves the creation of a video game in all aspects, from the sketch to the programming and marketing.'
@@ -663,120 +689,120 @@
             ]),
             a
           );
-        })(c.a.Component),
-        De = (function(e) {
+        })(r.a.Component),
+        Ie = (function(e) {
           function a() {
             return (
-              Object(A.a)(this, a),
-              Object(I.a)(this, Object(v.a)(a).apply(this, arguments))
+              Object(N.a)(this, a),
+              Object(w.a)(this, Object(D.a)(a).apply(this, arguments))
             );
           }
           return (
-            Object(w.a)(a, e),
+            Object(v.a)(a, e),
             Object(f.a)(a, [
               {
                 key: 'render',
                 value: function() {
-                  return c.a.createElement(
+                  return r.a.createElement(
                     'div',
                     {className: 'container'},
-                    c.a.createElement('p', {className: 'title'}, 'Courses'),
-                    c.a.createElement(
+                    r.a.createElement('p', {className: 'title'}, 'Courses'),
+                    r.a.createElement(
                       'p',
                       {className: 'subTitle'},
                       'All dictated by Udemy. Click to see awards. '
                     ),
-                    c.a.createElement(
+                    r.a.createElement(
                       'a',
                       {
                         className: 'link',
                         href: 'https://www.udemy.com/certificate/UC-HP487DY0/'
                       },
-                      c.a.createElement(
+                      r.a.createElement(
                         'p',
                         {className: 'description'},
                         '\u2022 Angular 6 (Angular 2+) & React 16 - The Complete App Guide.'
                       )
                     ),
-                    c.a.createElement(
+                    r.a.createElement(
                       'a',
                       {
                         className: 'link',
                         href: 'https://www.udemy.com/certificate/UC-85YX4IGW'
                       },
-                      c.a.createElement(
+                      r.a.createElement(
                         'p',
                         {className: 'description'},
                         '\u2022 The Coding Interview: Algorithm & Data Structs.'
                       )
                     ),
-                    c.a.createElement(
+                    r.a.createElement(
                       'a',
                       {
                         className: 'link',
                         href: 'https://www.udemy.com/certificate/UC-FWPFN4R8/'
                       },
-                      c.a.createElement(
+                      r.a.createElement(
                         'p',
                         {className: 'description'},
                         '\u2022 Motivation & Processes for Game & App Dev.'
                       )
                     ),
-                    c.a.createElement(
+                    r.a.createElement(
                       'a',
                       {
                         className: 'link',
                         href: 'https://www.udemy.com/certificate/UC-H7X5IBT1/'
                       },
-                      c.a.createElement(
+                      r.a.createElement(
                         'p',
                         {className: 'description'},
                         '\u2022 Game Programming with Phaser.'
                       )
                     ),
-                    c.a.createElement(
+                    r.a.createElement(
                       'a',
                       {
                         className: 'link',
                         href: 'https://www.udemy.com/certificate/UC-T3O60QBW/'
                       },
-                      c.a.createElement(
+                      r.a.createElement(
                         'p',
                         {className: 'description'},
                         '\u2022 Master in Game Programming with Unity3D'
                       )
                     ),
-                    c.a.createElement(
+                    r.a.createElement(
                       'a',
                       {
                         className: 'link',
                         href: 'https://www.udemy.com/certificate/UC-PULGHD62/'
                       },
-                      c.a.createElement(
+                      r.a.createElement(
                         'p',
                         {className: 'description'},
                         '\u2022 The Board Game Developer - Become A Game Design Ninja.'
                       )
                     ),
-                    c.a.createElement(
+                    r.a.createElement(
                       'a',
                       {
                         className: 'link',
                         href: 'https://www.udemy.com/certificate/UC-LEFF5WKT/'
                       },
-                      c.a.createElement(
+                      r.a.createElement(
                         'p',
                         {className: 'description'},
                         '\u2022 How to get a job in the video game industry.'
                       )
                     ),
-                    c.a.createElement(
+                    r.a.createElement(
                       'a',
                       {
                         className: 'link',
                         href: 'https://www.udemy.com/certificate/UC-CE7AJEVU/'
                       },
-                      c.a.createElement(
+                      r.a.createElement(
                         'p',
                         {className: 'description'},
                         '\u2022 RPG Core Combat Creator - Unity3D 2017.'
@@ -788,80 +814,80 @@
             ]),
             a
           );
-        })(c.a.Component),
-        ye = (function(e) {
+        })(r.a.Component),
+        Te = (function(e) {
           function a() {
             return (
-              Object(A.a)(this, a),
-              Object(I.a)(this, Object(v.a)(a).apply(this, arguments))
+              Object(N.a)(this, a),
+              Object(w.a)(this, Object(D.a)(a).apply(this, arguments))
             );
           }
           return (
-            Object(w.a)(a, e),
+            Object(v.a)(a, e),
             Object(f.a)(a, [
               {
                 key: 'render',
                 value: function() {
-                  return c.a.createElement(
+                  return r.a.createElement(
                     'div',
                     {className: 'container'},
-                    c.a.createElement(
+                    r.a.createElement(
                       'p',
                       {className: 'title'},
                       'Valuable Skills'
                     ),
-                    c.a.createElement(
+                    r.a.createElement(
                       'p',
                       {className: 'charge'},
                       'Programming Languages'
                     ),
-                    c.a.createElement(
+                    r.a.createElement(
                       'p',
                       {className: 'subTitle'},
                       'Javascript, C#, C++, ActionScript3, Python.'
                     ),
-                    c.a.createElement(
+                    r.a.createElement(
                       'p',
                       {className: 'charge'},
                       'Web Developent Tools'
                     ),
-                    c.a.createElement(
+                    r.a.createElement(
                       'p',
                       {className: 'subTitle'},
                       'HTML5, SASS, Bootstrap, Angular 7, React.'
                     ),
-                    c.a.createElement(
+                    r.a.createElement(
                       'p',
                       {className: 'charge'},
                       'Version Control and IDEs'
                     ),
-                    c.a.createElement(
+                    r.a.createElement(
                       'p',
                       {className: 'subTitle'},
                       'Github, Gitlab, Git, VSCode, Sublime, Tower.'
                     ),
-                    c.a.createElement('p', {className: 'charge'}, 'Design'),
-                    c.a.createElement(
+                    r.a.createElement('p', {className: 'charge'}, 'Design'),
+                    r.a.createElement(
                       'p',
                       {className: 'subTitle'},
                       'Illustrator, Photoshop, Material design.'
                     ),
-                    c.a.createElement(
+                    r.a.createElement(
                       'p',
                       {className: 'charge'},
                       'Unit Testing'
                     ),
-                    c.a.createElement(
+                    r.a.createElement(
                       'p',
                       {className: 'subTitle'},
                       'Karma, Jasmine, Cucumber.'
                     ),
-                    c.a.createElement(
+                    r.a.createElement(
                       'p',
                       {className: 'charge'},
                       'Methodologies'
                     ),
-                    c.a.createElement(
+                    r.a.createElement(
                       'p',
                       {className: 'subTitle'},
                       'Kanban, Agile Scrum, TDD, BDD.'
@@ -872,63 +898,63 @@
             ]),
             a
           );
-        })(c.a.Component),
-        Te = (function(e) {
+        })(r.a.Component),
+        Me = (function(e) {
           function a() {
             return (
-              Object(A.a)(this, a),
-              Object(I.a)(this, Object(v.a)(a).apply(this, arguments))
+              Object(N.a)(this, a),
+              Object(w.a)(this, Object(D.a)(a).apply(this, arguments))
             );
           }
           return (
-            Object(w.a)(a, e),
+            Object(v.a)(a, e),
             Object(f.a)(a, [
               {
                 key: 'render',
                 value: function() {
-                  return c.a.createElement(
+                  return r.a.createElement(
                     'div',
                     {className: 'container'},
-                    c.a.createElement('p', {className: 'title'}, 'Languages'),
-                    c.a.createElement('p', {className: 'charge'}, 'English'),
-                    c.a.createElement(
+                    r.a.createElement('p', {className: 'title'}, 'Languages'),
+                    r.a.createElement('p', {className: 'charge'}, 'English'),
+                    r.a.createElement(
                       'p',
                       {className: 'subTitle'},
                       'Advanced level, I can hold a technical talk!'
                     ),
-                    c.a.createElement('p', {className: 'charge'}, 'German'),
-                    c.a.createElement(
+                    r.a.createElement('p', {className: 'charge'}, 'German'),
+                    r.a.createElement(
                       'p',
                       {className: 'subTitle'},
                       'Basic, just starting!'
                     ),
-                    c.a.createElement('p', {className: 'charge'}, 'Spanish'),
-                    c.a.createElement('p', {className: 'subTitle'}, 'Native')
+                    r.a.createElement('p', {className: 'charge'}, 'Spanish'),
+                    r.a.createElement('p', {className: 'subTitle'}, 'Native')
                   );
                 }
               }
             ]),
             a
           );
-        })(c.a.Component),
-        Me = (function(e) {
+        })(r.a.Component),
+        je = (function(e) {
           function a() {
             return (
-              Object(A.a)(this, a),
-              Object(I.a)(this, Object(v.a)(a).apply(this, arguments))
+              Object(N.a)(this, a),
+              Object(w.a)(this, Object(D.a)(a).apply(this, arguments))
             );
           }
           return (
-            Object(w.a)(a, e),
+            Object(v.a)(a, e),
             Object(f.a)(a, [
               {
                 key: 'render',
                 value: function() {
-                  return c.a.createElement(
+                  return r.a.createElement(
                     'div',
                     {className: 'container'},
-                    c.a.createElement('p', {className: 'title'}, 'Hobbies'),
-                    c.a.createElement(
+                    r.a.createElement('p', {className: 'title'}, 'Hobbies'),
+                    r.a.createElement(
                       'p',
                       {className: 'subTitle'},
                       'Voracious reader of 20th century history, motorbike traveler, amateur tennis player and videogame lover'
@@ -939,53 +965,53 @@
             ]),
             a
           );
-        })(c.a.Component),
-        je = t(69),
-        Ge = t.n(je),
+        })(r.a.Component),
+        Ge = t(69),
+        ye = t.n(Ge),
         Ce = t(134),
         xe = t(132),
         Oe = t.n(xe),
         Se = t(133),
-        Re = t.n(Se),
+        Pe = t.n(Se),
         Ye = t(91),
-        Qe = t.n(Ye),
-        We = (function(e) {
+        We = t.n(Ye),
+        Re = (function(e) {
           function a() {
             return (
-              Object(A.a)(this, a),
-              Object(I.a)(this, Object(v.a)(a).apply(this, arguments))
+              Object(N.a)(this, a),
+              Object(w.a)(this, Object(D.a)(a).apply(this, arguments))
             );
           }
           return (
-            Object(w.a)(a, e),
+            Object(v.a)(a, e),
             Object(f.a)(a, [
               {
                 key: 'render',
                 value: function() {
                   var e = this.props.classes;
-                  return c.a.createElement(
-                    y.a,
+                  return r.a.createElement(
+                    T.a,
                     {className: e.card},
-                    c.a.createElement(he, null),
-                    c.a.createElement(Ie, null),
-                    c.a.createElement(
+                    r.a.createElement(he, null),
+                    r.a.createElement(we, null),
+                    r.a.createElement(
                       te.a,
                       {container: !0, spacing: 8},
-                      c.a.createElement(
+                      r.a.createElement(
                         te.a,
                         {item: !0, xs: 6},
-                        c.a.createElement(ve, null),
-                        c.a.createElement(ye, null)
+                        r.a.createElement(De, null),
+                        r.a.createElement(Te, null)
                       ),
-                      c.a.createElement(
+                      r.a.createElement(
                         te.a,
                         {item: !0, xs: 6},
-                        c.a.createElement(we, null),
-                        c.a.createElement(De, null),
-                        c.a.createElement(Te, null),
-                        c.a.createElement(Me, null),
-                        c.a.createElement(
-                          Ge.a,
+                        r.a.createElement(ve, null),
+                        r.a.createElement(Ie, null),
+                        r.a.createElement(Me, null),
+                        r.a.createElement(je, null),
+                        r.a.createElement(
+                          ye.a,
                           {
                             className: e.snackbar,
                             anchorOrigin: {
@@ -994,38 +1020,38 @@
                             },
                             open: !0
                           },
-                          c.a.createElement(Ce.a, {
+                          r.a.createElement(Ce.a, {
                             className: e.download,
-                            message: c.a.createElement(
+                            message: r.a.createElement(
                               'div',
                               null,
-                              c.a.createElement(
+                              r.a.createElement(
                                 'p',
                                 {className: e.link},
                                 'Download my CV here: '
                               ),
-                              c.a.createElement(
+                              r.a.createElement(
                                 'a',
                                 {
-                                  href: Qe.a,
+                                  href: We.a,
                                   download: 'Damian Kreick CV',
                                   className: e.link
                                 },
-                                c.a.createElement('img', {
-                                  src: Re.a,
+                                r.a.createElement('img', {
+                                  src: Pe.a,
                                   alt: 'us',
                                   className: e.flag
                                 }),
                                 'EN'
                               ),
-                              c.a.createElement(
+                              r.a.createElement(
                                 'a',
                                 {
-                                  href: Qe.a,
+                                  href: We.a,
                                   download: 'Damian Kreick CV',
                                   className: e.link
                                 },
-                                c.a.createElement('img', {
+                                r.a.createElement('img', {
                                   src: Oe.a,
                                   alt: 'es',
                                   className: e.flag
@@ -1043,9 +1069,10 @@
             ]),
             a
           );
-        })(c.a.Component),
-        Ze = Object(o.withStyles)({
+        })(r.a.Component),
+        Be = Object(o.withStyles)({
           card: {
+            border: 'solid 1px black',
             boxShadow: '-10px 10px 5px 0px rgba(0,0,0,0.75)',
             flexWrap: 'wrap',
             marginLeft: '114px',
@@ -1073,9 +1100,9 @@
             width: 'fit-content',
             zIndex: 'auto'
           }
-        })(We),
-        Pe = t(33),
-        Be = t.n(Pe);
+        })(Re),
+        Qe = t(33),
+        Ze = t.n(Qe);
       var Ue = Object(o.withStyles)(function(e) {
           return {
             container: {
@@ -1102,31 +1129,32 @@
           };
         })(function(e) {
           var a = e.classes;
-          return c.a.createElement(
+          return r.a.createElement(
             'div',
             {className: a.container, id: 'resume'},
-            c.a.createElement(Be.a, {variant: 'middle', className: a.divider}),
-            c.a.createElement(
-              le.a,
+            r.a.createElement(Ze.a, {variant: 'middle', className: a.divider}),
+            r.a.createElement(
+              se.a,
               {animateIn: 'bounceInRight', animateOnce: !0, duration: 1.5},
-              c.a.createElement(
-                W.a,
+              r.a.createElement(
+                R.a,
                 {variant: 'h3', className: a.title},
                 'Resume'
               )
             ),
-            c.a.createElement(Ze, null)
+            r.a.createElement(Be, null)
           );
         }),
-        ze = t(135),
-        Le = t.n(ze);
+        Le = t(135),
+        ze = t.n(Le);
       var Fe = Object(o.withStyles)({
           root: {flexGrow: 1, paddingTop: '100px'},
           avatar: {
             boxShadow: '0px 0px 20px 5px rgba(0,0,0,0.75)',
-            clipPath: 'circle(50% at 50% 50%)',
+            borderRadius: '20px',
             color: 'white',
-            width: '300px'
+            marginBottom: '10px',
+            width: '400px'
           },
           name: {marginTop: '30px'},
           divider: {margin: '15px'},
@@ -1140,64 +1168,64 @@
           }
         })(function(e) {
           var a = e.classes;
-          return c.a.createElement(
+          return r.a.createElement(
             'div',
             {className: a.root, id: 'header'},
-            c.a.createElement(
-              le.a,
+            r.a.createElement(
+              se.a,
               {animateIn: 'zoomIn', animateOnce: !0, offset: 0, duration: 2},
-              c.a.createElement('img', {
-                src: Le.a,
+              r.a.createElement('img', {
+                src: ze.a,
                 alt: 'Avatar',
                 className: a.avatar
               })
             ),
-            c.a.createElement(
-              le.a,
+            r.a.createElement(
+              se.a,
               {
                 animateIn: 'fadeInLeft',
                 animateOnce: !0,
                 delay: 500,
                 duration: 2
               },
-              c.a.createElement(
-                W.a,
+              r.a.createElement(
+                R.a,
                 {variant: 'h3', className: a.name},
                 'DAMIAN KREICK'
               )
             ),
-            c.a.createElement(Be.a, {variant: 'middle', className: a.divider}),
-            c.a.createElement(
-              le.a,
+            r.a.createElement(Ze.a, {variant: 'middle', className: a.divider}),
+            r.a.createElement(
+              se.a,
               {
                 animateIn: 'fadeInRight',
                 animateOnce: !0,
                 delay: 1e3,
                 duration: 2
               },
-              c.a.createElement(
-                W.a,
+              r.a.createElement(
+                R.a,
                 {variant: 'h5', className: a.charge},
                 'Web & Game Developer'
               )
             ),
-            c.a.createElement(
-              le.a,
+            r.a.createElement(
+              se.a,
               {animateIn: 'flipInX', animateOnce: !0, duration: 3, offset: 550},
-              c.a.createElement(
+              r.a.createElement(
                 'p',
                 {className: a.info},
                 'I have been in the world of coding since I was 14. Now more than 10 years later I am still trying to improve myself. Resilience, comprehension and knowledge are the three words who make my work days fructiferous. In this portfolio you will find all of my projects, no mattter if they are finished or not, even this web is a project itself made with React. So please be my guest and keep scrolling!.'
               )
             ),
-            c.a.createElement(Be.a, {variant: 'middle', className: a.divider})
+            r.a.createElement(Ze.a, {variant: 'middle', className: a.divider})
           );
         }),
         He = t(136),
         Ve = t.n(He),
         Ke = t(137),
         Je = t.n(Ke);
-      var qe = Object(o.withStyles)({
+      var Xe = Object(o.withStyles)({
         root: {
           backgroundColor: '#27ade3',
           display: 'flex',
@@ -1231,25 +1259,25 @@
         }
       })(function(e) {
         var a = e.classes;
-        return c.a.createElement(
+        return r.a.createElement(
           'div',
           {className: a.root, id: 'footer'},
-          c.a.createElement(
-            le.a,
+          r.a.createElement(
+            se.a,
             {
               animateIn: 'bounceInUp',
               animateOnce: !0,
               offset: 0,
               duration: 1.5
             },
-            c.a.createElement(
-              W.a,
+            r.a.createElement(
+              R.a,
               {variant: 'h5', className: a.title},
               'Did you enjoy my website?'
             )
           ),
-          c.a.createElement(
-            le.a,
+          r.a.createElement(
+            se.a,
             {
               animateIn: 'bounceInUp',
               animateOnce: !0,
@@ -1257,14 +1285,14 @@
               offset: 0,
               duration: 1.5
             },
-            c.a.createElement(
-              W.a,
+            r.a.createElement(
+              R.a,
               {variant: 'h6', className: a.subtitle},
               "Please consider contact me, I'm always open to hear what you are thinking!"
             )
           ),
-          c.a.createElement(
-            le.a,
+          r.a.createElement(
+            se.a,
             {
               animateIn: 'bounceInUp',
               animateOnce: !0,
@@ -1272,20 +1300,20 @@
               offset: 0,
               duration: 1.5
             },
-            c.a.createElement(
+            r.a.createElement(
               'div',
               {className: a.contactInfo},
-              c.a.createElement(
+              r.a.createElement(
                 'div',
                 {className: a.infoContainer},
-                c.a.createElement(ge.a, {className: a.button}),
-                c.a.createElement(
-                  W.a,
+                r.a.createElement(be.a, {className: a.button}),
+                r.a.createElement(
+                  R.a,
                   {variant: 'h6', className: a.infoTitle},
                   '+54 911-3330-2076'
                 )
               ),
-              c.a.createElement(
+              r.a.createElement(
                 'a',
                 {
                   href: 'https://wa.me/541133302076',
@@ -1293,14 +1321,14 @@
                   target: '_blank',
                   className: a.infoContainer
                 },
-                c.a.createElement(ue.a, {className: a.button}),
-                c.a.createElement(
-                  W.a,
+                r.a.createElement(de.a, {className: a.button}),
+                r.a.createElement(
+                  R.a,
                   {variant: 'h6', className: a.infoTitle},
                   'damian.kreick@gmail.com'
                 )
               ),
-              c.a.createElement(
+              r.a.createElement(
                 'a',
                 {
                   href: 'https://www.linkedin.com/in/damiankreick',
@@ -1308,18 +1336,18 @@
                   target: '_blank',
                   className: a.infoContainer
                 },
-                c.a.createElement('img', {
+                r.a.createElement('img', {
                   src: Ve.a,
                   alt: 'Linkedin',
                   className: a.button
                 }),
-                c.a.createElement(
-                  W.a,
+                r.a.createElement(
+                  R.a,
                   {variant: 'h6', className: a.infoTitle},
                   'in/damiankreick'
                 )
               ),
-              c.a.createElement(
+              r.a.createElement(
                 'a',
                 {
                   href: 'https://wa.me/541133302076',
@@ -1327,13 +1355,13 @@
                   target: '_blank',
                   className: a.infoContainer
                 },
-                c.a.createElement('img', {
+                r.a.createElement('img', {
                   src: Je.a,
                   alt: 'Whatsapp',
                   className: a.button
                 }),
-                c.a.createElement(
-                  W.a,
+                r.a.createElement(
+                  R.a,
                   {variant: 'h6', className: a.infoTitle},
                   'Whatsapp Me!'
                 )
@@ -1342,39 +1370,39 @@
           )
         );
       });
-      var Xe = Object(o.withStyles)(function(e) {
+      var qe = Object(o.withStyles)(function(e) {
           return {container: {flexWrap: 'wrap'}};
         })(function(e) {
           var a = e.classes;
-          return c.a.createElement(
+          return r.a.createElement(
             'div',
             {className: a.container},
-            c.a.createElement(Fe, null),
-            c.a.createElement(se, null),
-            c.a.createElement(Ue, null),
-            c.a.createElement(qe, null)
+            r.a.createElement(Fe, null),
+            r.a.createElement(le, null),
+            r.a.createElement(Ue, null),
+            r.a.createElement(Xe, null)
           );
         }),
         _e = t(138),
         $e = t(35);
       var ea = function() {
-        return c.a.createElement(
+        return r.a.createElement(
           'div',
           null,
-          c.a.createElement(
+          r.a.createElement(
             _e.a,
             null,
-            c.a.createElement(
+            r.a.createElement(
               'div',
               {className: 'app'},
-              c.a.createElement(k, null),
-              c.a.createElement(
+              r.a.createElement(A, null),
+              r.a.createElement(
                 'div',
                 {className: 'container'},
-                c.a.createElement($e.a, {
+                r.a.createElement($e.a, {
                   exact: !0,
                   path: '/(|Portfolio)',
-                  component: Xe
+                  component: qe
                 })
               )
             )
@@ -1388,7 +1416,7 @@
             /^127(?:\.(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)){3}$/
           )
       );
-      r.a.render(c.a.createElement(ea, null), document.getElementById('root')),
+      c.a.render(r.a.createElement(ea, null), document.getElementById('root')),
         'serviceWorker' in navigator &&
           navigator.serviceWorker.ready.then(function(e) {
             e.unregister();
@@ -1400,7 +1428,8 @@
         {
           name: 'Another Day To Be',
           subtitle: 'RPG-TBT Exploration game.',
-          icon: 'IconAd2b',
+          icon:
+            'https://raw.githubusercontent.com/Dkreick/Portfolio/master/src/assets/icons/icon-ad2b.jpg',
           snapshot:
             'https://raw.githubusercontent.com/Dkreick/AnotherDayToBe/master/Documents/Developer%20notes/GDD%20Images/CombatPreview.jpg',
           description:
@@ -1411,7 +1440,8 @@
         {
           name: 'AD2B Wiki',
           subtitle: 'Wiki for Another Day To Be.',
-          icon: 'IconAd2b',
+          icon:
+            'https://raw.githubusercontent.com/Dkreick/Portfolio/master/src/assets/icons/icon-ad2b.jpg',
           snapshot:
             'https://raw.githubusercontent.com/Dkreick/AnotherDayToBe/master/Documents/Developer%20notes/GDD%20Images/CombatPreview.jpg',
           description: 'Official Wikia for Another Day To be',
@@ -1421,7 +1451,8 @@
         {
           name: 'Scan My Profile',
           subtitle: 'Info app made with Vuforia.',
-          icon: 'IconScan',
+          icon:
+            'https://raw.githubusercontent.com/Dkreick/Portfolio/master/src/assets/icons/icon-scan.jpg',
           snapshot:
             'https://raw.githubusercontent.com/Dkreick/Scan-My-Profile/master/ReadmePhoto.png',
           description:
@@ -1432,7 +1463,8 @@
         {
           name: 'Simple Simon',
           subtitle: 'Simple game memory game.',
-          icon: 'IconSimon',
+          icon:
+            'https://raw.githubusercontent.com/Dkreick/Portfolio/master/src/assets/icons/icon-simon.jpg',
           snapshot:
             'https://raw.githubusercontent.com/Dkreick/SimpleSimon/master/preview.png',
           description: 'Simple game memory game.',
@@ -1453,7 +1485,8 @@
         {
           name: 'Horse and diamonds',
           subtitle: 'Short mouse game.',
-          icon: 'IconHorse',
+          icon:
+            'https://raw.githubusercontent.com/Dkreick/Portfolio/master/src/assets/icons/icon-horse.jpg',
           snapshot:
             'https://raw.githubusercontent.com/Dkreick/Phaser---Practice-Horse-and-diamonds/master/preview.png',
           description: 'Catch all the bubbles before the time runs out!.',
@@ -1464,7 +1497,8 @@
         {
           name: 'Galactic Menace',
           subtitle: 'Short Match3 alike game.',
-          icon: 'IconGalactic',
+          icon:
+            'https://raw.githubusercontent.com/Dkreick/Portfolio/master/src/assets/icons/icon-galactic.jpg',
           snapshot:
             'https://raw.githubusercontent.com/Dkreick/Galactic-Menace/master/Snapshot.jpg',
           description: 'Small Match3 alike game made in Unity3D.',
@@ -1476,99 +1510,204 @@
     90: function(e) {
       e.exports = [
         {
-          name: 'pistola',
-          snapshot:
-            'https://raw.githubusercontent.com/Dkreick/Scan-My-Profile/master/ReadmePhoto.png'
+          name: 'Aks 74U',
+          image:
+            'https://raw.githubusercontent.com/Dkreick/Portfolio/master/src/assets/art/Aks%2074u.png'
         },
         {
-          name: 'pistola',
-          snapshot:
-            'https://raw.githubusercontent.com/Dkreick/Scan-My-Profile/master/ReadmePhoto.png'
+          name: 'Ballester Molina 1125',
+          image:
+            'https://raw.githubusercontent.com/Dkreick/Portfolio/master/src/assets/art/Ballester%20Molina%201125.png'
         },
         {
-          name: 'pistola',
-          snapshot:
-            'https://raw.githubusercontent.com/Dkreick/Scan-My-Profile/master/ReadmePhoto.png'
+          name: 'Bar 1918',
+          image:
+            'https://raw.githubusercontent.com/Dkreick/Portfolio/master/src/assets/art/Bar%201918.png'
         },
         {
-          name: 'pistola',
-          snapshot:
-            'https://raw.githubusercontent.com/Dkreick/Scan-My-Profile/master/ReadmePhoto.png'
+          name: 'Bataan 81',
+          image:
+            'https://raw.githubusercontent.com/Dkreick/Portfolio/master/src/assets/art/Bataan%2081.png'
         },
         {
-          name: 'pistola',
-          snapshot:
-            'https://raw.githubusercontent.com/Dkreick/Scan-My-Profile/master/ReadmePhoto.png'
+          name: 'Beretta ARX160',
+          image:
+            'https://raw.githubusercontent.com/Dkreick/Portfolio/master/src/assets/art/Beretta%20ARX160.png'
         },
         {
-          name: 'pistola',
-          snapshot:
-            'https://raw.githubusercontent.com/Dkreick/Scan-My-Profile/master/ReadmePhoto.png'
+          name: 'Beretta Px4',
+          image:
+            'https://raw.githubusercontent.com/Dkreick/Portfolio/master/src/assets/art/Beretta%20Px4.png'
         },
         {
-          name: 'pistola',
-          snapshot:
-            'https://raw.githubusercontent.com/Dkreick/Scan-My-Profile/master/ReadmePhoto.png'
+          name: 'Bersa Thunder 9mm',
+          image:
+            'https://raw.githubusercontent.com/Dkreick/Portfolio/master/src/assets/art/Bersa%2022.png'
         },
         {
-          name: 'pistola',
-          snapshot:
-            'https://raw.githubusercontent.com/Dkreick/Scan-My-Profile/master/ReadmePhoto.png'
+          name: 'Bersa .22',
+          image:
+            'https://raw.githubusercontent.com/Dkreick/Portfolio/master/src/assets/art/Bersa%20Thunder%209mm.png'
         },
         {
-          name: 'pistola',
-          snapshot:
-            'https://raw.githubusercontent.com/Dkreick/Scan-My-Profile/master/ReadmePhoto.png'
+          name: 'Browning GP35',
+          image:
+            'https://raw.githubusercontent.com/Dkreick/Portfolio/master/src/assets/art/Browning%20GP35.png'
         },
         {
-          name: 'pistola',
-          snapshot:
-            'https://raw.githubusercontent.com/Dkreick/Scan-My-Profile/master/ReadmePhoto.png'
+          name: 'Colt Mod. 635',
+          image:
+            'https://raw.githubusercontent.com/Dkreick/Portfolio/master/src/assets/art/Colt%20Mod%20635.png'
         },
         {
-          name: 'pistola',
-          snapshot:
-            'https://raw.githubusercontent.com/Dkreick/Scan-My-Profile/master/ReadmePhoto.png'
+          name: 'FARA 83',
+          image:
+            'https://raw.githubusercontent.com/Dkreick/Portfolio/master/src/assets/art/FARA%2083.png'
         },
         {
-          name: 'pistola',
-          snapshot:
-            'https://raw.githubusercontent.com/Dkreick/Scan-My-Profile/master/ReadmePhoto.png'
+          name: 'FMK-3',
+          image:
+            'https://raw.githubusercontent.com/Dkreick/Portfolio/master/src/assets/art/FMK-3.png'
         },
         {
-          name: 'pistola',
-          snapshot:
-            'https://raw.githubusercontent.com/Dkreick/Scan-My-Profile/master/ReadmePhoto.png'
+          name: 'FN FAL',
+          image:
+            'https://raw.githubusercontent.com/Dkreick/Portfolio/master/src/assets/art/FN%20FAL.png'
         },
         {
-          name: 'pistola',
-          snapshot:
-            'https://raw.githubusercontent.com/Dkreick/Scan-My-Profile/master/ReadmePhoto.png'
+          name: 'FN P90',
+          image:
+            'https://raw.githubusercontent.com/Dkreick/Portfolio/master/src/assets/art/FN%20P90.png'
         },
         {
-          name: 'pistola',
-          snapshot:
-            'https://raw.githubusercontent.com/Dkreick/Scan-My-Profile/master/ReadmePhoto.png'
+          name: 'Glock G17c',
+          image:
+            'https://raw.githubusercontent.com/Dkreick/Portfolio/master/src/assets/art/Glock%2017c.png'
         },
         {
-          name: 'pistola',
-          snapshot:
-            'https://raw.githubusercontent.com/Dkreick/Scan-My-Profile/master/ReadmePhoto.png'
+          name: 'Desert Eagle Gold',
+          image:
+            'https://raw.githubusercontent.com/Dkreick/Portfolio/master/src/assets/art/Gold%20Desert%20Eagle.png'
         },
         {
-          name: 'pistola',
-          snapshot:
-            'https://raw.githubusercontent.com/Dkreick/Scan-My-Profile/master/ReadmePhoto.png'
+          name: 'Halcon M1943',
+          image:
+            'https://raw.githubusercontent.com/Dkreick/Portfolio/master/src/assets/art/Halcon%20M1943.png'
         },
         {
-          name: 'pistola',
-          snapshot:
-            'https://raw.githubusercontent.com/Dkreick/Scan-My-Profile/master/ReadmePhoto.png'
+          name: 'Hatsan Escort 12UAB',
+          image:
+            'https://raw.githubusercontent.com/Dkreick/Portfolio/master/src/assets/art/Hatsan%20Escort%2012UAB.png'
         },
         {
-          name: 'lo tirito',
-          snapshot:
-            'https://raw.githubusercontent.com/Dkreick/Scan-My-Profile/master/ReadmePhoto.png'
+          name: 'Luger P08',
+          image:
+            'https://raw.githubusercontent.com/Dkreick/Portfolio/master/src/assets/art/Luger%20P08.png'
+        },
+        {
+          name: 'M16',
+          image:
+            'https://raw.githubusercontent.com/Dkreick/Portfolio/master/src/assets/art/M16.png'
+        },
+        {
+          name: 'M1911',
+          image:
+            'https://raw.githubusercontent.com/Dkreick/Portfolio/master/src/assets/art/M1911.png'
+        },
+        {
+          name: 'M24 SWS',
+          image:
+            'https://raw.githubusercontent.com/Dkreick/Portfolio/master/src/assets/art/M24%20SWS.png'
+        },
+        {
+          name: 'M3A1 Grease Gun',
+          image:
+            'https://raw.githubusercontent.com/Dkreick/Portfolio/master/src/assets/art/M3A1%20Grease%20Gun.png'
+        },
+        {
+          name: 'MP5SD',
+          image:
+            'https://raw.githubusercontent.com/Dkreick/Portfolio/master/src/assets/art/MP5SD.png'
+        },
+        {
+          name: 'MP7A1',
+          image:
+            'https://raw.githubusercontent.com/Dkreick/Portfolio/master/src/assets/art/MP7A1.png'
+        },
+        {
+          name: 'Mauser C96',
+          image:
+            'https://raw.githubusercontent.com/Dkreick/Portfolio/master/src/assets/art/Mauser%20C96.png'
+        },
+        {
+          name: 'Norinco JW14',
+          image:
+            'https://raw.githubusercontent.com/Dkreick/Portfolio/master/src/assets/art/Norinco%20Jw14.png'
+        },
+        {
+          name: 'Ppsh-41',
+          image:
+            'https://raw.githubusercontent.com/Dkreick/Portfolio/master/src/assets/art/Ppsh-41.png'
+        },
+        {
+          name: 'Remington 597',
+          image:
+            'https://raw.githubusercontent.com/Dkreick/Portfolio/master/src/assets/art/Remington%20597.png'
+        },
+        {
+          name: 'Remington 700',
+          image:
+            'https://raw.githubusercontent.com/Dkreick/Portfolio/master/src/assets/art/Remington%20700.png'
+        },
+        {
+          name: 'Remington 800',
+          image:
+            'https://raw.githubusercontent.com/Dkreick/Portfolio/master/src/assets/art/Remington%20800.png'
+        },
+        {
+          name: 'SCAR-H',
+          image:
+            'https://raw.githubusercontent.com/Dkreick/Portfolio/master/src/assets/art/SCAR-H.png'
+        },
+        {
+          name: 'SPAS 12',
+          image:
+            'https://raw.githubusercontent.com/Dkreick/Portfolio/master/src/assets/art/SPAS%2012.png'
+        },
+        {
+          name: 'Sawn-off',
+          image:
+            'https://raw.githubusercontent.com/Dkreick/Portfolio/master/src/assets/art/Sawn%20off.png'
+        },
+        {
+          name: 'Steyr Aug',
+          image:
+            'https://raw.githubusercontent.com/Dkreick/Portfolio/master/src/assets/art/Steyr%20AUG.png'
+        },
+        {
+          name: 'Sturmgewehr 44',
+          image:
+            'https://raw.githubusercontent.com/Dkreick/Portfolio/master/src/assets/art/Sturmgewehr%2044.png'
+        },
+        {
+          name: 'Steyr SSG69',
+          image:
+            'https://raw.githubusercontent.com/Dkreick/Portfolio/master/src/assets/art/Styer%20SSG69.png'
+        },
+        {
+          name: 'Taurus Mod 97',
+          image:
+            'https://raw.githubusercontent.com/Dkreick/Portfolio/master/src/assets/art/Taurus%20Mod%2097.png'
+        },
+        {
+          name: 'Thompson M1A1',
+          image:
+            'https://raw.githubusercontent.com/Dkreick/Portfolio/master/src/assets/art/Thompson%20M1A1.png'
+        },
+        {
+          name: 'Walther P38',
+          image:
+            'https://raw.githubusercontent.com/Dkreick/Portfolio/master/src/assets/art/Walther%20P38.png'
         }
       ];
     },
@@ -1578,4 +1717,4 @@
   },
   [[219, 1, 2]]
 ]);
-//# sourceMappingURL=main.39341a9b.chunk.js.map
+//# sourceMappingURL=main.2752f794.chunk.js.map
