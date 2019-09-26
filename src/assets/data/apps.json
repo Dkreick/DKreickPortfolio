@@ -36,6 +36,15 @@
     "mainLanguage": "Unity3D/C#"
   },
   {
+    "name": "Dacia Adventure",
+    "subtitle": "Road Fighter style game",
+    "icon": "DaciaAdv",
+    "snapshot": "https://raw.githubusercontent.com/Dkreick/DaciaAdventure/blob/master/Documents/PreviewGame.png",
+    "description": "Try to avoid as many cars as possible in your rusty old Dacia 131.",
+    "linkToSourceCode": "https://github.com/Dkreick/DaciaAdventure",
+    "mainLanguage": "Unity3D/C#"
+  },
+  {
     "name": "Dont Travel Alone",
     "subtitle": "Booking website for motorcycle rental",
     "icon": "IconAd2b",
@@ -60,6 +69,15 @@
     "snapshot": "https://raw.githubusercontent.com/Dkreick/Galactic-Menace/master/Snapshot.jpg",
     "description": "Small Match3 alike game made in Unity3D.",
     "linkToSourceCode": "https://github.com/Dkreick/Galactic-Menace",
+    "mainLanguage": "Unity3D"
+  },
+  {
+    "name": "Fallout Memory Game",
+    "subtitle": "Fallout Themed Game",
+    "icon": "IconFallout",
+    "snapshot": "https://raw.githubusercontent.com/Dkreick/Fallout-Memory-Game/master/Snapshot.jpg",
+    "description": "Memory game based in the Fallout universe.",
+    "linkToSourceCode": "https://github.com/Dkreick/Fallout-Memory-Game",
     "mainLanguage": "Unity3D"
   }
 ]

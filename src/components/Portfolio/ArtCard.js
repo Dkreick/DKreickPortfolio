@@ -11,7 +11,7 @@ const styles = theme => ({
     height: 'inherit',
     justifyContent: 'space-around',
     overflow: 'hidden',
-    width: '20%',
+    width: '200px',
     backgroundColor: theme.palette.background.paper
   },
   image: {

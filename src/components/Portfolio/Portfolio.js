@@ -25,9 +25,6 @@ const styles = theme => ({
   },
   title: {
     marginBottom: '30px'
-  },
-  scroll: {
-    width: '25%'
   }
 });
 
@@ -48,16 +45,15 @@ export function Portfolio(props) {
       <Grid container spacing={8}>
         {apps.map((api, index) => {
           return (
-            <ScrollAnimation
-              animateIn="fadeIn"
-              duration={index + 1}
-              animateOnce={true}
-              className={classes.scroll}
-            >
-              <Grid item>
+            <Grid item xs={12} sm={3}>
+              <ScrollAnimation
+                animateIn="fadeIn"
+                duration={index + 1}
+                animateOnce={true}
+              >
                 <GameCard data={apps[index]} key={index} />
-              </Grid>
-            </ScrollAnimation>
+              </ScrollAnimation>
+            </Grid>
           );
         })}
       </Grid>

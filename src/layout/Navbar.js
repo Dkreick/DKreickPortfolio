@@ -16,7 +16,6 @@ const styles = {
     alignItems: 'flex-end',
     backgroundColor: '#27ade3',
     height: '61px',
-    position: 'fixed',
     top: '0px'
   },
   button: {

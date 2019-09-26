@@ -34,7 +34,7 @@
       t.r(a);
       var n = t(0),
         r = t.n(n),
-        i = t(27),
+        i = t(28),
         c = t.n(i),
         o = (t(224), t(225), t(5)),
         s = t(59),
@@ -46,15 +46,14 @@
         d = t(34),
         g = t.n(d),
         b = t(31),
-        E = t.n(b),
-        k = t(50);
+        k = t.n(b),
+        E = t(50);
       var A = Object(o.withStyles)({
           root: {flexGrow: 1},
           bar: {
             alignItems: 'flex-end',
             backgroundColor: '#27ade3',
             height: '61px',
-            position: 'fixed',
             top: '0px'
           },
           button: {
@@ -88,7 +87,7 @@
                   u.a,
                   {className: a.nav},
                   r.a.createElement(
-                    k.Link,
+                    E.Link,
                     {
                       to: 'header',
                       spy: !0,
@@ -99,11 +98,11 @@
                     r.a.createElement(
                       g.a,
                       {className: a.item},
-                      r.a.createElement(E.a, {className: a.button}, 'Home')
+                      r.a.createElement(k.a, {className: a.button}, 'Home')
                     )
                   ),
                   r.a.createElement(
-                    k.Link,
+                    E.Link,
                     {
                       to: 'portfolio',
                       spy: !0,
@@ -114,11 +113,11 @@
                     r.a.createElement(
                       g.a,
                       {className: a.item},
-                      r.a.createElement(E.a, {className: a.button}, 'Projects')
+                      r.a.createElement(k.a, {className: a.button}, 'Projects')
                     )
                   ),
                   r.a.createElement(
-                    k.Link,
+                    E.Link,
                     {
                       to: 'resume',
                       spy: !0,
@@ -129,11 +128,11 @@
                     r.a.createElement(
                       g.a,
                       {className: a.item},
-                      r.a.createElement(E.a, {className: a.button}, 'Resume')
+                      r.a.createElement(k.a, {className: a.button}, 'Resume')
                     )
                   ),
                   r.a.createElement(
-                    k.Link,
+                    E.Link,
                     {
                       to: 'footer',
                       spy: !0,
@@ -144,7 +143,7 @@
                     r.a.createElement(
                       g.a,
                       {className: a.item},
-                      r.a.createElement(E.a, {className: a.button}, 'Contact')
+                      r.a.createElement(k.a, {className: a.button}, 'Contact')
                     )
                   )
                 )
@@ -160,11 +159,11 @@
         I = t(30),
         T = t.n(I),
         M = t(63),
-        j = t.n(M),
+        y = t.n(M),
         G = t(41),
-        y = t.n(G),
-        C = t(42),
-        x = t.n(C),
+        j = t.n(G),
+        x = t(42),
+        C = t.n(x),
         O = t(65),
         S = t.n(O),
         P = t(64),
@@ -177,7 +176,7 @@
         U = t.n(Z),
         L = t(128),
         z = t.n(L),
-        F = t(28),
+        F = t(29),
         H = t.n(F),
         V = (function(e) {
           function a() {
@@ -203,7 +202,7 @@
                   return r.a.createElement(
                     T.a,
                     {className: t.card},
-                    r.a.createElement(j.a, {
+                    r.a.createElement(y.a, {
                       avatar: r.a.createElement(
                         Y.a,
                         {'aria-label': 'Recipe', className: t.avatar},
@@ -217,13 +216,13 @@
                       subheader: this.props.data.subtitle,
                       className: t.header
                     }),
-                    r.a.createElement(y.a, {
+                    r.a.createElement(j.a, {
                       className: t.media,
                       image: this.props.data.snapshot,
                       title: this.props.data.name
                     }),
                     r.a.createElement(
-                      x.a,
+                      C.a,
                       {className: t.content},
                       r.a.createElement(
                         R.a,
@@ -336,7 +335,7 @@
               height: 'inherit',
               justifyContent: 'space-around',
               overflow: 'hidden',
-              width: '20%',
+              width: '200px',
               backgroundColor: e.palette.background.paper
             },
             image: {
@@ -352,13 +351,13 @@
             }
           };
         })($),
-        ae = t(29),
+        ae = t(18),
         te = t.n(ae),
         ne = t(68),
         re = t.n(ne),
         ie = t(89),
         ce = t(90),
-        oe = t(18),
+        oe = t(19),
         se = t.n(oe);
       var le = Object(o.withStyles)(function(e) {
           return {
@@ -374,8 +373,7 @@
               overflowY: 'hidden',
               paddingTop: '60px'
             },
-            title: {marginBottom: '30px'},
-            scroll: {width: '25%'}
+            title: {marginBottom: '30px'}
           };
         })(function(e) {
           var a = e.classes;
@@ -394,19 +392,14 @@
             r.a.createElement(
               te.a,
               {container: !0, spacing: 8},
-              ie.map(function(e, t) {
+              ie.map(function(e, a) {
                 return r.a.createElement(
-                  se.a,
-                  {
-                    animateIn: 'fadeIn',
-                    duration: t + 1,
-                    animateOnce: !0,
-                    className: a.scroll
-                  },
+                  te.a,
+                  {item: !0, xs: 12, sm: 3},
                   r.a.createElement(
-                    te.a,
-                    {item: !0},
-                    r.a.createElement(K, {data: ie[t], key: t})
+                    se.a,
+                    {animateIn: 'fadeIn', duration: a + 1, animateOnce: !0},
+                    r.a.createElement(K, {data: ie[a], key: a})
                   )
                 );
               })
@@ -444,9 +437,9 @@
           return r.a.createElement(
             T.a,
             null,
-            r.a.createElement(y.a, {component: 'img', image: pe.a}),
+            r.a.createElement(j.a, {component: 'img', image: pe.a}),
             r.a.createElement(
-              x.a,
+              C.a,
               null,
               r.a.createElement(
                 R.a,
@@ -465,8 +458,8 @@
         de = t.n(ue),
         ge = t(71),
         be = t.n(ge),
-        Ee = t(131),
-        ke = t.n(Ee),
+        ke = t(131),
+        Ee = t.n(ke),
         Ae = t(130),
         Ne = t.n(Ae),
         fe = (function(e) {
@@ -487,7 +480,7 @@
                     'div',
                     {className: e.root},
                     r.a.createElement(H.a, {
-                      avatar: r.a.createElement(ke.a, {className: e.button}),
+                      avatar: r.a.createElement(Ee.a, {className: e.button}),
                       label: '29/06/1994',
                       className: this.props.classes.chip
                     }),
@@ -937,7 +930,7 @@
             a
           );
         })(r.a.Component),
-        je = (function(e) {
+        ye = (function(e) {
           function a() {
             return (
               Object(N.a)(this, a),
@@ -967,10 +960,10 @@
           );
         })(r.a.Component),
         Ge = t(69),
-        ye = t.n(Ge),
-        Ce = t(134),
-        xe = t(132),
-        Oe = t.n(xe),
+        je = t.n(Ge),
+        xe = t(134),
+        Ce = t(132),
+        Oe = t.n(Ce),
         Se = t(133),
         Pe = t.n(Se),
         Ye = t(91),
@@ -1009,9 +1002,9 @@
                         r.a.createElement(ve, null),
                         r.a.createElement(Ie, null),
                         r.a.createElement(Me, null),
-                        r.a.createElement(je, null),
+                        r.a.createElement(ye, null),
                         r.a.createElement(
-                          ye.a,
+                          je.a,
                           {
                             className: e.snackbar,
                             anchorOrigin: {
@@ -1020,7 +1013,7 @@
                             },
                             open: !0
                           },
-                          r.a.createElement(Ce.a, {
+                          r.a.createElement(xe.a, {
                             className: e.download,
                             message: r.a.createElement(
                               'div',
@@ -1073,11 +1066,7 @@
         Be = Object(o.withStyles)({
           card: {
             border: 'solid 1px black',
-            boxShadow: '-10px 10px 5px 0px rgba(0,0,0,0.75)',
-            flexWrap: 'wrap',
-            marginLeft: '114px',
-            marginRight: '114px',
-            justifyContent: 'center'
+            boxShadow: '-10px 10px 5px 0px rgba(0,0,0,0.75)'
           },
           download: {backgroundColor: '#27ade3'},
           link: {
@@ -1154,7 +1143,7 @@
             borderRadius: '20px',
             color: 'white',
             marginBottom: '10px',
-            width: '400px'
+            width: '330px'
           },
           name: {marginTop: '30px'},
           divider: {margin: '15px'},
@@ -1301,11 +1290,11 @@
               duration: 1.5
             },
             r.a.createElement(
-              'div',
-              {className: a.contactInfo},
+              te.a,
+              {container: !0, spacing: 3},
               r.a.createElement(
-                'div',
-                {className: a.infoContainer},
+                te.a,
+                {item: !0, xs: 6, sm: 3},
                 r.a.createElement(be.a, {className: a.button}),
                 r.a.createElement(
                   R.a,
@@ -1314,56 +1303,68 @@
                 )
               ),
               r.a.createElement(
-                'a',
-                {
-                  href: 'https://wa.me/541133302076',
-                  rel: 'noopener noreferrer',
-                  target: '_blank',
-                  className: a.infoContainer
-                },
-                r.a.createElement(de.a, {className: a.button}),
+                te.a,
+                {item: !0, xs: 6, sm: 3},
                 r.a.createElement(
-                  R.a,
-                  {variant: 'h6', className: a.infoTitle},
-                  'damian.kreick@gmail.com'
+                  'a',
+                  {
+                    href: 'https://wa.me/541133302076',
+                    rel: 'noopener noreferrer',
+                    target: '_blank',
+                    className: a.infoContainer
+                  },
+                  r.a.createElement(de.a, {className: a.button}),
+                  r.a.createElement(
+                    R.a,
+                    {variant: 'h6', className: a.infoTitle},
+                    'damian.kreick@gmail.com'
+                  )
                 )
               ),
               r.a.createElement(
-                'a',
-                {
-                  href: 'https://www.linkedin.com/in/damiankreick',
-                  rel: 'noopener noreferrer',
-                  target: '_blank',
-                  className: a.infoContainer
-                },
-                r.a.createElement('img', {
-                  src: Ve.a,
-                  alt: 'Linkedin',
-                  className: a.button
-                }),
+                te.a,
+                {item: !0, xs: 6, sm: 3},
                 r.a.createElement(
-                  R.a,
-                  {variant: 'h6', className: a.infoTitle},
-                  'in/damiankreick'
+                  'a',
+                  {
+                    href: 'https://www.linkedin.com/in/damiankreick',
+                    rel: 'noopener noreferrer',
+                    target: '_blank',
+                    className: a.infoContainer
+                  },
+                  r.a.createElement('img', {
+                    src: Ve.a,
+                    alt: 'Linkedin',
+                    className: a.button
+                  }),
+                  r.a.createElement(
+                    R.a,
+                    {variant: 'h6', className: a.infoTitle},
+                    'in/damiankreick'
+                  )
                 )
               ),
               r.a.createElement(
-                'a',
-                {
-                  href: 'https://wa.me/541133302076',
-                  rel: 'noopener noreferrer',
-                  target: '_blank',
-                  className: a.infoContainer
-                },
-                r.a.createElement('img', {
-                  src: Je.a,
-                  alt: 'Whatsapp',
-                  className: a.button
-                }),
+                te.a,
+                {item: !0, xs: 6, sm: 3},
                 r.a.createElement(
-                  R.a,
-                  {variant: 'h6', className: a.infoTitle},
-                  'Whatsapp Me!'
+                  'a',
+                  {
+                    href: 'https://wa.me/541133302076',
+                    rel: 'noopener noreferrer',
+                    target: '_blank',
+                    className: a.infoContainer
+                  },
+                  r.a.createElement('img', {
+                    src: Je.a,
+                    alt: 'Whatsapp',
+                    className: a.button
+                  }),
+                  r.a.createElement(
+                    R.a,
+                    {variant: 'h6', className: a.infoTitle},
+                    'Whatsapp Me!'
+                  )
                 )
               )
             )
@@ -1472,6 +1473,17 @@
           mainLanguage: 'Unity3D/C#'
         },
         {
+          name: 'Dacia Adventure',
+          subtitle: 'Road Fighter style game',
+          icon: 'DaciaAdv',
+          snapshot:
+            'https://raw.githubusercontent.com/Dkreick/DaciaAdventure/blob/master/Documents/PreviewGame.png',
+          description:
+            'Try to avoid as many cars as possible in your rusty old Dacia 131.',
+          linkToSourceCode: 'https://github.com/Dkreick/DaciaAdventure',
+          mainLanguage: 'Unity3D/C#'
+        },
+        {
           name: 'Dont Travel Alone',
           subtitle: 'Booking website for motorcycle rental',
           icon: 'IconAd2b',
@@ -1503,6 +1515,16 @@
             'https://raw.githubusercontent.com/Dkreick/Galactic-Menace/master/Snapshot.jpg',
           description: 'Small Match3 alike game made in Unity3D.',
           linkToSourceCode: 'https://github.com/Dkreick/Galactic-Menace',
+          mainLanguage: 'Unity3D'
+        },
+        {
+          name: 'Fallout Memory Game',
+          subtitle: 'Fallout Themed Game',
+          icon: 'IconFallout',
+          snapshot:
+            'https://raw.githubusercontent.com/Dkreick/Fallout-Memory-Game/master/Snapshot.jpg',
+          description: 'Memory game based in the Fallout universe.',
+          linkToSourceCode: 'https://github.com/Dkreick/Fallout-Memory-Game',
           mainLanguage: 'Unity3D'
         }
       ];
@@ -1717,4 +1739,4 @@
   },
   [[219, 1, 2]]
 ]);
-//# sourceMappingURL=main.2752f794.chunk.js.map
+//# sourceMappingURL=main.4b696309.chunk.js.map

@@ -7,6 +7,7 @@ import PhoneIcon from '@material-ui/icons/Phone';
 import LinkedinIcon from './../assets/icons/icon-linkedin.png';
 import WhatsappIcon from './../assets/icons/icon-whatsapp.png';
 import ScrollAnimation from 'react-animate-on-scroll';
+import Grid from '@material-ui/core/Grid';
 
 const styles = {
   root: {
@@ -86,47 +87,61 @@ function Footer(props) {
         offset={0}
         duration={1.5}
       >
-        <div className={classes.contactInfo}>
-          <div className={classes.infoContainer}>
+        <Grid container spacing={3}>
+          <Grid item xs={6} sm={3}>
             <PhoneIcon className={classes.button} />
             <Typography variant="h6" className={classes.infoTitle}>
               +54 911-3330-2076
             </Typography>
-          </div>
-          <a
-            href="https://wa.me/541133302076"
-            rel="noopener noreferrer"
-            target="_blank"
-            className={classes.infoContainer}
-          >
-            <EmailIcon className={classes.button} />
-            <Typography variant="h6" className={classes.infoTitle}>
-              damian.kreick@gmail.com
-            </Typography>
-          </a>
-          <a
-            href="https://www.linkedin.com/in/damiankreick"
-            rel="noopener noreferrer"
-            target="_blank"
-            className={classes.infoContainer}
-          >
-            <img src={LinkedinIcon} alt="Linkedin" className={classes.button} />
-            <Typography variant="h6" className={classes.infoTitle}>
-              in/damiankreick
-            </Typography>
-          </a>
-          <a
-            href="https://wa.me/541133302076"
-            rel="noopener noreferrer"
-            target="_blank"
-            className={classes.infoContainer}
-          >
-            <img src={WhatsappIcon} alt="Whatsapp" className={classes.button} />
-            <Typography variant="h6" className={classes.infoTitle}>
-              Whatsapp Me!
-            </Typography>
-          </a>
-        </div>
+          </Grid>
+          <Grid item xs={6} sm={3}>
+            <a
+              href="https://wa.me/541133302076"
+              rel="noopener noreferrer"
+              target="_blank"
+              className={classes.infoContainer}
+            >
+              <EmailIcon className={classes.button} />
+              <Typography variant="h6" className={classes.infoTitle}>
+                damian.kreick@gmail.com
+              </Typography>
+            </a>
+          </Grid>
+          <Grid item xs={6} sm={3}>
+            <a
+              href="https://www.linkedin.com/in/damiankreick"
+              rel="noopener noreferrer"
+              target="_blank"
+              className={classes.infoContainer}
+            >
+              <img
+                src={LinkedinIcon}
+                alt="Linkedin"
+                className={classes.button}
+              />
+              <Typography variant="h6" className={classes.infoTitle}>
+                in/damiankreick
+              </Typography>
+            </a>
+          </Grid>
+          <Grid item xs={6} sm={3}>
+            <a
+              href="https://wa.me/541133302076"
+              rel="noopener noreferrer"
+              target="_blank"
+              className={classes.infoContainer}
+            >
+              <img
+                src={WhatsappIcon}
+                alt="Whatsapp"
+                className={classes.button}
+              />
+              <Typography variant="h6" className={classes.infoTitle}>
+                Whatsapp Me!
+              </Typography>
+            </a>
+          </Grid>
+        </Grid>
       </ScrollAnimation>
     </div>
   );

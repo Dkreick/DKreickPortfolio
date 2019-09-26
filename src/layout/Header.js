@@ -16,7 +16,7 @@ const styles = {
     borderRadius: '20px',
     color: 'white',
     marginBottom: '10px',
-    width: '400px'
+    width: '330px'
   },
   name: {
     marginTop: '30px'
