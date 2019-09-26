@@ -4,6 +4,8 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, Courier New, monospace;
@@ -51,4 +53,4 @@ code {
   margin-bottom: 5px;
   text-align: justify;
 }
-/*# sourceMappingURL=main.2e3a4d3b.chunk.css.map */
+/*# sourceMappingURL=main.88e408df.chunk.css.map */
