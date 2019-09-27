@@ -87,7 +87,7 @@ function Footer(props) {
         offset={0}
         duration={1.5}
       >
-        <Grid container spacing={3}>
+        <Grid container spacing={8}>
           <Grid item xs={6} sm={3}>
             <PhoneIcon className={classes.button} />
             <Typography variant="h6" className={classes.infoTitle}>

@@ -19,7 +19,8 @@ const styles = theme => ({
     boxShadow: '-5px 5px 5px 0px rgba(0,0,0,0.75)',
     margin: 20,
     maxWidth: 400,
-    height: 480
+    height: 480,
+    position: 'relative'
   },
   header: {
     height: '50px'
@@ -36,8 +37,10 @@ const styles = theme => ({
     maxHeight: '100%'
   },
   actions: {
-    display: 'inline-flex',
-    itemSpacing: '20px'
+    position: 'absolute',
+    bottom: '0px',
+    width: '100%',
+    justifyContent: 'center'
   },
   avatar: {
     backgroundColor: '#27ade3'
@@ -91,10 +94,9 @@ class GameCard extends React.Component {
             {this.props.data.mainLanguage}
           </Typography> */}
           <Chip label={this.props.data.mainLanguage} className={classes.chip} />
-          <IconButton>
+          <IconButton onClick={() => this.openUrl(this.props.data.linkToSourceCode)}>
             <SourceCodeIcon
               className={classes.button}
-              onClick={() => this.openUrl(this.props.data.linkToSourceCode)}
             />
           </IconButton>
           <IconButton>

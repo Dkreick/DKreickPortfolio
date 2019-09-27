@@ -39,7 +39,7 @@
     "name": "Dacia Adventure",
     "subtitle": "Road Fighter style game",
     "icon": "DaciaAdv",
-    "snapshot": "https://raw.githubusercontent.com/Dkreick/DaciaAdventure/blob/master/Documents/PreviewGame.png",
+    "snapshot": "https://raw.githubusercontent.com/Dkreick/DaciaAdventure/master/Documents/PreviewMenu.png",
     "description": "Try to avoid as many cars as possible in your rusty old Dacia 131.",
     "linkToSourceCode": "https://github.com/Dkreick/DaciaAdventure",
     "mainLanguage": "Unity3D/C#"
