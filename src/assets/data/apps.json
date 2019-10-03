@@ -40,7 +40,7 @@
     "subtitle": "Road Fighter style game",
     "icon": "DaciaAdv",
     "snapshot": "https://raw.githubusercontent.com/Dkreick/DaciaAdventure/master/Documents/PreviewMenu.png",
-    "description": "Try to avoid as many cars as possible in your rusty old Dacia 131.",
+    "description": "Try to avoid as many cars as possible in your rusty old Dacia 1310.",
     "linkToSourceCode": "https://github.com/Dkreick/DaciaAdventure",
     "mainLanguage": "Unity3D/C#"
   },
@@ -74,9 +74,18 @@
   {
     "name": "Fallout Memory Game",
     "subtitle": "Fallout Themed Game",
-    "icon": "IconFallout",
+    "icon": "https://raw.githubusercontent.com/Dkreick/Portfolio/master/src/assets/icons/icon-fallout.jpg",
     "snapshot": "https://raw.githubusercontent.com/Dkreick/Fallout-Memory-Game/master/Snapshot.jpg",
     "description": "Memory game based in the Fallout universe.",
+    "linkToSourceCode": "https://github.com/Dkreick/Fallout-Memory-Game",
+    "mainLanguage": "Unity3D"
+  },
+  {
+    "name": "Futbol Quiz",
+    "subtitle": "Quiz Game made with Unity3D",
+    "icon": "https://raw.githubusercontent.com/Dkreick/Portfolio/master/src/assets/icons/icon-futbol.jpg",
+    "snapshot": "https://raw.githubusercontent.com/Dkreick/Futbol-Quiz/master/Snapshot.jpg",
+    "description": "Quiz game based in argentinean league.",
     "linkToSourceCode": "https://github.com/Dkreick/Fallout-Memory-Game",
     "mainLanguage": "Unity3D"
   }
