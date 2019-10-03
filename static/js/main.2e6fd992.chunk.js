@@ -157,21 +157,21 @@
         D = t(13),
         v = t(15),
         I = t(30),
-        T = t.n(I),
-        M = t(63),
-        y = t.n(M),
+        M = t.n(I),
+        T = t(63),
+        y = t.n(T),
         G = t(41),
         j = t.n(G),
-        x = t(42),
-        C = t.n(x),
+        C = t(42),
+        x = t.n(C),
         O = t(65),
         S = t.n(O),
         P = t(64),
         Y = t.n(P),
-        W = t(10),
-        R = t.n(W),
-        B = t(49),
-        Q = t.n(B),
+        W = t(9),
+        Q = t.n(W),
+        R = t(49),
+        B = t.n(R),
         Z = t(127),
         U = t.n(Z),
         L = t(128),
@@ -200,7 +200,7 @@
                   var a = this,
                     t = this.props.classes;
                   return r.a.createElement(
-                    T.a,
+                    M.a,
                     {className: t.card},
                     r.a.createElement(y.a, {
                       avatar: r.a.createElement(
@@ -222,10 +222,10 @@
                       title: this.props.data.name
                     }),
                     r.a.createElement(
-                      C.a,
+                      x.a,
                       {className: t.content},
                       r.a.createElement(
-                        R.a,
+                        Q.a,
                         {component: 'p'},
                         this.props.data.description
                       )
@@ -238,17 +238,16 @@
                         className: t.chip
                       }),
                       r.a.createElement(
-                        Q.a,
-                        null,
-                        r.a.createElement(U.a, {
-                          className: t.button,
+                        B.a,
+                        {
                           onClick: function() {
                             return a.openUrl(a.props.data.linkToSourceCode);
                           }
-                        })
+                        },
+                        r.a.createElement(U.a, {className: t.button})
                       ),
                       r.a.createElement(
-                        Q.a,
+                        B.a,
                         null,
                         r.a.createElement(z.a, {className: t.button})
                       )
@@ -267,7 +266,8 @@
               boxShadow: '-5px 5px 5px 0px rgba(0,0,0,0.75)',
               margin: 20,
               maxWidth: 400,
-              height: 480
+              height: 480,
+              position: 'relative'
             },
             header: {height: '50px'},
             content: {height: '80px'},
@@ -279,7 +279,12 @@
               maxWidth: '100%',
               maxHeight: '100%'
             },
-            actions: {display: 'inline-flex', itemSpacing: '20px'},
+            actions: {
+              position: 'absolute',
+              bottom: '0px',
+              width: '100%',
+              justifyContent: 'center'
+            },
             avatar: {backgroundColor: '#27ade3'},
             button: {color: '#27ade3'},
             icon: {width: 'inherit'},
@@ -364,7 +369,6 @@
             container: {
               display: 'flex',
               flexWrap: 'wrap',
-              marginTop: '70px',
               justifyContent: 'center'
             },
             gridList: {
@@ -373,7 +377,7 @@
               overflowY: 'hidden',
               paddingTop: '60px'
             },
-            title: {marginBottom: '30px'}
+            title: {margin: '30px'}
           };
         })(function(e) {
           var a = e.classes;
@@ -384,7 +388,7 @@
               se.a,
               {animateIn: 'bounceInLeft', animateOnce: !0, duration: 1.5},
               r.a.createElement(
-                R.a,
+                Q.a,
                 {variant: 'h3', className: a.title},
                 'Projects'
               )
@@ -408,7 +412,7 @@
               se.a,
               {animateIn: 'bounceInLeft', animateOnce: !0, duration: 1.5},
               r.a.createElement(
-                R.a,
+                Q.a,
                 {variant: 'h3', className: a.title},
                 'Also I defend myself as an artist...'
               )
@@ -435,19 +439,19 @@
           };
         })(function() {
           return r.a.createElement(
-            T.a,
+            M.a,
             null,
             r.a.createElement(j.a, {component: 'img', image: pe.a}),
             r.a.createElement(
-              C.a,
+              x.a,
               null,
               r.a.createElement(
-                R.a,
+                Q.a,
                 {gutterBottom: !0, variant: 'h3', component: 'h2'},
                 'DAMIAN KREICK'
               ),
               r.a.createElement(
-                R.a,
+                Q.a,
                 {variant: 'body2', color: 'textSecondary', component: 'p'},
                 "I'm a self-confident programmer, enthusiast of good coding practises, who listens attentively and takes charge of high responsability tasks."
               )
@@ -482,12 +486,12 @@
                     r.a.createElement(H.a, {
                       avatar: r.a.createElement(Ee.a, {className: e.button}),
                       label: '29/06/1994',
-                      className: this.props.classes.chip
+                      className: e.chip
                     }),
                     r.a.createElement(H.a, {
                       avatar: r.a.createElement(de.a, {className: e.button}),
                       label: 'damian.kreick@gmail.com',
-                      className: this.props.classes.chip,
+                      className: e.chip,
                       onClick: function() {
                         window.open('mailto:damian.kreick@gmail.com', '_blank');
                       }
@@ -495,7 +499,7 @@
                     r.a.createElement(H.a, {
                       avatar: r.a.createElement(be.a, {className: e.button}),
                       label: '(+54) 11-3330-2076',
-                      className: this.props.classes.chip,
+                      className: e.chip,
                       onClick: function() {
                         window.open('https://wa.me/541133302076', '_blank');
                       }
@@ -503,7 +507,7 @@
                     r.a.createElement(H.a, {
                       avatar: r.a.createElement('img', {src: Ne.a, alt: ''}),
                       label: 'Linkedin',
-                      className: this.props.classes.chip,
+                      className: e.chip,
                       onClick: function() {
                         window.open(
                           'https://www.linkedin.com/in/damiankreick',
@@ -808,7 +812,7 @@
             a
           );
         })(r.a.Component),
-        Te = (function(e) {
+        Me = (function(e) {
           function a() {
             return (
               Object(N.a)(this, a),
@@ -892,7 +896,7 @@
             a
           );
         })(r.a.Component),
-        Me = (function(e) {
+        Te = (function(e) {
           function a() {
             return (
               Object(N.a)(this, a),
@@ -961,14 +965,14 @@
         })(r.a.Component),
         Ge = t(69),
         je = t.n(Ge),
-        xe = t(134),
-        Ce = t(132),
-        Oe = t.n(Ce),
+        Ce = t(134),
+        xe = t(132),
+        Oe = t.n(xe),
         Se = t(133),
         Pe = t.n(Se),
         Ye = t(91),
         We = t.n(Ye),
-        Re = (function(e) {
+        Qe = (function(e) {
           function a() {
             return (
               Object(N.a)(this, a),
@@ -983,7 +987,7 @@
                 value: function() {
                   var e = this.props.classes;
                   return r.a.createElement(
-                    T.a,
+                    M.a,
                     {className: e.card},
                     r.a.createElement(he, null),
                     r.a.createElement(we, null),
@@ -994,14 +998,14 @@
                         te.a,
                         {item: !0, xs: 6},
                         r.a.createElement(De, null),
-                        r.a.createElement(Te, null)
+                        r.a.createElement(Me, null)
                       ),
                       r.a.createElement(
                         te.a,
                         {item: !0, xs: 6},
                         r.a.createElement(ve, null),
                         r.a.createElement(Ie, null),
-                        r.a.createElement(Me, null),
+                        r.a.createElement(Te, null),
                         r.a.createElement(ye, null),
                         r.a.createElement(
                           je.a,
@@ -1013,7 +1017,7 @@
                             },
                             open: !0
                           },
-                          r.a.createElement(xe.a, {
+                          r.a.createElement(Ce.a, {
                             className: e.download,
                             message: r.a.createElement(
                               'div',
@@ -1063,7 +1067,7 @@
             a
           );
         })(r.a.Component),
-        Be = Object(o.withStyles)({
+        Re = Object(o.withStyles)({
           card: {
             border: 'solid 1px black',
             boxShadow: '-10px 10px 5px 0px rgba(0,0,0,0.75)'
@@ -1089,9 +1093,9 @@
             width: 'fit-content',
             zIndex: 'auto'
           }
-        })(Re),
-        Qe = t(33),
-        Ze = t.n(Qe);
+        })(Qe),
+        Be = t(33),
+        Ze = t.n(Be);
       var Ue = Object(o.withStyles)(function(e) {
           return {
             container: {
@@ -1126,18 +1130,18 @@
               se.a,
               {animateIn: 'bounceInRight', animateOnce: !0, duration: 1.5},
               r.a.createElement(
-                R.a,
+                Q.a,
                 {variant: 'h3', className: a.title},
                 'Resume'
               )
             ),
-            r.a.createElement(Be, null)
+            r.a.createElement(Re, null)
           );
         }),
         Le = t(135),
         ze = t.n(Le);
       var Fe = Object(o.withStyles)({
-          root: {flexGrow: 1, paddingTop: '100px'},
+          root: {flexGrow: 1, paddingTop: '80px'},
           avatar: {
             boxShadow: '0px 0px 20px 5px rgba(0,0,0,0.75)',
             borderRadius: '20px',
@@ -1150,7 +1154,6 @@
           charge: {color: 'gray', marginTop: '35px'},
           info: {
             color: 'gray',
-            fontSize: '18px',
             fontStyle: 'cursive',
             fontWeight: 'bold',
             padding: '50px'
@@ -1178,8 +1181,8 @@
                 duration: 2
               },
               r.a.createElement(
-                R.a,
-                {variant: 'h3', className: a.name},
+                Q.a,
+                {variant: 'h2', className: a.name},
                 'DAMIAN KREICK'
               )
             ),
@@ -1189,21 +1192,27 @@
               {
                 animateIn: 'fadeInRight',
                 animateOnce: !0,
-                delay: 1e3,
+                delay: 2e3,
                 duration: 2
               },
               r.a.createElement(
-                R.a,
-                {variant: 'h5', className: a.charge},
+                Q.a,
+                {variant: 'h4', className: a.charge},
                 'Web & Game Developer'
               )
             ),
             r.a.createElement(
               se.a,
-              {animateIn: 'flipInX', animateOnce: !0, duration: 3, offset: 550},
+              {
+                animateIn: 'flipInX',
+                animateOnce: !0,
+                delay: 3e3,
+                duration: 3,
+                offset: 550
+              },
               r.a.createElement(
-                'p',
-                {className: a.info},
+                Q.a,
+                {variant: 'h5', className: a.info},
                 'I have been in the world of coding since I was 14. Now more than 10 years later I am still trying to improve myself. Resilience, comprehension and knowledge are the three words who make my work days fructiferous. In this portfolio you will find all of my projects, no mattter if they are finished or not, even this web is a project itself made with React. So please be my guest and keep scrolling!.'
               )
             ),
@@ -1220,7 +1229,7 @@
           display: 'flex',
           flexDirection: 'column',
           height: '300px',
-          marginTop: '50px',
+          marginTop: '70px',
           left: '0px',
           position: 'absolute',
           width: '100%'
@@ -1260,7 +1269,7 @@
               duration: 1.5
             },
             r.a.createElement(
-              R.a,
+              Q.a,
               {variant: 'h5', className: a.title},
               'Did you enjoy my website?'
             )
@@ -1275,7 +1284,7 @@
               duration: 1.5
             },
             r.a.createElement(
-              R.a,
+              Q.a,
               {variant: 'h6', className: a.subtitle},
               "Please consider contact me, I'm always open to hear what you are thinking!"
             )
@@ -1291,13 +1300,13 @@
             },
             r.a.createElement(
               te.a,
-              {container: !0, spacing: 3},
+              {container: !0, spacing: 8},
               r.a.createElement(
                 te.a,
                 {item: !0, xs: 6, sm: 3},
                 r.a.createElement(be.a, {className: a.button}),
                 r.a.createElement(
-                  R.a,
+                  Q.a,
                   {variant: 'h6', className: a.infoTitle},
                   '+54 911-3330-2076'
                 )
@@ -1315,7 +1324,7 @@
                   },
                   r.a.createElement(de.a, {className: a.button}),
                   r.a.createElement(
-                    R.a,
+                    Q.a,
                     {variant: 'h6', className: a.infoTitle},
                     'damian.kreick@gmail.com'
                   )
@@ -1338,7 +1347,7 @@
                     className: a.button
                   }),
                   r.a.createElement(
-                    R.a,
+                    Q.a,
                     {variant: 'h6', className: a.infoTitle},
                     'in/damiankreick'
                   )
@@ -1361,7 +1370,7 @@
                     className: a.button
                   }),
                   r.a.createElement(
-                    R.a,
+                    Q.a,
                     {variant: 'h6', className: a.infoTitle},
                     'Whatsapp Me!'
                   )
@@ -1477,9 +1486,9 @@
           subtitle: 'Road Fighter style game',
           icon: 'DaciaAdv',
           snapshot:
-            'https://raw.githubusercontent.com/Dkreick/DaciaAdventure/blob/master/Documents/PreviewGame.png',
+            'https://raw.githubusercontent.com/Dkreick/DaciaAdventure/master/Documents/PreviewMenu.png',
           description:
-            'Try to avoid as many cars as possible in your rusty old Dacia 131.',
+            'Try to avoid as many cars as possible in your rusty old Dacia 1310.',
           linkToSourceCode: 'https://github.com/Dkreick/DaciaAdventure',
           mainLanguage: 'Unity3D/C#'
         },
@@ -1520,10 +1529,22 @@
         {
           name: 'Fallout Memory Game',
           subtitle: 'Fallout Themed Game',
-          icon: 'IconFallout',
+          icon:
+            'https://raw.githubusercontent.com/Dkreick/Portfolio/master/src/assets/icons/icon-fallout.jpg',
           snapshot:
             'https://raw.githubusercontent.com/Dkreick/Fallout-Memory-Game/master/Snapshot.jpg',
           description: 'Memory game based in the Fallout universe.',
+          linkToSourceCode: 'https://github.com/Dkreick/Fallout-Memory-Game',
+          mainLanguage: 'Unity3D'
+        },
+        {
+          name: 'Futbol Quiz',
+          subtitle: 'Quiz Game made with Unity3D',
+          icon:
+            'https://raw.githubusercontent.com/Dkreick/Portfolio/master/src/assets/icons/icon-futbol.jpg',
+          snapshot:
+            'https://raw.githubusercontent.com/Dkreick/Futbol-Quiz/master/Snapshot.jpg',
+          description: 'Quiz game based in argentinean league.',
           linkToSourceCode: 'https://github.com/Dkreick/Fallout-Memory-Game',
           mainLanguage: 'Unity3D'
         }
@@ -1739,4 +1760,4 @@
   },
   [[219, 1, 2]]
 ]);
-//# sourceMappingURL=main.4b696309.chunk.js.map
+//# sourceMappingURL=main.2e6fd992.chunk.js.map
