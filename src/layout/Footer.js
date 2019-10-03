@@ -15,7 +15,7 @@ const styles = {
     display: 'flex',
     flexDirection: 'column',
     height: '300px',
-    marginTop: '50px',
+    marginTop: '70px',
     left: '0px',
     position: 'absolute',
     width: '100%'

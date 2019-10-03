@@ -14,7 +14,6 @@ const styles = theme => ({
   container: {
     display: 'flex',
     flexWrap: 'wrap',
-    marginTop: '70px',
     justifyContent: 'center'
   },
   gridList: {
@@ -24,7 +23,7 @@ const styles = theme => ({
     paddingTop: '60px'
   },
   title: {
-    marginBottom: '30px'
+    margin: '30px'
   }
 });
 
