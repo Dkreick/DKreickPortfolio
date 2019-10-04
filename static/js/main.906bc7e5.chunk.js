@@ -399,7 +399,7 @@
               ie.map(function(e, a) {
                 return r.a.createElement(
                   te.a,
-                  {item: !0, xs: 12, sm: 3},
+                  {item: !0, xs: 12, sm: 3, key: a},
                   r.a.createElement(
                     se.a,
                     {animateIn: 'fadeIn', duration: a + 1, animateOnce: !0},
@@ -1760,4 +1760,4 @@
   },
   [[219, 1, 2]]
 ]);
-//# sourceMappingURL=main.2e6fd992.chunk.js.map
+//# sourceMappingURL=main.906bc7e5.chunk.js.map
