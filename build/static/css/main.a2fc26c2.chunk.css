@@ -1,4 +1,6 @@
 body {
+  background-image: url(/Portfolio/static/media/background.7d117529.png);
+  background-size: contain;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
@@ -53,4 +55,4 @@ code {
   margin-bottom: 5px;
   text-align: justify;
 }
-/*# sourceMappingURL=main.88e408df.chunk.css.map */
+/*# sourceMappingURL=main.a2fc26c2.chunk.css.map */

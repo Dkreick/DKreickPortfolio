@@ -44,7 +44,7 @@ export function Portfolio(props) {
       <Grid container spacing={8}>
         {apps.map((api, index) => {
           return (
-            <Grid item xs={12} sm={3}>
+            <Grid item xs={12} sm={3} key={index}>
               <ScrollAnimation
                 animateIn="fadeIn"
                 duration={index + 1}

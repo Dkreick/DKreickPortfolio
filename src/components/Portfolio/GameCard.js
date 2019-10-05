@@ -94,10 +94,10 @@ class GameCard extends React.Component {
             {this.props.data.mainLanguage}
           </Typography> */}
           <Chip label={this.props.data.mainLanguage} className={classes.chip} />
-          <IconButton onClick={() => this.openUrl(this.props.data.linkToSourceCode)}>
-            <SourceCodeIcon
-              className={classes.button}
-            />
+          <IconButton
+            onClick={() => this.openUrl(this.props.data.linkToSourceCode)}
+          >
+            <SourceCodeIcon className={classes.button} />
           </IconButton>
           <IconButton>
             <InfoIcon className={classes.button} />
