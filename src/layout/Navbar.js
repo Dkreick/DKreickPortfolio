@@ -13,7 +13,7 @@ const styles = {
     flexGrow: 1
   },
   bar: {
-    alignItems: 'flex-end',
+    position: 'fixed',
     backgroundColor: '#27ade3',
     height: '61px',
     top: '0px'
@@ -36,7 +36,7 @@ const styles = {
     textDecoration: 'none'
   },
   item: {
-    padding: '5px'
+    padding: '5px 20px'
   },
   nav: {
     display: 'flex',

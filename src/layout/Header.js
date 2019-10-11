@@ -9,14 +9,14 @@ import ScrollAnimation from 'react-animate-on-scroll';
 const styles = {
   root: {
     flexGrow: 1,
-    paddingTop: '80px'
+    paddingTop: '120px'
   },
   avatar: {
     boxShadow: '0px 0px 20px 5px rgba(0,0,0,0.75)',
     borderRadius: '20px',
     color: 'white',
     marginBottom: '10px',
-    width: '330px'
+    maxWidth: '400px'
   },
   name: {
     marginTop: '30px'
@@ -81,7 +81,7 @@ function Header(props) {
           years later I am still trying to improve myself. Resilience,
           comprehension and knowledge are the three words who make my work days
           fructiferous. In this portfolio you will find all of my projects, no
-          mattter if they are finished or not, even this web is a project itself
+          matter if they are finished or not, even this web is a project itself
           made with React. So please be my guest and keep scrolling!.
         </Typography>
       </ScrollAnimation>

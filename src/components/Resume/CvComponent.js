@@ -1,5 +1,5 @@
 import React from 'react';
-import { withStyles } from '@material-ui/core/styles';
+import {withStyles} from '@material-ui/core/styles';
 import Card from '@material-ui/core/Card';
 import Grid from '@material-ui/core/Grid';
 import Header from './Header';
@@ -11,7 +11,7 @@ import ValuableSkills from './ValuableSkills';
 import Languages from './Languages';
 import Hobbies from './Hobbies';
 import Snackbar from '@material-ui/core/Snackbar';
-import { SnackbarContent } from '@material-ui/core';
+import {SnackbarContent} from '@material-ui/core';
 import FlagEs from './../../assets/icons/flag-es.jpg';
 import FlagUs from './../../assets/icons/flag-us.jpg';
 import CV from './../../assets/CV.pdf';
@@ -50,7 +50,7 @@ const styles = {
 
 class CvComponent extends React.Component {
   render() {
-    const { classes } = this.props;
+    const {classes} = this.props;
 
     return (
       <Card className={classes.card}>

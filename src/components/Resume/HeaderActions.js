@@ -40,7 +40,7 @@ class HeaderActions extends React.Component {
       <div className={classes.root}>
         <Chip
           avatar={<CalendarIcon className={classes.button} />}
-          label="29/06/1994"
+          label="DoB: 29/06/1994"
           className={classes.chip}
         />
         <Chip
@@ -57,7 +57,7 @@ class HeaderActions extends React.Component {
         />
         <Chip
           avatar={<img src={LinkedinIcon} alt="" />}
-          label="Linkedin"
+          label="My Linkedin"
           className={classes.chip}
           onClick={handleLinkedinClick}
         />
