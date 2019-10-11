@@ -56,7 +56,7 @@ export function Portfolio(props) {
           );
         })}
       </Grid>
-      <ScrollAnimation
+      {/* <ScrollAnimation
         animateIn="bounceInLeft"
         animateOnce={true}
         duration={1.5}
@@ -69,7 +69,7 @@ export function Portfolio(props) {
         {art.map((api, index) => {
           return <ArtCard data={art[index]} key={index} />;
         })}
-      </GridList>
+      </GridList> */}
     </div>
   );
 }

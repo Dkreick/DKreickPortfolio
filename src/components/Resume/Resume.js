@@ -8,10 +8,7 @@ import ScrollAnimation from 'react-animate-on-scroll';
 
 const styles = theme => ({
   container: {
-    display: 'flex',
-    flexWrap: 'wrap',
     marginTop: '90px',
-    justifyContent: 'center'
   },
   download: {
     backgroundColor: '#27ade3'
