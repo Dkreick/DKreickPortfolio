@@ -174,8 +174,8 @@
         B = t.n(Z),
         U = t(120),
         z = t.n(U),
-        L = t(29),
-        P = t.n(L),
+        P = t(29),
+        L = t.n(P),
         F = (function(e) {
           function a() {
             return (
@@ -231,7 +231,7 @@
                     i.a.createElement(
                       Y.a,
                       {className: t.actions, disableActionSpacing: !0},
-                      i.a.createElement(P.a, {
+                      i.a.createElement(L.a, {
                         label: this.props.data.mainLanguage,
                         className: t.chip
                       }),
@@ -396,12 +396,12 @@
                   return i.a.createElement(
                     'div',
                     {className: e.root},
-                    i.a.createElement(P.a, {
+                    i.a.createElement(L.a, {
                       avatar: i.a.createElement(oe.a, {className: e.button}),
                       label: 'DoB: 29/06/1994',
                       className: e.chip
                     }),
-                    i.a.createElement(P.a, {
+                    i.a.createElement(L.a, {
                       avatar: i.a.createElement(ne.a, {className: e.button}),
                       label: 'damian.kreick@gmail.com',
                       className: e.chip,
@@ -409,7 +409,7 @@
                         window.open('mailto:damian.kreick@gmail.com', '_blank');
                       }
                     }),
-                    i.a.createElement(P.a, {
+                    i.a.createElement(L.a, {
                       avatar: i.a.createElement(ce.a, {className: e.button}),
                       label: '(+54) 11-3330-2076',
                       className: e.chip,
@@ -417,7 +417,7 @@
                         window.open('https://wa.me/541133302076', '_blank');
                       }
                     }),
-                    i.a.createElement(P.a, {
+                    i.a.createElement(L.a, {
                       avatar: i.a.createElement('img', {src: se.a, alt: ''}),
                       label: 'My Linkedin',
                       className: e.chip,
@@ -1337,7 +1337,7 @@
           icon:
             'https://raw.githubusercontent.com/Dkreick/Portfolio/master/src/assets/icons/icon-ad2b.jpg',
           snapshot:
-            'https://raw.githubusercontent.com/Dkreick/Portfolio/master/src/assets/projects/ad2b.jpg',
+            'https://raw.githubusercontent.com/Dkreick/Portfolio/master/src/assets/Projects/ad2b.jpg',
           description:
             'AD2B is a turn based tactics and exploration game in a devastated world. Your character will face different choices while tries to survive in a map full of dangers.',
           linkToSourceCode: 'https://github.com/Dkreick/AnotherDayToBe',
@@ -1349,7 +1349,7 @@
           icon:
             'https://raw.githubusercontent.com/Dkreick/Portfolio/master/src/assets/icons/icon-ad2b.jpg',
           snapshot:
-            'https://raw.githubusercontent.com/Dkreick/Portfolio/master/src/assets/projects/ad2b.jpg',
+            'https://raw.githubusercontent.com/Dkreick/Portfolio/master/src/assets/Projects/ad2b.jpg',
           description: 'Official Wikia for Another Day To be',
           linkToSourceCode: 'https://github.com/Dkreick/AnotherDayToBe-Web',
           mainLanguage: 'React'
@@ -1360,7 +1360,7 @@
           icon:
             'https://raw.githubusercontent.com/Dkreick/Portfolio/master/src/assets/icons/icon-scan.jpg',
           snapshot:
-            'https://raw.githubusercontent.com/Dkreick/Portfolio/master/src/assets/projects/scan.jpg',
+            'https://raw.githubusercontent.com/Dkreick/Portfolio/master/src/assets/Projects/scan.jpg',
           description:
             'Small app for scan my profile image and know more about me.',
           linkToSourceCode: 'https://github.com/Dkreick/Scan-My-Profile',
@@ -1372,7 +1372,7 @@
           icon:
             'https://raw.githubusercontent.com/Dkreick/Portfolio/master/src/assets/icons/icon-simon.jpg',
           snapshot:
-            'https://raw.githubusercontent.com/Dkreick/Portfolio/master/src/assets/projects/simon.jpg',
+            'https://raw.githubusercontent.com/Dkreick/Portfolio/master/src/assets/Projects/simon.jpg',
           description: 'Simple game memory game.',
           linkToSourceCode: 'https://github.com/Dkreick/SimpleSimon',
           mainLanguage: 'Unity3D/C#'
@@ -1383,7 +1383,7 @@
           icon:
             'https://raw.githubusercontent.com/Dkreick/Portfolio/master/src/assets/icons/icon-dacia.jpg',
           snapshot:
-            'https://raw.githubusercontent.com/Dkreick/Portfolio/master/src/assets/projects/dacia.jpg',
+            'https://raw.githubusercontent.com/Dkreick/Portfolio/master/src/assets/Projects/dacia.jpg',
           description:
             'Try to avoid as many cars as possible in your rusty old Dacia 1310.',
           linkToSourceCode: 'https://github.com/Dkreick/DaciaAdventure',
@@ -1395,7 +1395,7 @@
           icon:
             'https://raw.githubusercontent.com/Dkreick/Portfolio/master/src/assets/icons/icon-horse.jpg',
           snapshot:
-            'https://raw.githubusercontent.com/Dkreick/Portfolio/master/src/assets/projects/horse.jpg',
+            'https://raw.githubusercontent.com/Dkreick/Portfolio/master/src/assets/Projects/horse.jpg',
           description: 'Catch all the bubbles before the time runs out!.',
           linkToSourceCode:
             'https://github.com/Dkreick/Phaser---Practice-Horse-and-diamonds',
@@ -1407,7 +1407,7 @@
           icon:
             'https://raw.githubusercontent.com/Dkreick/Portfolio/master/src/assets/icons/icon-galactic.jpg',
           snapshot:
-            'https://raw.githubusercontent.com/Dkreick/Portfolio/master/src/assets/projects/galactic.jpg',
+            'https://raw.githubusercontent.com/Dkreick/Portfolio/master/src/assets/Projects/galactic.jpg',
           description: 'Small Match3 alike game made in Unity3D.',
           linkToSourceCode: 'https://github.com/Dkreick/Galactic-Menace',
           mainLanguage: 'Unity3D'
@@ -1418,7 +1418,7 @@
           icon:
             'https://raw.githubusercontent.com/Dkreick/Portfolio/master/src/assets/icons/icon-fallout.jpg',
           snapshot:
-            'https://raw.githubusercontent.com/Dkreick/Portfolio/master/src/assets/projects/fallout.jpg',
+            'https://raw.githubusercontent.com/Dkreick/Portfolio/master/src/assets/Projects/fallout.jpg',
           description: 'Memory game based in the Fallout universe.',
           linkToSourceCode: 'https://github.com/Dkreick/Fallout-Memory-Game',
           mainLanguage: 'Unity3D'
@@ -1429,7 +1429,7 @@
           icon:
             'https://raw.githubusercontent.com/Dkreick/Portfolio/master/src/assets/icons/icon-futbol.jpg',
           snapshot:
-            'https://raw.githubusercontent.com/Dkreick/Portfolio/master/src/assets/projects/futbol.jpg',
+            'https://raw.githubusercontent.com/Dkreick/Portfolio/master/src/assets/Projects/futbol.jpg',
           description: 'Quiz game based in argentinean league.',
           linkToSourceCode: 'https://github.com/Dkreick/Fallout-Memory-Game',
           mainLanguage: 'Unity3D'
@@ -1440,9 +1440,9 @@
           icon:
             'https://raw.githubusercontent.com/Dkreick/Portfolio/master/src/assets/icons/icon-portfolio.jpg',
           snapshot:
-            'https://raw.githubusercontent.com/Dkreick/Portfolio/master/src/assets/projects/portfolio.jpg',
+            'https://raw.githubusercontent.com/Dkreick/Portfolio/master/src/assets/Projects/portfolio.jpg',
           description:
-            'A scrolleable portfolio made in React Material UI with my projects, my resume and more info about me.',
+            'A scrolleable portfolio made in React Material UI with my Projects, my resume and more info about me.',
           linkToSourceCode: 'https://github.com/Dkreick/Portfolio',
           mainLanguage: 'React'
         }
@@ -1451,4 +1451,4 @@
   },
   [[214, 1, 2]]
 ]);
-//# sourceMappingURL=main.fdff8b50.chunk.js.map
+//# sourceMappingURL=main.97cfe749.chunk.js.map
