@@ -10,7 +10,6 @@ import Avatar from '@material-ui/core/Avatar';
 import Typography from '@material-ui/core/Typography';
 import IconButton from '@material-ui/core/IconButton';
 import SourceCodeIcon from '@material-ui/icons/Code';
-import InfoIcon from '@material-ui/icons/Info';
 import Chip from '@material-ui/core/Chip';
 
 const styles = theme => ({
@@ -90,17 +89,11 @@ class GameCard extends React.Component {
           <Typography component="p">{this.props.data.description}</Typography>
         </CardContent>
         <CardActions className={classes.actions} disableActionSpacing>
-          {/* <Typography component="p">
-            {this.props.data.mainLanguage}
-          </Typography> */}
           <Chip label={this.props.data.mainLanguage} className={classes.chip} />
           <IconButton
             onClick={() => this.openUrl(this.props.data.linkToSourceCode)}
           >
             <SourceCodeIcon className={classes.button} />
-          </IconButton>
-          <IconButton>
-            <InfoIcon className={classes.button} />
           </IconButton>
         </CardActions>
       </Card>
