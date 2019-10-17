@@ -1133,7 +1133,9 @@
           marginTop: '70px',
           left: '0px',
           position: 'absolute',
-          width: '100%'
+          width: '100%',
+          paddingTop: '30px',
+          paddingBottom: '60px'
         },
         contactInfo: {display: 'flex', justifyContent: 'center'},
         infoContainer: {
@@ -1454,4 +1456,4 @@
   },
   [[215, 1, 2]]
 ]);
-//# sourceMappingURL=main.7ab69451.chunk.js.map
+//# sourceMappingURL=main.5fc35624.chunk.js.map
