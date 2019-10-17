@@ -12,9 +12,8 @@ import Languages from './Languages';
 import Hobbies from './Hobbies';
 import Snackbar from '@material-ui/core/Snackbar';
 import {SnackbarContent} from '@material-ui/core';
-import FlagEs from './../../assets/icons/flag-es.jpg';
 import FlagUs from './../../assets/icons/flag-us.jpg';
-import CV from './../../assets/CV.pdf';
+import Cv from './../../assets/Cv.pdf';
 
 const styles = {
   card: {
@@ -80,20 +79,12 @@ class CvComponent extends React.Component {
                   <div>
                     <p className={classes.link}>Download my CV here: </p>
                     <a
-                      href={CV}
+                      href={Cv}
                       download="Damian Kreick CV"
                       className={classes.link}
                     >
                       <img src={FlagUs} alt="us" className={classes.flag} />
-                      EN
-                    </a>
-                    <a
-                      href={CV}
-                      download="Damian Kreick CV"
-                      className={classes.link}
-                    >
-                      <img src={FlagEs} alt="es" className={classes.flag} />
-                      ES
+                      English version!
                     </a>
                   </div>
                 }

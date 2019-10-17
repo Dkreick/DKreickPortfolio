@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { withStyles } from '@material-ui/core/styles';
+import {withStyles} from '@material-ui/core/styles';
 import Typography from '@material-ui/core/Typography';
 import EmailIcon from '@material-ui/icons/Email';
 import PhoneIcon from '@material-ui/icons/Phone';
@@ -8,7 +8,6 @@ import LinkedinIcon from './../assets/icons/icon-linkedin.png';
 import WhatsappIcon from './../assets/icons/icon-whatsapp.png';
 import ScrollAnimation from 'react-animate-on-scroll';
 import Grid from '@material-ui/core/Grid';
-import ContactForm from '../components/ContactMe/ContactForm';
 
 const styles = {
   root: {
@@ -18,7 +17,9 @@ const styles = {
     marginTop: '70px',
     left: '0px',
     position: 'absolute',
-    width: '100%'
+    width: '100%',
+    paddingTop: '30px',
+    paddingBottom: '60px'
   },
   contactInfo: {
     display: 'flex',
@@ -54,7 +55,7 @@ const styles = {
 };
 
 function Footer(props) {
-  const { classes } = props;
+  const {classes} = props;
 
   return (
     <div className={classes.root} id="footer">
@@ -64,7 +65,7 @@ function Footer(props) {
         offset={0}
         duration={1.5}
       >
-        <Typography variant="h5" className={classes.title}>
+        <Typography variant="h3" className={classes.title}>
           Do you have any question?
         </Typography>
       </ScrollAnimation>
@@ -75,8 +76,8 @@ function Footer(props) {
         offset={0}
         duration={1.5}
       >
-        <Typography variant="h6" className={classes.subtitle}>
-          I will try to answer as soon as possible.
+        <Typography variant="h4" className={classes.subtitle}>
+          Contact me!. I will try to answer as soon as possible.
         </Typography>
       </ScrollAnimation>
       <ScrollAnimation
@@ -86,7 +87,6 @@ function Footer(props) {
         offset={0}
         duration={1.5}
       >
-        <ContactForm />
         <Grid container spacing={8}>
           <Grid item xs={6} sm={3}>
             <PhoneIcon className={classes.button} />
