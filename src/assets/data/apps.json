@@ -4,7 +4,7 @@
     "subtitle": "RPG-TBT Exploration game.",
     "icon": "https://raw.githubusercontent.com/Dkreick/Portfolio/master/src/assets/icons/icon-ad2b.jpg",
     "snapshot": "https://raw.githubusercontent.com/Dkreick/Portfolio/master/src/assets/Projects/ad2b.jpg",
-    "description": ".",
+    "description": "How to struggle with big projects, how to document well and how to be consistent and disciplinate to developer every day a little advance.",
     "linkToSourceCode": "https://github.com/Dkreick/AnotherDayToBe",
     "mainLanguage": "Unity3D/C#"
   },
@@ -19,7 +19,7 @@
   },
   {
     "name": "Scan My Profile",
-    "subtitle": "Small app for scan profiles.",
+    "subtitle": "Small AR app for scan profiles.",
     "icon": "https://raw.githubusercontent.com/Dkreick/Portfolio/master/src/assets/icons/icon-scan.jpg",
     "snapshot": "https://raw.githubusercontent.com/Dkreick/Portfolio/master/src/assets/Projects/scan.jpg",
     "description": "The usage of Vuforia, a powerful framework for augmented reality. The mastering of Unity UI.",
@@ -37,16 +37,16 @@
   },
   {
     "name": "Dacia Adventure",
-    "subtitle": "Road Fighter style game",
+    "subtitle": "Road Fighter style game.",
     "icon": "https://raw.githubusercontent.com/Dkreick/Portfolio/master/src/assets/icons/icon-dacia.jpg",
     "snapshot": "https://raw.githubusercontent.com/Dkreick/Portfolio/master/src/assets/Projects/dacia.jpg",
-    "description": "The use of Unity Physics, including colliders and the science of endless games.",
+    "description": "The use of Unity3D physics, including colliders and the science of endless games.",
     "linkToSourceCode": "https://github.com/Dkreick/DaciaAdventure",
     "mainLanguage": "Unity3D/C#"
   },
   {
     "name": "Horse and diamonds",
-    "subtitle": "Short mouse game.",
+    "subtitle": "Point and click mouse game.",
     "icon": "https://raw.githubusercontent.com/Dkreick/Portfolio/master/src/assets/icons/icon-horse.jpg",
     "snapshot": "https://raw.githubusercontent.com/Dkreick/Portfolio/master/src/assets/Projects/horse.jpg",
     "description": "The use of PhaserJS, a Javascript framework to make games very easy.",
@@ -58,16 +58,16 @@
     "subtitle": "Short Match3 alike game.",
     "icon": "https://raw.githubusercontent.com/Dkreick/Portfolio/master/src/assets/icons/icon-galactic.jpg",
     "snapshot": "https://raw.githubusercontent.com/Dkreick/Portfolio/master/src/assets/Projects/galactic.jpg",
-    "description": "How to use multiple arrays in C# to manage the enemies actions. How to manage efficiently particle systems.",
+    "description": "How to use multiple arrays in C# to manage the enemies actions. How to manage efficiently particle systems and manage sprite sheets.",
     "linkToSourceCode": "https://github.com/Dkreick/Galactic-Menace",
     "mainLanguage": "Unity3D"
   },
   {
     "name": "Fallout Memory Game",
-    "subtitle": "Memory game based in the Fallout universe",
+    "subtitle": "Memory game based in the Fallout universe.",
     "icon": "https://raw.githubusercontent.com/Dkreick/Portfolio/master/src/assets/icons/icon-fallout.jpg",
     "snapshot": "https://raw.githubusercontent.com/Dkreick/Portfolio/master/src/assets/Projects/fallout.jpg",
-    "description": "",
+    "description": "The usage of a grid platform, the correct implementation of coroutines and menues.",
     "linkToSourceCode": "https://github.com/Dkreick/Fallout-Memory-Game",
     "mainLanguage": "Unity3D"
   },
@@ -82,7 +82,7 @@
   },
   {
     "name": "This Portfolio Itself!",
-    "subtitle": "A portfolio with my Projects and my resume",
+    "subtitle": "A portfolio with my Projects and my resume.",
     "icon": "https://raw.githubusercontent.com/Dkreick/Portfolio/master/src/assets/icons/icon-portfolio.jpg",
     "snapshot": "https://raw.githubusercontent.com/Dkreick/Portfolio/master/src/assets/Projects/portfolio.jpg",
     "description": "The usage of material UI. The customization of components and the deploy via Github Pages.",
