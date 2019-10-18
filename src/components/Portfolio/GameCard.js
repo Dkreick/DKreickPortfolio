@@ -35,6 +35,10 @@ const styles = theme => ({
     maxWidth: '100%',
     maxHeight: '100%'
   },
+  titleDescription: {
+    fontWeight: 'bold',
+    marginBottom: '10px'
+  },
   actions: {
     position: 'absolute',
     bottom: '0px',
@@ -86,6 +90,7 @@ class GameCard extends React.Component {
           title={this.props.data.name}
         />
         <CardContent className={classes.content}>
+        <Typography variant="body" className={classes.titleDescription}>What I've learned from this project:</Typography>
           <Typography component="p">{this.props.data.description}</Typography>
         </CardContent>
         <CardActions className={classes.actions} disableActionSpacing>
