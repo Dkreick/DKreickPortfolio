@@ -90,7 +90,9 @@ class GameCard extends React.Component {
           title={this.props.data.name}
         />
         <CardContent className={classes.content}>
-        <Typography variant="body" className={classes.titleDescription}>What I've learned from this project:</Typography>
+          <Typography variant="body" className={classes.titleDescription}>
+            What I've learned from this project:
+          </Typography>
           <Typography component="p">{this.props.data.description}</Typography>
         </CardContent>
         <CardActions className={classes.actions} disableActionSpacing>

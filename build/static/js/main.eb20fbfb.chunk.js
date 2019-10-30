@@ -35,8 +35,8 @@
       var n = t(0),
         i = t.n(n),
         c = t(28),
-        r = t.n(c),
-        o = (t(219), t(220), t(5)),
+        o = t.n(c),
+        r = (t(219), t(220), t(5)),
         l = t(57),
         s = t.n(l),
         m = t(59),
@@ -48,7 +48,7 @@
         g = t(31),
         E = t.n(g),
         N = t(48);
-      var k = Object(o.withStyles)({
+      var k = Object(r.withStyles)({
           root: {flexGrow: 1},
           bar: {
             position: 'fixed',
@@ -153,22 +153,22 @@
         }),
         A = t(11),
         v = t(12),
-        I = t(14),
-        f = t(13),
+        f = t(14),
+        I = t(13),
         w = t(15),
         D = t(30),
         j = t.n(D),
         T = t(61),
         y = t.n(T),
-        M = t(41),
-        G = t.n(M),
-        x = t(42),
-        C = t.n(x),
+        G = t(41),
+        M = t.n(G),
+        C = t(42),
+        x = t.n(C),
         O = t(63),
         Y = t.n(O),
         Q = t(62),
         W = t.n(Q),
-        S = t(8),
+        S = t(7),
         R = t.n(S),
         Z = t(64),
         B = t.n(Z),
@@ -180,7 +180,7 @@
           function a() {
             return (
               Object(A.a)(this, a),
-              Object(I.a)(this, Object(f.a)(a).apply(this, arguments))
+              Object(f.a)(this, Object(I.a)(a).apply(this, arguments))
             );
           }
           return (
@@ -214,14 +214,19 @@
                       subheader: this.props.data.subtitle,
                       className: t.header
                     }),
-                    i.a.createElement(G.a, {
+                    i.a.createElement(M.a, {
                       className: t.media,
                       image: this.props.data.snapshot,
                       title: this.props.data.name
                     }),
                     i.a.createElement(
-                      C.a,
+                      x.a,
                       {className: t.content},
+                      i.a.createElement(
+                        R.a,
+                        {variant: 'body', className: t.titleDescription},
+                        "What I've learned from this project:"
+                      ),
                       i.a.createElement(
                         R.a,
                         {component: 'p'},
@@ -252,7 +257,7 @@
             a
           );
         })(i.a.Component),
-        V = Object(o.withStyles)(function(e) {
+        H = Object(r.withStyles)(function(e) {
           return {
             card: {
               border: 'solid 1px black',
@@ -272,6 +277,7 @@
               maxWidth: '100%',
               maxHeight: '100%'
             },
+            titleDescription: {fontWeight: 'bold', marginBottom: '10px'},
             actions: {
               position: 'absolute',
               bottom: '0px',
@@ -288,12 +294,12 @@
             }
           };
         })(F),
-        H = t(18),
-        K = t.n(H),
-        J = t(86),
+        V = t(18),
+        J = t.n(V),
+        K = t(86),
         q = t(19),
         X = t.n(q);
-      var _ = Object(o.withStyles)(function(e) {
+      var _ = Object(r.withStyles)(function(e) {
           return {
             container: {
               display: 'flex',
@@ -323,16 +329,16 @@
               )
             ),
             i.a.createElement(
-              K.a,
+              J.a,
               {container: !0, spacing: 8},
-              J.map(function(e, a) {
+              K.map(function(e, a) {
                 return i.a.createElement(
-                  K.a,
+                  J.a,
                   {item: !0, xs: 12, sm: 3, key: a},
                   i.a.createElement(
                     X.a,
                     {animateIn: 'fadeIn', duration: a + 1, animateOnce: !0},
-                    i.a.createElement(V, {data: J[a], key: a})
+                    i.a.createElement(H, {data: K[a], key: a})
                   )
                 );
               })
@@ -341,7 +347,7 @@
         }),
         $ = t(121),
         ee = t.n($);
-      var ae = Object(o.withStyles)(function(e) {
+      var ae = Object(r.withStyles)(function(e) {
           return {
             card: {
               flexWrap: 'wrap',
@@ -354,9 +360,9 @@
           return i.a.createElement(
             j.a,
             null,
-            i.a.createElement(G.a, {component: 'img', image: ee.a}),
+            i.a.createElement(M.a, {component: 'img', image: ee.a}),
             i.a.createElement(
-              C.a,
+              x.a,
               null,
               i.a.createElement(
                 R.a,
@@ -375,15 +381,15 @@
         ne = t.n(te),
         ie = t(67),
         ce = t.n(ie),
-        re = t(123),
-        oe = t.n(re),
+        oe = t(123),
+        re = t.n(oe),
         le = t(122),
         se = t.n(le),
         me = (function(e) {
           function a() {
             return (
               Object(A.a)(this, a),
-              Object(I.a)(this, Object(f.a)(a).apply(this, arguments))
+              Object(f.a)(this, Object(I.a)(a).apply(this, arguments))
             );
           }
           return (
@@ -397,7 +403,7 @@
                     'div',
                     {className: e.root},
                     i.a.createElement(L.a, {
-                      avatar: i.a.createElement(oe.a, {className: e.button}),
+                      avatar: i.a.createElement(re.a, {className: e.button}),
                       label: 'DoB: 29/06/1994',
                       className: e.chip
                     }),
@@ -435,7 +441,7 @@
             a
           );
         })(i.a.Component),
-        pe = Object(o.withStyles)({
+        pe = Object(r.withStyles)({
           root: {marginTop: '20px'},
           chip: {
             backgroundColor: '#eeeeee',
@@ -451,7 +457,7 @@
             function a() {
               return (
                 Object(A.a)(this, a),
-                Object(I.a)(this, Object(f.a)(a).apply(this, arguments))
+                Object(f.a)(this, Object(I.a)(a).apply(this, arguments))
               );
             }
             return (
@@ -556,7 +562,7 @@
           function a() {
             return (
               Object(A.a)(this, a),
-              Object(I.a)(this, Object(f.a)(a).apply(this, arguments))
+              Object(f.a)(this, Object(I.a)(a).apply(this, arguments))
             );
           }
           return (
@@ -604,7 +610,7 @@
           function a() {
             return (
               Object(A.a)(this, a),
-              Object(I.a)(this, Object(f.a)(a).apply(this, arguments))
+              Object(f.a)(this, Object(I.a)(a).apply(this, arguments))
             );
           }
           return (
@@ -729,7 +735,7 @@
           function a() {
             return (
               Object(A.a)(this, a),
-              Object(I.a)(this, Object(f.a)(a).apply(this, arguments))
+              Object(f.a)(this, Object(I.a)(a).apply(this, arguments))
             );
           }
           return (
@@ -814,7 +820,7 @@
           function a() {
             return (
               Object(A.a)(this, a),
-              Object(I.a)(this, Object(f.a)(a).apply(this, arguments))
+              Object(f.a)(this, Object(I.a)(a).apply(this, arguments))
             );
           }
           return (
@@ -852,7 +858,7 @@
           function a() {
             return (
               Object(A.a)(this, a),
-              Object(I.a)(this, Object(f.a)(a).apply(this, arguments))
+              Object(f.a)(this, Object(I.a)(a).apply(this, arguments))
             );
           }
           return (
@@ -881,14 +887,14 @@
         ke = t.n(Ne),
         Ae = t(126),
         ve = t(124),
-        Ie = t.n(ve),
-        fe = t(125),
-        we = t.n(fe),
+        fe = t.n(ve),
+        Ie = t(125),
+        we = t.n(Ie),
         De = (function(e) {
           function a() {
             return (
               Object(A.a)(this, a),
-              Object(I.a)(this, Object(f.a)(a).apply(this, arguments))
+              Object(f.a)(this, Object(I.a)(a).apply(this, arguments))
             );
           }
           return (
@@ -904,16 +910,16 @@
                     i.a.createElement(ae, null),
                     i.a.createElement(pe, null),
                     i.a.createElement(
-                      K.a,
+                      J.a,
                       {container: !0, spacing: 8},
                       i.a.createElement(
-                        K.a,
+                        J.a,
                         {item: !0, xs: 6},
                         i.a.createElement(de, null),
                         i.a.createElement(be, null)
                       ),
                       i.a.createElement(
-                        K.a,
+                        J.a,
                         {item: !0, xs: 6},
                         i.a.createElement(he, null),
                         i.a.createElement(ue, null),
@@ -947,7 +953,7 @@
                                   className: e.link
                                 },
                                 i.a.createElement('img', {
-                                  src: Ie.a,
+                                  src: fe.a,
                                   alt: 'us',
                                   className: e.flag
                                 }),
@@ -965,7 +971,7 @@
             a
           );
         })(i.a.Component),
-        je = Object(o.withStyles)({
+        je = Object(r.withStyles)({
           card: {
             border: 'solid 1px black',
             boxShadow: '-10px 10px 5px 0px rgba(0,0,0,0.75)',
@@ -996,7 +1002,7 @@
         })(De),
         Te = t(33),
         ye = t.n(Te);
-      var Me = Object(o.withStyles)(function(e) {
+      var Ge = Object(r.withStyles)(function(e) {
           return {
             container: {marginTop: '90px'},
             download: {backgroundColor: '#27ade3'},
@@ -1033,9 +1039,9 @@
             i.a.createElement(je, null)
           );
         }),
-        Ge = t(127),
-        xe = t.n(Ge);
-      var Ce = Object(o.withStyles)({
+        Me = t(127),
+        Ce = t.n(Me);
+      var xe = Object(r.withStyles)({
           root: {flexGrow: 1, paddingTop: '120px'},
           avatar: {
             boxShadow: '0px 0px 20px 5px rgba(0,0,0,0.75)',
@@ -1062,7 +1068,7 @@
               X.a,
               {animateIn: 'zoomIn', animateOnce: !0, offset: 0, duration: 2},
               i.a.createElement('img', {
-                src: xe.a,
+                src: Ce.a,
                 alt: 'Avatar',
                 className: a.avatar
               })
@@ -1118,7 +1124,7 @@
         Ye = t.n(Oe),
         Qe = t(129),
         We = t.n(Qe);
-      var Se = Object(o.withStyles)({
+      var Se = Object(r.withStyles)({
         root: {
           backgroundColor: '#27ade3',
           display: 'flex',
@@ -1195,10 +1201,10 @@
               duration: 1.5
             },
             i.a.createElement(
-              K.a,
+              J.a,
               {container: !0, spacing: 8},
               i.a.createElement(
-                K.a,
+                J.a,
                 {item: !0, xs: 6, sm: 3},
                 i.a.createElement(ce.a, {className: a.button}),
                 i.a.createElement(
@@ -1208,7 +1214,7 @@
                 )
               ),
               i.a.createElement(
-                K.a,
+                J.a,
                 {item: !0, xs: 6, sm: 3},
                 i.a.createElement(
                   'a',
@@ -1227,7 +1233,7 @@
                 )
               ),
               i.a.createElement(
-                K.a,
+                J.a,
                 {item: !0, xs: 6, sm: 3},
                 i.a.createElement(
                   'a',
@@ -1250,7 +1256,7 @@
                 )
               ),
               i.a.createElement(
-                K.a,
+                J.a,
                 {item: !0, xs: 6, sm: 3},
                 i.a.createElement(
                   'a',
@@ -1276,16 +1282,16 @@
           )
         );
       });
-      var Re = Object(o.withStyles)(function(e) {
+      var Re = Object(r.withStyles)(function(e) {
           return {container: {flexWrap: 'wrap'}};
         })(function(e) {
           var a = e.classes;
           return i.a.createElement(
             'div',
             {className: a.container},
-            i.a.createElement(Ce, null),
+            i.a.createElement(xe, null),
             i.a.createElement(_, null),
-            i.a.createElement(Me, null),
+            i.a.createElement(Ge, null),
             i.a.createElement(Se, null)
           );
         }),
@@ -1322,7 +1328,7 @@
             /^127(?:\.(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)){3}$/
           )
       );
-      r.a.render(i.a.createElement(Ue, null), document.getElementById('root')),
+      o.a.render(i.a.createElement(Ue, null), document.getElementById('root')),
         'serviceWorker' in navigator &&
           navigator.serviceWorker.ready.then(function(e) {
             e.unregister();
@@ -1339,7 +1345,7 @@
           snapshot:
             'https://raw.githubusercontent.com/Dkreick/Portfolio/master/src/assets/Projects/ad2b.jpg',
           description:
-            'AD2B is a turn based tactics and exploration game in a devastated world. Your character will face different choices while tries to survive in a map full of dangers.',
+            'How to struggle with big projects, how to document well and how to be consistent and disciplinate to developer every day a little advance.',
           linkToSourceCode: 'https://github.com/Dkreick/AnotherDayToBe',
           mainLanguage: 'Unity3D/C#'
         },
@@ -1350,21 +1356,21 @@
             'https://raw.githubusercontent.com/Dkreick/Portfolio/master/src/assets/icons/icon-ad2b.jpg',
           snapshot:
             'https://raw.githubusercontent.com/Dkreick/Portfolio/master/src/assets/Projects/ad2b.jpg',
-          description: 'Official Wikia for Another Day To be',
+          description: 'To Be Done.',
           linkToSourceCode: 'https://github.com/Dkreick/AnotherDayToBe-Web',
           mainLanguage: 'React'
         },
         {
           name: 'Scan My Profile',
-          subtitle: 'Info app made with Vuforia.',
+          subtitle: 'Small AR app for scan profiles.',
           icon:
             'https://raw.githubusercontent.com/Dkreick/Portfolio/master/src/assets/icons/icon-scan.jpg',
           snapshot:
             'https://raw.githubusercontent.com/Dkreick/Portfolio/master/src/assets/Projects/scan.jpg',
           description:
-            'Small app for scan my profile image and know more about me.',
+            'The usage of Vuforia, a powerful framework for augmented reality. The mastering of Unity UI.',
           linkToSourceCode: 'https://github.com/Dkreick/Scan-My-Profile',
-          mainLanguage: 'Vuforia'
+          mainLanguage: 'Unity3D/C#'
         },
         {
           name: 'Simple Simon',
@@ -1373,33 +1379,35 @@
             'https://raw.githubusercontent.com/Dkreick/Portfolio/master/src/assets/icons/icon-simon.jpg',
           snapshot:
             'https://raw.githubusercontent.com/Dkreick/Portfolio/master/src/assets/Projects/simon.jpg',
-          description: 'Simple game memory game.',
+          description:
+            'The lifecycle of a game, not quite achievement but it was fun to develop.',
           linkToSourceCode: 'https://github.com/Dkreick/SimpleSimon',
           mainLanguage: 'Unity3D/C#'
         },
         {
           name: 'Dacia Adventure',
-          subtitle: 'Road Fighter style game',
+          subtitle: 'Road Fighter style game.',
           icon:
             'https://raw.githubusercontent.com/Dkreick/Portfolio/master/src/assets/icons/icon-dacia.jpg',
           snapshot:
             'https://raw.githubusercontent.com/Dkreick/Portfolio/master/src/assets/Projects/dacia.jpg',
           description:
-            'Try to avoid as many cars as possible in your rusty old Dacia 1310.',
+            'The use of Unity3D physics, including colliders and the science of endless games.',
           linkToSourceCode: 'https://github.com/Dkreick/DaciaAdventure',
           mainLanguage: 'Unity3D/C#'
         },
         {
           name: 'Horse and diamonds',
-          subtitle: 'Short mouse game.',
+          subtitle: 'Point and click mouse game.',
           icon:
             'https://raw.githubusercontent.com/Dkreick/Portfolio/master/src/assets/icons/icon-horse.jpg',
           snapshot:
             'https://raw.githubusercontent.com/Dkreick/Portfolio/master/src/assets/Projects/horse.jpg',
-          description: 'Catch all the bubbles before the time runs out!.',
+          description:
+            'The use of PhaserJS, a Javascript framework to make games very easy.',
           linkToSourceCode:
             'https://github.com/Dkreick/Phaser---Practice-Horse-and-diamonds',
-          mainLanguage: 'JS/Phaser'
+          mainLanguage: 'Javascript'
         },
         {
           name: 'Galactic Menace',
@@ -1408,41 +1416,44 @@
             'https://raw.githubusercontent.com/Dkreick/Portfolio/master/src/assets/icons/icon-galactic.jpg',
           snapshot:
             'https://raw.githubusercontent.com/Dkreick/Portfolio/master/src/assets/Projects/galactic.jpg',
-          description: 'Small Match3 alike game made in Unity3D.',
+          description:
+            'How to use multiple arrays in C# to manage the enemies actions. How to manage efficiently particle systems and manage sprite sheets.',
           linkToSourceCode: 'https://github.com/Dkreick/Galactic-Menace',
           mainLanguage: 'Unity3D'
         },
         {
           name: 'Fallout Memory Game',
-          subtitle: 'Fallout Themed Game',
+          subtitle: 'Memory game based in the Fallout universe.',
           icon:
             'https://raw.githubusercontent.com/Dkreick/Portfolio/master/src/assets/icons/icon-fallout.jpg',
           snapshot:
             'https://raw.githubusercontent.com/Dkreick/Portfolio/master/src/assets/Projects/fallout.jpg',
-          description: 'Memory game based in the Fallout universe.',
+          description:
+            'The usage of a grid platform, the correct implementation of coroutines and menues.',
           linkToSourceCode: 'https://github.com/Dkreick/Fallout-Memory-Game',
           mainLanguage: 'Unity3D'
         },
         {
           name: 'Futbol Quiz',
-          subtitle: 'Quiz Game made with Unity3D',
+          subtitle: 'Quiz game based in argentinean league.',
           icon:
             'https://raw.githubusercontent.com/Dkreick/Portfolio/master/src/assets/icons/icon-futbol.jpg',
           snapshot:
             'https://raw.githubusercontent.com/Dkreick/Portfolio/master/src/assets/Projects/futbol.jpg',
-          description: 'Quiz game based in argentinean league.',
+          description:
+            'How to operate with Google Firebase, implementing a simple login/register system. How to handle JSON objects in unity in order to generate the questions',
           linkToSourceCode: 'https://github.com/Dkreick/Fallout-Memory-Game',
           mainLanguage: 'Unity3D'
         },
         {
           name: 'This Portfolio Itself!',
-          subtitle: 'Inception!',
+          subtitle: 'A portfolio with my Projects and my resume.',
           icon:
             'https://raw.githubusercontent.com/Dkreick/Portfolio/master/src/assets/icons/icon-portfolio.jpg',
           snapshot:
             'https://raw.githubusercontent.com/Dkreick/Portfolio/master/src/assets/Projects/portfolio.jpg',
           description:
-            'A scrolleable portfolio made in React Material UI with my Projects, my resume and more info about me.',
+            'The usage of material UI. The customization of components and the deploy via Github Pages.',
           linkToSourceCode: 'https://github.com/Dkreick/Portfolio',
           mainLanguage: 'React'
         }
@@ -1451,4 +1462,4 @@
   },
   [[214, 1, 2]]
 ]);
-//# sourceMappingURL=main.97cfe749.chunk.js.map
+//# sourceMappingURL=main.eb20fbfb.chunk.js.map
