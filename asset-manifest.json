@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.9b19f599.chunk.css",
-    "main.js": "/Portfolio/static/js/main.7b4253f7.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.7b4253f7.chunk.js.map",
-    "runtime~main.js": "/Portfolio/static/js/runtime~main.132fbc8c.js",
-    "runtime~main.js.map": "/Portfolio/static/js/runtime~main.132fbc8c.js.map",
-    "static/js/2.ea49575b.chunk.js": "/Portfolio/static/js/2.ea49575b.chunk.js",
-    "static/js/2.ea49575b.chunk.js.map": "/Portfolio/static/js/2.ea49575b.chunk.js.map",
-    "index.html": "/Portfolio/index.html",
-    "precache-manifest.5969403443db1a4c396378eb1d76e7f4.js": "/Portfolio/precache-manifest.5969403443db1a4c396378eb1d76e7f4.js",
-    "service-worker.js": "/Portfolio/service-worker.js",
-    "static/css/main.9b19f599.chunk.css.map": "/Portfolio/static/css/main.9b19f599.chunk.css.map",
-    "static/media/BannerImage.jpeg": "/Portfolio/static/media/BannerImage.a14d0d68.jpeg",
-    "static/media/Cv.pdf": "/Portfolio/static/media/Cv.623bc29a.pdf",
-    "static/media/avatar.jpg": "/Portfolio/static/media/avatar.fc683e9b.jpg",
-    "static/media/index.scss": "/Portfolio/static/media/background.7d117529.png",
-    "static/media/flag-us.jpg": "/Portfolio/static/media/flag-us.4ea472e6.jpg",
-    "static/media/icon-whatsapp.png": "/Portfolio/static/media/icon-whatsapp.6774d436.png"
+    "main.css": "/static/css/main.e6f70155.chunk.css",
+    "main.js": "/static/js/main.371363f7.chunk.js",
+    "main.js.map": "/static/js/main.371363f7.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
+    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
+    "static/js/2.ea49575b.chunk.js": "/static/js/2.ea49575b.chunk.js",
+    "static/js/2.ea49575b.chunk.js.map": "/static/js/2.ea49575b.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.d9047cc2e74e193190cfca4a7d461663.js": "/precache-manifest.d9047cc2e74e193190cfca4a7d461663.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.e6f70155.chunk.css.map": "/static/css/main.e6f70155.chunk.css.map",
+    "static/media/BannerImage.jpeg": "/static/media/BannerImage.a14d0d68.jpeg",
+    "static/media/Cv.pdf": "/static/media/Cv.623bc29a.pdf",
+    "static/media/avatar.jpg": "/static/media/avatar.fc683e9b.jpg",
+    "static/media/index.scss": "/static/media/background.7d117529.png",
+    "static/media/flag-us.jpg": "/static/media/flag-us.4ea472e6.jpg",
+    "static/media/icon-whatsapp.png": "/static/media/icon-whatsapp.6774d436.png"
   }
 }
