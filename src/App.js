@@ -11,7 +11,8 @@ function App() {
         <div className="app">
           <ButtonAppBar />
           <div className="container">
-            <Route exact path="/(|Portfolio)" component={Home} />
+            <Home />
+            {/* <Route path="/(|Portfolio)" component={Home} /> */}
           </div>
         </div>
       </BrowserRouter>
