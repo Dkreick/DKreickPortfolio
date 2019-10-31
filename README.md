@@ -5,7 +5,7 @@
 <a href="https://dkreick.github.io/Portfolio/">
 <img src="https://img.shields.io/badge/Link-Here!-yellow.svg"/> 
 </a>
-<img src="https://img.shields.io/badge/Projects-8-orange.svg"/></p> 
+<img src="https://img.shields.io/badge/Projects-8-orange.svg"/></p>
 
 # Quick Preview
 
