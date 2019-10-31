@@ -1311,11 +1311,7 @@
               i.a.createElement(
                 'div',
                 {className: 'container'},
-                i.a.createElement(Be.a, {
-                  exact: !0,
-                  path: '/(|Portfolio)',
-                  component: Re
-                })
+                i.a.createElement(Be.a, {path: '/(|Portfolio)', component: Re})
               )
             )
           )
@@ -1462,4 +1458,4 @@
   },
   [[214, 1, 2]]
 ]);
-//# sourceMappingURL=main.25a72073.chunk.js.map
+//# sourceMappingURL=main.3c035fc4.chunk.js.map
