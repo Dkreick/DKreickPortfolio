@@ -12,12 +12,8 @@ import Grid from '@material-ui/core/Grid';
 const styles = {
   root: {
     backgroundColor: '#27ade3',
-    display: 'flex',
     flexDirection: 'column',
     marginTop: '70px',
-    left: '0px',
-    position: 'absolute',
-    width: '100%',
     paddingTop: '30px',
     paddingBottom: '60px'
   },

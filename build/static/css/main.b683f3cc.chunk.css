@@ -26,10 +26,7 @@ code {
   text-align: center;
 }
 .container {
-  display: flex;
-  justify-content: center;
   display: block;
-  margin: 20px 40px;
 }
 .title {
   background-color: #27ade3;
@@ -65,4 +62,4 @@ code {
   margin-bottom: 5px;
   text-align: justify;
 }
-/*# sourceMappingURL=main.e6f70155.chunk.css.map */
+/*# sourceMappingURL=main.b683f3cc.chunk.css.map */

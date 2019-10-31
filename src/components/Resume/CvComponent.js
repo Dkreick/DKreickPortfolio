@@ -37,6 +37,9 @@ const styles = {
     verticalAlign: 'middle',
     width: '32px'
   },
+  grid: {
+    padding: '20px 40px'
+  },
   snackbar: {
     margin: 'auto',
     left: '0px',
@@ -55,12 +58,12 @@ class CvComponent extends React.Component {
       <Card className={classes.card}>
         <Header />
         <HeaderActions />
-        <Grid container spacing={8}>
+        <Grid container spacing={8} className={classes.grid}>
           <Grid item xs={6}>
             <WorkExperience />
             <ValuableSkills />
           </Grid>
-          <Grid item xs={6}>
+          <Grid item xs={6} className={classes.grid}>
             <Education />
             <Courses />
             <Languages />

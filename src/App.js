@@ -2,20 +2,16 @@ import React from 'react';
 import './App.scss';
 import ButtonAppBar from './layout/Navbar';
 import Home from './pages/Home';
-import {BrowserRouter, Route} from 'react-router-dom';
 
 function App() {
   return (
     <div>
-      <BrowserRouter>
-        <div className="app">
-          <ButtonAppBar />
-          <div className="container">
-            <Home />
-            {/* <Route path="/(|Portfolio)" component={Home} /> */}
-          </div>
+      <div className="app">
+        <ButtonAppBar />
+        <div className="container">
+          <Home />
         </div>
-      </BrowserRouter>
+      </div>
     </div>
   );
 }

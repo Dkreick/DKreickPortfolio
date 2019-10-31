@@ -4,15 +4,13 @@ import {withStyles} from '@material-ui/core/styles';
 import GameCard from './GameCard';
 import Grid from '@material-ui/core/Grid';
 import apps from './../../assets/data/apps.json';
-// import ArtCard from './ArtCard';
-// import art from './../../assets/data/art.json';
-// import GridList from '@material-ui/core/GridList';
 import Typography from '@material-ui/core/Typography';
 import ScrollAnimation from 'react-animate-on-scroll';
 
 const styles = theme => ({
   container: {
     display: 'flex',
+    margin: '0px 20px',
     flexWrap: 'wrap',
     justifyContent: 'center'
   },
