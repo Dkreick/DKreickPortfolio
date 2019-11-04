@@ -1,17 +1,18 @@
 import React from 'react';
-import './App.scss';
-import ButtonAppBar from './layout/Navbar';
-import Home from './pages/Home';
+import Navbar from './pages/Navbar';
+import Intro from './pages/Intro';
+import Portfolio from './pages/Portfolio/Portfolio';
+import Resume from './pages/Resume/Resume';
+import Footer from './pages/Footer';
 
 function App() {
   return (
     <div>
-      <div className="app">
-        <ButtonAppBar />
-        <div className="container">
-          <Home />
-        </div>
-      </div>
+      <Navbar />
+      <Intro />
+      <Portfolio />
+      <Resume />
+      <Footer />
     </div>
   );
 }

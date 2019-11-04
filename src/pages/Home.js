@@ -1,10 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import {withStyles} from '@material-ui/core/styles';
-import Portfolio from '../components/Portfolio/Portfolio';
-import Resume from '../components/Resume/Resume';
-import Header from '../layout/Header';
-import Footer from '../layout/Footer';
+import Portfolio from './Portfolio/Portfolio';
+import Resume from './Resume/Resume';
+import Header from './Header';
+import Footer from './Footer';
 
 const styles = theme => ({
   container: {

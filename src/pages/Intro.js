@@ -15,9 +15,8 @@ const styles = {
     boxShadow: '0px 0px 20px 5px rgba(0,0,0,0.75)',
     borderRadius: '20px',
     color: 'white',
-    marginBottom: '10px',
-    maxWidth: '375px',
-    height: 'auto'
+    maxWidth: '55vh',
+    marginBottom: '10px'
   },
   name: {
     marginTop: '30px'
@@ -37,7 +36,7 @@ const styles = {
   }
 };
 
-function Header(props) {
+function Intro(props) {
   const {classes} = props;
   return (
     <div className={classes.root} id="header">
@@ -91,8 +90,8 @@ function Header(props) {
   );
 }
 
-Header.propTypes = {
+Intro.propTypes = {
   classes: PropTypes.object.isRequired
 };
 
-export default withStyles(styles)(Header);
+export default withStyles(styles)(Intro);

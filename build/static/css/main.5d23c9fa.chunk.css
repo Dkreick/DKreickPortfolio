@@ -1,13 +1,11 @@
 body {
   background-image: url(/static/media/background.7d117529.png);
-  background-size: contain;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  max-width: 100%;
-  overflow-x: hidden;
+  text-align: center;
 }
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, Courier New, monospace;
@@ -21,9 +19,6 @@ code {
 ::-webkit-scrollbar-thumb {
   background-color: rgba(0, 0, 0, 0.1);
   outline: 1px solid #708090;
-}
-.app {
-  text-align: center;
 }
 .container {
   display: block;
@@ -62,4 +57,4 @@ code {
   margin-bottom: 5px;
   text-align: justify;
 }
-/*# sourceMappingURL=main.b683f3cc.chunk.css.map */
+/*# sourceMappingURL=main.5d23c9fa.chunk.css.map */
