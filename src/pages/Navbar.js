@@ -25,7 +25,9 @@ const styles = {
   },
   nav: {
     display: 'flex',
-    margin: 'auto'
+    margin: 'auto',
+    width: '100vw',
+    justifyContent: 'center'
   }
 };
 

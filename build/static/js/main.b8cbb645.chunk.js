@@ -59,7 +59,12 @@
             width: 'max-content'
           },
           item: {padding: '5px 0px'},
-          nav: {display: 'flex', margin: 'auto'}
+          nav: {
+            display: 'flex',
+            margin: 'auto',
+            width: '100vw',
+            justifyContent: 'center'
+          }
         })(function(e) {
           var a = e.classes;
           return i.a.createElement(
@@ -115,13 +120,12 @@
         f = t.n(I),
         w = t(18),
         D = t.n(w);
-      var T = Object(r.withStyles)({
+      var j = Object(r.withStyles)({
           root: {flexGrow: 1, paddingTop: '120px'},
           avatar: {
             boxShadow: '0px 0px 20px 5px rgba(0,0,0,0.75)',
             borderRadius: '20px',
-            color: 'white',
-            maxWidth: '55vh',
+            maxWidth: '50vh',
             marginBottom: '10px'
           },
           name: {marginTop: '30px'},
@@ -194,7 +198,7 @@
             i.a.createElement(f.a, {variant: 'middle', className: a.divider})
           );
         }),
-        j = t(11),
+        T = t(11),
         y = t(12),
         G = t(14),
         M = t(13),
@@ -220,7 +224,7 @@
         q = (function(e) {
           function a() {
             return (
-              Object(j.a)(this, a),
+              Object(T.a)(this, a),
               Object(G.a)(this, Object(M.a)(a).apply(this, arguments))
             );
           }
@@ -428,7 +432,7 @@
         he = (function(e) {
           function a() {
             return (
-              Object(j.a)(this, a),
+              Object(T.a)(this, a),
               Object(G.a)(this, Object(M.a)(a).apply(this, arguments))
             );
           }
@@ -496,7 +500,7 @@
           (function(e) {
             function a() {
               return (
-                Object(j.a)(this, a),
+                Object(T.a)(this, a),
                 Object(G.a)(this, Object(M.a)(a).apply(this, arguments))
               );
             }
@@ -601,7 +605,7 @@
         be = (function(e) {
           function a() {
             return (
-              Object(j.a)(this, a),
+              Object(T.a)(this, a),
               Object(G.a)(this, Object(M.a)(a).apply(this, arguments))
             );
           }
@@ -649,7 +653,7 @@
         Ee = (function(e) {
           function a() {
             return (
-              Object(j.a)(this, a),
+              Object(T.a)(this, a),
               Object(G.a)(this, Object(M.a)(a).apply(this, arguments))
             );
           }
@@ -774,7 +778,7 @@
         Ne = (function(e) {
           function a() {
             return (
-              Object(j.a)(this, a),
+              Object(T.a)(this, a),
               Object(G.a)(this, Object(M.a)(a).apply(this, arguments))
             );
           }
@@ -859,7 +863,7 @@
         Ae = (function(e) {
           function a() {
             return (
-              Object(j.a)(this, a),
+              Object(T.a)(this, a),
               Object(G.a)(this, Object(M.a)(a).apply(this, arguments))
             );
           }
@@ -897,7 +901,7 @@
         ke = (function(e) {
           function a() {
             return (
-              Object(j.a)(this, a),
+              Object(T.a)(this, a),
               Object(G.a)(this, Object(M.a)(a).apply(this, arguments))
             );
           }
@@ -928,12 +932,12 @@
         fe = t(118),
         we = t(116),
         De = t.n(we),
-        Te = t(117),
-        je = t.n(Te),
+        je = t(117),
+        Te = t.n(je),
         ye = (function(e) {
           function a() {
             return (
-              Object(j.a)(this, a),
+              Object(T.a)(this, a),
               Object(G.a)(this, Object(M.a)(a).apply(this, arguments))
             );
           }
@@ -988,7 +992,7 @@
                               i.a.createElement(
                                 'a',
                                 {
-                                  href: je.a,
+                                  href: Te.a,
                                   download: 'Damian Kreick CV',
                                   className: e.link
                                 },
@@ -1241,7 +1245,7 @@
           'div',
           null,
           i.a.createElement(E, null),
-          i.a.createElement(T, null),
+          i.a.createElement(j, null),
           i.a.createElement(ae, null),
           i.a.createElement(Me, null),
           i.a.createElement(Qe, null)
@@ -1388,4 +1392,4 @@
   },
   [[204, 1, 2]]
 ]);
-//# sourceMappingURL=main.1a7cecf2.chunk.js.map
+//# sourceMappingURL=main.b8cbb645.chunk.js.map
