@@ -1,4 +1,5 @@
 import React from 'react';
+import './App.scss';
 import Navbar from './pages/Navbar';
 import Intro from './pages/Intro';
 import Portfolio from './pages/Portfolio/Portfolio';
@@ -7,7 +8,7 @@ import Footer from './pages/Footer';
 
 function App() {
   return (
-    <div>
+    <div className="page">
       <Navbar />
       <Intro />
       <Portfolio />

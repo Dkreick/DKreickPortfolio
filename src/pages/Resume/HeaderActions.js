@@ -1,5 +1,5 @@
 import React from 'react';
-import {withStyles} from '@material-ui/core/styles';
+import { withStyles } from '@material-ui/core/styles';
 import EmailIcon from '@material-ui/icons/Email';
 import PhoneIcon from '@material-ui/icons/Phone';
 import CalendarIcon from '@material-ui/icons/CalendarToday';
@@ -8,23 +8,23 @@ import LinkedinIcon from './../../assets/icons/icon-linkedinCv.png';
 
 const styles = {
   root: {
-    marginTop: '20px'
+    marginTop: '20px',
   },
   chip: {
     backgroundColor: '#eeeeee',
     height: '40px',
     margin: '10px',
-    padding: '5px'
+    padding: '5px',
   },
   button: {
     color: '#27ade3',
-    padding: '10px'
-  }
+    padding: '10px',
+  },
 };
 
 class HeaderActions extends React.Component {
   render() {
-    const {classes} = this.props;
+    const { classes } = this.props;
 
     function handleMailClick() {
       window.open('mailto:damian.kreick@gmail.com', '_blank');

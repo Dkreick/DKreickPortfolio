@@ -1,5 +1,5 @@
 import React from 'react';
-import {withStyles} from '@material-ui/core/styles';
+import { withStyles } from '@material-ui/core/styles';
 import Card from '@material-ui/core/Card';
 import Grid from '@material-ui/core/Grid';
 import Header from './Header';
@@ -11,7 +11,7 @@ import ValuableSkills from './ValuableSkills';
 import Languages from './Languages';
 import Hobbies from './Hobbies';
 import Snackbar from '@material-ui/core/Snackbar';
-import {SnackbarContent} from '@material-ui/core';
+import { SnackbarContent } from '@material-ui/core';
 import FlagUs from './../../assets/icons/flag-us.jpg';
 import Cv from './../../assets/Cv.pdf';
 
@@ -20,25 +20,25 @@ const styles = {
     border: 'solid 1px black',
     boxShadow: '-10px 10px 5px 0px rgba(0,0,0,0.75)',
     maxWidth: '1280px',
-    margin: 'auto'
+    margin: 'auto',
   },
   download: {
-    backgroundColor: '#27ade3'
+    backgroundColor: '#27ade3',
   },
   link: {
     color: 'white',
     display: 'contents',
     fontWeight: 'bold',
-    textDecoration: 'none'
+    textDecoration: 'none',
   },
   flag: {
     borderRadius: '5px',
     margin: '0px 10px',
     verticalAlign: 'middle',
-    width: '32px'
+    width: '32px',
   },
   grid: {
-    padding: '20px 40px'
+    padding: '20px 40px',
   },
   snackbar: {
     margin: 'auto',
@@ -46,13 +46,13 @@ const styles = {
     top: '30px',
     position: 'relative',
     width: 'fit-content',
-    zIndex: 'auto'
-  }
+    zIndex: 'auto',
+  },
 };
 
 class CvComponent extends React.Component {
   render() {
-    const {classes} = this.props;
+    const { classes } = this.props;
 
     return (
       <Card className={classes.card}>
@@ -72,7 +72,7 @@ class CvComponent extends React.Component {
               className={classes.snackbar}
               anchorOrigin={{
                 vertical: 'bottom',
-                horizontal: 'right'
+                horizontal: 'right',
               }}
               open={true}
             >

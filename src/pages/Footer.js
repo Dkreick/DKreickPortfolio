@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import {withStyles} from '@material-ui/core/styles';
+import { withStyles } from '@material-ui/core/styles';
 import Typography from '@material-ui/core/Typography';
 import EmailIcon from '@material-ui/icons/Email';
 import PhoneIcon from '@material-ui/icons/Phone';
@@ -15,43 +15,43 @@ const styles = {
     flexDirection: 'column',
     marginTop: '70px',
     paddingTop: '30px',
-    paddingBottom: '60px'
+    paddingBottom: '60px',
   },
   contactInfo: {
     display: 'flex',
-    justifyContent: 'center'
+    justifyContent: 'center',
   },
   infoContainer: {
     display: 'block',
     margin: '0px 30px',
     textAlign: 'center',
-    textDecoration: 'none'
+    textDecoration: 'none',
   },
   infoTitle: {
     color: 'white',
-    fontSize: '18px'
+    fontSize: '18px',
   },
   button: {
     color: 'white',
     width: '36px',
-    height: '36px'
+    height: '36px',
   },
   title: {
     color: 'white',
     fontSize: '24px',
     fontWeight: 'bold',
-    paddingTop: '40px'
+    paddingTop: '40px',
   },
   subtitle: {
     color: 'white',
     fontSize: '20px',
     marginBottom: '60px',
-    paddingTop: '10px'
-  }
+    paddingTop: '10px',
+  },
 };
 
 function Footer(props) {
-  const {classes} = props;
+  const { classes } = props;
 
   return (
     <div className={classes.root} id="footer">
@@ -144,7 +144,7 @@ function Footer(props) {
 }
 
 Footer.propTypes = {
-  classes: PropTypes.object.isRequired
+  classes: PropTypes.object.isRequired,
 };
 
 export default withStyles(styles)(Footer);

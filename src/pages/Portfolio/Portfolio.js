@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import {withStyles} from '@material-ui/core/styles';
+import { withStyles } from '@material-ui/core/styles';
 import GameCard from './GameCard';
 import Grid from '@material-ui/core/Grid';
 import apps from './../../assets/data/apps.json';
@@ -12,21 +12,21 @@ const styles = theme => ({
     display: 'flex',
     margin: '0px 20px',
     flexWrap: 'wrap',
-    justifyContent: 'center'
+    justifyContent: 'center',
   },
   gridList: {
     flexWrap: 'nowrap',
     height: '250px',
     overflowY: 'hidden',
-    paddingTop: '60px'
+    paddingTop: '60px',
   },
   title: {
-    margin: '30px'
-  }
+    margin: '30px',
+  },
 });
 
 export function Portfolio(props) {
-  const {classes} = props;
+  const { classes } = props;
 
   return (
     <div className={classes.container} id="portfolio">
@@ -73,7 +73,7 @@ export function Portfolio(props) {
 }
 
 Portfolio.propTypes = {
-  classes: PropTypes.object.isRequired
+  classes: PropTypes.object.isRequired,
 };
 
 export default withStyles(styles)(Portfolio);

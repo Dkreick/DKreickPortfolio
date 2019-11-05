@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import {withStyles} from '@material-ui/core/styles';
+import { withStyles } from '@material-ui/core/styles';
 import Card from '@material-ui/core/Card';
 import CardHeader from '@material-ui/core/CardHeader';
 import CardMedia from '@material-ui/core/CardMedia';
@@ -19,13 +19,13 @@ const styles = theme => ({
     margin: 20,
     maxWidth: 400,
     height: 480,
-    position: 'relative'
+    position: 'relative',
   },
   header: {
-    height: '50px'
+    height: '50px',
   },
   content: {
-    height: '80px'
+    height: '80px',
   },
   media: {
     height: 0,
@@ -33,32 +33,32 @@ const styles = theme => ({
     backgroundSize: 'contain',
     backgroundColor: '#D9DFE1',
     maxWidth: '100%',
-    maxHeight: '100%'
+    maxHeight: '100%',
   },
   titleDescription: {
     fontWeight: 'bold',
-    marginBottom: '10px'
+    marginBottom: '10px',
   },
   actions: {
     position: 'absolute',
     bottom: '0px',
     width: '100%',
-    justifyContent: 'center'
+    justifyContent: 'center',
   },
   avatar: {
-    backgroundColor: '#27ade3'
+    backgroundColor: '#27ade3',
   },
   button: {
-    color: '#27ade3'
+    color: '#27ade3',
   },
   icon: {
-    width: 'inherit'
+    width: 'inherit',
   },
   chip: {
     backgroundColor: '#27ade3',
     color: 'white',
-    fontWeight: 'bold'
-  }
+    fontWeight: 'bold',
+  },
 });
 
 class GameCard extends React.Component {
@@ -67,7 +67,7 @@ class GameCard extends React.Component {
   }
 
   render(props) {
-    const {classes} = this.props;
+    const { classes } = this.props;
     return (
       <Card className={classes.card}>
         <CardHeader
@@ -109,7 +109,7 @@ class GameCard extends React.Component {
 }
 
 GameCard.propTypes = {
-  classes: PropTypes.object.isRequired
+  classes: PropTypes.object.isRequired,
 };
 
 export default withStyles(styles)(GameCard);

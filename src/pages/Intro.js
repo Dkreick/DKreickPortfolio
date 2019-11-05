@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import {withStyles} from '@material-ui/core/styles';
+import { withStyles } from '@material-ui/core/styles';
 import Typography from '@material-ui/core/Typography';
 import avatar from './../assets/images/avatar.jpg';
 import Divider from '@material-ui/core/Divider';
@@ -9,34 +9,34 @@ import ScrollAnimation from 'react-animate-on-scroll';
 const styles = {
   root: {
     flexGrow: 1,
-    paddingTop: '120px'
+    paddingTop: '120px',
   },
   avatar: {
     boxShadow: '0px 0px 20px 5px rgba(0,0,0,0.75)',
     borderRadius: '20px',
     maxWidth: '50vh',
-    marginBottom: '10px'
+    marginBottom: '10px',
   },
   name: {
-    marginTop: '30px'
+    marginTop: '30px',
   },
   divider: {
-    margin: '15px'
+    margin: '15px',
   },
   charge: {
     color: 'gray',
-    marginTop: '35px'
+    marginTop: '35px',
   },
   info: {
     color: 'gray',
     fontStyle: 'cursive',
     fontWeight: 'bold',
-    padding: '50px'
-  }
+    padding: '50px',
+  },
 };
 
 function Intro(props) {
-  const {classes} = props;
+  const { classes } = props;
   return (
     <div className={classes.root} id="header">
       <ScrollAnimation
@@ -90,7 +90,7 @@ function Intro(props) {
 }
 
 Intro.propTypes = {
-  classes: PropTypes.object.isRequired
+  classes: PropTypes.object.isRequired,
 };
 
 export default withStyles(styles)(Intro);
