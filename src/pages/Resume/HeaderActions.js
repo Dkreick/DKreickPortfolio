@@ -39,24 +39,24 @@ class HeaderActions extends React.Component {
     return (
       <div className={classes.root}>
         <Chip
-          avatar={<CalendarIcon className={classes.button} />}
+          icon={<CalendarIcon className={classes.button} />}
           label="DoB: 29/06/1994"
           className={classes.chip}
         />
         <Chip
-          avatar={<EmailIcon className={classes.button} />}
+          icon={<EmailIcon className={classes.button} />}
           label="damian.kreick@gmail.com"
           className={classes.chip}
           onClick={handleMailClick}
         />
         <Chip
-          avatar={<PhoneIcon className={classes.button} />}
+          icon={<PhoneIcon className={classes.button} />}
           label="(+54) 11-3330-2076"
           className={classes.chip}
           onClick={handlePhoneClick}
         />
         <Chip
-          avatar={<img src={LinkedinIcon} alt="" />}
+          icon={<img src={LinkedinIcon} alt="" />}
           label="My Linkedin"
           className={classes.chip}
           onClick={handleLinkedinClick}
