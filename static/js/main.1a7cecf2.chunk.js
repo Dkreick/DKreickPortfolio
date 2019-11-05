@@ -1,6 +1,9 @@
 (window.webpackJsonp = window.webpackJsonp || []).push([
   [0],
   {
+    111: function(e, a, t) {
+      e.exports = t.p + 'static/media/avatar.fc683e9b.jpg';
+    },
     113: function(e, a, t) {
       e.exports = t.p + 'static/media/BannerImage.a14d0d68.jpeg';
     },
@@ -14,41 +17,35 @@
     117: function(e, a, t) {
       e.exports = t.p + 'static/media/Cv.623bc29a.pdf';
     },
-    119: function(e, a, t) {
-      e.exports = t.p + 'static/media/avatar.fc683e9b.jpg';
-    },
-    120: function(e, a) {
+    119: function(e, a) {
       e.exports =
         'data:image/png;base64,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cC8xLjAvc1R5cGUvUmVzb3VyY2VFdmVudCMiIHhtbG5zOmRjPSJodHRwOi8vcHVybC5vcmcvZGMvZWxlbWVudHMvMS4xLyIgeG1sbnM6cGhvdG9zaG9wPSJodHRwOi8vbnMuYWRvYmUuY29tL3Bob3Rvc2hvcC8xLjAvIiB4bXA6Q3JlYXRvclRvb2w9IkFkb2JlIFBob3Rvc2hvcCBDQyAoTWFjaW50b3NoKSIgeG1wOkNyZWF0ZURhdGU9IjIwMTktMDYtMjRUMTU6MDg6NTEtMDM6MDAiIHhtcDpNZXRhZGF0YURhdGU9IjIwMTktMDktMjBUMTY6MTktMDM6MDAiIHhtcDpNb2RpZnlEYXRlPSIyMDE5LTA5LTIwVDE2OjE5LTAzOjAwIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOjUxYzVmNjk0LWY4MzItMDM0Yi05YzgxLTdkZjkwOTQ3ZDAwOCIgeG1wTU06RG9jdW1lbnRJRD0iYWRvYmU6ZG9jaWQ6cGhvdG9zaG9wOjI5Y2Q0MjNkLTZjNTgtYTI0ZC1hOTEyLWEyMTdhNWI4MmExYyIgeG1wTU06T3JpZ2luYWxEb2N1bWVudElEPSJ4bXAuZGlkOjY5NTkxMTcyLTg0YjAtNDcwZi05MWQxLWYyNmRmNTg3OGZkNCIgZGM6Zm9ybWF0PSJpbWFnZS9wbmciIHBob3Rvc2hvcDpDb2xvck1vZGU9IjMiIHBob3Rvc2hvcDpJQ0NQcm9maWxlPSJEaXNwbGF5Ij4gPHhtcE1NOkhpc3Rvcnk+IDxyZGY6U2VxPiA8cmRmOmxpIHN0RXZ0OmFjdGlvbj0iY3JlYXRlZCIgc3RFdnQ6aW5zdGFuY2VJRD0ieG1wLmlpZDo2OTU5MTE3Mi04NGIwLTQ3MGYtOTFkMS1mMjZkZjU4NzhmZDQiIHN0RXZ0OndoZW49IjIwMTktMDYtMjRUMTU6MDg6NTEtMDM6MDAiIHN0RXZ0OnNvZnR3YXJlQWdlbnQ9IkFkb2JlIFBob3Rvc2hvcCBDQyAoTWFjaW50b3NoKSIvPiA8cmRmOmxpIHN0RXZ0OmFjdGlvbj0ic2F2ZWQiIHN0RXZ0Omluc3RhbmNlSUQ9InhtcC5paWQ6MjBhZDI5NWQtNzE4NC00NmUwLWJkZjgtMTZkY2RlZDFkMTg3IiBz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';
     },
-    121: function(e, a, t) {
+    120: function(e, a, t) {
       e.exports = t.p + 'static/media/icon-whatsapp.6774d436.png';
     },
     204: function(e, a, t) {
-      e.exports = t(323);
+      e.exports = t(321);
     },
     209: function(e, a, t) {},
-    210: function(e, a, t) {},
-    323: function(e, a, t) {
+    321: function(e, a, t) {
       'use strict';
       t.r(a);
       var n = t(0),
         i = t.n(n),
         c = t(24),
         o = t.n(c),
-        r = (t(209), t(210), t(5)),
+        r = (t(209), t(5)),
         s = t(51),
         l = t.n(s),
         m = t(52),
         p = t.n(m),
-        d = t(53),
+        d = t(30),
         h = t.n(d),
-        u = t(30),
+        u = t(27),
         g = t.n(u),
-        b = t(27),
-        E = t.n(b),
-        N = t(42);
-      var A = Object(r.withStyles)({
+        b = t(42);
+      var E = Object(r.withStyles)({
           bar: {
             position: 'fixed',
             backgroundColor: '#27ade3',
@@ -61,8 +58,7 @@
             fontSize: '16px',
             width: 'max-content'
           },
-          icons: {display: 'flex', position: 'absolute', right: '20px'},
-          item: {padding: '5px 20px'},
+          item: {padding: '5px 0px'},
           nav: {display: 'flex', margin: 'auto'}
         })(function(e) {
           var a = e.classes;
@@ -71,85 +67,166 @@
             {position: 'static', className: a.bar},
             i.a.createElement(
               p.a,
-              {className: a.toolbar},
+              {className: a.nav},
               i.a.createElement(
-                h.a,
-                {className: a.nav},
+                b.Link,
+                {to: 'header', spy: !0, smooth: !0, duration: 500},
                 i.a.createElement(
-                  N.Link,
-                  {to: 'header', spy: !0, smooth: !0, duration: 500},
-                  i.a.createElement(
-                    g.a,
-                    {className: a.item},
-                    i.a.createElement(E.a, {className: a.button}, 'Home')
-                  )
-                ),
+                  h.a,
+                  {className: a.item},
+                  i.a.createElement(g.a, {className: a.button}, 'Home')
+                )
+              ),
+              i.a.createElement(
+                b.Link,
+                {to: 'portfolio', spy: !0, smooth: !0, duration: 500},
                 i.a.createElement(
-                  N.Link,
-                  {to: 'portfolio', spy: !0, smooth: !0, duration: 500},
-                  i.a.createElement(
-                    g.a,
-                    {className: a.item},
-                    i.a.createElement(E.a, {className: a.button}, 'Projects')
-                  )
-                ),
+                  h.a,
+                  {className: a.item},
+                  i.a.createElement(g.a, {className: a.button}, 'Projects')
+                )
+              ),
+              i.a.createElement(
+                b.Link,
+                {to: 'resume', spy: !0, smooth: !0, duration: 500},
                 i.a.createElement(
-                  N.Link,
-                  {to: 'resume', spy: !0, smooth: !0, duration: 500},
-                  i.a.createElement(
-                    g.a,
-                    {className: a.item},
-                    i.a.createElement(E.a, {className: a.button}, 'Resume')
-                  )
-                ),
+                  h.a,
+                  {className: a.item},
+                  i.a.createElement(g.a, {className: a.button}, 'Resume')
+                )
+              ),
+              i.a.createElement(
+                b.Link,
+                {to: 'footer', spy: !0, smooth: !0, duration: 500},
                 i.a.createElement(
-                  N.Link,
-                  {to: 'footer', spy: !0, smooth: !0, duration: 500},
-                  i.a.createElement(
-                    g.a,
-                    {className: a.item},
-                    i.a.createElement(E.a, {className: a.button}, 'Contact')
-                  )
+                  h.a,
+                  {className: a.item},
+                  i.a.createElement(g.a, {className: a.button}, 'Contact')
                 )
               )
             )
           );
         }),
-        k = t(11),
-        v = t(12),
-        I = t(14),
-        f = t(13),
-        w = t(15),
-        D = t(26),
-        j = t.n(D),
-        T = t(54),
-        y = t.n(T),
-        G = t(35),
-        M = t.n(G),
-        C = t(36),
-        x = t.n(C),
-        O = t(56),
-        Y = t.n(O),
-        Q = t(55),
-        W = t.n(Q),
-        S = t(7),
-        R = t.n(S),
-        Z = t(57),
-        B = t.n(Z),
-        U = t(112),
-        z = t.n(U),
-        P = t(25),
-        L = t.n(P),
-        F = (function(e) {
+        N = t(6),
+        A = t.n(N),
+        k = t(111),
+        v = t.n(k),
+        I = t(29),
+        f = t.n(I),
+        w = t(18),
+        D = t.n(w);
+      var T = Object(r.withStyles)({
+          root: {flexGrow: 1, paddingTop: '120px'},
+          avatar: {
+            boxShadow: '0px 0px 20px 5px rgba(0,0,0,0.75)',
+            borderRadius: '20px',
+            color: 'white',
+            maxWidth: '55vh',
+            marginBottom: '10px'
+          },
+          name: {marginTop: '30px'},
+          divider: {margin: '15px'},
+          charge: {color: 'gray', marginTop: '35px'},
+          info: {
+            color: 'gray',
+            fontStyle: 'cursive',
+            fontWeight: 'bold',
+            padding: '50px'
+          }
+        })(function(e) {
+          var a = e.classes;
+          return i.a.createElement(
+            'div',
+            {className: a.root, id: 'header'},
+            i.a.createElement(
+              D.a,
+              {animateIn: 'zoomIn', animateOnce: !0, offset: 0, duration: 2},
+              i.a.createElement('img', {
+                src: v.a,
+                alt: 'Avatar',
+                className: a.avatar
+              })
+            ),
+            i.a.createElement(
+              D.a,
+              {
+                animateIn: 'fadeInLeft',
+                animateOnce: !0,
+                delay: 500,
+                duration: 2
+              },
+              i.a.createElement(
+                A.a,
+                {variant: 'h2', className: a.name},
+                'DAMIAN KREICK'
+              )
+            ),
+            i.a.createElement(f.a, {variant: 'middle', className: a.divider}),
+            i.a.createElement(
+              D.a,
+              {
+                animateIn: 'fadeInRight',
+                animateOnce: !0,
+                delay: 2e3,
+                duration: 2
+              },
+              i.a.createElement(
+                A.a,
+                {variant: 'h4', className: a.charge},
+                'Web & Game Developer'
+              )
+            ),
+            i.a.createElement(
+              D.a,
+              {
+                animateIn: 'flipInX',
+                animateOnce: !0,
+                delay: 3e3,
+                duration: 3,
+                offset: 550
+              },
+              i.a.createElement(
+                A.a,
+                {variant: 'h5', className: a.info},
+                'I have been in the world of coding since I was 14. Now more than 10 years later I am still trying to improve myself. Resilience, comprehension and knowledge are the three words who make my work days fructiferous. In this portfolio you will find all of my projects, no matter if they are finished or not, even this web is a project itself made with React. So please be my guest and keep scrolling!.'
+              )
+            ),
+            i.a.createElement(f.a, {variant: 'middle', className: a.divider})
+          );
+        }),
+        j = t(11),
+        y = t(12),
+        G = t(14),
+        M = t(13),
+        C = t(15),
+        x = t(26),
+        O = t.n(x),
+        Y = t(53),
+        Q = t.n(Y),
+        W = t(35),
+        R = t.n(W),
+        S = t(36),
+        Z = t.n(S),
+        B = t(55),
+        U = t.n(B),
+        z = t(54),
+        P = t.n(z),
+        L = t(56),
+        F = t.n(L),
+        H = t(112),
+        V = t.n(H),
+        J = t(25),
+        K = t.n(J),
+        q = (function(e) {
           function a() {
             return (
-              Object(k.a)(this, a),
-              Object(I.a)(this, Object(f.a)(a).apply(this, arguments))
+              Object(j.a)(this, a),
+              Object(G.a)(this, Object(M.a)(a).apply(this, arguments))
             );
           }
           return (
-            Object(w.a)(a, e),
-            Object(v.a)(a, [
+            Object(C.a)(a, e),
+            Object(y.a)(a, [
               {
                 key: 'openUrl',
                 value: function(e) {
@@ -162,11 +239,11 @@
                   var a = this,
                     t = this.props.classes;
                   return i.a.createElement(
-                    j.a,
+                    O.a,
                     {className: t.card},
-                    i.a.createElement(y.a, {
+                    i.a.createElement(Q.a, {
                       avatar: i.a.createElement(
-                        W.a,
+                        P.a,
                         {'aria-label': 'Recipe', className: t.avatar},
                         i.a.createElement('img', {
                           src: this.props.data.icon,
@@ -178,40 +255,40 @@
                       subheader: this.props.data.subtitle,
                       className: t.header
                     }),
-                    i.a.createElement(M.a, {
+                    i.a.createElement(R.a, {
                       className: t.media,
                       image: this.props.data.snapshot,
                       title: this.props.data.name
                     }),
                     i.a.createElement(
-                      x.a,
+                      Z.a,
                       {className: t.content},
                       i.a.createElement(
-                        R.a,
+                        A.a,
                         {variant: 'body2', className: t.titleDescription},
                         "What I've learned from this project:"
                       ),
                       i.a.createElement(
-                        R.a,
+                        A.a,
                         {component: 'p'},
                         this.props.data.description
                       )
                     ),
                     i.a.createElement(
-                      Y.a,
+                      U.a,
                       {className: t.actions, disableActionSpacing: !0},
-                      i.a.createElement(L.a, {
+                      i.a.createElement(K.a, {
                         label: this.props.data.mainLanguage,
                         className: t.chip
                       }),
                       i.a.createElement(
-                        B.a,
+                        F.a,
                         {
                           onClick: function() {
                             return a.openUrl(a.props.data.linkToSourceCode);
                           }
                         },
-                        i.a.createElement(z.a, {className: t.button})
+                        i.a.createElement(V.a, {className: t.button})
                       )
                     )
                   );
@@ -221,7 +298,7 @@
             a
           );
         })(i.a.Component),
-        H = Object(r.withStyles)(function(e) {
+        X = Object(r.withStyles)(function(e) {
           return {
             card: {
               border: 'solid 1px black',
@@ -257,13 +334,11 @@
               fontWeight: 'bold'
             }
           };
-        })(F),
-        V = t(17),
-        J = t.n(V),
-        K = t(78),
-        q = t(18),
-        X = t.n(q);
-      var _ = Object(r.withStyles)(function(e) {
+        })(q),
+        _ = t(17),
+        $ = t.n(_),
+        ee = t(77);
+      var ae = Object(r.withStyles)(function(e) {
           return {
             container: {
               display: 'flex',
@@ -285,34 +360,34 @@
             'div',
             {className: a.container, id: 'portfolio'},
             i.a.createElement(
-              X.a,
+              D.a,
               {animateIn: 'bounceInLeft', animateOnce: !0, duration: 1.5},
               i.a.createElement(
-                R.a,
+                A.a,
                 {variant: 'h3', className: a.title},
                 'Projects'
               )
             ),
             i.a.createElement(
-              J.a,
+              $.a,
               {container: !0, spacing: 8},
-              K.map(function(e, a) {
+              ee.map(function(e, a) {
                 return i.a.createElement(
-                  J.a,
+                  $.a,
                   {item: !0, xs: 12, sm: 3, key: a},
                   i.a.createElement(
-                    X.a,
+                    D.a,
                     {animateIn: 'fadeIn', duration: a + 1, animateOnce: !0},
-                    i.a.createElement(H, {data: K[a], key: a})
+                    i.a.createElement(X, {data: ee[a], key: a})
                   )
                 );
               })
             )
           );
         }),
-        $ = t(113),
-        ee = t.n($);
-      var ae = Object(r.withStyles)(function(e) {
+        te = t(113),
+        ne = t.n(te);
+      var ie = Object(r.withStyles)(function(e) {
           return {
             card: {
               flexWrap: 'wrap',
@@ -323,43 +398,43 @@
           };
         })(function() {
           return i.a.createElement(
-            j.a,
+            O.a,
             null,
-            i.a.createElement(M.a, {component: 'img', image: ee.a}),
+            i.a.createElement(R.a, {component: 'img', image: ne.a}),
             i.a.createElement(
-              x.a,
+              Z.a,
               null,
               i.a.createElement(
-                R.a,
+                A.a,
                 {gutterBottom: !0, variant: 'h3', component: 'h2'},
                 'DAMIAN KREICK'
               ),
               i.a.createElement(
-                R.a,
+                A.a,
                 {variant: 'body2', color: 'textSecondary', component: 'p'},
                 "I'm a self-confident programmer, enthusiast of good coding practises, who listens attentively and takes charge of high responsability tasks."
               )
             )
           );
         }),
-        te = t(59),
-        ne = t.n(te),
-        ie = t(60),
-        ce = t.n(ie),
-        oe = t(115),
-        re = t.n(oe),
-        se = t(114),
-        le = t.n(se),
-        me = (function(e) {
+        ce = t(58),
+        oe = t.n(ce),
+        re = t(59),
+        se = t.n(re),
+        le = t(115),
+        me = t.n(le),
+        pe = t(114),
+        de = t.n(pe),
+        he = (function(e) {
           function a() {
             return (
-              Object(k.a)(this, a),
-              Object(I.a)(this, Object(f.a)(a).apply(this, arguments))
+              Object(j.a)(this, a),
+              Object(G.a)(this, Object(M.a)(a).apply(this, arguments))
             );
           }
           return (
-            Object(w.a)(a, e),
-            Object(v.a)(a, [
+            Object(C.a)(a, e),
+            Object(y.a)(a, [
               {
                 key: 'render',
                 value: function() {
@@ -367,29 +442,29 @@
                   return i.a.createElement(
                     'div',
                     {className: e.root},
-                    i.a.createElement(L.a, {
-                      avatar: i.a.createElement(re.a, {className: e.button}),
+                    i.a.createElement(K.a, {
+                      avatar: i.a.createElement(me.a, {className: e.button}),
                       label: 'DoB: 29/06/1994',
                       className: e.chip
                     }),
-                    i.a.createElement(L.a, {
-                      avatar: i.a.createElement(ne.a, {className: e.button}),
+                    i.a.createElement(K.a, {
+                      avatar: i.a.createElement(oe.a, {className: e.button}),
                       label: 'damian.kreick@gmail.com',
                       className: e.chip,
                       onClick: function() {
                         window.open('mailto:damian.kreick@gmail.com', '_blank');
                       }
                     }),
-                    i.a.createElement(L.a, {
-                      avatar: i.a.createElement(ce.a, {className: e.button}),
+                    i.a.createElement(K.a, {
+                      avatar: i.a.createElement(se.a, {className: e.button}),
                       label: '(+54) 11-3330-2076',
                       className: e.chip,
                       onClick: function() {
                         window.open('https://wa.me/541133302076', '_blank');
                       }
                     }),
-                    i.a.createElement(L.a, {
-                      avatar: i.a.createElement('img', {src: le.a, alt: ''}),
+                    i.a.createElement(K.a, {
+                      avatar: i.a.createElement('img', {src: de.a, alt: ''}),
                       label: 'My Linkedin',
                       className: e.chip,
                       onClick: function() {
@@ -406,7 +481,7 @@
             a
           );
         })(i.a.Component),
-        pe = Object(r.withStyles)({
+        ue = Object(r.withStyles)({
           root: {marginTop: '20px'},
           chip: {
             backgroundColor: '#eeeeee',
@@ -415,19 +490,19 @@
             padding: '5px'
           },
           button: {color: '#27ade3', padding: '10px'}
-        })(me),
-        de =
+        })(he),
+        ge =
           (t(34),
           (function(e) {
             function a() {
               return (
-                Object(k.a)(this, a),
-                Object(I.a)(this, Object(f.a)(a).apply(this, arguments))
+                Object(j.a)(this, a),
+                Object(G.a)(this, Object(M.a)(a).apply(this, arguments))
               );
             }
             return (
-              Object(w.a)(a, e),
-              Object(v.a)(a, [
+              Object(C.a)(a, e),
+              Object(y.a)(a, [
                 {
                   key: 'render',
                   value: function() {
@@ -523,16 +598,16 @@
               a
             );
           })(i.a.Component)),
-        he = (function(e) {
+        be = (function(e) {
           function a() {
             return (
-              Object(k.a)(this, a),
-              Object(I.a)(this, Object(f.a)(a).apply(this, arguments))
+              Object(j.a)(this, a),
+              Object(G.a)(this, Object(M.a)(a).apply(this, arguments))
             );
           }
           return (
-            Object(w.a)(a, e),
-            Object(v.a)(a, [
+            Object(C.a)(a, e),
+            Object(y.a)(a, [
               {
                 key: 'render',
                 value: function() {
@@ -571,16 +646,16 @@
             a
           );
         })(i.a.Component),
-        ue = (function(e) {
+        Ee = (function(e) {
           function a() {
             return (
-              Object(k.a)(this, a),
-              Object(I.a)(this, Object(f.a)(a).apply(this, arguments))
+              Object(j.a)(this, a),
+              Object(G.a)(this, Object(M.a)(a).apply(this, arguments))
             );
           }
           return (
-            Object(w.a)(a, e),
-            Object(v.a)(a, [
+            Object(C.a)(a, e),
+            Object(y.a)(a, [
               {
                 key: 'render',
                 value: function() {
@@ -696,16 +771,16 @@
             a
           );
         })(i.a.Component),
-        ge = (function(e) {
+        Ne = (function(e) {
           function a() {
             return (
-              Object(k.a)(this, a),
-              Object(I.a)(this, Object(f.a)(a).apply(this, arguments))
+              Object(j.a)(this, a),
+              Object(G.a)(this, Object(M.a)(a).apply(this, arguments))
             );
           }
           return (
-            Object(w.a)(a, e),
-            Object(v.a)(a, [
+            Object(C.a)(a, e),
+            Object(y.a)(a, [
               {
                 key: 'render',
                 value: function() {
@@ -781,16 +856,16 @@
             a
           );
         })(i.a.Component),
-        be = (function(e) {
+        Ae = (function(e) {
           function a() {
             return (
-              Object(k.a)(this, a),
-              Object(I.a)(this, Object(f.a)(a).apply(this, arguments))
+              Object(j.a)(this, a),
+              Object(G.a)(this, Object(M.a)(a).apply(this, arguments))
             );
           }
           return (
-            Object(w.a)(a, e),
-            Object(v.a)(a, [
+            Object(C.a)(a, e),
+            Object(y.a)(a, [
               {
                 key: 'render',
                 value: function() {
@@ -819,16 +894,16 @@
             a
           );
         })(i.a.Component),
-        Ee = (function(e) {
+        ke = (function(e) {
           function a() {
             return (
-              Object(k.a)(this, a),
-              Object(I.a)(this, Object(f.a)(a).apply(this, arguments))
+              Object(j.a)(this, a),
+              Object(G.a)(this, Object(M.a)(a).apply(this, arguments))
             );
           }
           return (
-            Object(w.a)(a, e),
-            Object(v.a)(a, [
+            Object(C.a)(a, e),
+            Object(y.a)(a, [
               {
                 key: 'render',
                 value: function() {
@@ -848,50 +923,50 @@
             a
           );
         })(i.a.Component),
-        Ne = t(58),
-        Ae = t.n(Ne),
-        ke = t(118),
-        ve = t(116),
+        ve = t(57),
         Ie = t.n(ve),
-        fe = t(117),
-        we = t.n(fe),
-        De = (function(e) {
+        fe = t(118),
+        we = t(116),
+        De = t.n(we),
+        Te = t(117),
+        je = t.n(Te),
+        ye = (function(e) {
           function a() {
             return (
-              Object(k.a)(this, a),
-              Object(I.a)(this, Object(f.a)(a).apply(this, arguments))
+              Object(j.a)(this, a),
+              Object(G.a)(this, Object(M.a)(a).apply(this, arguments))
             );
           }
           return (
-            Object(w.a)(a, e),
-            Object(v.a)(a, [
+            Object(C.a)(a, e),
+            Object(y.a)(a, [
               {
                 key: 'render',
                 value: function() {
                   var e = this.props.classes;
                   return i.a.createElement(
-                    j.a,
+                    O.a,
                     {className: e.card},
-                    i.a.createElement(ae, null),
-                    i.a.createElement(pe, null),
+                    i.a.createElement(ie, null),
+                    i.a.createElement(ue, null),
                     i.a.createElement(
-                      J.a,
+                      $.a,
                       {container: !0, spacing: 8, className: e.grid},
                       i.a.createElement(
-                        J.a,
+                        $.a,
                         {item: !0, xs: 6},
-                        i.a.createElement(de, null),
-                        i.a.createElement(ge, null)
+                        i.a.createElement(ge, null),
+                        i.a.createElement(Ne, null)
                       ),
                       i.a.createElement(
-                        J.a,
+                        $.a,
                         {item: !0, xs: 6, className: e.grid},
-                        i.a.createElement(he, null),
-                        i.a.createElement(ue, null),
                         i.a.createElement(be, null),
                         i.a.createElement(Ee, null),
+                        i.a.createElement(Ae, null),
+                        i.a.createElement(ke, null),
                         i.a.createElement(
-                          Ae.a,
+                          Ie.a,
                           {
                             className: e.snackbar,
                             anchorOrigin: {
@@ -900,7 +975,7 @@
                             },
                             open: !0
                           },
-                          i.a.createElement(ke.a, {
+                          i.a.createElement(fe.a, {
                             className: e.download,
                             message: i.a.createElement(
                               'div',
@@ -913,12 +988,12 @@
                               i.a.createElement(
                                 'a',
                                 {
-                                  href: we.a,
+                                  href: je.a,
                                   download: 'Damian Kreick CV',
                                   className: e.link
                                 },
                                 i.a.createElement('img', {
-                                  src: Ie.a,
+                                  src: De.a,
                                   alt: 'us',
                                   className: e.flag
                                 }),
@@ -936,7 +1011,7 @@
             a
           );
         })(i.a.Component),
-        je = Object(r.withStyles)({
+        Ge = Object(r.withStyles)({
           card: {
             border: 'solid 1px black',
             boxShadow: '-10px 10px 5px 0px rgba(0,0,0,0.75)',
@@ -965,10 +1040,8 @@
             width: 'fit-content',
             zIndex: 'auto'
           }
-        })(De),
-        Te = t(29),
-        ye = t.n(Te);
-      var Ge = Object(r.withStyles)(function(e) {
+        })(ye);
+      var Me = Object(r.withStyles)(function(e) {
           return {
             container: {marginTop: '90px'},
             download: {backgroundColor: '#27ade3'},
@@ -992,106 +1065,24 @@
           return i.a.createElement(
             'div',
             {className: a.container, id: 'resume'},
-            i.a.createElement(ye.a, {variant: 'middle', className: a.divider}),
+            i.a.createElement(f.a, {variant: 'middle', className: a.divider}),
             i.a.createElement(
-              X.a,
+              D.a,
               {animateIn: 'bounceInRight', animateOnce: !0, duration: 1.5},
               i.a.createElement(
-                R.a,
+                A.a,
                 {variant: 'h3', className: a.title},
                 'Resume'
               )
             ),
-            i.a.createElement(je, null)
+            i.a.createElement(Ge, null)
           );
         }),
-        Me = t(119),
-        Ce = t.n(Me);
-      var xe = Object(r.withStyles)({
-          root: {flexGrow: 1, paddingTop: '120px'},
-          avatar: {
-            boxShadow: '0px 0px 20px 5px rgba(0,0,0,0.75)',
-            borderRadius: '20px',
-            color: 'white',
-            marginBottom: '10px',
-            maxWidth: '375px',
-            height: 'auto'
-          },
-          name: {marginTop: '30px'},
-          divider: {margin: '15px'},
-          charge: {color: 'gray', marginTop: '35px'},
-          info: {
-            color: 'gray',
-            fontStyle: 'cursive',
-            fontWeight: 'bold',
-            padding: '50px'
-          }
-        })(function(e) {
-          var a = e.classes;
-          return i.a.createElement(
-            'div',
-            {className: a.root, id: 'header'},
-            i.a.createElement(
-              X.a,
-              {animateIn: 'zoomIn', animateOnce: !0, offset: 0, duration: 2},
-              i.a.createElement('img', {
-                src: Ce.a,
-                alt: 'Avatar',
-                className: a.avatar
-              })
-            ),
-            i.a.createElement(
-              X.a,
-              {
-                animateIn: 'fadeInLeft',
-                animateOnce: !0,
-                delay: 500,
-                duration: 2
-              },
-              i.a.createElement(
-                R.a,
-                {variant: 'h2', className: a.name},
-                'DAMIAN KREICK'
-              )
-            ),
-            i.a.createElement(ye.a, {variant: 'middle', className: a.divider}),
-            i.a.createElement(
-              X.a,
-              {
-                animateIn: 'fadeInRight',
-                animateOnce: !0,
-                delay: 2e3,
-                duration: 2
-              },
-              i.a.createElement(
-                R.a,
-                {variant: 'h4', className: a.charge},
-                'Web & Game Developer'
-              )
-            ),
-            i.a.createElement(
-              X.a,
-              {
-                animateIn: 'flipInX',
-                animateOnce: !0,
-                delay: 3e3,
-                duration: 3,
-                offset: 550
-              },
-              i.a.createElement(
-                R.a,
-                {variant: 'h5', className: a.info},
-                'I have been in the world of coding since I was 14. Now more than 10 years later I am still trying to improve myself. Resilience, comprehension and knowledge are the three words who make my work days fructiferous. In this portfolio you will find all of my projects, no matter if they are finished or not, even this web is a project itself made with React. So please be my guest and keep scrolling!.'
-              )
-            ),
-            i.a.createElement(ye.a, {variant: 'middle', className: a.divider})
-          );
-        }),
+        Ce = t(119),
+        xe = t.n(Ce),
         Oe = t(120),
-        Ye = t.n(Oe),
-        Qe = t(121),
-        We = t.n(Qe);
-      var Se = Object(r.withStyles)({
+        Ye = t.n(Oe);
+      var Qe = Object(r.withStyles)({
         root: {
           backgroundColor: '#27ade3',
           flexDirection: 'column',
@@ -1126,7 +1117,7 @@
           'div',
           {className: a.root, id: 'footer'},
           i.a.createElement(
-            X.a,
+            D.a,
             {
               animateIn: 'bounceInUp',
               animateOnce: !0,
@@ -1134,13 +1125,13 @@
               duration: 1.5
             },
             i.a.createElement(
-              R.a,
+              A.a,
               {variant: 'h3', className: a.title},
               'Do you have any question?'
             )
           ),
           i.a.createElement(
-            X.a,
+            D.a,
             {
               animateIn: 'bounceInUp',
               animateOnce: !0,
@@ -1149,13 +1140,13 @@
               duration: 1.5
             },
             i.a.createElement(
-              R.a,
+              A.a,
               {variant: 'h4', className: a.subtitle},
               'Contact me!. I will try to answer as soon as possible.'
             )
           ),
           i.a.createElement(
-            X.a,
+            D.a,
             {
               animateIn: 'bounceInUp',
               animateOnce: !0,
@@ -1164,20 +1155,20 @@
               duration: 1.5
             },
             i.a.createElement(
-              J.a,
+              $.a,
               {container: !0, spacing: 8},
               i.a.createElement(
-                J.a,
+                $.a,
                 {item: !0, xs: 6, sm: 3},
-                i.a.createElement(ce.a, {className: a.button}),
+                i.a.createElement(se.a, {className: a.button}),
                 i.a.createElement(
-                  R.a,
+                  A.a,
                   {variant: 'h6', className: a.infoTitle},
                   '+54 911-3330-2076'
                 )
               ),
               i.a.createElement(
-                J.a,
+                $.a,
                 {item: !0, xs: 6, sm: 3},
                 i.a.createElement(
                   'a',
@@ -1187,16 +1178,16 @@
                     target: '_blank',
                     className: a.infoContainer
                   },
-                  i.a.createElement(ne.a, {className: a.button}),
+                  i.a.createElement(oe.a, {className: a.button}),
                   i.a.createElement(
-                    R.a,
+                    A.a,
                     {variant: 'h6', className: a.infoTitle},
                     'damian.kreick@gmail.com'
                   )
                 )
               ),
               i.a.createElement(
-                J.a,
+                $.a,
                 {item: !0, xs: 6, sm: 3},
                 i.a.createElement(
                   'a',
@@ -1207,19 +1198,19 @@
                     className: a.infoContainer
                   },
                   i.a.createElement('img', {
-                    src: Ye.a,
+                    src: xe.a,
                     alt: 'Linkedin',
                     className: a.button
                   }),
                   i.a.createElement(
-                    R.a,
+                    A.a,
                     {variant: 'h6', className: a.infoTitle},
                     'in/damiankreick'
                   )
                 )
               ),
               i.a.createElement(
-                J.a,
+                $.a,
                 {item: !0, xs: 6, sm: 3},
                 i.a.createElement(
                   'a',
@@ -1230,12 +1221,12 @@
                     className: a.infoContainer
                   },
                   i.a.createElement('img', {
-                    src: We.a,
+                    src: Ye.a,
                     alt: 'Whatsapp',
                     className: a.button
                   }),
                   i.a.createElement(
-                    R.a,
+                    A.a,
                     {variant: 'h6', className: a.infoTitle},
                     'Whatsapp Me!'
                   )
@@ -1245,33 +1236,15 @@
           )
         );
       });
-      var Re = Object(r.withStyles)(function(e) {
-        return {container: {flexWrap: 'wrap'}};
-      })(function(e) {
-        var a = e.classes;
-        return i.a.createElement(
-          'div',
-          {className: a.container},
-          i.a.createElement(xe, null),
-          i.a.createElement(_, null),
-          i.a.createElement(Ge, null),
-          i.a.createElement(Se, null)
-        );
-      });
-      var Ze = function() {
+      var We = function() {
         return i.a.createElement(
           'div',
           null,
-          i.a.createElement(
-            'div',
-            {className: 'app'},
-            i.a.createElement(A, null),
-            i.a.createElement(
-              'div',
-              {className: 'container'},
-              i.a.createElement(Re, null)
-            )
-          )
+          i.a.createElement(E, null),
+          i.a.createElement(T, null),
+          i.a.createElement(ae, null),
+          i.a.createElement(Me, null),
+          i.a.createElement(Qe, null)
         );
       };
       Boolean(
@@ -1281,14 +1254,14 @@
             /^127(?:\.(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)){3}$/
           )
       );
-      o.a.render(i.a.createElement(Ze, null), document.getElementById('root')),
+      o.a.render(i.a.createElement(We, null), document.getElementById('root')),
         'serviceWorker' in navigator &&
           navigator.serviceWorker.ready.then(function(e) {
             e.unregister();
           });
     },
     34: function(e, a, t) {},
-    78: function(e) {
+    77: function(e) {
       e.exports = [
         {
           name: 'Another Day To Be',
@@ -1415,4 +1388,4 @@
   },
   [[204, 1, 2]]
 ]);
-//# sourceMappingURL=main.dc69691f.chunk.js.map
+//# sourceMappingURL=main.1a7cecf2.chunk.js.map
