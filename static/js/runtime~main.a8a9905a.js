@@ -21,23 +21,23 @@
     return e;
   }
   var n = {},
-    o = {1: 0},
+    o = { 1: 0 },
     u = [];
   function f(r) {
     if (n[r]) return n[r].exports;
-    var t = (n[r] = {i: r, l: !1, exports: {}});
+    var t = (n[r] = { i: r, l: !1, exports: {} });
     return e[r].call(t.exports, t, t.exports, f), (t.l = !0), t.exports;
   }
   (f.m = e),
     (f.c = n),
     (f.d = function(e, r, t) {
-      f.o(e, r) || Object.defineProperty(e, r, {enumerable: !0, get: t});
+      f.o(e, r) || Object.defineProperty(e, r, { enumerable: !0, get: t });
     }),
     (f.r = function(e) {
       'undefined' !== typeof Symbol &&
         Symbol.toStringTag &&
-        Object.defineProperty(e, Symbol.toStringTag, {value: 'Module'}),
-        Object.defineProperty(e, '__esModule', {value: !0});
+        Object.defineProperty(e, Symbol.toStringTag, { value: 'Module' }),
+        Object.defineProperty(e, '__esModule', { value: !0 });
     }),
     (f.t = function(e, r) {
       if ((1 & r && (e = f(e)), 8 & r)) return e;
@@ -45,7 +45,7 @@
       var t = Object.create(null);
       if (
         (f.r(t),
-        Object.defineProperty(t, 'default', {enumerable: !0, value: e}),
+        Object.defineProperty(t, 'default', { enumerable: !0, value: e }),
         2 & r && 'string' != typeof e)
       )
         for (var n in e)

@@ -25,17 +25,18 @@
       e.exports = t.p + 'static/media/icon-whatsapp.6774d436.png';
     },
     204: function(e, a, t) {
-      e.exports = t(321);
+      e.exports = t(322);
     },
     209: function(e, a, t) {},
-    321: function(e, a, t) {
+    210: function(e, a, t) {},
+    322: function(e, a, t) {
       'use strict';
       t.r(a);
       var n = t(0),
         i = t.n(n),
         c = t(24),
         o = t.n(c),
-        r = (t(209), t(5)),
+        r = (t(209), t(210), t(5)),
         s = t(51),
         l = t.n(s),
         m = t(52),
@@ -50,63 +51,63 @@
             position: 'fixed',
             backgroundColor: '#27ade3',
             height: '61px',
-            top: '0px'
+            top: '0px',
           },
           button: {
             color: 'white',
             fontWeight: 'bold',
             fontSize: '16px',
-            width: 'max-content'
+            width: 'max-content',
           },
-          item: {padding: '5px 0px'},
+          item: { padding: '5px 0px' },
           nav: {
             display: 'flex',
             margin: 'auto',
             width: '100vw',
-            justifyContent: 'center'
-          }
+            justifyContent: 'center',
+          },
         })(function(e) {
           var a = e.classes;
           return i.a.createElement(
             l.a,
-            {position: 'static', className: a.bar},
+            { position: 'static', className: a.bar },
             i.a.createElement(
               p.a,
-              {className: a.nav},
+              { className: a.nav },
               i.a.createElement(
                 b.Link,
-                {to: 'header', spy: !0, smooth: !0, duration: 500},
+                { to: 'header', spy: !0, smooth: !0, duration: 500 },
                 i.a.createElement(
                   h.a,
-                  {className: a.item},
-                  i.a.createElement(g.a, {className: a.button}, 'Home')
+                  { className: a.item },
+                  i.a.createElement(g.a, { className: a.button }, 'Home')
                 )
               ),
               i.a.createElement(
                 b.Link,
-                {to: 'portfolio', spy: !0, smooth: !0, duration: 500},
+                { to: 'portfolio', spy: !0, smooth: !0, duration: 500 },
                 i.a.createElement(
                   h.a,
-                  {className: a.item},
-                  i.a.createElement(g.a, {className: a.button}, 'Projects')
+                  { className: a.item },
+                  i.a.createElement(g.a, { className: a.button }, 'Projects')
                 )
               ),
               i.a.createElement(
                 b.Link,
-                {to: 'resume', spy: !0, smooth: !0, duration: 500},
+                { to: 'resume', spy: !0, smooth: !0, duration: 500 },
                 i.a.createElement(
                   h.a,
-                  {className: a.item},
-                  i.a.createElement(g.a, {className: a.button}, 'Resume')
+                  { className: a.item },
+                  i.a.createElement(g.a, { className: a.button }, 'Resume')
                 )
               ),
               i.a.createElement(
                 b.Link,
-                {to: 'footer', spy: !0, smooth: !0, duration: 500},
+                { to: 'footer', spy: !0, smooth: !0, duration: 500 },
                 i.a.createElement(
                   h.a,
-                  {className: a.item},
-                  i.a.createElement(g.a, {className: a.button}, 'Contact')
+                  { className: a.item },
+                  i.a.createElement(g.a, { className: a.button }, 'Contact')
                 )
               )
             )
@@ -121,34 +122,34 @@
         w = t(18),
         D = t.n(w);
       var j = Object(r.withStyles)({
-          root: {flexGrow: 1, paddingTop: '120px'},
+          root: { flexGrow: 1, paddingTop: '120px' },
           avatar: {
             boxShadow: '0px 0px 20px 5px rgba(0,0,0,0.75)',
             borderRadius: '20px',
             maxWidth: '50vh',
-            marginBottom: '10px'
+            marginBottom: '10px',
           },
-          name: {marginTop: '30px'},
-          divider: {margin: '15px'},
-          charge: {color: 'gray', marginTop: '35px'},
+          name: { marginTop: '30px' },
+          divider: { margin: '15px' },
+          charge: { color: 'gray', marginTop: '35px' },
           info: {
             color: 'gray',
             fontStyle: 'cursive',
             fontWeight: 'bold',
-            padding: '50px'
-          }
+            padding: '50px',
+          },
         })(function(e) {
           var a = e.classes;
           return i.a.createElement(
             'div',
-            {className: a.root, id: 'header'},
+            { className: a.root, id: 'header' },
             i.a.createElement(
               D.a,
-              {animateIn: 'zoomIn', animateOnce: !0, offset: 0, duration: 2},
+              { animateIn: 'zoomIn', animateOnce: !0, offset: 0, duration: 2 },
               i.a.createElement('img', {
                 src: v.a,
                 alt: 'Avatar',
-                className: a.avatar
+                className: a.avatar,
               })
             ),
             i.a.createElement(
@@ -157,26 +158,26 @@
                 animateIn: 'fadeInLeft',
                 animateOnce: !0,
                 delay: 500,
-                duration: 2
+                duration: 2,
               },
               i.a.createElement(
                 A.a,
-                {variant: 'h2', className: a.name},
+                { variant: 'h2', className: a.name },
                 'DAMIAN KREICK'
               )
             ),
-            i.a.createElement(f.a, {variant: 'middle', className: a.divider}),
+            i.a.createElement(f.a, { variant: 'middle', className: a.divider }),
             i.a.createElement(
               D.a,
               {
                 animateIn: 'fadeInRight',
                 animateOnce: !0,
                 delay: 2e3,
-                duration: 2
+                duration: 2,
               },
               i.a.createElement(
                 A.a,
-                {variant: 'h4', className: a.charge},
+                { variant: 'h4', className: a.charge },
                 'Web & Game Developer'
               )
             ),
@@ -187,15 +188,15 @@
                 animateOnce: !0,
                 delay: 3e3,
                 duration: 3,
-                offset: 550
+                offset: 550,
               },
               i.a.createElement(
                 A.a,
-                {variant: 'h5', className: a.info},
+                { variant: 'h5', className: a.info },
                 'I have been in the world of coding since I was 14. Now more than 10 years later I am still trying to improve myself. Resilience, comprehension and knowledge are the three words who make my work days fructiferous. In this portfolio you will find all of my projects, no matter if they are finished or not, even this web is a project itself made with React. So please be my guest and keep scrolling!.'
               )
             ),
-            i.a.createElement(f.a, {variant: 'middle', className: a.divider})
+            i.a.createElement(f.a, { variant: 'middle', className: a.divider })
           );
         }),
         T = t(11),
@@ -214,9 +215,9 @@
         B = t(55),
         U = t.n(B),
         z = t(54),
-        P = t.n(z),
-        L = t(56),
-        F = t.n(L),
+        L = t.n(z),
+        P = t(56),
+        F = t.n(P),
         H = t(112),
         V = t.n(H),
         J = t(25),
@@ -235,7 +236,7 @@
                 key: 'openUrl',
                 value: function(e) {
                   window.open(e, '_blank');
-                }
+                },
               },
               {
                 key: 'render',
@@ -244,60 +245,60 @@
                     t = this.props.classes;
                   return i.a.createElement(
                     O.a,
-                    {className: t.card},
+                    { className: t.card },
                     i.a.createElement(Q.a, {
                       avatar: i.a.createElement(
-                        P.a,
-                        {'aria-label': 'Recipe', className: t.avatar},
+                        L.a,
+                        { 'aria-label': 'Recipe', className: t.avatar },
                         i.a.createElement('img', {
                           src: this.props.data.icon,
                           alt: this.props.data.name,
-                          className: t.icon
+                          className: t.icon,
                         })
                       ),
                       title: this.props.data.name,
                       subheader: this.props.data.subtitle,
-                      className: t.header
+                      className: t.header,
                     }),
                     i.a.createElement(R.a, {
                       className: t.media,
                       image: this.props.data.snapshot,
-                      title: this.props.data.name
+                      title: this.props.data.name,
                     }),
                     i.a.createElement(
                       Z.a,
-                      {className: t.content},
+                      { className: t.content },
                       i.a.createElement(
                         A.a,
-                        {variant: 'body2', className: t.titleDescription},
+                        { variant: 'body2', className: t.titleDescription },
                         "What I've learned from this project:"
                       ),
                       i.a.createElement(
                         A.a,
-                        {component: 'p'},
+                        { component: 'p' },
                         this.props.data.description
                       )
                     ),
                     i.a.createElement(
                       U.a,
-                      {className: t.actions, disableActionSpacing: !0},
+                      { className: t.actions, disableActionSpacing: !0 },
                       i.a.createElement(K.a, {
                         label: this.props.data.mainLanguage,
-                        className: t.chip
+                        className: t.chip,
                       }),
                       i.a.createElement(
                         F.a,
                         {
                           onClick: function() {
                             return a.openUrl(a.props.data.linkToSourceCode);
-                          }
+                          },
                         },
-                        i.a.createElement(V.a, {className: t.button})
+                        i.a.createElement(V.a, { className: t.button })
                       )
                     )
                   );
-                }
-              }
+                },
+              },
             ]),
             a
           );
@@ -310,33 +311,33 @@
               margin: 20,
               maxWidth: 400,
               height: 480,
-              position: 'relative'
+              position: 'relative',
             },
-            header: {height: '50px'},
-            content: {height: '80px'},
+            header: { height: '50px' },
+            content: { height: '80px' },
             media: {
               height: 0,
               paddingTop: '56.25%',
               backgroundSize: 'contain',
               backgroundColor: '#D9DFE1',
               maxWidth: '100%',
-              maxHeight: '100%'
+              maxHeight: '100%',
             },
-            titleDescription: {fontWeight: 'bold', marginBottom: '10px'},
+            titleDescription: { fontWeight: 'bold', marginBottom: '10px' },
             actions: {
               position: 'absolute',
               bottom: '0px',
               width: '100%',
-              justifyContent: 'center'
+              justifyContent: 'center',
             },
-            avatar: {backgroundColor: '#27ade3'},
-            button: {color: '#27ade3'},
-            icon: {width: 'inherit'},
+            avatar: { backgroundColor: '#27ade3' },
+            button: { color: '#27ade3' },
+            icon: { width: 'inherit' },
             chip: {
               backgroundColor: '#27ade3',
               color: 'white',
-              fontWeight: 'bold'
-            }
+              fontWeight: 'bold',
+            },
           };
         })(q),
         _ = t(17),
@@ -348,41 +349,41 @@
               display: 'flex',
               margin: '0px 20px',
               flexWrap: 'wrap',
-              justifyContent: 'center'
+              justifyContent: 'center',
             },
             gridList: {
               flexWrap: 'nowrap',
               height: '250px',
               overflowY: 'hidden',
-              paddingTop: '60px'
+              paddingTop: '60px',
             },
-            title: {margin: '30px'}
+            title: { margin: '30px' },
           };
         })(function(e) {
           var a = e.classes;
           return i.a.createElement(
             'div',
-            {className: a.container, id: 'portfolio'},
+            { className: a.container, id: 'portfolio' },
             i.a.createElement(
               D.a,
-              {animateIn: 'bounceInLeft', animateOnce: !0, duration: 1.5},
+              { animateIn: 'bounceInLeft', animateOnce: !0, duration: 1.5 },
               i.a.createElement(
                 A.a,
-                {variant: 'h3', className: a.title},
+                { variant: 'h3', className: a.title },
                 'Projects'
               )
             ),
             i.a.createElement(
               $.a,
-              {container: !0, spacing: 8},
+              { container: !0, spacing: 8 },
               ee.map(function(e, a) {
                 return i.a.createElement(
                   $.a,
-                  {item: !0, xs: 12, sm: 3, key: a},
+                  { item: !0, xs: 12, sm: 3, key: a },
                   i.a.createElement(
                     D.a,
-                    {animateIn: 'fadeIn', duration: a + 1, animateOnce: !0},
-                    i.a.createElement(X, {data: ee[a], key: a})
+                    { animateIn: 'fadeIn', duration: a + 1, animateOnce: !0 },
+                    i.a.createElement(X, { data: ee[a], key: a })
                   )
                 );
               })
@@ -397,25 +398,25 @@
               flexWrap: 'wrap',
               marginLeft: '114px',
               marginRight: '114px',
-              justifyContent: 'center'
-            }
+              justifyContent: 'center',
+            },
           };
         })(function() {
           return i.a.createElement(
             O.a,
             null,
-            i.a.createElement(R.a, {component: 'img', image: ne.a}),
+            i.a.createElement(R.a, { component: 'img', image: ne.a }),
             i.a.createElement(
               Z.a,
               null,
               i.a.createElement(
                 A.a,
-                {gutterBottom: !0, variant: 'h3', component: 'h2'},
+                { gutterBottom: !0, variant: 'h3', component: 'h2' },
                 'DAMIAN KREICK'
               ),
               i.a.createElement(
                 A.a,
-                {variant: 'body2', color: 'textSecondary', component: 'p'},
+                { variant: 'body2', color: 'textSecondary', component: 'p' },
                 "I'm a self-confident programmer, enthusiast of good coding practises, who listens attentively and takes charge of high responsability tasks."
               )
             )
@@ -445,30 +446,30 @@
                   var e = this.props.classes;
                   return i.a.createElement(
                     'div',
-                    {className: e.root},
+                    { className: e.root },
                     i.a.createElement(K.a, {
-                      avatar: i.a.createElement(me.a, {className: e.button}),
+                      avatar: i.a.createElement(me.a, { className: e.button }),
                       label: 'DoB: 29/06/1994',
-                      className: e.chip
+                      className: e.chip,
                     }),
                     i.a.createElement(K.a, {
-                      avatar: i.a.createElement(oe.a, {className: e.button}),
+                      avatar: i.a.createElement(oe.a, { className: e.button }),
                       label: 'damian.kreick@gmail.com',
                       className: e.chip,
                       onClick: function() {
                         window.open('mailto:damian.kreick@gmail.com', '_blank');
-                      }
+                      },
                     }),
                     i.a.createElement(K.a, {
-                      avatar: i.a.createElement(se.a, {className: e.button}),
+                      avatar: i.a.createElement(se.a, { className: e.button }),
                       label: '(+54) 11-3330-2076',
                       className: e.chip,
                       onClick: function() {
                         window.open('https://wa.me/541133302076', '_blank');
-                      }
+                      },
                     }),
                     i.a.createElement(K.a, {
-                      avatar: i.a.createElement('img', {src: de.a, alt: ''}),
+                      avatar: i.a.createElement('img', { src: de.a, alt: '' }),
                       label: 'My Linkedin',
                       className: e.chip,
                       onClick: function() {
@@ -476,24 +477,24 @@
                           'https://www.linkedin.com/in/damiankreick',
                           '_blank'
                         );
-                      }
+                      },
                     })
                   );
-                }
-              }
+                },
+              },
             ]),
             a
           );
         })(i.a.Component),
         ue = Object(r.withStyles)({
-          root: {marginTop: '20px'},
+          root: { marginTop: '20px' },
           chip: {
             backgroundColor: '#eeeeee',
             height: '40px',
             margin: '10px',
-            padding: '5px'
+            padding: '5px',
           },
-          button: {color: '#27ade3', padding: '10px'}
+          button: { color: '#27ade3', padding: '10px' },
         })(he),
         ge =
           (t(34),
@@ -512,74 +513,82 @@
                   value: function() {
                     return i.a.createElement(
                       'div',
-                      {className: 'container'},
+                      { className: 'container' },
                       i.a.createElement(
                         'p',
-                        {className: 'title'},
+                        { className: 'title' },
                         'Work Experience'
                       ),
                       i.a.createElement(
                         'p',
-                        {className: 'charge'},
+                        { className: 'charge' },
                         'Web & Game Developer'
                       ),
                       i.a.createElement(
                         'div',
-                        {className: 'subTitle'},
+                        { className: 'subTitle' },
                         i.a.createElement(
                           'p',
-                          {className: 'place'},
+                          { className: 'place' },
                           'Vi-Da Tec'
                         ),
                         i.a.createElement(
                           'p',
-                          {className: 'time'},
+                          { className: 'time' },
                           'Aug 2019 - Present'
                         )
                       ),
                       i.a.createElement(
                         'p',
-                        {className: 'description'},
+                        { className: 'description' },
                         "Web developer for TICMAS, an educational program designed for young people. Also i've spent some time making videogames related to treat teenagers problems like social anxiety, depression, sexual education."
                       ),
                       i.a.createElement(
                         'p',
-                        {className: 'charge'},
+                        { className: 'charge' },
                         'Fullstack Developer'
                       ),
                       i.a.createElement(
                         'div',
-                        {className: 'subTitle'},
-                        i.a.createElement('p', {className: 'place'}, 'Droptek'),
+                        { className: 'subTitle' },
                         i.a.createElement(
                           'p',
-                          {className: 'time'},
+                          { className: 'place' },
+                          'Droptek'
+                        ),
+                        i.a.createElement(
+                          'p',
+                          { className: 'time' },
                           'Sep 2018 - Aug 2019'
                         )
                       ),
                       i.a.createElement(
                         'p',
-                        {className: 'description'},
+                        { className: 'description' },
                         "Worked as a client partner of Banco Comafi, I've been involved in many internal projects including technologies like Angular 7, Sass, Node and AWS"
                       ),
                       i.a.createElement(
                         'p',
-                        {className: 'charge'},
+                        { className: 'charge' },
                         'Frontend Developer'
                       ),
                       i.a.createElement(
                         'div',
-                        {className: 'subTitle'},
-                        i.a.createElement('p', {className: 'place'}, 'Globant'),
+                        { className: 'subTitle' },
                         i.a.createElement(
                           'p',
-                          {className: 'time'},
+                          { className: 'place' },
+                          'Globant'
+                        ),
+                        i.a.createElement(
+                          'p',
+                          { className: 'time' },
                           'Jan 2016 - Sep 2018'
                         )
                       ),
                       i.a.createElement(
                         'p',
-                        {className: 'description'},
+                        { className: 'description' },
                         '\u2022 Worked for J.P Morgan and DirectTV.',
                         i.a.createElement('br', null),
                         '\u2022 Solves Visual and implementation problems.',
@@ -596,8 +605,8 @@
                         i.a.createElement('br', null)
                       )
                     );
-                  }
-                }
+                  },
+                },
               ]),
               a
             );
@@ -617,35 +626,35 @@
                 value: function() {
                   return i.a.createElement(
                     'div',
-                    {className: 'container'},
-                    i.a.createElement('p', {className: 'title'}, 'Education'),
+                    { className: 'container' },
+                    i.a.createElement('p', { className: 'title' }, 'Education'),
                     i.a.createElement(
                       'p',
-                      {className: 'charge'},
+                      { className: 'charge' },
                       'Game Developer Technician'
                     ),
                     i.a.createElement(
                       'div',
-                      {className: 'subTitle'},
+                      { className: 'subTitle' },
                       i.a.createElement(
                         'p',
-                        {className: 'place'},
+                        { className: 'place' },
                         'Escuela DaVinci'
                       ),
                       i.a.createElement(
                         'p',
-                        {className: 'time'},
+                        { className: 'time' },
                         'Jan 2014 - Dic 2015'
                       )
                     ),
                     i.a.createElement(
                       'p',
-                      {className: 'description'},
+                      { className: 'description' },
                       'Involves the creation of a video game in all aspects, from the sketch to the programming and marketing.'
                     )
                   );
-                }
-              }
+                },
+              },
             ]),
             a
           );
@@ -665,22 +674,22 @@
                 value: function() {
                   return i.a.createElement(
                     'div',
-                    {className: 'container'},
-                    i.a.createElement('p', {className: 'title'}, 'Courses'),
+                    { className: 'container' },
+                    i.a.createElement('p', { className: 'title' }, 'Courses'),
                     i.a.createElement(
                       'p',
-                      {className: 'subTitle'},
+                      { className: 'subTitle' },
                       'All dictated by Udemy. Click to see awards. '
                     ),
                     i.a.createElement(
                       'a',
                       {
                         className: 'link',
-                        href: 'https://www.udemy.com/certificate/UC-HP487DY0/'
+                        href: 'https://www.udemy.com/certificate/UC-HP487DY0/',
                       },
                       i.a.createElement(
                         'p',
-                        {className: 'description'},
+                        { className: 'description' },
                         '\u2022 Angular 6 (Angular 2+) & React 16 - The Complete App Guide.'
                       )
                     ),
@@ -688,11 +697,11 @@
                       'a',
                       {
                         className: 'link',
-                        href: 'https://www.udemy.com/certificate/UC-85YX4IGW'
+                        href: 'https://www.udemy.com/certificate/UC-85YX4IGW',
                       },
                       i.a.createElement(
                         'p',
-                        {className: 'description'},
+                        { className: 'description' },
                         '\u2022 The Coding Interview: Algorithm & Data Structs.'
                       )
                     ),
@@ -700,11 +709,11 @@
                       'a',
                       {
                         className: 'link',
-                        href: 'https://www.udemy.com/certificate/UC-FWPFN4R8/'
+                        href: 'https://www.udemy.com/certificate/UC-FWPFN4R8/',
                       },
                       i.a.createElement(
                         'p',
-                        {className: 'description'},
+                        { className: 'description' },
                         '\u2022 Motivation & Processes for Game & App Dev.'
                       )
                     ),
@@ -712,11 +721,11 @@
                       'a',
                       {
                         className: 'link',
-                        href: 'https://www.udemy.com/certificate/UC-H7X5IBT1/'
+                        href: 'https://www.udemy.com/certificate/UC-H7X5IBT1/',
                       },
                       i.a.createElement(
                         'p',
-                        {className: 'description'},
+                        { className: 'description' },
                         '\u2022 Game Programming with Phaser.'
                       )
                     ),
@@ -724,11 +733,11 @@
                       'a',
                       {
                         className: 'link',
-                        href: 'https://www.udemy.com/certificate/UC-T3O60QBW/'
+                        href: 'https://www.udemy.com/certificate/UC-T3O60QBW/',
                       },
                       i.a.createElement(
                         'p',
-                        {className: 'description'},
+                        { className: 'description' },
                         '\u2022 Master in Game Programming with Unity3D'
                       )
                     ),
@@ -736,11 +745,11 @@
                       'a',
                       {
                         className: 'link',
-                        href: 'https://www.udemy.com/certificate/UC-PULGHD62/'
+                        href: 'https://www.udemy.com/certificate/UC-PULGHD62/',
                       },
                       i.a.createElement(
                         'p',
-                        {className: 'description'},
+                        { className: 'description' },
                         '\u2022 The Board Game Developer - Become A Game Design Ninja.'
                       )
                     ),
@@ -748,11 +757,11 @@
                       'a',
                       {
                         className: 'link',
-                        href: 'https://www.udemy.com/certificate/UC-LEFF5WKT/'
+                        href: 'https://www.udemy.com/certificate/UC-LEFF5WKT/',
                       },
                       i.a.createElement(
                         'p',
-                        {className: 'description'},
+                        { className: 'description' },
                         '\u2022 How to get a job in the video game industry.'
                       )
                     ),
@@ -760,17 +769,17 @@
                       'a',
                       {
                         className: 'link',
-                        href: 'https://www.udemy.com/certificate/UC-CE7AJEVU/'
+                        href: 'https://www.udemy.com/certificate/UC-CE7AJEVU/',
                       },
                       i.a.createElement(
                         'p',
-                        {className: 'description'},
+                        { className: 'description' },
                         '\u2022 RPG Core Combat Creator - Unity3D 2017.'
                       )
                     )
                   );
-                }
-              }
+                },
+              },
             ]),
             a
           );
@@ -790,72 +799,72 @@
                 value: function() {
                   return i.a.createElement(
                     'div',
-                    {className: 'container'},
+                    { className: 'container' },
                     i.a.createElement(
                       'p',
-                      {className: 'title'},
+                      { className: 'title' },
                       'Valuable Skills'
                     ),
                     i.a.createElement(
                       'p',
-                      {className: 'charge'},
+                      { className: 'charge' },
                       'Programming Languages'
                     ),
                     i.a.createElement(
                       'p',
-                      {className: 'subTitle'},
+                      { className: 'subTitle' },
                       'Javascript, C#, C++, ActionScript3, Python.'
                     ),
                     i.a.createElement(
                       'p',
-                      {className: 'charge'},
+                      { className: 'charge' },
                       'Web Developent Tools'
                     ),
                     i.a.createElement(
                       'p',
-                      {className: 'subTitle'},
+                      { className: 'subTitle' },
                       'HTML5, SASS, Bootstrap, Angular 7, ReactJs.'
                     ),
                     i.a.createElement(
                       'p',
-                      {className: 'charge'},
+                      { className: 'charge' },
                       'Version Control and IDEs'
                     ),
                     i.a.createElement(
                       'p',
-                      {className: 'subTitle'},
+                      { className: 'subTitle' },
                       ' ',
                       'Git, Github, Gitlab, Bitbucket, VSCode, Sublime, Tower.'
                     ),
-                    i.a.createElement('p', {className: 'charge'}, 'Design'),
+                    i.a.createElement('p', { className: 'charge' }, 'Design'),
                     i.a.createElement(
                       'p',
-                      {className: 'subTitle'},
+                      { className: 'subTitle' },
                       'Illustrator, Photoshop, Audacity, Sony Vegas, Material UI.'
                     ),
                     i.a.createElement(
                       'p',
-                      {className: 'charge'},
+                      { className: 'charge' },
                       'Unit Testing'
                     ),
                     i.a.createElement(
                       'p',
-                      {className: 'subTitle'},
+                      { className: 'subTitle' },
                       'Karma, Jasmine, Cucumber.'
                     ),
                     i.a.createElement(
                       'p',
-                      {className: 'charge'},
+                      { className: 'charge' },
                       'Methodologies'
                     ),
                     i.a.createElement(
                       'p',
-                      {className: 'subTitle'},
+                      { className: 'subTitle' },
                       'Kanban, Agile Scrum, TDD, BDD.'
                     )
                   );
-                }
-              }
+                },
+              },
             ]),
             a
           );
@@ -875,25 +884,25 @@
                 value: function() {
                   return i.a.createElement(
                     'div',
-                    {className: 'container'},
-                    i.a.createElement('p', {className: 'title'}, 'Languages'),
-                    i.a.createElement('p', {className: 'charge'}, 'English'),
+                    { className: 'container' },
+                    i.a.createElement('p', { className: 'title' }, 'Languages'),
+                    i.a.createElement('p', { className: 'charge' }, 'English'),
                     i.a.createElement(
                       'p',
-                      {className: 'subTitle'},
+                      { className: 'subTitle' },
                       'Advanced level, I can hold a technical talk!'
                     ),
-                    i.a.createElement('p', {className: 'charge'}, 'German'),
+                    i.a.createElement('p', { className: 'charge' }, 'German'),
                     i.a.createElement(
                       'p',
-                      {className: 'subTitle'},
+                      { className: 'subTitle' },
                       'Basic, just starting!'
                     ),
-                    i.a.createElement('p', {className: 'charge'}, 'Spanish'),
-                    i.a.createElement('p', {className: 'subTitle'}, 'Native')
+                    i.a.createElement('p', { className: 'charge' }, 'Spanish'),
+                    i.a.createElement('p', { className: 'subTitle' }, 'Native')
                   );
-                }
-              }
+                },
+              },
             ]),
             a
           );
@@ -913,16 +922,16 @@
                 value: function() {
                   return i.a.createElement(
                     'div',
-                    {className: 'container'},
-                    i.a.createElement('p', {className: 'title'}, 'Hobbies'),
+                    { className: 'container' },
+                    i.a.createElement('p', { className: 'title' }, 'Hobbies'),
                     i.a.createElement(
                       'p',
-                      {className: 'subTitle'},
+                      { className: 'subTitle' },
                       'Voracious reader of 20th century history, motorbike traveler, amateur tennis player and videogame lover'
                     )
                   );
-                }
-              }
+                },
+              },
             ]),
             a
           );
@@ -950,21 +959,21 @@
                   var e = this.props.classes;
                   return i.a.createElement(
                     O.a,
-                    {className: e.card},
+                    { className: e.card },
                     i.a.createElement(ie, null),
                     i.a.createElement(ue, null),
                     i.a.createElement(
                       $.a,
-                      {container: !0, spacing: 8, className: e.grid},
+                      { container: !0, spacing: 8, className: e.grid },
                       i.a.createElement(
                         $.a,
-                        {item: !0, xs: 6},
+                        { item: !0, xs: 6 },
                         i.a.createElement(ge, null),
                         i.a.createElement(Ne, null)
                       ),
                       i.a.createElement(
                         $.a,
-                        {item: !0, xs: 6, className: e.grid},
+                        { item: !0, xs: 6, className: e.grid },
                         i.a.createElement(be, null),
                         i.a.createElement(Ee, null),
                         i.a.createElement(Ae, null),
@@ -975,9 +984,9 @@
                             className: e.snackbar,
                             anchorOrigin: {
                               vertical: 'bottom',
-                              horizontal: 'right'
+                              horizontal: 'right',
                             },
-                            open: !0
+                            open: !0,
                           },
                           i.a.createElement(fe.a, {
                             className: e.download,
@@ -986,7 +995,7 @@
                               null,
                               i.a.createElement(
                                 'p',
-                                {className: e.link},
+                                { className: e.link },
                                 'Download my CV here: '
                               ),
                               i.a.createElement(
@@ -994,23 +1003,23 @@
                                 {
                                   href: Te.a,
                                   download: 'Damian Kreick CV',
-                                  className: e.link
+                                  className: e.link,
                                 },
                                 i.a.createElement('img', {
                                   src: De.a,
                                   alt: 'us',
-                                  className: e.flag
+                                  className: e.flag,
                                 }),
                                 'English version!'
                               )
-                            )
+                            ),
                           })
                         )
                       )
                     )
                   );
-                }
-              }
+                },
+              },
             ]),
             a
           );
@@ -1020,62 +1029,62 @@
             border: 'solid 1px black',
             boxShadow: '-10px 10px 5px 0px rgba(0,0,0,0.75)',
             maxWidth: '1280px',
-            margin: 'auto'
+            margin: 'auto',
           },
-          download: {backgroundColor: '#27ade3'},
+          download: { backgroundColor: '#27ade3' },
           link: {
             color: 'white',
             display: 'contents',
             fontWeight: 'bold',
-            textDecoration: 'none'
+            textDecoration: 'none',
           },
           flag: {
             borderRadius: '5px',
             margin: '0px 10px',
             verticalAlign: 'middle',
-            width: '32px'
+            width: '32px',
           },
-          grid: {padding: '20px 40px'},
+          grid: { padding: '20px 40px' },
           snackbar: {
             margin: 'auto',
             left: '0px',
             top: '30px',
             position: 'relative',
             width: 'fit-content',
-            zIndex: 'auto'
-          }
+            zIndex: 'auto',
+          },
         })(ye);
       var Me = Object(r.withStyles)(function(e) {
           return {
-            container: {marginTop: '90px'},
-            download: {backgroundColor: '#27ade3'},
+            container: { marginTop: '90px' },
+            download: { backgroundColor: '#27ade3' },
             link: {
               color: 'white',
               display: 'contents',
               fontWeight: 'bold',
-              textDecoration: 'none'
+              textDecoration: 'none',
             },
             flag: {
               borderRadius: '5px',
               margin: '0px 10px',
               verticalAlign: 'middle',
-              width: '32px'
+              width: '32px',
             },
-            title: {marginBottom: '35px'},
-            divider: {marginBottom: '35px', width: '100%'}
+            title: { marginBottom: '35px' },
+            divider: { marginBottom: '35px', width: '100%' },
           };
         })(function(e) {
           var a = e.classes;
           return i.a.createElement(
             'div',
-            {className: a.container, id: 'resume'},
-            i.a.createElement(f.a, {variant: 'middle', className: a.divider}),
+            { className: a.container, id: 'resume' },
+            i.a.createElement(f.a, { variant: 'middle', className: a.divider }),
             i.a.createElement(
               D.a,
-              {animateIn: 'bounceInRight', animateOnce: !0, duration: 1.5},
+              { animateIn: 'bounceInRight', animateOnce: !0, duration: 1.5 },
               i.a.createElement(
                 A.a,
-                {variant: 'h3', className: a.title},
+                { variant: 'h3', className: a.title },
                 'Resume'
               )
             ),
@@ -1092,45 +1101,45 @@
           flexDirection: 'column',
           marginTop: '70px',
           paddingTop: '30px',
-          paddingBottom: '60px'
+          paddingBottom: '60px',
         },
-        contactInfo: {display: 'flex', justifyContent: 'center'},
+        contactInfo: { display: 'flex', justifyContent: 'center' },
         infoContainer: {
           display: 'block',
           margin: '0px 30px',
           textAlign: 'center',
-          textDecoration: 'none'
+          textDecoration: 'none',
         },
-        infoTitle: {color: 'white', fontSize: '18px'},
-        button: {color: 'white', width: '36px', height: '36px'},
+        infoTitle: { color: 'white', fontSize: '18px' },
+        button: { color: 'white', width: '36px', height: '36px' },
         title: {
           color: 'white',
           fontSize: '24px',
           fontWeight: 'bold',
-          paddingTop: '40px'
+          paddingTop: '40px',
         },
         subtitle: {
           color: 'white',
           fontSize: '20px',
           marginBottom: '60px',
-          paddingTop: '10px'
-        }
+          paddingTop: '10px',
+        },
       })(function(e) {
         var a = e.classes;
         return i.a.createElement(
           'div',
-          {className: a.root, id: 'footer'},
+          { className: a.root, id: 'footer' },
           i.a.createElement(
             D.a,
             {
               animateIn: 'bounceInUp',
               animateOnce: !0,
               offset: 0,
-              duration: 1.5
+              duration: 1.5,
             },
             i.a.createElement(
               A.a,
-              {variant: 'h3', className: a.title},
+              { variant: 'h3', className: a.title },
               'Do you have any question?'
             )
           ),
@@ -1141,11 +1150,11 @@
               animateOnce: !0,
               delay: 1e3,
               offset: 0,
-              duration: 1.5
+              duration: 1.5,
             },
             i.a.createElement(
               A.a,
-              {variant: 'h4', className: a.subtitle},
+              { variant: 'h4', className: a.subtitle },
               'Contact me!. I will try to answer as soon as possible.'
             )
           ),
@@ -1156,82 +1165,82 @@
               animateOnce: !0,
               delay: 2e3,
               offset: 0,
-              duration: 1.5
+              duration: 1.5,
             },
             i.a.createElement(
               $.a,
-              {container: !0, spacing: 8},
+              { container: !0, spacing: 8 },
               i.a.createElement(
                 $.a,
-                {item: !0, xs: 6, sm: 3},
-                i.a.createElement(se.a, {className: a.button}),
+                { item: !0, xs: 6, sm: 3 },
+                i.a.createElement(se.a, { className: a.button }),
                 i.a.createElement(
                   A.a,
-                  {variant: 'h6', className: a.infoTitle},
+                  { variant: 'h6', className: a.infoTitle },
                   '+54 911-3330-2076'
                 )
               ),
               i.a.createElement(
                 $.a,
-                {item: !0, xs: 6, sm: 3},
+                { item: !0, xs: 6, sm: 3 },
                 i.a.createElement(
                   'a',
                   {
                     href: 'https://wa.me/541133302076',
                     rel: 'noopener noreferrer',
                     target: '_blank',
-                    className: a.infoContainer
+                    className: a.infoContainer,
                   },
-                  i.a.createElement(oe.a, {className: a.button}),
+                  i.a.createElement(oe.a, { className: a.button }),
                   i.a.createElement(
                     A.a,
-                    {variant: 'h6', className: a.infoTitle},
+                    { variant: 'h6', className: a.infoTitle },
                     'damian.kreick@gmail.com'
                   )
                 )
               ),
               i.a.createElement(
                 $.a,
-                {item: !0, xs: 6, sm: 3},
+                { item: !0, xs: 6, sm: 3 },
                 i.a.createElement(
                   'a',
                   {
                     href: 'https://www.linkedin.com/in/damiankreick',
                     rel: 'noopener noreferrer',
                     target: '_blank',
-                    className: a.infoContainer
+                    className: a.infoContainer,
                   },
                   i.a.createElement('img', {
                     src: xe.a,
                     alt: 'Linkedin',
-                    className: a.button
+                    className: a.button,
                   }),
                   i.a.createElement(
                     A.a,
-                    {variant: 'h6', className: a.infoTitle},
+                    { variant: 'h6', className: a.infoTitle },
                     'in/damiankreick'
                   )
                 )
               ),
               i.a.createElement(
                 $.a,
-                {item: !0, xs: 6, sm: 3},
+                { item: !0, xs: 6, sm: 3 },
                 i.a.createElement(
                   'a',
                   {
                     href: 'https://wa.me/541133302076',
                     rel: 'noopener noreferrer',
                     target: '_blank',
-                    className: a.infoContainer
+                    className: a.infoContainer,
                   },
                   i.a.createElement('img', {
                     src: Ye.a,
                     alt: 'Whatsapp',
-                    className: a.button
+                    className: a.button,
                   }),
                   i.a.createElement(
                     A.a,
-                    {variant: 'h6', className: a.infoTitle},
+                    { variant: 'h6', className: a.infoTitle },
                     'Whatsapp Me!'
                   )
                 )
@@ -1243,7 +1252,7 @@
       var We = function() {
         return i.a.createElement(
           'div',
-          null,
+          { className: 'page' },
           i.a.createElement(E, null),
           i.a.createElement(j, null),
           i.a.createElement(ae, null),
@@ -1273,11 +1282,11 @@
           icon:
             'https://raw.githubusercontent.com/Dkreick/Portfolio/master/src/assets/icons/icon-ad2b.jpg',
           snapshot:
-            'https://raw.githubusercontent.com/Dkreick/Portfolio/master/src/assets/Projects/ad2b.jpg',
+            'https://raw.githubusercontent.com/Dkreick/Portfolio/master/src/assets/projects/ad2b.jpg',
           description:
             'How to struggle with big projects, how to document well and how to be consistent and disciplinate to developer every day a little advance.',
           linkToSourceCode: 'https://github.com/Dkreick/AnotherDayToBe',
-          mainLanguage: 'Unity3D/C#'
+          mainLanguage: 'Unity3D/C#',
         },
         {
           name: 'AD2B Wiki',
@@ -1285,10 +1294,10 @@
           icon:
             'https://raw.githubusercontent.com/Dkreick/Portfolio/master/src/assets/icons/icon-ad2b.jpg',
           snapshot:
-            'https://raw.githubusercontent.com/Dkreick/Portfolio/master/src/assets/Projects/ad2b.jpg',
+            'https://raw.githubusercontent.com/Dkreick/Portfolio/master/src/assets/projects/ad2b.jpg',
           description: 'To Be Done.',
           linkToSourceCode: 'https://github.com/Dkreick/AnotherDayToBe-Web',
-          mainLanguage: 'React'
+          mainLanguage: 'React',
         },
         {
           name: 'Scan My Profile',
@@ -1296,11 +1305,11 @@
           icon:
             'https://raw.githubusercontent.com/Dkreick/Portfolio/master/src/assets/icons/icon-scan.jpg',
           snapshot:
-            'https://raw.githubusercontent.com/Dkreick/Portfolio/master/src/assets/Projects/scan.jpg',
+            'https://raw.githubusercontent.com/Dkreick/Portfolio/master/src/assets/projects/scan.jpg',
           description:
             'The usage of Vuforia, a powerful framework for augmented reality. The mastering of Unity UI.',
           linkToSourceCode: 'https://github.com/Dkreick/Scan-My-Profile',
-          mainLanguage: 'Unity3D/C#'
+          mainLanguage: 'Unity3D/C#',
         },
         {
           name: 'Simple Simon',
@@ -1308,11 +1317,11 @@
           icon:
             'https://raw.githubusercontent.com/Dkreick/Portfolio/master/src/assets/icons/icon-simon.jpg',
           snapshot:
-            'https://raw.githubusercontent.com/Dkreick/Portfolio/master/src/assets/Projects/simon.jpg',
+            'https://raw.githubusercontent.com/Dkreick/Portfolio/master/src/assets/projects/simon.jpg',
           description:
             'The lifecycle of a game, not quite achievement but it was fun to develop.',
           linkToSourceCode: 'https://github.com/Dkreick/SimpleSimon',
-          mainLanguage: 'Unity3D/C#'
+          mainLanguage: 'Unity3D/C#',
         },
         {
           name: 'Dacia Adventure',
@@ -1320,11 +1329,11 @@
           icon:
             'https://raw.githubusercontent.com/Dkreick/Portfolio/master/src/assets/icons/icon-dacia.jpg',
           snapshot:
-            'https://raw.githubusercontent.com/Dkreick/Portfolio/master/src/assets/Projects/dacia.jpg',
+            'https://raw.githubusercontent.com/Dkreick/Portfolio/master/src/assets/projects/dacia.jpg',
           description:
             'The use of Unity3D physics, including colliders and the science of endless games.',
           linkToSourceCode: 'https://github.com/Dkreick/DaciaAdventure',
-          mainLanguage: 'Unity3D/C#'
+          mainLanguage: 'Unity3D/C#',
         },
         {
           name: 'Horse and diamonds',
@@ -1332,12 +1341,12 @@
           icon:
             'https://raw.githubusercontent.com/Dkreick/Portfolio/master/src/assets/icons/icon-horse.jpg',
           snapshot:
-            'https://raw.githubusercontent.com/Dkreick/Portfolio/master/src/assets/Projects/horse.jpg',
+            'https://raw.githubusercontent.com/Dkreick/Portfolio/master/src/assets/projects/horse.jpg',
           description:
             'The use of PhaserJS, a Javascript framework to make games very easy.',
           linkToSourceCode:
             'https://github.com/Dkreick/Phaser---Practice-Horse-and-diamonds',
-          mainLanguage: 'Javascript'
+          mainLanguage: 'Javascript',
         },
         {
           name: 'Galactic Menace',
@@ -1345,11 +1354,11 @@
           icon:
             'https://raw.githubusercontent.com/Dkreick/Portfolio/master/src/assets/icons/icon-galactic.jpg',
           snapshot:
-            'https://raw.githubusercontent.com/Dkreick/Portfolio/master/src/assets/Projects/galactic.jpg',
+            'https://raw.githubusercontent.com/Dkreick/Portfolio/master/src/assets/projects/galactic.jpg',
           description:
             'How to use multiple arrays in C# to manage the enemies actions. How to manage efficiently particle systems and manage sprite sheets.',
           linkToSourceCode: 'https://github.com/Dkreick/Galactic-Menace',
-          mainLanguage: 'Unity3D'
+          mainLanguage: 'Unity3D',
         },
         {
           name: 'Fallout Memory Game',
@@ -1357,11 +1366,11 @@
           icon:
             'https://raw.githubusercontent.com/Dkreick/Portfolio/master/src/assets/icons/icon-fallout.jpg',
           snapshot:
-            'https://raw.githubusercontent.com/Dkreick/Portfolio/master/src/assets/Projects/fallout.jpg',
+            'https://raw.githubusercontent.com/Dkreick/Portfolio/master/src/assets/projects/fallout.jpg',
           description:
             'The usage of a grid platform, the correct implementation of coroutines and menues.',
           linkToSourceCode: 'https://github.com/Dkreick/Fallout-Memory-Game',
-          mainLanguage: 'Unity3D'
+          mainLanguage: 'Unity3D',
         },
         {
           name: 'Futbol Quiz',
@@ -1369,27 +1378,27 @@
           icon:
             'https://raw.githubusercontent.com/Dkreick/Portfolio/master/src/assets/icons/icon-futbol.jpg',
           snapshot:
-            'https://raw.githubusercontent.com/Dkreick/Portfolio/master/src/assets/Projects/futbol.jpg',
+            'https://raw.githubusercontent.com/Dkreick/Portfolio/master/src/assets/projects/futbol.jpg',
           description:
             'How to operate with Google Firebase, implementing a simple login/register system. How to handle JSON objects in unity in order to generate the questions',
           linkToSourceCode: 'https://github.com/Dkreick/Fallout-Memory-Game',
-          mainLanguage: 'Unity3D'
+          mainLanguage: 'Unity3D',
         },
         {
           name: 'This Portfolio Itself!',
-          subtitle: 'A portfolio with my Projects and my resume.',
+          subtitle: 'A portfolio with my projects and my resume.',
           icon:
             'https://raw.githubusercontent.com/Dkreick/Portfolio/master/src/assets/icons/icon-portfolio.jpg',
           snapshot:
-            'https://raw.githubusercontent.com/Dkreick/Portfolio/master/src/assets/Projects/portfolio.jpg',
+            'https://raw.githubusercontent.com/Dkreick/Portfolio/master/src/assets/projects/portfolio.jpg',
           description:
             'The usage of material UI. The customization of components and the deploy via Github Pages.',
           linkToSourceCode: 'https://github.com/Dkreick/Portfolio',
-          mainLanguage: 'React'
-        }
+          mainLanguage: 'React',
+        },
       ];
-    }
+    },
   },
-  [[204, 1, 2]]
+  [[204, 1, 2]],
 ]);
-//# sourceMappingURL=main.b8cbb645.chunk.js.map
+//# sourceMappingURL=main.42370dcf.chunk.js.map
