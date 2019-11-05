@@ -1,21 +1,20 @@
 {
   "files": {
     "main.css": "/static/css/main.69926dd9.chunk.css",
-    "main.js": "/static/js/main.8c856ace.chunk.js",
-    "main.js.map": "/static/js/main.8c856ace.chunk.js.map",
+    "main.js": "/static/js/main.c79964c8.chunk.js",
+    "main.js.map": "/static/js/main.c79964c8.chunk.js.map",
     "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
     "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
-    "static/js/2.4a50aca8.chunk.js": "/static/js/2.4a50aca8.chunk.js",
-    "static/js/2.4a50aca8.chunk.js.map": "/static/js/2.4a50aca8.chunk.js.map",
+    "static/js/2.eb39115b.chunk.js": "/static/js/2.eb39115b.chunk.js",
+    "static/js/2.eb39115b.chunk.js.map": "/static/js/2.eb39115b.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.742ce3def4f14ecb45512f485fed5617.js": "/precache-manifest.742ce3def4f14ecb45512f485fed5617.js",
+    "precache-manifest.714ebe830c836b06a707c60119906fce.js": "/precache-manifest.714ebe830c836b06a707c60119906fce.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.69926dd9.chunk.css.map": "/static/css/main.69926dd9.chunk.css.map",
     "static/media/BannerImage.jpeg": "/static/media/BannerImage.a14d0d68.jpeg",
     "static/media/Cv.pdf": "/static/media/Cv.623bc29a.pdf",
     "static/media/avatar.jpg": "/static/media/avatar.fc683e9b.jpg",
     "static/media/index.scss": "/static/media/background.7d117529.png",
-    "static/media/flag-us.jpg": "/static/media/flag-us.4ea472e6.jpg",
     "static/media/icon-whatsapp.png": "/static/media/icon-whatsapp.6774d436.png"
   }
 }

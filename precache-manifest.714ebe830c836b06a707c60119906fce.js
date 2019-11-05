@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    revision: '73b987350145cc46fa05b49f984aaddf',
+    revision: 'db592eb9a1bfabd7b64f3d5c2d1c6130',
     url: '/index.html',
   },
   {
-    revision: '61ea38f24b47225ebb30',
+    revision: 'b0826bea249a8bc1322b',
     url: '/static/css/main.69926dd9.chunk.css',
   },
   {
-    revision: '7e80a45ae228d315ad16',
-    url: '/static/js/2.4a50aca8.chunk.js',
+    revision: '386c4a643e8c918c1c96',
+    url: '/static/js/2.eb39115b.chunk.js',
   },
   {
-    revision: '61ea38f24b47225ebb30',
-    url: '/static/js/main.8c856ace.chunk.js',
+    revision: 'b0826bea249a8bc1322b',
+    url: '/static/js/main.c79964c8.chunk.js',
   },
   {
     revision: '42ac5946195a7306e2a5',
@@ -34,10 +34,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     revision: '7d117529e7bfe65a328ddd86d3ae61b0',
     url: '/static/media/background.7d117529.png',
-  },
-  {
-    revision: '4ea472e6827323e859a3cb14273b5b7d',
-    url: '/static/media/flag-us.4ea472e6.jpg',
   },
   {
     revision: '6774d436f1c040b10ed93b232978eeb9',

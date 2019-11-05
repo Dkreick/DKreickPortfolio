@@ -1,51 +1,45 @@
 (window.webpackJsonp = window.webpackJsonp || []).push([
   [0],
   {
-    111: function(e, a, t) {
-      e.exports = t.p + 'static/media/avatar.fc683e9b.jpg';
-    },
-    113: function(e, a, t) {
+    102: function(e, a, t) {
       e.exports = t.p + 'static/media/BannerImage.a14d0d68.jpeg';
     },
-    114: function(e, a) {
+    103: function(e, a) {
       e.exports =
         'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1MAAA6mAAADqYAAAXb5JfxUYAAANTSURBVHjatJZNaFxVFMd/576PefMyHy8zMRpDSlMlxtAqrsTiSuyuGxUtbtTuhW5KW1y5U5EKgrgRsaAtaBdSP5AubIsgNoi1aGqKMY1NqCZN0vnKZGbezLvXxSSTzKSCmdaze/e88/7n/M95/3Pl81/+Hn317J+f5I2M2JYg3JkZQBuQSM8ceiT7ioy+/9O1qzcrw5mUgwFypTqEEbiKIOkigDHbAxEgV2mwI+XO29PFcDiTdom0oZCv8ehQkl29HjP5GpfniqTTMdRaZtupotd3WKxG99m+o0rGmGQhV+XFx+7l5DMjiAgYw0tnpvj40jxB4HXBlcG1pKQEKFQaDGQ8Tj37UPPjACJ8sP9BUgmXUhh11QsBFIBuaPrTW7OM2c0+RA3dddMVQDzuMDFb4NxMvs357Uye2YUyfszuGkCC4+NFJZIsV+qICIf3DrKn32dicZV3fviLCENVA7VGa0aClEvdGMrFENarcy0SCRdHCWZj7Eo2gDaGeNxhNWxw4vICGc/iVjWijiGuFEMph8FEAgEiA9/NFEBrnh7JsiOIYTRMLq9ycToPnk024RBFTZBW7fmbZY7u28mbT+1slXfs3HXeOj3J6cOPs++B3tZ07P9skoN7+nlurK+Njk8nFnn5iymKpZBkj4s2ZgMAYwg6uA5iFggk3U3nInx1YOy2fB/YfQ9KCS+cvELoO9jrTV4PrHRMS6WhQYRy/b+P6fNjfeweTrOyEm5M0XZNa8PBL6d4+Pg4r12Y3eJ/YiAB1ah7gLcv3uDEN9e4mqvyxpnfOTuda/PvCrym4nUL8PUfOch49GZ9iFlcWaps+UHXZbkrAFsJKIU2BpTgdGi8LU2dMHcEsFkOpP3Zkg6puNtm+J8B+DcAa0upctvzDoa2+DdTqFrlaEPMbn/RswXqmkzc7liJsrFHI4PvqI441RQtwK40dDLhWviBx6nflphfqbO20Dg/WyB+f5JjF64zmomDQF0bfl1axV/b137g8d6leX5eKLfivr9RoqfXI4xMjwy9++PSXKGW7UvHWCrXoRRupJJwyaZclpcrUItaGz0eePiOItIGy1Isr4RQrm+KcxDLIutKKB+Oz+09cn7uo6pSA3fr2tLQBsLo1utPDh76ZwBfz0KkMJ8VswAAAABJRU5ErkJggg==';
     },
-    116: function(e, a, t) {
-      e.exports = t.p + 'static/media/flag-us.4ea472e6.jpg';
-    },
-    117: function(e, a, t) {
+    105: function(e, a, t) {
       e.exports = t.p + 'static/media/Cv.623bc29a.pdf';
     },
-    119: function(e, a) {
+    106: function(e, a) {
       e.exports =
         'data:image/png;base64,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cC8xLjAvc1R5cGUvUmVzb3VyY2VFdmVudCMiIHhtbG5zOmRjPSJodHRwOi8vcHVybC5vcmcvZGMvZWxlbWVudHMvMS4xLyIgeG1sbnM6cGhvdG9zaG9wPSJodHRwOi8vbnMuYWRvYmUuY29tL3Bob3Rvc2hvcC8xLjAvIiB4bXA6Q3JlYXRvclRvb2w9IkFkb2JlIFBob3Rvc2hvcCBDQyAoTWFjaW50b3NoKSIgeG1wOkNyZWF0ZURhdGU9IjIwMTktMDYtMjRUMTU6MDg6NTEtMDM6MDAiIHhtcDpNZXRhZGF0YURhdGU9IjIwMTktMDktMjBUMTY6MTktMDM6MDAiIHhtcDpNb2RpZnlEYXRlPSIyMDE5LTA5LTIwVDE2OjE5LTAzOjAwIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOjUxYzVmNjk0LWY4MzItMDM0Yi05YzgxLTdkZjkwOTQ3ZDAwOCIgeG1wTU06RG9jdW1lbnRJRD0iYWRvYmU6ZG9jaWQ6cGhvdG9zaG9wOjI5Y2Q0MjNkLTZjNTgtYTI0ZC1hOTEyLWEyMTdhNWI4MmExYyIgeG1wTU06T3JpZ2luYWxEb2N1bWVudElEPSJ4bXAuZGlkOjY5NTkxMTcyLTg0YjAtNDcwZi05MWQxLWYyNmRmNTg3OGZkNCIgZGM6Zm9ybWF0PSJpbWFnZS9wbmciIHBob3Rvc2hvcDpDb2xvck1vZGU9IjMiIHBob3Rvc2hvcDpJQ0NQcm9maWxlPSJEaXNwbGF5Ij4gPHhtcE1NOkhpc3Rvcnk+IDxyZGY6U2VxPiA8cmRmOmxpIHN0RXZ0OmFjdGlvbj0iY3JlYXRlZCIgc3RFdnQ6aW5zdGFuY2VJRD0ieG1wLmlpZDo2OTU5MTE3Mi04NGIwLTQ3MGYtOTFkMS1mMjZkZjU4NzhmZDQiIHN0RXZ0OndoZW49IjIwMTktMDYtMjRUMTU6MDg6NTEtMDM6MDAiIHN0RXZ0OnNvZnR3YXJlQWdlbnQ9IkFkb2JlIFBob3Rvc2hvcCBDQyAoTWFjaW50b3NoKSIvPiA8cmRmOmxpIHN0RXZ0OmFjdGlvbj0ic2F2ZWQiIHN0RXZ0Omluc3RhbmNlSUQ9InhtcC5paWQ6MjBhZDI5NWQtNzE4NC00NmUwLWJkZjgtMTZkY2RlZDFkMTg3IiBz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';
     },
-    120: function(e, a, t) {
+    107: function(e, a, t) {
       e.exports = t.p + 'static/media/icon-whatsapp.6774d436.png';
     },
-    204: function(e, a, t) {
-      e.exports = t(322);
+    108: function(e, a, t) {
+      e.exports = t(225);
     },
-    209: function(e, a, t) {},
-    210: function(e, a, t) {},
-    322: function(e, a, t) {
+    113: function(e, a, t) {},
+    114: function(e, a, t) {},
+    225: function(e, a, t) {
       'use strict';
       t.r(a);
       var n = t(0),
         i = t.n(n),
-        c = t(24),
+        c = t(25),
         o = t.n(c),
-        r = (t(209), t(210), t(5)),
-        s = t(51),
+        r = (t(113), t(114), t(10)),
+        s = t(93),
         l = t.n(s),
-        m = t(52),
+        m = t(95),
         p = t.n(m),
-        d = t(30),
+        d = t(37),
         u = t.n(d),
-        h = t(27),
+        h = t(24),
         g = t.n(h),
-        b = t(42);
+        b = t(36);
       var E = Object(r.withStyles)({
           bar: {
             position: 'fixed',
@@ -115,13 +109,13 @@
         }),
         f = t(6),
         k = t.n(f),
-        A = t(111),
+        A = t(96),
         N = t.n(A),
-        w = t(29),
+        w = t(35),
         v = t.n(w),
-        D = t(18),
-        y = t.n(D);
-      var j = Object(r.withStyles)({
+        D = t(17),
+        T = t.n(D);
+      var y = Object(r.withStyles)({
           root: { flexGrow: 1, paddingTop: '120px' },
           avatar: {
             boxShadow: '0px 0px 20px 5px rgba(0,0,0,0.75)',
@@ -144,7 +138,7 @@
             'div',
             { className: a.root, id: 'header' },
             i.a.createElement(
-              y.a,
+              T.a,
               { animateIn: 'zoomIn', animateOnce: !0, offset: 0, duration: 2 },
               i.a.createElement('img', {
                 src: N.a,
@@ -153,7 +147,7 @@
               })
             ),
             i.a.createElement(
-              y.a,
+              T.a,
               {
                 animateIn: 'fadeInLeft',
                 animateOnce: !0,
@@ -168,7 +162,7 @@
             ),
             i.a.createElement(v.a, { variant: 'middle', className: a.divider }),
             i.a.createElement(
-              y.a,
+              T.a,
               {
                 animateIn: 'fadeInRight',
                 animateOnce: !0,
@@ -182,7 +176,7 @@
               )
             ),
             i.a.createElement(
-              y.a,
+              T.a,
               {
                 animateIn: 'flipInX',
                 animateOnce: !0,
@@ -199,33 +193,33 @@
             i.a.createElement(v.a, { variant: 'middle', className: a.divider })
           );
         }),
-        T = t(11),
+        j = t(11),
         I = t(12),
         x = t(14),
         C = t(13),
         O = t(15),
-        M = t(26),
+        M = t(31),
         G = t.n(M),
-        B = t(53),
+        B = t(97),
         W = t.n(B),
-        U = t(35),
+        U = t(46),
         L = t.n(U),
-        P = t(36),
+        P = t(47),
         S = t.n(P),
-        Y = t(55),
+        Y = t(99),
         R = t.n(Y),
-        z = t(54),
-        Z = t.n(z),
-        F = t(56),
+        Z = t(98),
+        z = t.n(Z),
+        F = t(100),
         Q = t.n(F),
-        V = t(112),
+        V = t(101),
         q = t.n(V),
-        H = t(25),
+        H = t(26),
         J = t.n(H),
         K = (function(e) {
           function a() {
             return (
-              Object(T.a)(this, a),
+              Object(j.a)(this, a),
               Object(x.a)(this, Object(C.a)(a).apply(this, arguments))
             );
           }
@@ -248,7 +242,7 @@
                     { className: t.card },
                     i.a.createElement(W.a, {
                       avatar: i.a.createElement(
-                        Z.a,
+                        z.a,
                         { 'aria-label': 'Recipe', className: t.avatar },
                         i.a.createElement('img', {
                           src: this.props.data.icon,
@@ -340,9 +334,9 @@
             },
           };
         })(K),
-        _ = t(17),
+        _ = t(18),
         $ = t.n(_),
-        ee = t(77);
+        ee = t(61);
       var ae = Object(r.withStyles)(function(e) {
           return {
             container: {
@@ -365,7 +359,7 @@
             'div',
             { className: a.container, id: 'portfolio' },
             i.a.createElement(
-              y.a,
+              T.a,
               { animateIn: 'bounceInLeft', animateOnce: !0, duration: 1.5 },
               i.a.createElement(
                 k.a,
@@ -381,7 +375,7 @@
                   $.a,
                   { item: !0, xs: 12, sm: 3, key: a },
                   i.a.createElement(
-                    y.a,
+                    T.a,
                     { animateIn: 'fadeIn', duration: a + 1, animateOnce: !0 },
                     i.a.createElement(X, { data: ee[a], key: a })
                   )
@@ -390,7 +384,7 @@
             )
           );
         }),
-        te = t(113),
+        te = t(102),
         ne = t.n(te);
       var ie = Object(r.withStyles)(function(e) {
           return {
@@ -422,18 +416,18 @@
             )
           );
         }),
-        ce = t(58),
+        ce = t(48),
         oe = t.n(ce),
-        re = t(59),
+        re = t(49),
         se = t.n(re),
-        le = t(115),
+        le = t(104),
         me = t.n(le),
-        pe = t(114),
+        pe = t(103),
         de = t.n(pe),
         ue = (function(e) {
           function a() {
             return (
-              Object(T.a)(this, a),
+              Object(j.a)(this, a),
               Object(x.a)(this, Object(C.a)(a).apply(this, arguments))
             );
           }
@@ -497,11 +491,11 @@
           button: { color: '#27ade3', padding: '10px' },
         })(ue),
         ge =
-          (t(34),
+          (t(30),
           (function(e) {
             function a() {
               return (
-                Object(T.a)(this, a),
+                Object(j.a)(this, a),
                 Object(x.a)(this, Object(C.a)(a).apply(this, arguments))
               );
             }
@@ -614,7 +608,7 @@
         be = (function(e) {
           function a() {
             return (
-              Object(T.a)(this, a),
+              Object(j.a)(this, a),
               Object(x.a)(this, Object(C.a)(a).apply(this, arguments))
             );
           }
@@ -662,7 +656,7 @@
         Ee = (function(e) {
           function a() {
             return (
-              Object(T.a)(this, a),
+              Object(j.a)(this, a),
               Object(x.a)(this, Object(C.a)(a).apply(this, arguments))
             );
           }
@@ -787,7 +781,7 @@
         fe = (function(e) {
           function a() {
             return (
-              Object(T.a)(this, a),
+              Object(j.a)(this, a),
               Object(x.a)(this, Object(C.a)(a).apply(this, arguments))
             );
           }
@@ -872,7 +866,7 @@
         ke = (function(e) {
           function a() {
             return (
-              Object(T.a)(this, a),
+              Object(j.a)(this, a),
               Object(x.a)(this, Object(C.a)(a).apply(this, arguments))
             );
           }
@@ -910,7 +904,7 @@
         Ae = (function(e) {
           function a() {
             return (
-              Object(T.a)(this, a),
+              Object(j.a)(this, a),
               Object(x.a)(this, Object(C.a)(a).apply(this, arguments))
             );
           }
@@ -936,17 +930,12 @@
             a
           );
         })(i.a.Component),
-        Ne = t(57),
+        Ne = t(105),
         we = t.n(Ne),
-        ve = t(118),
-        De = t(116),
-        ye = t.n(De),
-        je = t(117),
-        Te = t.n(je),
-        Ie = (function(e) {
+        ve = (function(e) {
           function a() {
             return (
-              Object(T.a)(this, a),
+              Object(j.a)(this, a),
               Object(x.a)(this, Object(C.a)(a).apply(this, arguments))
             );
           }
@@ -958,62 +947,46 @@
                 value: function() {
                   var e = this.props.classes;
                   return i.a.createElement(
-                    G.a,
-                    { className: e.card },
-                    i.a.createElement(ie, null),
-                    i.a.createElement(he, null),
+                    'div',
+                    null,
                     i.a.createElement(
-                      $.a,
-                      { container: !0, spacing: 8, className: e.grid },
+                      G.a,
+                      { className: e.card },
+                      i.a.createElement(ie, null),
+                      i.a.createElement(he, null),
                       i.a.createElement(
                         $.a,
-                        { item: !0, xs: 6 },
-                        i.a.createElement(ge, null),
-                        i.a.createElement(fe, null)
-                      ),
-                      i.a.createElement(
-                        $.a,
-                        { item: !0, xs: 6, className: e.grid },
-                        i.a.createElement(be, null),
-                        i.a.createElement(Ee, null),
-                        i.a.createElement(ke, null),
-                        i.a.createElement(Ae, null),
+                        { container: !0, spacing: 8, className: e.grid },
                         i.a.createElement(
-                          we.a,
-                          {
-                            className: e.snackbar,
-                            anchorOrigin: {
-                              vertical: 'bottom',
-                              horizontal: 'right',
-                            },
-                            open: !0,
-                          },
-                          i.a.createElement(ve.a, {
-                            className: e.download,
-                            message: i.a.createElement(
-                              'div',
-                              null,
-                              i.a.createElement(
-                                'p',
-                                { className: e.link },
-                                'Download my CV here: '
-                              ),
-                              i.a.createElement(
-                                'a',
-                                {
-                                  href: Te.a,
-                                  download: 'Damian Kreick CV',
-                                  className: e.link,
-                                },
-                                i.a.createElement('img', {
-                                  src: ye.a,
-                                  alt: 'us',
-                                  className: e.flag,
-                                }),
-                                'English version!'
-                              )
-                            ),
-                          })
+                          $.a,
+                          { item: !0, xs: 6 },
+                          i.a.createElement(ge, null),
+                          i.a.createElement(fe, null)
+                        ),
+                        i.a.createElement(
+                          $.a,
+                          { item: !0, xs: 6, className: e.grid },
+                          i.a.createElement(be, null),
+                          i.a.createElement(Ee, null),
+                          i.a.createElement(ke, null),
+                          i.a.createElement(Ae, null)
+                        )
+                      )
+                    ),
+                    i.a.createElement(
+                      g.a,
+                      { className: e.download },
+                      i.a.createElement(
+                        'a',
+                        {
+                          href: we.a,
+                          download: 'Damian Kreick CV',
+                          className: e.link,
+                        },
+                        i.a.createElement(
+                          'p',
+                          { className: e.link },
+                          'Click Here to download a PDF Version!'
                         )
                       )
                     )
@@ -1024,37 +997,27 @@
             a
           );
         })(i.a.Component),
-        xe = Object(r.withStyles)({
+        De = Object(r.withStyles)({
           card: {
             border: 'solid 1px black',
             boxShadow: '-10px 10px 5px 0px rgba(0,0,0,0.75)',
             maxWidth: '1280px',
             margin: 'auto',
           },
-          download: { backgroundColor: '#27ade3' },
+          download: {
+            backgroundColor: '#27ade3',
+            marginTop: '50px',
+            textTransform: 'none',
+          },
           link: {
             color: 'white',
             display: 'contents',
             fontWeight: 'bold',
             textDecoration: 'none',
           },
-          flag: {
-            borderRadius: '5px',
-            margin: '0px 10px',
-            verticalAlign: 'middle',
-            width: '32px',
-          },
           grid: { padding: '20px 40px' },
-          snackbar: {
-            margin: 'auto',
-            left: '0px',
-            top: '30px',
-            position: 'relative',
-            width: 'fit-content',
-            zIndex: 'auto',
-          },
-        })(Ie);
-      var Ce = Object(r.withStyles)(function(e) {
+        })(ve);
+      var Te = Object(r.withStyles)(function(e) {
           return {
             container: { marginTop: '90px' },
             download: { backgroundColor: '#27ade3' },
@@ -1080,7 +1043,7 @@
             { className: a.container, id: 'resume' },
             i.a.createElement(v.a, { variant: 'middle', className: a.divider }),
             i.a.createElement(
-              y.a,
+              T.a,
               { animateIn: 'bounceInRight', animateOnce: !0, duration: 1.5 },
               i.a.createElement(
                 k.a,
@@ -1088,14 +1051,14 @@
                 'Resume'
               )
             ),
-            i.a.createElement(xe, null)
+            i.a.createElement(De, null)
           );
         }),
-        Oe = t(119),
-        Me = t.n(Oe),
-        Ge = t(120),
-        Be = t.n(Ge);
-      var We = Object(r.withStyles)({
+        ye = t(106),
+        je = t.n(ye),
+        Ie = t(107),
+        xe = t.n(Ie);
+      var Ce = Object(r.withStyles)({
         root: {
           backgroundColor: '#27ade3',
           flexDirection: 'column',
@@ -1130,7 +1093,7 @@
           'div',
           { className: a.root, id: 'footer' },
           i.a.createElement(
-            y.a,
+            T.a,
             {
               animateIn: 'bounceInUp',
               animateOnce: !0,
@@ -1144,7 +1107,7 @@
             )
           ),
           i.a.createElement(
-            y.a,
+            T.a,
             {
               animateIn: 'bounceInUp',
               animateOnce: !0,
@@ -1159,7 +1122,7 @@
             )
           ),
           i.a.createElement(
-            y.a,
+            T.a,
             {
               animateIn: 'bounceInUp',
               animateOnce: !0,
@@ -1211,7 +1174,7 @@
                     className: a.infoContainer,
                   },
                   i.a.createElement('img', {
-                    src: Me.a,
+                    src: je.a,
                     alt: 'Linkedin',
                     className: a.button,
                   }),
@@ -1234,7 +1197,7 @@
                     className: a.infoContainer,
                   },
                   i.a.createElement('img', {
-                    src: Be.a,
+                    src: xe.a,
                     alt: 'Whatsapp',
                     className: a.button,
                   }),
@@ -1249,15 +1212,15 @@
           )
         );
       });
-      var Ue = function() {
+      var Oe = function() {
         return i.a.createElement(
           'div',
           { className: 'page' },
           i.a.createElement(E, null),
-          i.a.createElement(j, null),
+          i.a.createElement(y, null),
           i.a.createElement(ae, null),
-          i.a.createElement(Ce, null),
-          i.a.createElement(We, null)
+          i.a.createElement(Te, null),
+          i.a.createElement(Ce, null)
         );
       };
       Boolean(
@@ -1267,14 +1230,14 @@
             /^127(?:\.(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)){3}$/
           )
       );
-      o.a.render(i.a.createElement(Ue, null), document.getElementById('root')),
+      o.a.render(i.a.createElement(Oe, null), document.getElementById('root')),
         'serviceWorker' in navigator &&
           navigator.serviceWorker.ready.then(function(e) {
             e.unregister();
           });
     },
-    34: function(e, a, t) {},
-    77: function(e) {
+    30: function(e, a, t) {},
+    61: function(e) {
       e.exports = [
         {
           name: 'Another Day To Be',
@@ -1398,7 +1361,10 @@
         },
       ];
     },
+    96: function(e, a, t) {
+      e.exports = t.p + 'static/media/avatar.fc683e9b.jpg';
+    },
   },
-  [[204, 1, 2]],
+  [[108, 1, 2]],
 ]);
-//# sourceMappingURL=main.8c856ace.chunk.js.map
+//# sourceMappingURL=main.c79964c8.chunk.js.map
