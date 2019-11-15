@@ -18,18 +18,21 @@ const styles = {
     border: 'solid 1px black',
     boxShadow: '-10px 10px 5px 0px rgba(0,0,0,0.75)',
     maxWidth: '1280px',
-    margin: 'auto'
+    margin: 'auto',
+  },
+  column: {
+    padding: '0px 20px !important',
   },
   download: {
     backgroundColor: '#27ade3',
     marginTop: '50px',
-    textTransform: 'none'
+    textTransform: 'none',
   },
   link: {
     color: 'white',
     display: 'contents',
     fontWeight: 'bold',
-    textDecoration: 'none'
+    textDecoration: 'none',
   },
   grid: {
     padding: '20px 40px',
@@ -46,11 +49,11 @@ class CvComponent extends React.Component {
           <Header />
           <HeaderActions />
           <Grid container spacing={8} className={classes.grid}>
-            <Grid item xs={6}>
+            <Grid item xs={6} className={classes.column}>
               <WorkExperience />
               <ValuableSkills />
             </Grid>
-            <Grid item xs={6} className={classes.grid}>
+            <Grid item xs={6} className={classes.column}>
               <Education />
               <Courses />
               <Languages />
@@ -59,12 +62,10 @@ class CvComponent extends React.Component {
           </Grid>
         </Card>
         <Button className={classes.download}>
-          <a
-            href={Cv}
-            download="Damian Kreick CV"
-            className={classes.link}
-          >
-            <p className={classes.link}>Click Here to download a PDF Version!</p>
+          <a href={Cv} download="Damian Kreick CV" className={classes.link}>
+            <p className={classes.link}>
+              Click Here to download a PDF Version!
+            </p>
           </a>
         </Button>
       </div>
