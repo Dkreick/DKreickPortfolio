@@ -959,13 +959,13 @@
                         { container: !0, spacing: 8, className: e.grid },
                         i.a.createElement(
                           $.a,
-                          { item: !0, xs: 6 },
+                          { item: !0, xs: 6, className: e.column },
                           i.a.createElement(ge, null),
                           i.a.createElement(fe, null)
                         ),
                         i.a.createElement(
                           $.a,
-                          { item: !0, xs: 6, className: e.grid },
+                          { item: !0, xs: 6, className: e.column },
                           i.a.createElement(be, null),
                           i.a.createElement(Ee, null),
                           i.a.createElement(ke, null),
@@ -1004,6 +1004,7 @@
             maxWidth: '1280px',
             margin: 'auto',
           },
+          column: { padding: '0px 20px !important' },
           download: {
             backgroundColor: '#27ade3',
             marginTop: '50px',
@@ -1367,4 +1368,4 @@
   },
   [[108, 1, 2]],
 ]);
-//# sourceMappingURL=main.c79964c8.chunk.js.map
+//# sourceMappingURL=main.91c8052f.chunk.js.map
