@@ -65,10 +65,19 @@
   {
     "name": "Fallout Memory Game",
     "subtitle": "Memory game based in the Fallout universe.",
-    "icon": "https://raw.githubusercontent.com/Dkreick/Portfolio/master/src/assets/icons/icon-fallout.jpg",
-    "snapshot": "https://raw.githubusercontent.com/Dkreick/Portfolio/master/src/assets/snapshots/fallout.jpg",
+    "icon": "https://raw.githubusercontent.com/Dkreick/Portfolio/master/src/assets/icons/icon-memory.jpg",
+    "snapshot": "https://raw.githubusercontent.com/Dkreick/Portfolio/master/src/assets/snapshots/memory.jpg",
     "description": "The usage of a grid platform, the correct implementation of coroutines and menues.",
     "linkToSourceCode": "https://github.com/Dkreick/Fallout-Memory-Game",
+    "mainLanguage": "Unity3D"
+  },
+  {
+    "name": "Fallout Slot Machine",
+    "subtitle": "Slot machine based in the Fallout universe.",
+    "icon": "https://raw.githubusercontent.com/Dkreick/Portfolio/master/src/assets/icons/icon-slot.jpg",
+    "snapshot": "https://raw.githubusercontent.com/Dkreick/Portfolio/master/src/assets/snapshots/slot.jpg",
+    "description": "The use of prefabs, the dinamic creation of objects and many Photoshop tools",
+    "linkToSourceCode": "https://github.com/Dkreick/Fallout-Slot-Machine",
     "mainLanguage": "Unity3D"
   },
   {
