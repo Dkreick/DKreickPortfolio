@@ -23,13 +23,13 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npm run deploy"
+      "pre-commit": "npm run format",
+      "pre-push": "npm run deploy"
     }
   },
   "scripts": {
     "start": "react-scripts start",
-    "predeploy": "npm run build && COPY \"CNAME\" \"./build/CNAME\"",
-    "deploy": "npm run format && gh-pages -d build",
+    "deploy": "npm run build && gh-pages -d build && COPY \"CNAME\" \"./build/CNAME\"",
     "build": "react-scripts build",
     "format": "prettier --write \"**/*.+(js|jsx|json|md|scss)\"",
     "test": "react-scripts test",
