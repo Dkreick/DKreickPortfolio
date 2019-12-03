@@ -25,22 +25,21 @@ const styles = theme => ({
   },
 });
 
-
 class Portfolio extends React.Component {
   constructor() {
     super();
     this.state = {
-      data: []
-    }
+      data: [],
+    };
   }
 
   componentDidMount() {
     let database = firebase.database().ref();
     database.on('value', snap => {
-      console.log(snap.val())
+      console.log(snap.val());
       this.setState({
-        data: snap.val()
-      })
+        data: snap.val(),
+      });
     });
   }
 
@@ -56,7 +55,7 @@ class Portfolio extends React.Component {
         >
           <Typography variant="h3" className={classes.title}>
             Projects
-        </Typography>
+          </Typography>
         </ScrollAnimation>
         <Grid container spacing={8}>
           {this.state.data.map((api, index) => {

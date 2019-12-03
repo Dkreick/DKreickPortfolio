@@ -11,6 +11,7 @@ import Typography from '@material-ui/core/Typography';
 import IconButton from '@material-ui/core/IconButton';
 import SourceCodeIcon from '@material-ui/icons/Code';
 import Chip from '@material-ui/core/Chip';
+import GithubIcon from './../../assets/icons/icon-github.png';
 
 const styles = theme => ({
   card: {
@@ -43,7 +44,7 @@ const styles = theme => ({
     position: 'absolute',
     bottom: '0px',
     width: '100%',
-    justifyContent: 'center',
+    justifyContent: 'space-around',
   },
   avatar: {
     backgroundColor: '#27ade3',
@@ -95,12 +96,12 @@ class GameCard extends React.Component {
           </Typography>
           <Typography component="p">{this.props.data.description}</Typography>
         </CardContent>
-        <CardActions className={classes.actions} disableActionSpacing>
+        <CardActions className={classes.actions}>
           <Chip label={this.props.data.mainLanguage} className={classes.chip} />
           <IconButton
             onClick={() => this.openUrl(this.props.data.linkToSourceCode)}
           >
-            <SourceCodeIcon className={classes.button} />
+            <img src={GithubIcon} />
           </IconButton>
         </CardActions>
       </Card>
