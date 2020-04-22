@@ -1,69 +1,35 @@
 import React from 'react';
-import { withStyles } from '@material-ui/core/styles';
+import Typography from '@material-ui/core/Typography';
+import CalendarIcon from '@material-ui/icons/CalendarToday';
 import EmailIcon from '@material-ui/icons/Email';
 import PhoneIcon from '@material-ui/icons/Phone';
-import CalendarIcon from '@material-ui/icons/CalendarToday';
-import Chip from '@material-ui/core/Chip';
-import LinkedinIcon from './../../assets/icons/icon-linkedinCv.png';
-
-const styles = {
-  root: {
-    marginTop: '20px',
-  },
-  chip: {
-    backgroundColor: '#eeeeee',
-    height: '40px',
-    margin: '10px',
-    padding: '5px',
-  },
-  button: {
-    color: '#27ade3',
-    padding: '10px',
-  },
-};
-
+import LocationIcon from '@material-ui/icons/LocationOn';
 class HeaderActions extends React.Component {
   render() {
-    const { classes } = this.props;
-
-    function handleMailClick() {
-      window.open('mailto:damian.kreick@gmail.com', '_blank');
-    }
-    function handlePhoneClick() {
-      window.open('https://wa.me/541133302076', '_blank');
-    }
-    function handleLinkedinClick() {
-      window.open('https://www.linkedin.com/in/damiankreick', '_blank');
-    }
-
     return (
-      <div className={classes.root}>
-        <Chip
-          icon={<CalendarIcon className={classes.button} />}
-          label="DoB: 29/06/1994"
-          className={classes.chip}
-        />
-        <Chip
-          icon={<EmailIcon className={classes.button} />}
-          label="damian.kreick@gmail.com"
-          className={classes.chip}
-          onClick={handleMailClick}
-        />
-        <Chip
-          icon={<PhoneIcon className={classes.button} />}
-          label="(+54) 11-3330-2076"
-          className={classes.chip}
-          onClick={handlePhoneClick}
-        />
-        <Chip
-          icon={<img src={LinkedinIcon} alt="" />}
-          label="My Linkedin"
-          className={classes.chip}
-          onClick={handleLinkedinClick}
-        />
+      <div className="header-actions">
+        <div className="data">
+          <Typography gutterBottom variant="body" component="p">
+            <CalendarIcon /> 29/06/1994
+      </Typography>
+          <Typography gutterBottom variant="body" component="p">
+            <EmailIcon /> damian.kreick@gmail.com
+      </Typography>
+          <Typography gutterBottom variant="body" component="p">
+            <PhoneIcon /> (+54) 11-3330-2076
+      </Typography>
+          <Typography gutterBottom variant="body" component="p">
+            <LocationIcon /> Buenos Aires, Argentina
+      </Typography>
+        </div>
+        <Typography gutterBottom variant="body" component="p">
+          I'm a self-taught web developer specialized on Javascript technologies, I have experience on Unity3D and Agile Methodology.
+        <br />
+        Also I'm capable of handling minor design tasks.
+      </Typography>
       </div>
     );
   }
 }
 
-export default withStyles(styles)(HeaderActions);
+export default HeaderActions;

@@ -2,6 +2,35 @@
   display: block;
 }
 
+.header {
+  background-color: #27ade3;
+  text-align: left;
+  
+
+  h2, h5 {
+    color: white;
+    font-weight: bold;
+    margin-bottom: 0px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+  }
+}
+
+.header-actions {
+  font-weight: bold;
+  font-size: 18px;
+  .data {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 10% 20px 10%;
+  
+    svg {
+      vertical-align: bottom;
+      color: #27ade3;
+    }
+  }
+}
+
 .title {
   background-color: #27ade3;
   color: white;
@@ -14,6 +43,7 @@
 .subTitle {
   display: flex;
   color: gray;
+  font-size: 18px;
   margin-top: -10px;
 }
 
@@ -24,7 +54,8 @@
 
 .charge {
   display: flex;
-  font-size: 24px;
+  font-size: 20px;
+  font-weight: bold;
   margin: 10px 0px;
 }
 

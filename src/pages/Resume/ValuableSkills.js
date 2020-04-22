@@ -8,20 +8,19 @@ class ValuableSkills extends React.Component {
         <p className="title">Valuable Skills</p>
 
         <p className="charge">Programming Languages</p>
-        <p className="subTitle">Javascript, C#, C++, ActionScript3, Python.</p>
+        <p className="subTitle">C, C++, C#, Javascript, Python, Node.</p>
 
         <p className="charge">Web Developent Tools</p>
-        <p className="subTitle">HTML5, SASS, Bootstrap, Angular 7, ReactJs.</p>
+        <p className="subTitle">HTML5, SASS, Bootstrap, Angular 8, React 16.</p>
 
         <p className="charge">Version Control and IDEs</p>
         <p className="subTitle">
-          {' '}
           Git, Github, Gitlab, Bitbucket, VSCode, Sublime, Tower.
         </p>
 
         <p className="charge">Design</p>
         <p className="subTitle">
-          Illustrator, Photoshop, Audacity, Sony Vegas, Material UI.
+          Illustrator, Photoshop, Audacity, Sony Vegas.
         </p>
 
         <p className="charge">Unit Testing</p>
