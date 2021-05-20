@@ -9,7 +9,6 @@ import CardActions from '@material-ui/core/CardActions';
 import Avatar from '@material-ui/core/Avatar';
 import Typography from '@material-ui/core/Typography';
 import IconButton from '@material-ui/core/IconButton';
-import SourceCodeIcon from '@material-ui/icons/Code';
 import Chip from '@material-ui/core/Chip';
 import GithubIcon from './../../assets/icons/icon-github.png';
 
@@ -101,7 +100,7 @@ class GameCard extends React.Component {
           <IconButton
             onClick={() => this.openUrl(this.props.data.linkToSourceCode)}
           >
-            <img src={GithubIcon} />
+            <img src={GithubIcon} alt=''/>
           </IconButton>
         </CardActions>
       </Card>

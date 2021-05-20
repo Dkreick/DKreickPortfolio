@@ -36,7 +36,6 @@ class Portfolio extends React.Component {
   componentDidMount() {
     let database = firebase.database().ref();
     database.on('value', snap => {
-      console.log(snap.val());
       this.setState({
         data: snap.val(),
       });

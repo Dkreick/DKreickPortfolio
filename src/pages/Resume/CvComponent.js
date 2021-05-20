@@ -9,7 +9,6 @@ import Education from './Education';
 import Courses from './Courses';
 import ValuableSkills from './ValuableSkills';
 import Languages from './Languages';
-import Hobbies from './Hobbies';
 import Button from '@material-ui/core/Button';
 import Cv from './../../assets/Cv.pdf';
 
@@ -51,13 +50,13 @@ class CvComponent extends React.Component {
           <Grid container spacing={8} className={classes.grid}>
             <Grid item xs={6} className={classes.column}>
               <WorkExperience />
-              <ValuableSkills />
+              <Languages />
+              
             </Grid>
             <Grid item xs={6} className={classes.column}>
               <Education />
               <Courses />
-              <Languages />
-              <Hobbies />
+              <ValuableSkills />
             </Grid>
           </Grid>
         </Card>
