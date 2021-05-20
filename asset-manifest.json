@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.ad7ada25.chunk.css",
-    "main.js": "/static/js/main.b81c12c8.chunk.js",
-    "main.js.map": "/static/js/main.b81c12c8.chunk.js.map",
-    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
-    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
-    "static/js/2.047b2409.chunk.js": "/static/js/2.047b2409.chunk.js",
-    "static/js/2.047b2409.chunk.js.map": "/static/js/2.047b2409.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.a40dd4f3f27d487e26a9df8b653cda1a.js": "/precache-manifest.a40dd4f3f27d487e26a9df8b653cda1a.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.ad7ada25.chunk.css.map": "/static/css/main.ad7ada25.chunk.css.map",
-    "static/media/Cv.pdf": "/static/media/Cv.623bc29a.pdf",
-    "static/media/avatar.jpg": "/static/media/avatar.fc683e9b.jpg",
-    "static/media/icon-whatsapp.png": "/static/media/icon-whatsapp.6774d436.png"
+    "main.css": "/Portfolio/static/css/main.86535392.chunk.css",
+    "main.js": "/Portfolio/static/js/main.bb5e73d4.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.bb5e73d4.chunk.js.map",
+    "runtime~main.js": "/Portfolio/static/js/runtime~main.132fbc8c.js",
+    "runtime~main.js.map": "/Portfolio/static/js/runtime~main.132fbc8c.js.map",
+    "static/js/2.24422cd0.chunk.js": "/Portfolio/static/js/2.24422cd0.chunk.js",
+    "static/js/2.24422cd0.chunk.js.map": "/Portfolio/static/js/2.24422cd0.chunk.js.map",
+    "index.html": "/Portfolio/index.html",
+    "precache-manifest.96f14ee241c04d93396da6b4c858adac.js": "/Portfolio/precache-manifest.96f14ee241c04d93396da6b4c858adac.js",
+    "service-worker.js": "/Portfolio/service-worker.js",
+    "static/css/main.86535392.chunk.css.map": "/Portfolio/static/css/main.86535392.chunk.css.map",
+    "static/media/Cv.pdf": "/Portfolio/static/media/Cv.868c9d66.pdf",
+    "static/media/avatar.jpg": "/Portfolio/static/media/avatar.fc683e9b.jpg",
+    "static/media/icon-whatsapp.png": "/Portfolio/static/media/icon-whatsapp.6774d436.png"
   }
 }
